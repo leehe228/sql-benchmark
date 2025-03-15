@@ -1,0 +1,1 @@
+SELECT t0.EXPR$0 + t0.EXPR$1 AS X, t0.EXPR$1 AS B, t0.EXPR$0 AS A FROM (VALUES  (10, 1),  (30, 7),  (20, 3)) AS t WHERE t.EXPR$0 - t.EXPR$1 < 21

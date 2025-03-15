@@ -1,0 +1,1 @@
+SELECT 'TABL' AS U, 't' AS S FROM (VALUES  (TRUE)) AS t9

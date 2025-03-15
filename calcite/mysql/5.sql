@@ -1,0 +1,1 @@
+SELECT t0.EXPR$0 + t0.EXPR$1 + t0.EXPR$0 FROM (VALUES  (10, 1),  (30, 3)) AS t WHERE t.EXPR$0 + t.EXPR$1 > 50

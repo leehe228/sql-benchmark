@@ -1,0 +1,1 @@
+SELECT t3.X + t3.Y + t3.X FROM (VALUES) AS t3

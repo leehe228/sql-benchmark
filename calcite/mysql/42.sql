@@ -1,0 +1,1 @@
+SELECT * FROM (VALUES  (10, 'x')) AS t1

@@ -1,0 +1,1 @@
+SELECT SUM(t.c) FROM ANON AS t
