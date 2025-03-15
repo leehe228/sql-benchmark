@@ -12,7 +12,7 @@ select
 from
 	lineitem
 where
-	l_shipdate <= DATEADD(dd,-107, '1998/12/01')
+	l_shipdate <= DATEADD(dd, 117, '1998/12/01')
 group by
 	l_returnflag,
 	l_linestatus
