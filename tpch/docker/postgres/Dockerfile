@@ -11,15 +11,17 @@ RUN make
 RUN ./dbgen -s 1
 
 RUN for file in *.tbl; do \
-      tmpfile="$(mktemp)"; \
-      sed 's/|$//' "$file" > "$tmpfile" && mv "$tmpfile" "$file"; \
-    done
+    tmpfile="$(mktemp)"; \
+    sed 's/|$//' "$file" > "$tmpfile" && mv "$tmpfile" "$file"; \
+done
 
 RUN chown -R postgres:postgres /opt/tpch-dbgen
 
 USER postgres
 
 RUN initdb -D /var/lib/postgresql/data
+
+RUN echo "host    all             all             172.20.0.0/16            trust" >> /var/lib/postgresql/data/pg_hba.conf
 
 RUN pg_ctl -D /var/lib/postgresql/data -o "-c listen_addresses='localhost'" -w start \
     && psql -U postgres -c "CREATE DATABASE tpch;" \
