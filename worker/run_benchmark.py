@@ -37,15 +37,11 @@ def load_query(benchmark, query_number):
     예: sql-benchmark/tpch/mssql/1.sql
     구조에 맞게 경로를 조정해야 함.
     """
-    # 예: BENCHMARK="tpch", DB_TYPE="mssql"인 경우
-    #     sql-benchmark/tpch/mssql/1.sql
-    #     또는 DB_TYPE는 쿼리 폴더에 직접 연결하지 않고, benchmark 내에서 DB_TYPE별 폴더를 구분했을 수도 있음
-    # 여기서는 가정으로: sql-benchmark/<benchmark>/<db_type>/*.sql 구조
     db_type = os.environ.get("DB_TYPE", "mssql").lower()
     query_path = f"/opt/sql-benchmark/{benchmark}/{db_type}/{query_number}.sql"
 
     if not os.path.exists(query_path):
-        # fallback: sql-benchmark/<benchmark>/<query_number>.sql (DB_TYPE 구분 없이)
+        # fallback: sql-benchmark/<benchmark>/<query_number>.sql
         query_path = f"/opt/sql-benchmark/{benchmark}/{query_number}.sql"
 
     with open(query_path, "r", encoding="utf-8") as f:
@@ -59,20 +55,39 @@ def main():
     query_end    = int(os.environ.get("QUERY_END", "10"))
     repeat_count = int(os.environ.get("REPEAT_COUNT", "10"))
 
+    # 결과 파일(덮어쓰기 방지)
+    output_csv = os.environ.get("RESULT_CSV", "/mnt/results/benchmark_results.csv")
+    # 로그 파일
+    log_file = os.environ.get("RESULT_LOG", "/mnt/results/benchmark.log")
+
+    os.makedirs("/mnt/results", exist_ok=True)
+
+    # DB 연결
     conn_str = get_connection_string()
     engine = sqlalchemy.create_engine(conn_str)
 
     results = []
+
+    # 로그 파일에 기록하는 헬퍼 함수
+    def write_log(msg):
+        with open(log_file, "a", encoding="utf-8") as lf:
+            lf.write(msg + "\n")
+
+    write_log(f"=== Starting benchmark={benchmark}, DB={db_type}, queries={query_start}~{query_end}, repeat={repeat_count} ===")
 
     for qnum in range(query_start, query_end + 1):
         # 쿼리 로드
         try:
             query = load_query(benchmark, qnum)
         except Exception as e:
-            print(f"[ERROR] Failed to load query {qnum}: {e}")
+            err_msg = f"[ERROR] Failed to load query {qnum}: {e}"
+            print(err_msg)
+            write_log(err_msg)
             continue
 
-        print(f"Running {benchmark} Query {qnum} for {repeat_count} runs...")
+        log_msg = f"Running {benchmark} Query {qnum} for {repeat_count} runs..."
+        print(log_msg)
+        write_log(log_msg)
 
         for run_idx in range(1, repeat_count + 1):
             start_time = time.time()
@@ -81,11 +96,15 @@ def main():
                 with engine.connect() as conn:
                     conn.execute(text(query))
                 elapsed = time.time() - start_time
-                print(f"Query {qnum}, run {run_idx}: {elapsed:.3f} sec")
+                msg = f"Query {qnum}, run {run_idx}: {elapsed:.3f} sec"
+                print(msg)
+                write_log(msg)
             except Exception as ex:
                 elapsed = None
                 error_msg = str(ex)
-                print(f"[ERROR] Query {qnum}, run {run_idx}: {ex}")
+                err_log = f"[ERROR] Query {qnum}, run {run_idx}: {ex}"
+                print(err_log)
+                write_log(err_log)
 
             results.append({
                 "benchmark": benchmark,
@@ -96,12 +115,12 @@ def main():
                 "error": error_msg
             })
 
-    # 결과 CSV 저장 (/mnt/results 마운트 사용)
+    # 결과를 CSV로 저장
     results_df = pd.DataFrame(results)
-    os.makedirs("/mnt/results", exist_ok=True)
-    output_csv = "/mnt/results/benchmark_results.csv"
     results_df.to_csv(output_csv, index=False)
-    print(f"\nAll done! Results saved to {output_csv}\n")
+    done_msg = f"\nAll done! Results saved to {output_csv}\n"
+    print(done_msg)
+    write_log(done_msg)
 
 if __name__ == "__main__":
     main()

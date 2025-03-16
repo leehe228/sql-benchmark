@@ -6,6 +6,7 @@ import time
 import subprocess
 import yaml  # pip install pyyaml
 from collections import deque
+import argparse
 
 class Batch:
     def __init__(self, batch_id, benchmark, query_start, query_end, db_type, repeat_count):
@@ -27,37 +28,47 @@ class Batch:
 
 def generate_compose_file(batch: Batch):
     """
-    배치별 docker-compose.yml 파일을 동적으로 생성.
-    실제 환경에서는 템플릿 파일을 활용하거나 DB 접속 정보를 더 세부적으로 반영할 수 있음.
+    외부 접근 없이 worker와 dbms 컨테이너끼리 내부 네트워크로 통신하도록 docker-compose.yml 파일을 생성.
+    컨테이너 이름을 알아보기 쉽게 db_type, benchmark, 쿼리 범위, batch_id 등을 포함.
+    Worker 컨테이너에 RESULT_CSV, RESULT_LOG 환경변수를 전달하여,
+    배치별로 다른 CSV/로그 파일을 사용하도록 설정.
     """
     db_image_map = {
-        "postgres": "postgres-tpch:latest",
-        "mssql":    "mssql-tpch:latest"
+        "postgres": "hoeunlee228/postgres-tpch:latest",
+        "mssql":    "hoeunlee228/mssql-tpch:latest"
     }
-    db_image = db_image_map.get(batch.db_type.lower(), "postgres-tpch:latest")
+    db_image = db_image_map.get(batch.db_type.lower(), "hoeunlee228/postgres-tpch:latest")
 
-    # 포트 매핑
+    # 내부 포트만 사용 (외부 노출 없음)
     if batch.db_type.lower() == "mssql":
-        port_mapping = "1433:1433"
-        db_port = "1433"
+        container_port = "1433"
         db_user = "SA"
         db_pass = "Dlghdms0228"
     else:
-        port_mapping = "5432:5432"
-        db_port = "5432"
+        container_port = "5432"
         db_user = "postgres"
         db_pass = "postgres"
+
+    # 컨테이너 이름을 직관적으로 구성
+    db_container_name = f"db_{batch.db_type}_{batch.benchmark}_{batch.query_start}_{batch.query_end}_{batch.batch_id}"
+    worker_container_name = f"worker_{batch.db_type}_{batch.benchmark}_{batch.query_start}_{batch.query_end}_{batch.batch_id}"
+
+    # 배치별 CSV/로그 파일 경로 (호스트에서는 ./results 에서 확인)
+    # Scheduler가 batch.result_csv를 "results/batch_{batch_id}.csv"로 지정했지만
+    # 여기서는 명시적으로 파일명 구성 가능
+    result_csv_path = f"/mnt/results/batch_{batch.batch_id}.csv"
+    result_log_path = f"/mnt/results/batch_{batch.batch_id}.log"
 
     compose_content = f"""
 version: '3.7'
 services:
-  worker_{batch.batch_id}:
-    image: worker-container:latest
-    container_name: worker_{batch.batch_id}
+  {worker_container_name}:
+    image: hoeunlee228/worker:latest
+    container_name: {worker_container_name}
     environment:
       - DB_TYPE={batch.db_type}
-      - DB_HOST=db_{batch.batch_id}
-      - DB_PORT={db_port}
+      - DB_HOST={db_container_name}
+      - DB_PORT={container_port}
       - DB_NAME=tpch
       - DB_USER={db_user}
       - DB_PASS={db_pass}
@@ -65,43 +76,43 @@ services:
       - QUERY_START={batch.query_start}
       - QUERY_END={batch.query_end}
       - REPEAT_COUNT={batch.repeat_count}
+      - RESULT_CSV={result_csv_path}
+      - RESULT_LOG={result_log_path}
     volumes:
       - ./results:/mnt/results
     depends_on:
-      - db_{batch.batch_id}
+      - {db_container_name}
 
-  db_{batch.batch_id}:
+  {db_container_name}:
     image: {db_image}
-    container_name: db_{batch.batch_id}
-    ports:
-      - "{port_mapping}"
+    container_name: {db_container_name}
     environment:
       - POSTGRES_PASSWORD=postgres
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=Dlghdms0228
     """
-
     with open(batch.compose_file, 'w', encoding='utf-8') as f:
         f.write(compose_content)
 
 def launch_batch(batch: Batch):
     generate_compose_file(batch)
-    cmd = ["docker-compose", "-f", batch.compose_file, "up", "-d"]
+    # docker compose 명령어 사용 (Compose v2)
+    cmd = ["docker", "compose", "-f", batch.compose_file, "up", "-d"]
     print(f"Launching {batch}")
     try:
         subprocess.check_call(cmd)
         batch.status = "running"
     except subprocess.CalledProcessError as e:
-        print(f"[ERROR] Failed to launch {batch.batch_id}: {e}")
+        print(f"[ERROR] Failed to launch batch {batch.batch_id}: {e}")
 
 def stop_batch(batch: Batch):
-    cmd = ["docker-compose", "-f", batch.compose_file, "down"]
+    cmd = ["docker", "compose", "-f", batch.compose_file, "down"]
     print(f"Stopping batch {batch.batch_id} ...")
     try:
         subprocess.check_call(cmd)
         batch.status = "finished"
     except subprocess.CalledProcessError as e:
-        print(f"[ERROR] Failed to stop {batch.batch_id}: {e}")
+        print(f"[ERROR] Failed to stop batch {batch.batch_id}: {e}")
 
 def check_batch_finished(batch: Batch):
     if os.path.exists(batch.result_csv) and os.path.getsize(batch.result_csv) > 0:
@@ -141,7 +152,7 @@ def monitor_batches(running, queue, max_parallel, poll_interval=10):
 
         time.sleep(poll_interval)
 
-def load_config(config_file="config.yml"):
+def load_config(config_file):
     """
     config.yml 파일을 로드하여 dict 형태로 반환
     """
@@ -154,7 +165,7 @@ def build_batch_queue(config):
     config.yml 내용에 따라 배치 큐(deque)를 구성
     """
     batch_size    = config.get('batch_size', 10)
-    repeat_count  = config.get('repeat_count', 5)
+    repeat_count  = config.get('repeat_count', 10)
     benchmarks    = config.get('benchmarks', [])
     dbms_list     = config.get('dbms_list', [])
 
@@ -186,8 +197,12 @@ def build_batch_queue(config):
     return batch_queue
 
 def main():
+    parser = argparse.ArgumentParser(description="SQL Benchmark Scheduler")
+    parser.add_argument("--config", default="config.yml", help="Path to configuration YAML file")
+    args = parser.parse_args()
+
     # 1) config.yml 로드
-    config = load_config("config.yml")
+    config = load_config(args.config)
 
     # 2) 배치 큐 생성
     batch_queue = build_batch_queue(config)

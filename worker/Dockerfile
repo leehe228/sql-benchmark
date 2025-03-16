@@ -8,7 +8,14 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     git \
     unixodbc unixodbc-dev \
-    libpq-dev
+    libpq-dev \
+    curl \
+    gnupg2
+
+RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+    curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
+    apt-get update && \
+    ACCEPT_EULA=Y apt-get install -y msodbcsql17
 
 # 2) Python 패키지 설치
 RUN pip3 install pandas sqlalchemy psycopg2-binary pyodbc pyyaml
