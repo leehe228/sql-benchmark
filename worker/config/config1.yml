@@ -1,0 +1,11 @@
+batch_size: 10
+repeat_count: 10
+max_parallel: 7
+
+benchmarks:
+  - name: tpch
+    total_queries: 22
+
+dbms_list:
+  - name: postgres
+  - name: mssql
