@@ -1,6 +1,7 @@
 batch_size: 5
 repeat_count: 1
 max_parallel: 7
+cores_per_batch: 4
 
 benchmarks:
   - name: tpch

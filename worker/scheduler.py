@@ -9,13 +9,14 @@ from collections import deque
 import argparse
 
 class Batch:
-    def __init__(self, batch_id, benchmark, query_start, query_end, db_type, repeat_count):
+    def __init__(self, batch_id, benchmark, query_start, query_end, db_type, repeat_count, cores_per_batch):
         self.batch_id = batch_id
         self.benchmark = benchmark
         self.query_start = query_start
         self.query_end = query_end
         self.db_type = db_type
         self.repeat_count = repeat_count
+        self.cores_per_batch = cores_per_batch
         self.status = "queued"
         # compose 파일명
         self.compose_file = f"compose_batch_{batch_id}.yml"
@@ -24,14 +25,14 @@ class Batch:
 
     def __str__(self):
         return (f"[Batch {self.batch_id}] {self.benchmark} Q{self.query_start}-{self.query_end} "
-                f"DB={self.db_type}, repeat={self.repeat_count}, status={self.status}")
+                f"DB={self.db_type}, repeat={self.repeat_count}, cores={self.cores_per_batch}, status={self.status}")
 
 def generate_compose_file(batch: Batch):
     """
     외부 접근 없이 worker와 dbms 컨테이너끼리 내부 네트워크로 통신하도록 docker-compose.yml 파일을 생성.
     컨테이너 이름을 알아보기 쉽게 db_type, benchmark, 쿼리 범위, batch_id 등을 포함.
-    Worker 컨테이너에 RESULT_CSV, RESULT_LOG 환경변수를 전달하여,
-    배치별로 다른 CSV/로그 파일을 사용하도록 설정.
+    Worker 컨테이너에 RESULT_CSV, RESULT_LOG 환경변수를 전달하고,
+    배치별로 다른 CSV/로그 파일과 cores_per_batch 설정을 사용하도록 함.
     """
     db_image_map = {
         "postgres": "hoeunlee228/postgres-tpch:latest",
@@ -53,9 +54,7 @@ def generate_compose_file(batch: Batch):
     db_container_name = f"db_{batch.db_type}_{batch.benchmark}_{batch.query_start}_{batch.query_end}_{batch.batch_id}"
     worker_container_name = f"worker_{batch.db_type}_{batch.benchmark}_{batch.query_start}_{batch.query_end}_{batch.batch_id}"
 
-    # 배치별 CSV/로그 파일 경로 (호스트에서는 ./results 에서 확인)
-    # Scheduler가 batch.result_csv를 "results/batch_{batch_id}.csv"로 지정했지만
-    # 여기서는 명시적으로 파일명 구성 가능
+    # 배치별 CSV/로그 파일 경로 (호스트에서는 ./results에 저장)
     result_csv_path = f"/mnt/results/batch_{batch.batch_id}.csv"
     result_log_path = f"/mnt/results/batch_{batch.batch_id}.log"
 
@@ -80,6 +79,10 @@ services:
       - RESULT_LOG={result_log_path}
     volumes:
       - ./results:/mnt/results
+    deploy:
+      resources:
+        limits:
+          cpus: "{batch.cores_per_batch}"
     depends_on:
       - {db_container_name}
 
@@ -163,10 +166,12 @@ def load_config(config_file):
 
 def build_batch_queue(config):
     """
-    config.yml 내용에 따라 배치 큐(deque)를 구성
+    config.yml 내용에 따라 배치 큐(deque)를 구성.
+    추가로 cores_per_batch 설정을 각 배치에 전달.
     """
     batch_size    = config.get('batch_size', 10)
     repeat_count  = config.get('repeat_count', 10)
+    cores_per_batch = config.get('cores_per_batch', 4)
     benchmarks    = config.get('benchmarks', [])
     dbms_list     = config.get('dbms_list', [])
 
@@ -189,7 +194,8 @@ def build_batch_queue(config):
                         query_start=start,
                         query_end=end,
                         db_type=db_name,
-                        repeat_count=repeat_count
+                        repeat_count=repeat_count,
+                        cores_per_batch=cores_per_batch
                     )
                 )
                 batch_id += 1
