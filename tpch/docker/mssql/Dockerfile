@@ -19,30 +19,21 @@ RUN ./dbgen -s 1
 # 4) MSSQL 프로세스가 .tbl 파일 읽도록 권한 설정
 RUN chown -R mssql:mssql /opt/tpch-dbgen && chmod -R 755 /opt/tpch-dbgen
 
-# 5) 컨테이너 빌드 시점에 MS SQL 임시 실행 → DB 로드
+# 5) 컨테이너 빌드 시점에 MS SQL 임시 실행 → DB 로드 및 tpch 데이터베이스 생성
 USER mssql
-
-# 5-1) sqlservr를 백그라운드로 띄우고, 잠시 대기 후 TPC-H 로딩
 RUN (/opt/mssql/bin/sqlservr &) \
     && echo "Waiting 20s for MS SQL to start..." \
     && sleep 20 \
-    \
-    # (가정) tpch.sql 안에 CREATE DATABASE tpch; 문, 그리고 BULK INSERT 로직이 포함
-    && /opt/mssql-tools18/bin/sqlcmd \
-         -S localhost \
-         -U SA \
-         -P "Dlghdms0228" \
-         -N -C \
-         -i /opt/tpch-dbgen/schema/tpch.sql \
-    \
-    && /opt/mssql-tools18/bin/sqlcmd \
-         -S localhost \
-         -U SA \
-         -P "Dlghdms0228" \
-         -N -C \
-         -i /opt/tpch-dbgen/schema/tpch_fk.sql \
-    \
-    # 임시 서버 종료
+    && echo "Checking SQL Server readiness..." \
+    && for i in $(seq 1 30); do \
+         /opt/mssql-tools18/bin/sqlcmd -S "tcp:localhost,1433" -U SA -P "Dlghdms0228" -C -Q "SELECT 1" && break || sleep 2; \
+       done \
+    && echo "Creating tpch database..." \
+    && /opt/mssql-tools18/bin/sqlcmd -S "tcp:localhost,1433" -U SA -P "Dlghdms0228" -C -Q "CREATE DATABASE tpch;" \
+    && echo "Loading TPC-H schema..." \
+    && /opt/mssql-tools18/bin/sqlcmd -S "tcp:localhost,1433" -U SA -P "Dlghdms0228" -C -i /opt/tpch-dbgen/schema/tpch.sql \
+    && echo "Loading TPC-H foreign key constraints..." \
+    && /opt/mssql-tools18/bin/sqlcmd -S "tcp:localhost,1433" -U SA -P "Dlghdms0228" -C -i /opt/tpch-dbgen/schema/tpch_fk.sql \
     && pkill sqlservr \
     && echo "TPC-H setup completed at build time."
 

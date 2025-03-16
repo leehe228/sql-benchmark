@@ -1,0 +1,61 @@
+=== Starting benchmark=tpch, DB=mssql, queries=11~20, repeat=1 ===
+Running tpch Query 11 for 1 runs...
+[ERROR] Query 11, run 1: (pyodbc.OperationalError) ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Running tpch Query 12 for 1 runs...
+Query 12, run 1: 27.416 sec
+Running tpch Query 13 for 1 runs...
+Query 13, run 1: 5.611 sec
+Running tpch Query 14 for 1 runs...
+Query 14, run 1: 4.935 sec
+Running tpch Query 15 for 1 runs...
+[ERROR] Query 15, run 1: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Running tpch Query 16 for 1 runs...
+Query 16, run 1: 19.176 sec
+Running tpch Query 17 for 1 runs...
+Query 17, run 1: 0.651 sec
+Running tpch Query 18 for 1 runs...
+Query 18, run 1: 0.861 sec
+Running tpch Query 19 for 1 runs...
+Query 19, run 1: 0.478 sec
+Running tpch Query 20 for 1 runs...
+Query 20, run 1: 1.419 sec
+
+All done! Results saved to /mnt/results/batch_2.csv
+
