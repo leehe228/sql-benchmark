@@ -1,0 +1,231 @@
+=== Starting benchmark=tpch, DB=mssql, queries=17~20, repeat=50 ===
+Running tpch Query 17 for 50 runs...
+[ERROR] Query 17, run 1: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 2: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 3: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 4: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 5: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 6: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 7: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 8: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 9: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 10: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 11: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 12: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 13: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 14: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 15: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 16: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 17: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 18: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 19: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 20: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 21: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 22: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[ERROR] Query 17, run 23: (pyodbc.OperationalError) ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Query 17, run 24: 59.127 sec
+Query 17, run 25: 0.258 sec
+Query 17, run 26: 0.160 sec
+Query 17, run 27: 0.162 sec
+Query 17, run 28: 0.265 sec
+Query 17, run 29: 0.154 sec
+Query 17, run 30: 0.246 sec
+Query 17, run 31: 0.182 sec
+Query 17, run 32: 0.179 sec
+Query 17, run 33: 0.221 sec
+Query 17, run 34: 0.176 sec
+Query 17, run 35: 0.215 sec
+Query 17, run 36: 0.170 sec
+Query 17, run 37: 0.153 sec
+Query 17, run 38: 0.257 sec
+Query 17, run 39: 0.160 sec
+Query 17, run 40: 0.188 sec
+Query 17, run 41: 0.208 sec
+Query 17, run 42: 0.169 sec
+Query 17, run 43: 0.165 sec
+Query 17, run 44: 0.232 sec
+Query 17, run 45: 0.163 sec
+Query 17, run 46: 0.265 sec
+Query 17, run 47: 0.185 sec
+Query 17, run 48: 0.277 sec
+Query 17, run 49: 0.214 sec
+Query 17, run 50: 0.161 sec
+Running tpch Query 18 for 50 runs...
+Query 18, run 1: 35.204 sec
+Query 18, run 2: 0.835 sec
+Query 18, run 3: 0.385 sec
+Query 18, run 4: 0.442 sec
+Query 18, run 5: 0.435 sec
+Query 18, run 6: 0.332 sec
+Query 18, run 7: 0.456 sec
+Query 18, run 8: 0.431 sec
+Query 18, run 9: 0.363 sec
+Query 18, run 10: 0.539 sec
+Query 18, run 11: 0.378 sec
+Query 18, run 12: 0.417 sec
+Query 18, run 13: 0.385 sec
+Query 18, run 14: 0.400 sec
+Query 18, run 15: 0.378 sec
+Query 18, run 16: 0.443 sec
+Query 18, run 17: 0.424 sec
+Query 18, run 18: 0.430 sec
+Query 18, run 19: 0.423 sec
+Query 18, run 20: 0.436 sec
+Query 18, run 21: 0.419 sec
+Query 18, run 22: 0.451 sec
+Query 18, run 23: 0.431 sec
+Query 18, run 24: 0.446 sec
+Query 18, run 25: 0.453 sec
+Query 18, run 26: 0.488 sec
+Query 18, run 27: 0.315 sec
+Query 18, run 28: 0.465 sec
+Query 18, run 29: 0.397 sec
+Query 18, run 30: 0.415 sec
+Query 18, run 31: 0.449 sec
+Query 18, run 32: 0.349 sec
+Query 18, run 33: 0.421 sec
+Query 18, run 34: 0.290 sec
+Query 18, run 35: 0.398 sec
+Query 18, run 36: 0.295 sec
+Query 18, run 37: 0.346 sec
+Query 18, run 38: 0.339 sec
+Query 18, run 39: 0.350 sec
+Query 18, run 40: 0.345 sec
+Query 18, run 41: 0.436 sec
+Query 18, run 42: 0.402 sec
+Query 18, run 43: 0.422 sec
+Query 18, run 44: 0.366 sec
+Query 18, run 45: 0.490 sec
+Query 18, run 46: 0.285 sec
+Query 18, run 47: 0.403 sec
+Query 18, run 48: 0.460 sec
+Query 18, run 49: 0.465 sec
+Query 18, run 50: 0.459 sec
+Running tpch Query 19 for 50 runs...
+Query 19, run 1: 0.628 sec
+Query 19, run 2: 0.269 sec
+Query 19, run 3: 0.104 sec
+Query 19, run 4: 0.187 sec
+Query 19, run 5: 0.118 sec
+Query 19, run 6: 0.222 sec
+Query 19, run 7: 0.123 sec
+Query 19, run 8: 0.159 sec
+Query 19, run 9: 0.202 sec
+Query 19, run 10: 0.261 sec
+Query 19, run 11: 0.150 sec
+Query 19, run 12: 0.257 sec
+Query 19, run 13: 0.169 sec
+Query 19, run 14: 0.152 sec
+Query 19, run 15: 0.174 sec
+Query 19, run 16: 0.264 sec
+Query 19, run 17: 0.130 sec
+Query 19, run 18: 0.193 sec
+Query 19, run 19: 0.197 sec
+Query 19, run 20: 0.225 sec
+Query 19, run 21: 0.167 sec
+Query 19, run 22: 0.232 sec
+Query 19, run 23: 0.193 sec
+Query 19, run 24: 0.144 sec
+Query 19, run 25: 0.122 sec
+Query 19, run 26: 0.126 sec
+Query 19, run 27: 0.248 sec
+Query 19, run 28: 0.152 sec
+Query 19, run 29: 0.176 sec
+Query 19, run 30: 0.122 sec
+Query 19, run 31: 0.244 sec
+Query 19, run 32: 0.161 sec
+Query 19, run 33: 0.195 sec
+Query 19, run 34: 0.216 sec
+Query 19, run 35: 0.167 sec
+Query 19, run 36: 0.197 sec
+Query 19, run 37: 0.228 sec
+Query 19, run 38: 0.103 sec
+Query 19, run 39: 0.097 sec
+Query 19, run 40: 0.221 sec
+Query 19, run 41: 0.259 sec
+Query 19, run 42: 0.174 sec
+Query 19, run 43: 0.174 sec
+Query 19, run 44: 0.237 sec
+Query 19, run 45: 0.197 sec
+Query 19, run 46: 0.177 sec
+Query 19, run 47: 0.153 sec
+Query 19, run 48: 0.225 sec
+Query 19, run 49: 0.151 sec
+Query 19, run 50: 0.182 sec
+Running tpch Query 20 for 50 runs...
+Query 20, run 1: 4.010 sec
+Query 20, run 2: 0.473 sec
+Query 20, run 3: 0.382 sec
+Query 20, run 4: 0.493 sec
+Query 20, run 5: 0.435 sec
+Query 20, run 6: 0.299 sec
+Query 20, run 7: 0.317 sec
+Query 20, run 8: 0.333 sec
+Query 20, run 9: 0.378 sec
+Query 20, run 10: 0.333 sec
+Query 20, run 11: 0.478 sec
+Query 20, run 12: 0.336 sec
+Query 20, run 13: 0.382 sec
+Query 20, run 14: 0.405 sec
+Query 20, run 15: 0.377 sec
+Query 20, run 16: 0.372 sec
+Query 20, run 17: 0.310 sec
+Query 20, run 18: 0.360 sec
+Query 20, run 19: 0.270 sec
+Query 20, run 20: 0.297 sec
+Query 20, run 21: 0.285 sec
+Query 20, run 22: 0.325 sec
+Query 20, run 23: 0.300 sec
+Query 20, run 24: 0.309 sec
+Query 20, run 25: 0.300 sec
+Query 20, run 26: 0.281 sec
+Query 20, run 27: 0.320 sec
+Query 20, run 28: 0.294 sec
+Query 20, run 29: 0.212 sec
+Query 20, run 30: 0.248 sec
+Query 20, run 31: 0.377 sec
+Query 20, run 32: 0.469 sec
+Query 20, run 33: 0.348 sec
+Query 20, run 34: 0.283 sec
+Query 20, run 35: 0.353 sec
+Query 20, run 36: 0.294 sec
+Query 20, run 37: 0.266 sec
+Query 20, run 38: 0.313 sec
+Query 20, run 39: 0.384 sec
+Query 20, run 40: 0.381 sec
+Query 20, run 41: 0.380 sec
+Query 20, run 42: 0.365 sec
+Query 20, run 43: 0.377 sec
+Query 20, run 44: 0.273 sec
+Query 20, run 45: 0.333 sec
+Query 20, run 46: 0.382 sec
+Query 20, run 47: 0.393 sec
+Query 20, run 48: 0.359 sec
+Query 20, run 49: 0.391 sec
+Query 20, run 50: 0.297 sec
+
+All done! Results saved to /mnt/results/batch_5.csv
+

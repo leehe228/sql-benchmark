@@ -1,0 +1,2301 @@
+benchmark,db_type,query_number,run_idx,elapsed_sec,error
+tpch,postgres,13,1,0.9377918243408203,
+tpch,postgres,13,2,0.8831381797790527,
+tpch,postgres,13,3,0.7983248233795166,
+tpch,postgres,13,4,0.7683837413787842,
+tpch,postgres,13,5,0.781867504119873,
+tpch,postgres,13,6,0.7756268978118896,
+tpch,postgres,13,7,0.775439977645874,
+tpch,postgres,13,8,0.7816848754882812,
+tpch,postgres,13,9,0.784764289855957,
+tpch,postgres,13,10,0.7875702381134033,
+tpch,postgres,13,11,0.7894389629364014,
+tpch,postgres,13,12,0.8080940246582031,
+tpch,postgres,13,13,0.7824406623840332,
+tpch,postgres,13,14,0.7968411445617676,
+tpch,postgres,13,15,0.8066201210021973,
+tpch,postgres,13,16,0.8090915679931641,
+tpch,postgres,13,17,0.7979111671447754,
+tpch,postgres,13,18,0.7998178005218506,
+tpch,postgres,13,19,0.8111016750335693,
+tpch,postgres,13,20,0.8134489059448242,
+tpch,postgres,13,21,0.8173315525054932,
+tpch,postgres,13,22,0.8161647319793701,
+tpch,postgres,13,23,0.8138637542724609,
+tpch,postgres,13,24,0.8034358024597168,
+tpch,postgres,13,25,0.8024163246154785,
+tpch,postgres,13,26,0.8178458213806152,
+tpch,postgres,13,27,0.9220941066741943,
+tpch,postgres,13,28,0.8286278247833252,
+tpch,postgres,13,29,0.8495428562164307,
+tpch,postgres,13,30,0.8364591598510742,
+tpch,postgres,13,31,0.8472471237182617,
+tpch,postgres,13,32,0.8118784427642822,
+tpch,postgres,13,33,0.8341274261474609,
+tpch,postgres,13,34,0.8391842842102051,
+tpch,postgres,13,35,0.8391749858856201,
+tpch,postgres,13,36,0.8362693786621094,
+tpch,postgres,13,37,0.8141415119171143,
+tpch,postgres,13,38,0.8513786792755127,
+tpch,postgres,13,39,0.8562431335449219,
+tpch,postgres,13,40,0.8481841087341309,
+tpch,postgres,13,41,0.8332624435424805,
+tpch,postgres,13,42,0.839562177658081,
+tpch,postgres,13,43,0.8371455669403076,
+tpch,postgres,13,44,0.8441872596740723,
+tpch,postgres,13,45,0.8547642230987549,
+tpch,postgres,13,46,0.8186676502227783,
+tpch,postgres,13,47,0.8458106517791748,
+tpch,postgres,13,48,0.8699820041656494,
+tpch,postgres,13,49,0.877593994140625,
+tpch,postgres,13,50,0.8596265316009521,
+tpch,postgres,14,1,0.2699892520904541,
+tpch,postgres,14,2,0.25728845596313477,
+tpch,postgres,14,3,0.25140857696533203,
+tpch,postgres,14,4,0.2541189193725586,
+tpch,postgres,14,5,0.2509794235229492,
+tpch,postgres,14,6,0.25200915336608887,
+tpch,postgres,14,7,0.2503652572631836,
+tpch,postgres,14,8,0.2586379051208496,
+tpch,postgres,14,9,0.2526514530181885,
+tpch,postgres,14,10,0.25368332862854004,
+tpch,postgres,14,11,0.2502598762512207,
+tpch,postgres,14,12,0.25475287437438965,
+tpch,postgres,14,13,0.25463080406188965,
+tpch,postgres,14,14,0.25471949577331543,
+tpch,postgres,14,15,0.2507624626159668,
+tpch,postgres,14,16,0.25329136848449707,
+tpch,postgres,14,17,0.2511439323425293,
+tpch,postgres,14,18,0.25183963775634766,
+tpch,postgres,14,19,0.25067806243896484,
+tpch,postgres,14,20,0.25438427925109863,
+tpch,postgres,14,21,0.2508199214935303,
+tpch,postgres,14,22,0.24911046028137207,
+tpch,postgres,14,23,0.25087904930114746,
+tpch,postgres,14,24,0.25258541107177734,
+tpch,postgres,14,25,0.2545506954193115,
+tpch,postgres,14,26,0.2543461322784424,
+tpch,postgres,14,27,0.2581806182861328,
+tpch,postgres,14,28,0.25362634658813477,
+tpch,postgres,14,29,0.25170373916625977,
+tpch,postgres,14,30,0.25063490867614746,
+tpch,postgres,14,31,0.2569148540496826,
+tpch,postgres,14,32,0.2596709728240967,
+tpch,postgres,14,33,0.24885201454162598,
+tpch,postgres,14,34,0.2543447017669678,
+tpch,postgres,14,35,0.2555999755859375,
+tpch,postgres,14,36,0.25611281394958496,
+tpch,postgres,14,37,0.25391221046447754,
+tpch,postgres,14,38,0.2540440559387207,
+tpch,postgres,14,39,0.2486286163330078,
+tpch,postgres,14,40,0.2566511631011963,
+tpch,postgres,14,41,0.2538590431213379,
+tpch,postgres,14,42,0.2547905445098877,
+tpch,postgres,14,43,0.2539806365966797,
+tpch,postgres,14,44,0.2518441677093506,
+tpch,postgres,14,45,0.2537500858306885,
+tpch,postgres,14,46,0.252824068069458,
+tpch,postgres,14,47,0.25580477714538574,
+tpch,postgres,14,48,0.25585460662841797,
+tpch,postgres,14,49,0.25534749031066895,
+tpch,postgres,14,50,0.2546064853668213,
+tpch,postgres,15,1,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,2,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,3,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,4,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,5,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,6,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,7,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,8,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,9,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,10,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,11,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,12,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,13,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,14,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,15,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,16,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,17,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,18,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,19,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,20,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,21,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,22,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,23,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,24,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,25,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,26,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,27,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,28,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,29,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,30,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,31,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,32,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,33,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,34,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,35,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,36,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,37,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,38,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,39,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,40,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,41,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,42,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,43,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,44,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,45,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,46,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,47,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,48,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,49,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,15,50,,"(psycopg2.errors.SyntaxError) syntax error at or near ""limit""
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,postgres,16,1,0.36388444900512695,
+tpch,postgres,16,2,0.34993410110473633,
+tpch,postgres,16,3,0.3559863567352295,
+tpch,postgres,16,4,0.35173630714416504,
+tpch,postgres,16,5,0.37051987648010254,
+tpch,postgres,16,6,0.34167981147766113,
+tpch,postgres,16,7,0.35265350341796875,
+tpch,postgres,16,8,0.3437325954437256,
+tpch,postgres,16,9,0.35390424728393555,
+tpch,postgres,16,10,0.3487982749938965,
+tpch,postgres,16,11,0.34593963623046875,
+tpch,postgres,16,12,0.34636640548706055,
+tpch,postgres,16,13,0.34638261795043945,
+tpch,postgres,16,14,0.3430018424987793,
+tpch,postgres,16,15,0.3486166000366211,
+tpch,postgres,16,16,0.34352612495422363,
+tpch,postgres,16,17,0.34441614151000977,
+tpch,postgres,16,18,0.340956449508667,
+tpch,postgres,16,19,0.34330010414123535,
+tpch,postgres,16,20,0.3486039638519287,
+tpch,postgres,16,21,0.34885668754577637,
+tpch,postgres,16,22,0.35033702850341797,
+tpch,postgres,16,23,0.34588623046875,
+tpch,postgres,16,24,0.3452761173248291,
+tpch,postgres,16,25,0.35347557067871094,
+tpch,postgres,16,26,0.35410356521606445,
+tpch,postgres,16,27,0.36031627655029297,
+tpch,postgres,16,28,0.34874892234802246,
+tpch,postgres,16,29,0.3517904281616211,
+tpch,postgres,16,30,0.35919713973999023,
+tpch,postgres,16,31,0.3747861385345459,
+tpch,postgres,16,32,0.347567081451416,
+tpch,postgres,16,33,0.3475046157836914,
+tpch,postgres,16,34,0.347156286239624,
+tpch,postgres,16,35,0.3477015495300293,
+tpch,postgres,16,36,0.35943126678466797,
+tpch,postgres,16,37,0.3483858108520508,
+tpch,postgres,16,38,0.3452033996582031,
+tpch,postgres,16,39,0.35498476028442383,
+tpch,postgres,16,40,0.3545711040496826,
+tpch,postgres,16,41,0.36002254486083984,
+tpch,postgres,16,42,0.34811997413635254,
+tpch,postgres,16,43,0.3536543846130371,
+tpch,postgres,16,44,0.34575915336608887,
+tpch,postgres,16,45,0.35357189178466797,
+tpch,postgres,16,46,0.35304999351501465,
+tpch,postgres,16,47,0.3477330207824707,
+tpch,postgres,16,48,0.3454761505126953,
+tpch,postgres,16,49,0.34507322311401367,
+tpch,postgres,16,50,0.3457341194152832,

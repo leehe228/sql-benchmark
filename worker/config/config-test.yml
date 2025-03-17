@@ -1,7 +1,7 @@
-batch_size: 10
-repeat_count: 1
-max_parallel: 3
-cores_per_batch: 8
+batch_size: 2
+repeat_count: 100
+max_parallel: 5
+cores_per_batch: 6
 
 benchmarks:
   - name: tpch
@@ -9,3 +9,4 @@ benchmarks:
 
 dbms_list:
   - name: mssql
+  - name: postgres

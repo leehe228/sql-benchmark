@@ -1,0 +1,41 @@
+benchmark,db_type,query_number,run_idx,elapsed_sec,error
+tpch,mssql,21,1,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,2,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,3,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,4,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,5,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,6,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,7,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,8,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,9,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,21,10,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,1,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,2,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,3,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,4,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,5,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,6,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,7,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,8,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,9,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,22,10,,"(pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database ""tpch"" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)"

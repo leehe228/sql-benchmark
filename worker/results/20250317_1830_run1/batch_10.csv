@@ -1,0 +1,22 @@
+benchmark,db_type,query_number,run_idx,elapsed_sec,error
+tpch,mssql,19,1,,"(pyodbc.OperationalError) ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+tpch,mssql,19,2,53.44260311126709,
+tpch,mssql,19,3,0.16832399368286133,
+tpch,mssql,19,4,0.17154169082641602,
+tpch,mssql,19,5,0.16919398307800293,
+tpch,mssql,19,6,0.1372082233428955,
+tpch,mssql,19,7,0.1630406379699707,
+tpch,mssql,19,8,0.15333318710327148,
+tpch,mssql,19,9,0.1620774269104004,
+tpch,mssql,19,10,0.1697235107421875,
+tpch,mssql,20,1,25.478577852249146,
+tpch,mssql,20,2,0.25072455406188965,
+tpch,mssql,20,3,0.22747397422790527,
+tpch,mssql,20,4,0.25627613067626953,
+tpch,mssql,20,5,0.2352159023284912,
+tpch,mssql,20,6,0.215118408203125,
+tpch,mssql,20,7,0.21967601776123047,
+tpch,mssql,20,8,0.22899222373962402,
+tpch,mssql,20,9,0.22227740287780762,
+tpch,mssql,20,10,0.23005890846252441,

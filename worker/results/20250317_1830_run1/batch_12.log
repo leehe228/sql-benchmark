@@ -1,0 +1,26 @@
+=== Starting benchmark=tpch, DB=postgres, queries=1~2, repeat=10 ===
+Running tpch Query 1 for 10 runs...
+Query 1, run 1: 5.190 sec
+Query 1, run 2: 4.050 sec
+Query 1, run 3: 4.287 sec
+Query 1, run 4: 5.253 sec
+Query 1, run 5: 5.384 sec
+Query 1, run 6: 4.364 sec
+Query 1, run 7: 4.681 sec
+Query 1, run 8: 5.039 sec
+Query 1, run 9: 4.423 sec
+Query 1, run 10: 4.642 sec
+Running tpch Query 2 for 10 runs...
+Query 2, run 1: 1.069 sec
+Query 2, run 2: 0.576 sec
+Query 2, run 3: 0.580 sec
+Query 2, run 4: 0.881 sec
+Query 2, run 5: 0.831 sec
+Query 2, run 6: 0.577 sec
+Query 2, run 7: 0.578 sec
+Query 2, run 8: 0.579 sec
+Query 2, run 9: 0.578 sec
+Query 2, run 10: 0.576 sec
+
+All done! Results saved to /mnt/results/batch_12.csv
+

@@ -1,0 +1,2002 @@
+benchmark,db_type,query_number,run_idx,elapsed_sec,error
+tpch,mssql,13,1,,"(pyodbc.OperationalError) ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+tpch,mssql,13,2,29.78773331642151,
+tpch,mssql,13,3,0.3562638759613037,
+tpch,mssql,13,4,0.4717848300933838,
+tpch,mssql,13,5,0.40056753158569336,
+tpch,mssql,13,6,0.46288108825683594,
+tpch,mssql,13,7,0.33367228507995605,
+tpch,mssql,13,8,0.43538784980773926,
+tpch,mssql,13,9,0.37157607078552246,
+tpch,mssql,13,10,0.3077690601348877,
+tpch,mssql,13,11,0.45929527282714844,
+tpch,mssql,13,12,0.3292207717895508,
+tpch,mssql,13,13,0.3061845302581787,
+tpch,mssql,13,14,0.28904271125793457,
+tpch,mssql,13,15,0.28835034370422363,
+tpch,mssql,13,16,0.3209710121154785,
+tpch,mssql,13,17,0.4204869270324707,
+tpch,mssql,13,18,0.3933870792388916,
+tpch,mssql,13,19,0.3070869445800781,
+tpch,mssql,13,20,0.40096449851989746,
+tpch,mssql,13,21,0.3878173828125,
+tpch,mssql,13,22,0.4754328727722168,
+tpch,mssql,13,23,0.4710111618041992,
+tpch,mssql,13,24,0.2905714511871338,
+tpch,mssql,13,25,0.465526819229126,
+tpch,mssql,13,26,0.3081197738647461,
+tpch,mssql,13,27,0.2886645793914795,
+tpch,mssql,13,28,0.2952737808227539,
+tpch,mssql,13,29,0.1565701961517334,
+tpch,mssql,13,30,0.1728982925415039,
+tpch,mssql,13,31,0.16025328636169434,
+tpch,mssql,13,32,0.18782567977905273,
+tpch,mssql,13,33,0.1968975067138672,
+tpch,mssql,13,34,0.2074439525604248,
+tpch,mssql,13,35,0.27446627616882324,
+tpch,mssql,13,36,0.25253844261169434,
+tpch,mssql,13,37,0.27247095108032227,
+tpch,mssql,13,38,0.325153112411499,
+tpch,mssql,13,39,0.42249107360839844,
+tpch,mssql,13,40,0.3819458484649658,
+tpch,mssql,13,41,0.35795164108276367,
+tpch,mssql,13,42,0.36865782737731934,
+tpch,mssql,13,43,0.37169456481933594,
+tpch,mssql,13,44,0.3783137798309326,
+tpch,mssql,13,45,0.38552141189575195,
+tpch,mssql,13,46,0.39205384254455566,
+tpch,mssql,13,47,0.3612239360809326,
+tpch,mssql,13,48,0.36118125915527344,
+tpch,mssql,13,49,0.34700798988342285,
+tpch,mssql,13,50,0.372420072555542,
+tpch,mssql,14,1,61.7283353805542,
+tpch,mssql,14,2,0.6567339897155762,
+tpch,mssql,14,3,0.36493682861328125,
+tpch,mssql,14,4,0.37853384017944336,
+tpch,mssql,14,5,0.25444722175598145,
+tpch,mssql,14,6,0.40148377418518066,
+tpch,mssql,14,7,0.2766914367675781,
+tpch,mssql,14,8,0.3649442195892334,
+tpch,mssql,14,9,0.3615245819091797,
+tpch,mssql,14,10,0.39028048515319824,
+tpch,mssql,14,11,0.41277408599853516,
+tpch,mssql,14,12,0.22607731819152832,
+tpch,mssql,14,13,0.3830854892730713,
+tpch,mssql,14,14,0.3340413570404053,
+tpch,mssql,14,15,0.34648561477661133,
+tpch,mssql,14,16,0.3650643825531006,
+tpch,mssql,14,17,0.3665335178375244,
+tpch,mssql,14,18,0.3047022819519043,
+tpch,mssql,14,19,0.3577725887298584,
+tpch,mssql,14,20,0.35744786262512207,
+tpch,mssql,14,21,0.32927894592285156,
+tpch,mssql,14,22,0.4114186763763428,
+tpch,mssql,14,23,0.25049567222595215,
+tpch,mssql,14,24,0.40253567695617676,
+tpch,mssql,14,25,0.27576661109924316,
+tpch,mssql,14,26,0.4044930934906006,
+tpch,mssql,14,27,0.3785228729248047,
+tpch,mssql,14,28,0.32649970054626465,
+tpch,mssql,14,29,0.362882137298584,
+tpch,mssql,14,30,0.29075121879577637,
+tpch,mssql,14,31,0.3748600482940674,
+tpch,mssql,14,32,0.23012828826904297,
+tpch,mssql,14,33,0.29007554054260254,
+tpch,mssql,14,34,0.3709523677825928,
+tpch,mssql,14,35,0.25476789474487305,
+tpch,mssql,14,36,0.3252871036529541,
+tpch,mssql,14,37,0.28613996505737305,
+tpch,mssql,14,38,0.3844308853149414,
+tpch,mssql,14,39,0.3086416721343994,
+tpch,mssql,14,40,0.29484033584594727,
+tpch,mssql,14,41,0.3053410053253174,
+tpch,mssql,14,42,0.2925443649291992,
+tpch,mssql,14,43,0.27536773681640625,
+tpch,mssql,14,44,0.2982473373413086,
+tpch,mssql,14,45,0.3310256004333496,
+tpch,mssql,14,46,0.3112459182739258,
+tpch,mssql,14,47,0.2853391170501709,
+tpch,mssql,14,48,0.2572035789489746,
+tpch,mssql,14,49,0.2339186668395996,
+tpch,mssql,14,50,0.3796553611755371,
+tpch,mssql,15,1,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,2,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,3,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,4,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,5,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,6,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,7,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,8,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,9,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,10,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,11,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,12,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,13,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,14,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,15,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,16,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,17,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,18,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,19,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,20,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,21,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,22,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,23,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,24,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,25,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,26,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,27,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,28,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,29,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,30,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,31,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,32,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,33,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,34,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,35,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,36,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,37,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,38,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,39,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,40,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,41,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,42,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,43,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,44,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,45,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,46,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,47,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,48,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,49,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,15,50,,"(pyodbc.ProgrammingError) ('42000', ""[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW)"")
+[SQL: create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= '1997-07-01'
+		and l_shipdate < dateadd(mm,3, '1997/07/01')
+	group by
+		l_suppkey;
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0;
+ 
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+tpch,mssql,16,1,3.4587390422821045,
+tpch,mssql,16,2,0.4952254295349121,
+tpch,mssql,16,3,0.2783052921295166,
+tpch,mssql,16,4,0.44666337966918945,
+tpch,mssql,16,5,0.46520495414733887,
+tpch,mssql,16,6,0.39446377754211426,
+tpch,mssql,16,7,0.47089624404907227,
+tpch,mssql,16,8,0.4009687900543213,
+tpch,mssql,16,9,0.41777682304382324,
+tpch,mssql,16,10,0.45114707946777344,
+tpch,mssql,16,11,0.4085423946380615,
+tpch,mssql,16,12,0.39374470710754395,
+tpch,mssql,16,13,0.4936208724975586,
+tpch,mssql,16,14,0.42819690704345703,
+tpch,mssql,16,15,0.3875143527984619,
+tpch,mssql,16,16,0.39291977882385254,
+tpch,mssql,16,17,0.41124892234802246,
+tpch,mssql,16,18,0.3549845218658447,
+tpch,mssql,16,19,0.48983263969421387,
+tpch,mssql,16,20,0.5121626853942871,
+tpch,mssql,16,21,0.39721131324768066,
+tpch,mssql,16,22,0.4077634811401367,
+tpch,mssql,16,23,0.37804412841796875,
+tpch,mssql,16,24,0.38896918296813965,
+tpch,mssql,16,25,0.38140344619750977,
+tpch,mssql,16,26,0.29839420318603516,
+tpch,mssql,16,27,0.36031293869018555,
+tpch,mssql,16,28,0.29970359802246094,
+tpch,mssql,16,29,0.3050689697265625,
+tpch,mssql,16,30,0.32924699783325195,
+tpch,mssql,16,31,0.27033138275146484,
+tpch,mssql,16,32,0.3017857074737549,
+tpch,mssql,16,33,0.31349611282348633,
+tpch,mssql,16,34,0.3086256980895996,
+tpch,mssql,16,35,0.34738945960998535,
+tpch,mssql,16,36,0.28467345237731934,
+tpch,mssql,16,37,0.385448694229126,
+tpch,mssql,16,38,0.44057512283325195,
+tpch,mssql,16,39,0.31934046745300293,
+tpch,mssql,16,40,0.38242626190185547,
+tpch,mssql,16,41,0.32131481170654297,
+tpch,mssql,16,42,0.4018592834472656,
+tpch,mssql,16,43,0.3383018970489502,
+tpch,mssql,16,44,0.4031243324279785,
+tpch,mssql,16,45,0.40561485290527344,
+tpch,mssql,16,46,0.42368102073669434,
+tpch,mssql,16,47,0.32591891288757324,
+tpch,mssql,16,48,0.4084203243255615,
+tpch,mssql,16,49,0.4277932643890381,
+tpch,mssql,16,50,0.41991758346557617,

@@ -1,9 +1,0 @@
-=== Starting benchmark=tpch, DB=mssql, queries=21~22, repeat=1 ===
-Running tpch Query 21 for 1 runs...
-[ERROR] Query 21, run 1: (pyodbc.OperationalError) ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
-(Background on this error at: https://sqlalche.me/e/20/e3q8)
-Running tpch Query 22 for 1 runs...
-Query 22, run 1: 30.384 sec
-
-All done! Results saved to /mnt/results/batch_3.csv
-
