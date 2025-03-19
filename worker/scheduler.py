@@ -79,10 +79,6 @@ services:
       - RESULT_LOG={result_log_path}
     volumes:
       - ./results:/mnt/results
-    deploy:
-      resources:
-        limits:
-          cpus: "{batch.cores_per_batch}"
     depends_on:
       - {db_container_name}
 
@@ -94,6 +90,7 @@ services:
       - POSTGRES_HOST_AUTH_METHOD=trust
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=Dlghdms0228
+    cpus: "{batch.cores_per_batch}"
     """
     with open(batch.compose_file, 'w', encoding='utf-8') as f:
         f.write(compose_content)
