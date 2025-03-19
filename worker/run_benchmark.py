@@ -56,7 +56,7 @@ def wait_for_db(engine, timeout=180):
             print("Waiting for DB to be ready...")
             time.sleep(2)
 
-def execute_query_with_retry(engine, query, retries=3, delay=3):
+def execute_query_with_retry(engine, query, retries=3, delay=30):
     """
     쿼리 실행에 실패하면 일정 횟수 재시도한다.
     """
