@@ -1,0 +1,8 @@
+=== Starting benchmark=tpch, DB=mssql, queries=17~18, repeat=1 ===
+Running tpch Query 17 for 1 runs...
+Query 17, run 1: 29.135 sec
+Running tpch Query 18 for 1 runs...
+Query 18, run 1: 4.355 sec
+
+All done! Results saved to /mnt/results/batch_9.csv
+

@@ -1,0 +1,3 @@
+benchmark,db_type,query_number,run_idx,elapsed_sec,error
+tpch,mssql,21,1,32.71648097038269,
+tpch,mssql,22,1,1.5121393203735352,

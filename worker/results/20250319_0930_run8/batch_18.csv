@@ -1,0 +1,3 @@
+benchmark,db_type,query_number,run_idx,elapsed_sec,error
+tpch,postgres,13,1,1.2046363353729248,
+tpch,postgres,14,1,0.3418452739715576,

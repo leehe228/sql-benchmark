@@ -2,10 +2,12 @@
 # sql-benchmark/worker/run_benchmark.py
 
 import os
+import sys
 import time
 import sqlalchemy
 from sqlalchemy import text
 import pandas as pd
+from sqlalchemy.pool import NullPool  # 추가
 
 def get_connection_string():
     """
@@ -21,6 +23,7 @@ def get_connection_string():
     if db_type in ("postgres", "postgresql"):
         return f"postgresql+psycopg2://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}"
     elif db_type in ("mssql", "ms sql server"):
+        # 연결 문자열에 TrustServerCertificate 옵션 추가
         return (f"mssql+pyodbc://{db_user}:{db_pass}@{db_host}:{db_port}/"
                 f"{db_name}?driver=ODBC+Driver+17+for+SQL+Server;TrustServerCertificate=yes")
     elif db_type == "sqlite":
@@ -49,14 +52,16 @@ def wait_for_db(engine, timeout=180):
             with engine.connect() as conn:
                 conn.execute(text("SELECT 1"))
             print("DB is ready.")
+            sys.stdout.flush()
             break
         except Exception as e:
             if time.time() - start_time > timeout:
                 raise Exception("Timeout waiting for DB readiness.")
             print("Waiting for DB to be ready...")
+            sys.stdout.flush()
             time.sleep(2)
 
-def execute_query_with_retry(engine, query, retries=3, delay=30):
+def execute_query_with_retry(engine, query, retries=3, delay=3):
     """
     쿼리 실행에 실패하면 일정 횟수 재시도한다.
     """
@@ -70,6 +75,7 @@ def execute_query_with_retry(engine, query, retries=3, delay=30):
         except Exception as e:
             attempt += 1
             print(f"Attempt {attempt}/{retries} failed: {e}")
+            sys.stdout.flush()
             time.sleep(delay)
     raise Exception(f"Query execution failed after {retries} attempts.")
 
@@ -82,11 +88,16 @@ def main():
     repeat_count = int(os.environ.get("REPEAT_COUNT", "10"))
     output_csv   = os.environ.get("RESULT_CSV", "/mnt/results/benchmark_results.csv")
     log_file     = os.environ.get("RESULT_LOG", "/mnt/results/benchmark.log")
+    
+    # 재시도 관련 환경변수
+    query_retries = int(os.environ.get("QUERY_RETRIES", "3"))
+    query_retry_delay = int(os.environ.get("QUERY_RETRY_DELAY", "3"))
 
     os.makedirs("/mnt/results", exist_ok=True)
 
     conn_str = get_connection_string()
-    engine = sqlalchemy.create_engine(conn_str)
+    # NullPool 사용하여 매번 새로운 연결 생성
+    engine = sqlalchemy.create_engine(conn_str, poolclass=NullPool)
 
     # DB 준비 대기
     wait_for_db(engine, timeout=60)
@@ -115,7 +126,7 @@ def main():
         for run_idx in range(1, repeat_count + 1):
             error_text = ""
             try:
-                elapsed = execute_query_with_retry(engine, query, retries=3, delay=3)
+                elapsed = execute_query_with_retry(engine, query, retries=query_retries, delay=query_retry_delay)
                 msg = f"Query {qnum}, run {run_idx}: {elapsed:.3f} sec"
                 print(msg)
                 write_log(msg)

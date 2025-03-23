@@ -1,0 +1,10 @@
+=== Starting benchmark=tpch, DB=mssql, queries=15~16, repeat=1 ===
+Running tpch Query 15 for 1 runs...
+[ERROR] Query 15, run 1: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Running tpch Query 16 for 1 runs...
+[ERROR] Query 16, run 1: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "tpch" requested by the login. The login failed. (4060) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+All done! Results saved to /mnt/results/batch_8.csv
+

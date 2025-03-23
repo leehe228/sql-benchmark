@@ -1,0 +1,34 @@
+
+version: '3.7'
+services:
+  worker_mssql_tpch_5_6_3:
+    image: hoeunlee228/worker:latest
+    container_name: worker_mssql_tpch_5_6_3
+    environment:
+      - DB_TYPE=mssql
+      - DB_HOST=db_mssql_tpch_5_6_3
+      - DB_PORT=1433
+      - DB_NAME=tpch
+      - DB_USER=SA
+      - DB_PASS=Dlghdms0228
+      - BENCHMARK=tpch
+      - QUERY_START=5
+      - QUERY_END=6
+      - REPEAT_COUNT=100
+      - RESULT_CSV=/mnt/results/batch_3.csv
+      - RESULT_LOG=/mnt/results/batch_3.log
+    volumes:
+      - ./results:/mnt/results
+    depends_on:
+      - db_mssql_tpch_5_6_3
+
+  db_mssql_tpch_5_6_3:
+    image: hoeunlee228/mssql-tpch:latest
+    container_name: db_mssql_tpch_5_6_3
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Dlghdms0228
+    cpus: "6"
+    

@@ -1,0 +1,37 @@
+
+version: '3.7'
+services:
+  worker_postgres_tpch_5_6_14:
+    image: hoeunlee228/worker:latest
+    container_name: worker_postgres_tpch_5_6_14
+    environment:
+      - DB_TYPE=postgres
+      - DB_HOST=db_postgres_tpch_5_6_14
+      - DB_PORT=5432
+      - DB_NAME=tpch
+      - DB_USER=postgres
+      - DB_PASS=postgres
+      - BENCHMARK=tpch
+      - QUERY_START=5
+      - QUERY_END=6
+      - REPEAT_COUNT=200
+      - RESULT_CSV=/mnt/results/batch_14.csv
+      - RESULT_LOG=/mnt/results/batch_14.log
+    volumes:
+      - ./results:/mnt/results
+    deploy:
+      resources:
+        limits:
+          cpus: "6"
+    depends_on:
+      - db_postgres_tpch_5_6_14
+
+  db_postgres_tpch_5_6_14:
+    image: hoeunlee228/postgres-tpch:latest
+    container_name: db_postgres_tpch_5_6_14
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Dlghdms0228
+    

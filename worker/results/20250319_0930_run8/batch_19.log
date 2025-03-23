@@ -1,0 +1,50 @@
+=== Starting benchmark=tpch, DB=postgres, queries=15~16, repeat=1 ===
+Running tpch Query 15 for 1 runs...
+[ERROR] Query 15, run 1: (psycopg2.errors.SyntaxError) syntax error at or near "limit"
+LINE 37: limit 1;
+         ^
+
+[SQL: -- using 1472396759 as a seed to the RNG
+
+create view revenue0 (supplier_no, total_revenue) as
+	select
+		l_suppkey,
+		sum(l_extendedprice * (1 - l_discount))
+	from
+		lineitem
+	where
+		l_shipdate >= date '1997-05-01'
+		and l_shipdate < date '1997-05-01' + interval '3' month
+	group by
+		l_suppkey;
+
+
+select
+	s_suppkey,
+	s_name,
+	s_address,
+	s_phone,
+	total_revenue
+from
+	supplier,
+	revenue0
+where
+	s_suppkey = supplier_no
+	and total_revenue = (
+		select
+			max(total_revenue)
+		from
+			revenue0
+	)
+order by
+	s_suppkey;
+
+drop view revenue0
+limit 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Running tpch Query 16 for 1 runs...
+Query 16, run 1: 0.767 sec
+
+All done! Results saved to /mnt/results/batch_19.csv
+
