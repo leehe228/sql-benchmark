@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`id` = 380

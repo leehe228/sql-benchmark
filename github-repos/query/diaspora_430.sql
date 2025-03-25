@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `likes` WHERE `likes`.`target_id` = 2451 AND `likes`.`target_type` = 'Post' AND `likes`.`positive` = TRUE AND `likes`.`author_id` = 5864 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `tokens`.* FROM `tokens` WHERE `tokens`.`user_id` = 1 AND (action='feeds') LIMIT 1

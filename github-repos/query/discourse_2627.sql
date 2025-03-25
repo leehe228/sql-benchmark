@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE 1=0

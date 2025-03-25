@@ -1,0 +1,1 @@
+SELECT "user_profiles".* FROM "user_profiles" WHERE "user_profiles"."user_id" IN (-1, 5749)

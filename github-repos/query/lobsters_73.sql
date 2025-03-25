@@ -1,0 +1,1 @@
+SELECT COUNT(distinct user_id) FROM `stories` WHERE `stories`.`domain_id` = 45

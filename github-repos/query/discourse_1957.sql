@@ -1,0 +1,1 @@
+SELECT "user_emails"."email" FROM "users" INNER JOIN "topic_allowed_users" ON "users"."id" = "topic_allowed_users"."user_id" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE "topic_allowed_users"."topic_id" = 16471

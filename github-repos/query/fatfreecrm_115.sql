@@ -1,0 +1,1 @@
+SELECT DISTINCT `opportunities`.* FROM `opportunities` INNER JOIN `contact_opportunities` ON `opportunities`.`id` = `contact_opportunities`.`opportunity_id` WHERE `contact_opportunities`.`contact_id` = 42 ORDER BY opportunities.id DESC, updated_at desc LIMIT 20 OFFSET 0

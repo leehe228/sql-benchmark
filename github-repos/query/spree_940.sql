@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` INNER JOIN `spree_prototype_taxons` ON `spree_taxons`.`id` = `spree_prototype_taxons`.`taxon_id` WHERE `spree_prototype_taxons`.`prototype_id` = 1

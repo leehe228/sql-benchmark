@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."username" = 'bruce1008' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `mentions`.* FROM `mentions` INNER JOIN `people` ON `people`.`id` = `mentions`.`person_id` WHERE `mentions`.`mentions_container_id` = 1897 AND `mentions`.`mentions_container_type` = 'Post' AND `people`.`owner_id` IS NOT NULL AND `mentions`.`person_id` != 1

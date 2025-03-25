@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_payments` WHERE `spree_payments`.`order_id` = 333 AND (avs_response IN ('A','C','E','F','G','I','K','L','N','O','P','R','S','U','W','Z') OR (cvv_response_code IS NOT NULL and cvv_response_code != 'M') OR state = 'failed')

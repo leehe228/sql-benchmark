@@ -1,0 +1,1 @@
+SELECT SUM(article_view_count) FROM article WHERE article_status = 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, date(topics.created_at) AS date_topics_created_at FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (topics.archetype <> 'private_message') AND (topics.created_at >= '2020-02-25 00:00:00' AND topics.created_at <= '2020-03-26 23:59:59.999999') AND "topics"."category_id" = 3505 GROUP BY date(topics.created_at) ORDER BY date(topics.created_at)

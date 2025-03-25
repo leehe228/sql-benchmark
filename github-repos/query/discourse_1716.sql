@@ -1,0 +1,1 @@
+SELECT "color_schemes"."name", "color_schemes"."id" FROM "color_schemes" WHERE "color_schemes"."theme_id" = 1045

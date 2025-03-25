@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `hats` WHERE `hats`.`user_id` = 87 AND (doffed_at is null) AND `hats`.`id` = 1 LIMIT 1

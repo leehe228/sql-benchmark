@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE (slug ilike '3710' OR name ilike '3710' OR id = 3710)

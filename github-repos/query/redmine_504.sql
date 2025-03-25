@@ -1,0 +1,1 @@
+SELECT DISTINCT attachments.filename AS alias_0, `projects`.`id` FROM `projects` LEFT OUTER JOIN `attachments` ON `attachments`.`container_id` = `projects`.`id` AND `attachments`.`container_type` = 'Project' WHERE `projects`.`id` = 1 ORDER BY attachments.filename ASC LIMIT 1

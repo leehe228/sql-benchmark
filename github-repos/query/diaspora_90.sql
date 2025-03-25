@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `aspects` WHERE LOWER(`aspects`.`name`) = LOWER('generic') AND `aspects`.`id` != 1 AND `aspects`.`user_id` = 1 LIMIT 1

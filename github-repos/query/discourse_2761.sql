@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."topic_id" = 17641 ORDER BY "reviewables"."id" ASC LIMIT 1000

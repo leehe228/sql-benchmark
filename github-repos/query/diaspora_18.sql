@@ -1,0 +1,1 @@
+SELECT `o_auth_applications`.* FROM `o_auth_applications` WHERE `o_auth_applications`.`client_id` = 'd39ef61429e0ac0c747fe3eb27b551f7' LIMIT 1

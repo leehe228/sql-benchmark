@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`identity_url` = 'http://openid.example.com/good_user' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 1654 AND `spree_adjustments`.`source_type` = 'Spree::PromotionAction' AND `spree_adjustments`.`source_id` IN (151, 152)

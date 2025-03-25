@@ -1,0 +1,1 @@
+SELECT `versions`.`id` FROM `versions` WHERE (LOWER(versions.name) = LOWER('acme'))

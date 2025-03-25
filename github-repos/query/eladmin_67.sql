@@ -1,0 +1,1 @@
+select exception_detail FROM log where id = 14269

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "categories" INNER JOIN "category_groups" ON "categories"."id" = "category_groups"."category_id" WHERE "category_groups"."group_id" = 2378

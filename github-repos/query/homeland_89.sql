@@ -1,0 +1,1 @@
+SELECT "users"."login" FROM "users" WHERE "users"."type" IS NULL AND "users"."id" IN ($1, $2)

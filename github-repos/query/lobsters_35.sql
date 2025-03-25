@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`short_id` = 'uljspu' ORDER BY `stories`.`id` ASC LIMIT 1

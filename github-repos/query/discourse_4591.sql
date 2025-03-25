@@ -1,0 +1,1 @@
+SELECT "reviewable_scores".* FROM "reviewable_scores" WHERE "reviewable_scores"."reviewable_id" IN (1952, 1951) ORDER BY "reviewable_scores"."created_at" DESC

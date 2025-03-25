@@ -1,0 +1,1 @@
+select productatt0_.PRODUCT_ID as PRODUCT_4_120_1_, productatt0_.PRODUCT_ATTRIBUTE_ID as PRODUCT_1_120_1_, productatt0_.PRODUCT_ATTRIBUTE_ID as PRODUCT_1_120_0_, productatt0_.NAME as NAME2_120_0_, productatt0_.PRODUCT_ID as PRODUCT_4_120_0_, productatt0_.VALUE as VALUE3_120_0_ from BLC_PRODUCT_ATTRIBUTE productatt0_ where productatt0_.PRODUCT_ID=?

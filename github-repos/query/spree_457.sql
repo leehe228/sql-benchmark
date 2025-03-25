@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`permalink` = '169' LIMIT 1

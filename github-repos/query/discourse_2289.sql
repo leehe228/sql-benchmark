@@ -1,0 +1,1 @@
+SELECT "optimized_images".* FROM "optimized_images" WHERE "optimized_images"."upload_id" IN (150, 151, 152, 153)

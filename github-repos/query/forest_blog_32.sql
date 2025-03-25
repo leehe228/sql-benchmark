@@ -1,0 +1,1 @@
+SELECT page_id, page_key, page_title, page_content, page_create_time, page_update_time, page_view_count, page_comment_count, page_status FROM page WHERE page_status=1 AND page_key='aboutSite'

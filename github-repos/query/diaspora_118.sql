@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1199 LIMIT 1

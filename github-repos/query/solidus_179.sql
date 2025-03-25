@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` WHERE `spree_inventory_units`.`shipment_id` = 846 AND `spree_inventory_units`.`line_item_id` = 965 AND `spree_inventory_units`.`variant_id` = 1861

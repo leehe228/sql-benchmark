@@ -1,0 +1,1 @@
+SELECT `time_entries`.* FROM `time_entries` ORDER BY `time_entries`.`id` DESC LIMIT 4

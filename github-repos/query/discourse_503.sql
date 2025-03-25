@@ -1,0 +1,1 @@
+SELECT "push_subscriptions".* FROM "push_subscriptions" WHERE "push_subscriptions"."user_id" = 232

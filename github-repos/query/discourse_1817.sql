@@ -1,0 +1,1 @@
+SELECT "post_uploads"."upload_id" FROM "post_uploads" WHERE "post_uploads"."post_id" = 17350

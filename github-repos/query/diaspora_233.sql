@@ -1,0 +1,1 @@
+SELECT `aspect_memberships`.* FROM `aspect_memberships` WHERE `aspect_memberships`.`aspect_id` = 761

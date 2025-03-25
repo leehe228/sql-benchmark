@@ -1,0 +1,1 @@
+SELECT COUNT("project_feature_usages"."project_id") FROM "project_feature_usages" WHERE "project_feature_usages"."jira_dvcs_cloud_last_sync_at" IS NOT NULL AND "project_feature_usages"."project_id" BETWEEN $1 AND $2 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

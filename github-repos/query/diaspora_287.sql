@@ -1,0 +1,1 @@
+SELECT `tag_followings`.* FROM `tag_followings` WHERE `tag_followings`.`user_id` = 1 AND `tag_followings`.`tag_id` = 893 LIMIT 1

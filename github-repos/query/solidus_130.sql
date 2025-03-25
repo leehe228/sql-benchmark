@@ -1,0 +1,1 @@
+SELECT `spree_promotions`.* FROM `spree_promotions` WHERE `spree_promotions`.`advertise` = TRUE AND 1=0

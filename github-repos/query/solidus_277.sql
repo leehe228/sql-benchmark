@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_taxonomies` ORDER BY `spree_taxonomies`.`position` ASC, name LIMIT 25 OFFSET 0) subquery_for_count

@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` WHERE `spree_inventory_units`.`shipment_id` = 200 AND `spree_inventory_units`.`carton_id` IS NULL

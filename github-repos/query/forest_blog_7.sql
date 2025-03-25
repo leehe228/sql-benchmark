@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM link WHERE link_status=1

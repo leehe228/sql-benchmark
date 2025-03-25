@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`guid` = '999_999_999' LIMIT 1

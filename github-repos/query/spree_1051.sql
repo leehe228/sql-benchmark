@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND (`spree_products`.deleted_at IS NULL or `spree_products`.deleted_at >= '2020-05-01 07:38:42.186632')

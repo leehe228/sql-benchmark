@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND (raw ~* '(?n)^Today') ORDER BY "posts"."id" ASC LIMIT 1000

@@ -1,0 +1,1 @@
+SELECT "color_schemes".* FROM "color_schemes" WHERE "color_schemes"."theme_id" = 1036

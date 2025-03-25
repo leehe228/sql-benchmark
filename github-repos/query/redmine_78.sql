@@ -1,0 +1,1 @@
+SELECT `members`.* FROM `members` INNER JOIN `users` ON `users`.`id` = `members`.`user_id` WHERE `members`.`project_id` = 1 AND `users`.`type` IN ('GroupAnonymous', 'GroupNonMember')

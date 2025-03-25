@@ -1,0 +1,1 @@
+SELECT "user_actions"."target_post_id" FROM "user_actions" WHERE "user_actions"."user_id" = 5167 AND "user_actions"."target_topic_id" IS NULL AND "user_actions"."action_type" IN (6, 7, 9) ORDER BY created_at DESC LIMIT 1

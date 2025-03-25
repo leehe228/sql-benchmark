@@ -1,0 +1,1 @@
+SELECT "user_badges".* FROM "user_badges" WHERE "user_badges"."badge_id" = 101 AND "user_badges"."user_id" = 2837 AND "user_badges"."post_id" IS NULL LIMIT 1

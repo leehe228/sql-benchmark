@@ -1,0 +1,1 @@
+SELECT dept_id,pid,pids,simple_name,full_name,description,version,sort,create_time,update_time,create_user,update_user FROM sys_dept WHERE dept_id=25

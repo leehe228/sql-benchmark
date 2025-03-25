@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` WHERE `accounts`.`name` = 'Hello' LIMIT 1

@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_user sysuser0_ where sysuser0_.site_id=1 and sysuser0_.registered_date>'2019-10-25 00:00:00.0' and sysuser0_.disabled=0

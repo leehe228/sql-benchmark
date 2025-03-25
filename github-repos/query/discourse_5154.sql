@@ -1,0 +1,1 @@
+SELECT "category_featured_topics"."category_id", "category_featured_topics"."topic_id" FROM "category_featured_topics" ORDER BY "category_featured_topics"."rank" ASC

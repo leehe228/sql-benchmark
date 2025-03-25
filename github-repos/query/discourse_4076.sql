@@ -1,0 +1,1 @@
+SELECT "ignored_users".* FROM "ignored_users" WHERE (user_id = 7060 AND ignored_user_id not in (7061))

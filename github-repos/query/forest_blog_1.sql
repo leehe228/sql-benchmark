@@ -1,0 +1,1 @@
+SELECT menu_id, menu_name, menu_url, menu_level, menu_icon, menu_order FROM menu ORDER BY menu_order DESC, menu_id ASC

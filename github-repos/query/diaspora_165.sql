@@ -1,0 +1,1 @@
+SELECT posts.guid FROM `posts` WHERE `posts`.`author_id` = 1

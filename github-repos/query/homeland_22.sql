@@ -1,0 +1,1 @@
+SELECT "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT $2

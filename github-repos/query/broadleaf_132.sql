@@ -1,0 +1,1 @@
+select roleimpl0_.ROLE_ID as ROLE_ID1_137_0_, roleimpl0_.ROLE_NAME as ROLE_NAM2_137_0_ from BLC_ROLE roleimpl0_ where roleimpl0_.ROLE_ID=1

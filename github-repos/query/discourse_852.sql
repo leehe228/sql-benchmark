@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."id" = 1622 LIMIT 1

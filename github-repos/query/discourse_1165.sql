@@ -1,0 +1,1 @@
+SELECT "email_logs".* FROM "email_logs" WHERE "email_logs"."id" = 571 AND "email_logs"."bounced" = TRUE LIMIT 1

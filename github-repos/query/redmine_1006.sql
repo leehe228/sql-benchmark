@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` WHERE `versions`.`project_id` = 1 ORDER BY (CASE WHEN versions.effective_date IS NULL THEN 1 ELSE 0 END), versions.effective_date, versions.name, versions.id

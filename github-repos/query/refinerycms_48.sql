@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` INNER JOIN `refinery_page_translations` ON `refinery_page_translations`.`refinery_page_id` = `refinery_pages`.`id` WHERE `refinery_pages`.`parent_id` = 470 AND `refinery_page_translations`.`locale` IN ('en', 'ru') AND `refinery_page_translations`.`slug` = 'nested_page' ORDER BY `refinery_pages`.`lft` ASC LIMIT 1

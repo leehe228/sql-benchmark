@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `lists` WHERE `lists`.`user_id` = 3075 LIMIT 1

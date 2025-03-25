@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" INNER JOIN "category_groups" ON "groups"."id" = "category_groups"."group_id" WHERE "category_groups"."category_id" = 3379 AND "groups"."id" = 2799 AND "groups"."automatic" = FALSE

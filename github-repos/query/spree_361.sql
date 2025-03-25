@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.* FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 113 AND `spree_shipments`.`id` = 40

@@ -1,0 +1,1 @@
+select useravatar0_.id as id1_21_0_, useravatar0_.path as path2_21_0_, useravatar0_.real_name as real_nam3_21_0_, useravatar0_.size as size4_21_0_ from user_avatar useravatar0_ where useravatar0_.id=2

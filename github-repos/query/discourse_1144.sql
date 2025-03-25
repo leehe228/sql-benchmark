@@ -1,0 +1,1 @@
+SELECT "post_uploads".* FROM "post_uploads" WHERE "post_uploads"."upload_id" = 36

@@ -1,0 +1,1 @@
+SELECT `spree_tax_categories`.* FROM `spree_tax_categories` INNER JOIN `spree_tax_rate_tax_categories` ON `spree_tax_categories`.`id` = `spree_tax_rate_tax_categories`.`tax_category_id` WHERE `spree_tax_categories`.`deleted_at` IS NULL AND `spree_tax_rate_tax_categories`.`tax_rate_id` = 563

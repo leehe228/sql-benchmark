@@ -1,0 +1,1 @@
+SELECT `services`.* FROM `services` WHERE `services`.`type` = 'Services::Twitter' AND `services`.`uid` = '1' LIMIT 1

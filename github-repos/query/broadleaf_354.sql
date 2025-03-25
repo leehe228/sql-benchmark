@@ -1,0 +1,1 @@
+select count(offerimpl0_.OFFER_ID) as col_0_0_ from BLC_OFFER offerimpl0_ where offerimpl0_.ARCHIVED='N' or offerimpl0_.ARCHIVED is null

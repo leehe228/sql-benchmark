@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` = 126

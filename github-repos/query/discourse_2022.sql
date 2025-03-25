@@ -1,0 +1,1 @@
+SELECT "categories"."sort_order", "categories"."sort_ascending" FROM "categories" WHERE "categories"."id" = 1 LIMIT 1

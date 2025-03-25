@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`id` = 128 LIMIT 1

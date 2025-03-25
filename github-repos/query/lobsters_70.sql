@@ -1,0 +1,1 @@
+SELECT `saved_stories`.* FROM `saved_stories` WHERE `saved_stories`.`user_id` = 37 AND `saved_stories`.`story_id` = 32

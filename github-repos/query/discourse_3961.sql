@@ -1,0 +1,1 @@
+SELECT "site_settings".* FROM "site_settings" WHERE "site_settings"."name" = 'test'

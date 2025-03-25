@@ -1,0 +1,1 @@
+SELECT "licenses".* FROM "licenses" ORDER BY "licenses"."id" DESC LIMIT $1 /*application:test,correlation_id:15829df51824e682dd7c262cd5b7f10c*/

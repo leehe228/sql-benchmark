@@ -1,0 +1,1 @@
+select systask0_.id as id1_40_, systask0_.cron_expression as cron_exp2_40_, systask0_.description as descript3_40_, systask0_.file_path as file_pat4_40_, systask0_.name as name5_40_, systask0_.site_id as site_id6_40_, systask0_.status as status7_40_, systask0_.update_date as update_d8_40_ from sys_task systask0_ where systask0_.site_id=1 order by systask0_.id desc limit 30

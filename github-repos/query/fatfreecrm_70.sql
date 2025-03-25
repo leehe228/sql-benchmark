@@ -1,0 +1,1 @@
+SELECT `leads`.* FROM `leads` WHERE ((lower(email) = 'ben@example.com')) ORDER BY `leads`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "replies"."id" FROM "replies" WHERE "replies"."deleted_at" IS NULL AND "replies"."topic_id" = $1 ORDER BY id asc

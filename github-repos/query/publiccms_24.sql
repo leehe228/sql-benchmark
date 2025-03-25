@@ -1,0 +1,1 @@
+select sysdomain0_.name as name1_29_0_, sysdomain0_.path as path2_29_0_, sysdomain0_.site_id as site_id3_29_0_, sysdomain0_.wild as wild4_29_0_ from sys_domain sysdomain0_ where sysdomain0_.name='localhost'

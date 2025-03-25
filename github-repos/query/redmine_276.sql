@@ -1,0 +1,1 @@
+SELECT `issue_categories`.* FROM `issue_categories` WHERE `issue_categories`.`project_id` = 1 ORDER BY `issue_categories`.`name` ASC

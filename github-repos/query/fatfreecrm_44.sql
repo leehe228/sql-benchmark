@@ -1,0 +1,1 @@
+SELECT DISTINCT `opportunities`.* FROM `opportunities` INNER JOIN `account_opportunities` ON `opportunities`.`id` = `account_opportunities`.`opportunity_id` WHERE `account_opportunities`.`account_id` = 2112 AND (opportunities.stage IS NULL OR (opportunities.stage != 'won' AND opportunities.stage != 'lost')) ORDER BY opportunities.id DESC

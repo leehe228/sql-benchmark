@@ -1,0 +1,1 @@
+SELECT "category_custom_fields".* FROM "category_custom_fields" WHERE "category_custom_fields"."name" = 'import_id' AND "category_custom_fields"."value" = '3' ORDER BY "category_custom_fields"."id" ASC LIMIT 1

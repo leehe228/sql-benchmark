@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` WHERE `queries`.`id` = 4 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`return_authorization_id` = 6 AND `spree_return_items`.`id` = 3

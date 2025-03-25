@@ -1,0 +1,1 @@
+SELECT `news`.* FROM `news` WHERE `news`.`project_id` = 1 ORDER BY news.created_on DESC LIMIT 5

@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."category_id" IN (3294, 3295)

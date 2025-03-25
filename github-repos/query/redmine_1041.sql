@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `users` WHERE `users`.`status` = 1 AND `users`.`status` = 1 AND (users.id NOT IN (SELECT DISTINCT user_id FROM members WHERE project_id IN (1)))

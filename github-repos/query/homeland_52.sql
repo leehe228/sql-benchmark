@@ -1,0 +1,1 @@
+SELECT "replies".* FROM "replies" WHERE (topic_id = 196 and id > 94) ORDER BY "replies"."id" ASC

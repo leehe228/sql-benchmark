@@ -1,0 +1,1 @@
+SELECT article_id, article_user_id, article_title, article_view_count, article_comment_count, article_like_count, article_create_time, article_update_time, article_is_comment, article_status, article_order FROM article ORDER BY article_id DESC LIMIT 5

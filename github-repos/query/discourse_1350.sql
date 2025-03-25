@@ -1,0 +1,1 @@
+SELECT "theme_translation_overrides".* FROM "theme_translation_overrides" WHERE "theme_translation_overrides"."theme_id" = 1035

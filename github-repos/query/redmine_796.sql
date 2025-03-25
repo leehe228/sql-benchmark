@@ -1,0 +1,1 @@
+SELECT `documents`.* FROM `documents` WHERE `documents`.`project_id` = 6

@@ -1,0 +1,1 @@
+SELECT "post_custom_fields"."value" FROM "post_custom_fields" WHERE "post_custom_fields"."post_id" = 16688 AND "post_custom_fields"."name" = 'requested_group_id' LIMIT 1

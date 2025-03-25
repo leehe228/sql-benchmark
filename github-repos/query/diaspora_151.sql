@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 3 AND `taggings`.`taggable_type` = 'Profile' AND `taggings`.`context` = 'tags' ORDER BY taggings.id

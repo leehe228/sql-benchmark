@@ -1,0 +1,1 @@
+SELECT "category_custom_fields"."category_id" FROM "category_custom_fields" WHERE "category_custom_fields"."name" = 'topic_featured_link_allowed' AND "category_custom_fields"."value" = 'true'

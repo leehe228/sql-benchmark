@@ -1,0 +1,1 @@
+SELECT "user_associated_accounts".* FROM "user_associated_accounts" WHERE "user_associated_accounts"."provider_name" = 'facebook' AND "user_associated_accounts"."user_id" = 154 LIMIT 1

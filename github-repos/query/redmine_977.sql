@@ -1,0 +1,1 @@
+SELECT `repositories`.* FROM `repositories` ORDER BY id DESC LIMIT 1

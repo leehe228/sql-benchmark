@@ -1,0 +1,1 @@
+SELECT `spree_taxonomies`.* FROM `spree_taxonomies` WHERE `spree_taxonomies`.`id` = 79 ORDER BY `spree_taxonomies`.`position` ASC LIMIT 1

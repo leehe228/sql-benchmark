@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."archetype" = 'banner' ORDER BY "topics"."id" ASC LIMIT 1

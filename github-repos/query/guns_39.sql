@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_dept WHERE 1 = 1

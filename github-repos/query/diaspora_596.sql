@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tag_followings` INNER JOIN `tags` ON `tags`.`id` = `tag_followings`.`tag_id` WHERE `tags`.`name` = 'partytimeexcellent' AND `tag_followings`.`user_id` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+select count(customerpa0_.CUSTOMER_PAYMENT_ID) as col_0_0_ from BLC_CUSTOMER_PAYMENT customerpa0_ where customerpa0_.CUSTOMER_ID in (100)

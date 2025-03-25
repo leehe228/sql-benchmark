@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders`

@@ -1,0 +1,1 @@
+SELECT `spree_option_values`.* FROM `spree_option_values` INNER JOIN `spree_variant_property_rule_conditions` ON `spree_option_values`.`id` = `spree_variant_property_rule_conditions`.`option_value_id` WHERE `spree_variant_property_rule_conditions`.`variant_property_rule_id` = 3

@@ -1,0 +1,1 @@
+SELECT `spree_credit_cards`.* FROM `spree_credit_cards` WHERE `spree_credit_cards`.`id` = 103 LIMIT 1

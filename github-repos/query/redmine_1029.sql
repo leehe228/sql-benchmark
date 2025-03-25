@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`login` = 'foo' AND `users`.`id` != 7 LIMIT 1

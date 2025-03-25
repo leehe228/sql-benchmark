@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_category cmscategor0_ where cmscategor0_.site_id=1 and cmscategor0_.parent_id=1 and cmscategor0_.allow_contribute=1 and cmscategor0_.disabled=0

@@ -1,0 +1,1 @@
+SELECT `reports`.* FROM `reports` WHERE `reports`.`id` = 33 LIMIT 1

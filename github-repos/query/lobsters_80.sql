@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `suggested_taggings` WHERE `suggested_taggings`.`story_id` = 48 LIMIT 1

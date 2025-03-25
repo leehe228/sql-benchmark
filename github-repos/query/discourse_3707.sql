@@ -1,0 +1,1 @@
+SELECT "topic_users"."user_id" FROM "topic_users" WHERE "topic_users"."topic_id" = 18561 AND (COALESCE(topic_users.notification_level, 1) >= 3) AND "topic_users"."user_id" != 6330 AND "topic_users"."topic_id" = 18561

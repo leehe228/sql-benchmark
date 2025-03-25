@@ -1,0 +1,1 @@
+SELECT `contacts`.`person_id` FROM `contacts` WHERE `contacts`.`user_id` = 1 AND `contacts`.`sharing` = TRUE AND `contacts`.`receiving` = TRUE AND `contacts`.`person_id` IN (5003, 5001, 5002)

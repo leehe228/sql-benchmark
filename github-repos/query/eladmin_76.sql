@@ -1,0 +1,1 @@
+select dict0_.id as id1_2_0_, dict0_.name as name2_2_0_, dict0_.remark as remark3_2_0_ from dict dict0_ where dict0_.id=7

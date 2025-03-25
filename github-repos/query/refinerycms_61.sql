@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `refinery_images` WHERE `refinery_images`.`parent_id` IS NULL

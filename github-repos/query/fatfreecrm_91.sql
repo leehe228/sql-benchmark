@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `leads`.`id`) FROM `leads` WHERE ((`leads`.`assigned_to` = 983) OR ((`leads`.`user_id` = 983) OR (`leads`.`access` = 'Public')))

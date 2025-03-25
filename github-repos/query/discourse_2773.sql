@@ -1,0 +1,1 @@
+SELECT "topic_allowed_groups".* FROM "topic_allowed_groups" WHERE "topic_allowed_groups"."topic_id" = 17672 AND "topic_allowed_groups"."group_id" = 1 LIMIT 1

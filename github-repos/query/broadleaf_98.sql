@@ -1,0 +1,1 @@
+select count(skuimpl0_.SKU_ID) as col_0_0_ from BLC_SKU skuimpl0_ where skuimpl0_.SKU_ID in (10000)

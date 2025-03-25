@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, date(post_actions.created_at) AS date_post_actions_created_at FROM "post_actions" WHERE "post_actions"."post_action_type_id" = 2 AND (post_actions.created_at >= '2020-03-25 00:00:00') AND (post_actions.created_at <= '2020-04-24 23:59:59.999999') GROUP BY date(post_actions.created_at) ORDER BY date(post_actions.created_at)

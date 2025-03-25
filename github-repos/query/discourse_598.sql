@@ -1,0 +1,1 @@
+SELECT "tags"."id" FROM "tags" WHERE (lower(tags.name) IN ('tag1','tag2'))

@@ -1,0 +1,1 @@
+SELECT `account_contacts`.* FROM `account_contacts` WHERE `account_contacts`.`account_id` = 59

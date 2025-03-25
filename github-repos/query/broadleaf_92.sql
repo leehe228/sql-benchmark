@@ -1,0 +1,1 @@
+select translatio0_.TRANSLATION_ID as TRANSLAT1_178_0_, translatio0_.ENTITY_ID as ENTITY_I2_178_0_, translatio0_.ENTITY_TYPE as ENTITY_T3_178_0_, translatio0_.FIELD_NAME as FIELD_NA4_178_0_, translatio0_.LOCALE_CODE as LOCALE_C5_178_0_, translatio0_.TRANSLATED_VALUE as TRANSLAT6_178_0_ from BLC_TRANSLATION translatio0_ where translatio0_.TRANSLATION_ID=1

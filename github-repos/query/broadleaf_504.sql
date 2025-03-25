@@ -1,0 +1,1 @@
+select orderattri0_.ORDER_ID as ORDER_ID4_95_0_, orderattri0_.ORDER_ATTRIBUTE_ID as ORDER_AT1_95_0_, orderattri0_.NAME as formula4_0_, orderattri0_.ORDER_ATTRIBUTE_ID as ORDER_AT1_95_1_, orderattri0_.NAME as NAME2_95_1_, orderattri0_.ORDER_ID as ORDER_ID4_95_1_, orderattri0_.VALUE as VALUE3_95_1_ from BLC_ORDER_ATTRIBUTE orderattri0_ where orderattri0_.ORDER_ID=?

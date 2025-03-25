@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_stock_items` WHERE `spree_stock_items`.`deleted_at` IS NULL

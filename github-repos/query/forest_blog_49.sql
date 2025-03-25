@@ -1,0 +1,1 @@
+select count(*) from article_tag_ref where tag_id = 17

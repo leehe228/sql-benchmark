@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE (last_seen_at > '2020-03-19 06:16:05.364108')

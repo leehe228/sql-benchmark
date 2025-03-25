@@ -1,0 +1,1 @@
+SELECT `poll_participations`.* FROM `poll_participations` WHERE `poll_participations`.`author_id` = 1464 ORDER BY `poll_participations`.`id` ASC LIMIT 20

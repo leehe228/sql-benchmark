@@ -1,0 +1,1 @@
+SELECT "topic_embeds".* FROM "topic_embeds" WHERE ("topic_embeds"."deleted_at" IS NOT NULL) AND (lower(embed_url) = 'http://eviltrout.com/123') LIMIT 1

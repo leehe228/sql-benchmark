@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `photos` WHERE `photos`.`author_id` = 3 AND `photos`.`public` = TRUE AND `photos`.`pending` = FALSE

@@ -1,0 +1,1 @@
+SELECT "muted_users".* FROM "muted_users" WHERE "muted_users"."user_id" = 5829 AND "muted_users"."muted_user_id" = 5830 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` INNER JOIN `tag_followings` ON `tags`.`id` = `tag_followings`.`tag_id` WHERE `tag_followings`.`user_id` = 1599 AND `tags`.`name` = 'e965a5b6-b9c8-44d6-b370-62d5fcb562b4' ORDER BY tags.name LIMIT 1

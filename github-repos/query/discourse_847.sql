@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" INNER JOIN post_replies ON post_replies.post_id = posts.id WHERE ("posts"."deleted_at" IS NOT NULL) AND (post_replies.reply_post_id = '16772') ORDER BY "posts"."id" DESC

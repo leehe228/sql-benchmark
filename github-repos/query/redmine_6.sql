@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` WHERE `roles`.`builtin` = 1 LIMIT 1

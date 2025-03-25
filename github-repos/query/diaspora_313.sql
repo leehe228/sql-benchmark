@@ -1,0 +1,1 @@
+SELECT `photos`.`id` FROM `photos` WHERE `photos`.`author_id` = 6

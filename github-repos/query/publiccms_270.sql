@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_comment cmscomment0_ where cmscomment0_.site_id=1 and cmscomment0_.content_id=1 and cmscomment0_.disabled=0

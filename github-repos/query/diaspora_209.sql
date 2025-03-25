@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`id` IN (871, 872) AND `photos`.`author_id` = 1

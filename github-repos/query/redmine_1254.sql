@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `queries` WHERE `queries`.`type` IN ('TimeEntryQuery')

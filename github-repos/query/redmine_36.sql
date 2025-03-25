@@ -1,0 +1,1 @@
+SELECT MAX(`issues`.`rgt`) FROM `issues` WHERE `issues`.`root_id` = 3131 AND `issues`.`parent_id` = 3133

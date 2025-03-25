@@ -1,0 +1,1 @@
+SELECT `issues`.`id` FROM `issues` WHERE `issues`.`root_id` = 3161 ORDER BY `issues`.`id` ASC FOR UPDATE

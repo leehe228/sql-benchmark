@@ -1,0 +1,1 @@
+SELECT `mentions`.* FROM `mentions` WHERE `mentions`.`id` = 365 LIMIT 1

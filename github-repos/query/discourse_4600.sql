@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."id" = 1960 AND "reviewables"."created_by_id" = 8270 LIMIT 1

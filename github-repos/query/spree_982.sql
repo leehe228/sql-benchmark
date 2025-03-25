@@ -1,0 +1,1 @@
+SELECT `spree_return_authorizations`.* FROM `spree_return_authorizations` INNER JOIN `spree_return_items` ON `spree_return_authorizations`.`id` = `spree_return_items`.`return_authorization_id` WHERE `spree_return_items`.`customer_return_id` = 36 ORDER BY `spree_return_authorizations`.`id` ASC LIMIT 1

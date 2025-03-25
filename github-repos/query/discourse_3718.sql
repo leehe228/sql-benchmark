@@ -1,0 +1,1 @@
+SELECT "user_emails".* FROM "user_emails" WHERE "user_emails"."user_id" IN (-1, 6358)

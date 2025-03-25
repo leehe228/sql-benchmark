@@ -1,0 +1,1 @@
+SELECT SUM(`spree_inventory_units`.`quantity`) FROM `spree_inventory_units` WHERE `spree_inventory_units`.`line_item_id` = 896

@@ -1,0 +1,1 @@
+SELECT "topic_users".* FROM "topic_users" WHERE "topic_users"."topic_id" = 15990 AND "topic_users"."user_id" = 941

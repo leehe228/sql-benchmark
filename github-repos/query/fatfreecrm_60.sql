@@ -1,0 +1,1 @@
+SELECT `field_groups`.* FROM `field_groups` WHERE `field_groups`.`tag_id` = 1 AND `field_groups`.`klass_name` = 'Contact' LIMIT 1

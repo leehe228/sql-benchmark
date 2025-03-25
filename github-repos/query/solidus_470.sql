@@ -1,0 +1,1 @@
+SELECT `spree_prices`.* FROM `spree_prices` WHERE `spree_prices`.`variant_id` = 1429 AND `spree_prices`.`currency` = 'USD' AND `spree_prices`.`country_iso` = 'DE' ORDER BY country_iso IS NULL, `spree_prices`.`updated_at` DESC, `spree_prices`.`id` DESC LIMIT 1

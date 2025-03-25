@@ -1,0 +1,1 @@
+SELECT "sha1" FROM "theme_fields" INNER JOIN "uploads" ON "uploads"."id" = "theme_fields"."upload_id" WHERE 1=0

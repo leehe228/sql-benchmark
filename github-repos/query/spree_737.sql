@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.* FROM `spree_shipments` INNER JOIN `spree_orders` ON `spree_orders`.`id` = `spree_shipments`.`order_id` WHERE `spree_orders`.`user_id` = 548 ORDER BY coalesce(spree_shipments.shipped_at, spree_shipments.created_at) desc, `spree_shipments`.`id` DESC LIMIT 25 OFFSET 0

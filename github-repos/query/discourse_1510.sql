@@ -1,0 +1,1 @@
+SELECT "drafts".* FROM "drafts" WHERE (updated_at < '2019-09-28 06:16:25.664712')

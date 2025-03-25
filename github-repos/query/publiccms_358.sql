@@ -1,0 +1,1 @@
+select cmsdiction0_.id as id1_9_, cmsdiction0_.site_id as site_id2_9_, cmsdiction0_.multiple as multiple3_9_, cmsdiction0_.name as name4_9_ from cms_dictionary cmsdiction0_ where cmsdiction0_.site_id=1 order by cmsdiction0_.id desc limit 30

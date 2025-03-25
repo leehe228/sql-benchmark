@@ -1,0 +1,1 @@
+SELECT `leads`.* FROM `leads` WHERE (first_name LIKE '%Cindy' AND last_name LIKE '%Cluster') ORDER BY `leads`.`id` ASC LIMIT 1

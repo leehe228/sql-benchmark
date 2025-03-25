@@ -1,0 +1,1 @@
+select sysmodule0_.id as id1_33_0_, sysmodule0_.attached as attached2_33_0_, sysmodule0_.authorized_url as authoriz3_33_0_, sysmodule0_.menu as menu4_33_0_, sysmodule0_.parent_id as parent_i5_33_0_, sysmodule0_.sort as sort6_33_0_, sysmodule0_.url as url7_33_0_ from sys_module sysmodule0_ where sysmodule0_.id='user_menu'

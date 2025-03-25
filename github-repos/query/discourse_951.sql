@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (groups.id > 0) AND "groups"."automatic" = TRUE ORDER BY name ASC LIMIT 36 OFFSET 0

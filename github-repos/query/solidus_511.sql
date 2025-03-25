@@ -1,0 +1,1 @@
+SELECT `spree_shipping_method_zones`.* FROM `spree_shipping_method_zones` WHERE `spree_shipping_method_zones`.`shipping_method_id` IN (173, 174)

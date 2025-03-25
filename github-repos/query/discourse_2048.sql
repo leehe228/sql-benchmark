@@ -1,0 +1,1 @@
+SELECT "post_timings"."post_number" FROM "post_timings" WHERE "post_timings"."topic_id" = 16578 AND "post_timings"."user_id" = 2112 AND "post_timings"."post_number" = 1

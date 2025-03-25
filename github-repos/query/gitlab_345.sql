@@ -1,0 +1,1 @@
+SELECT "chat_teams".* FROM "chat_teams" WHERE "chat_teams"."namespace_id" = $1 LIMIT $2 /*application:test,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

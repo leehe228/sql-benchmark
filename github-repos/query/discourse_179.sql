@@ -1,0 +1,1 @@
+SELECT "group_mentions".* FROM "group_mentions" WHERE "group_mentions"."post_id" = 16379

@@ -1,0 +1,1 @@
+select option0_.id as id1_8_, option0_.create_time as create_t2_8_, option0_.deleted as deleted3_8_, option0_.update_time as update_t4_8_, option0_.option_key as option_k5_8_, option0_.option_value as option_v6_8_ from options option0_

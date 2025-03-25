@@ -1,0 +1,1 @@
+SELECT `documents`.* FROM `documents` INNER JOIN `projects` ON `projects`.`id` = `documents`.`project_id` WHERE (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='documents')) ORDER BY documents.created_on DESC LIMIT 10

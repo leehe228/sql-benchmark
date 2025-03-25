@@ -1,0 +1,1 @@
+SELECT "tag_group_permissions".* FROM "tag_group_permissions" WHERE "tag_group_permissions"."tag_group_id" = 548

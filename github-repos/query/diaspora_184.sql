@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `reports` WHERE `reports`.`item_id` = 525 AND `reports`.`item_type` = 'Comment' AND `reports`.`user_id` = 1720 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" WHERE (lower(tags.name) IN ('stu')) ORDER BY "tags"."id" ASC LIMIT 1

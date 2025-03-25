@@ -1,0 +1,1 @@
+SELECT "users"."id", "users"."primary_group_id" FROM "users" WHERE "users"."id" IN (2111, 2118) AND "users"."primary_group_id" IS NOT NULL

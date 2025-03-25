@@ -1,0 +1,1 @@
+SELECT `spree_order_promotions`.* FROM `spree_order_promotions` WHERE `spree_order_promotions`.`order_id` = 332 AND `spree_order_promotions`.`promotion_id` = 10

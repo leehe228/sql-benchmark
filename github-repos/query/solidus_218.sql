@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `spree_adjustments`.`order_id`) FROM `spree_adjustments` INNER JOIN `spree_orders` ON `spree_orders`.`id` = `spree_adjustments`.`order_id` WHERE `spree_adjustments`.`promotion_code_id` = 223 AND `spree_adjustments`.`eligible` = TRUE AND `spree_orders`.`completed_at` IS NOT NULL AND `spree_orders`.`id` != 1050

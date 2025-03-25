@@ -1,0 +1,1 @@
+SELECT "topic_embeds"."topic_id" FROM "topic_embeds" WHERE ("topic_embeds"."deleted_at" IS NOT NULL) AND (embed_url ~* '^https?://eviltrout\.com/2013/02/10/why\-discourse\-uses\-emberjs\.html$') LIMIT 1

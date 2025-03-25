@@ -1,0 +1,1 @@
+SELECT `refinery_image_translations`.* FROM `refinery_image_translations` WHERE `refinery_image_translations`.`refinery_image_id` IN (117, 118, 119)

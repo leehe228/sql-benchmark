@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (topics.archetype <> 'private_message') AND (topics.category_id = 3505 OR topics.category_id IN (SELECT id FROM categories WHERE categories.parent_category_id = 3505))

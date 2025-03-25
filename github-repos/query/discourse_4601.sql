@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."status" = 0 AND (score >= 0.0) ORDER BY score desc, created_at desc

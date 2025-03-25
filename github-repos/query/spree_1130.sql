@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` INNER JOIN `spree_products_taxons` ON `spree_taxons`.`id` = `spree_products_taxons`.`taxon_id` WHERE `spree_products_taxons`.`product_id` = 1 ORDER BY `spree_taxons`.`id` ASC LIMIT 1

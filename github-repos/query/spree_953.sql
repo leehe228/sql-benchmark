@@ -1,0 +1,1 @@
+SELECT `friendly_id_slugs`.* FROM `friendly_id_slugs` WHERE `friendly_id_slugs`.`deleted_at` IS NULL AND `friendly_id_slugs`.`sluggable_id` = 1142 AND `friendly_id_slugs`.`sluggable_type` = 'Spree::Product' AND `friendly_id_slugs`.`slug` = '1588318568_product-1186-2130' ORDER BY `friendly_id_slugs`.`id` DESC LIMIT 1

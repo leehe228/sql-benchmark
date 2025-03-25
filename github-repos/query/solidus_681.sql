@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_states` ORDER BY name ASC LIMIT 1 OFFSET 1) subquery_for_count

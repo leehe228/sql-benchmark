@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15986 AND (posts.user_id = 915 OR post_type IN (1,2,3)) AND "posts"."post_number" IS NULL LIMIT 1

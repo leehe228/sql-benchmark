@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = 2112 AND "notifications"."topic_id" = 17056 ORDER BY "notifications"."created_at" DESC LIMIT 1

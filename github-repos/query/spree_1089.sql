@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_adjustments` WHERE `spree_adjustments`.`adjustable_id` = 1121 AND `spree_adjustments`.`adjustable_type` = 'Spree::LineItem' AND `spree_adjustments`.`source_type` = 'Spree::TaxRate' AND (`spree_adjustments`.amount >= 0)

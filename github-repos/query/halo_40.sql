@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from comments journalcom0_ where journalcom0_.type=2 and journalcom0_.id=11

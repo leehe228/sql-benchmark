@@ -1,0 +1,1 @@
+SELECT "user_associated_accounts".* FROM "user_associated_accounts" WHERE "user_associated_accounts"."provider_name" = 'google_oauth2' AND "user_associated_accounts"."provider_uid" = '123456' LIMIT 1

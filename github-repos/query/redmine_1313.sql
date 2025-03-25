@@ -1,0 +1,1 @@
+SELECT DISTINCT `users`.* FROM `users` INNER JOIN `members` ON `members`.`user_id` = `users`.`id` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND (members.project_id = 2008) AND (members.id IN (SELECT DISTINCT member_id FROM member_roles WHERE role_id IN (1))) ORDER BY users.firstname, users.lastname, users.id

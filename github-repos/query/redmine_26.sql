@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `settings` WHERE `settings`.`name` = 'default_projects_public' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."original_filename" = 'gravatar.png' ORDER BY "uploads"."id" ASC LIMIT 1000

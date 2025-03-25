@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `contacts` WHERE `contacts`.`user_id` = 1491 AND `contacts`.`person_id` = 4768 LIMIT 1

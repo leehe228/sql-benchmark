@@ -1,0 +1,1 @@
+SELECT "user_emails"."user_id" FROM "user_emails" WHERE (lower(email) = 'uniquetest@discourse.org') LIMIT 1

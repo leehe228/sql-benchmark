@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" WHERE "themes"."name" = 'Header Icons' LIMIT 1

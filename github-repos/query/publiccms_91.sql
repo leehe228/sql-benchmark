@@ -1,0 +1,1 @@
+select syscluster0_.uuid as uuid1_23_0_, syscluster0_.cms_version as cms_vers2_23_0_, syscluster0_.create_date as create_d3_23_0_, syscluster0_.heartbeat_date as heartbea4_23_0_, syscluster0_.master as master5_23_0_ from sys_cluster syscluster0_ where syscluster0_.uuid='bbe09ca1-0200-4647-8b8a-6cdd0be0248b'

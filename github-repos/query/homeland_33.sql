@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = $1 AND "notifications"."id" IN ($2, $3, $4, $5, $6, $7, $8, $9, $10, $11)

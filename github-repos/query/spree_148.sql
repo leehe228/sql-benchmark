@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`slug` = 'non-existent-product' LIMIT 1

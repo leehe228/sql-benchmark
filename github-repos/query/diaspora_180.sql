@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `aspects` WHERE `aspects`.`user_id` = 1

@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE "topics"."id" = 15601 ORDER BY "topics"."id" ASC LIMIT 1

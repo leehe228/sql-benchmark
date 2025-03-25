@@ -1,0 +1,1 @@
+SELECT `spree_promotion_rules`.* FROM `spree_promotion_rules` WHERE `spree_promotion_rules`.`promotion_id` = 1 AND `spree_promotion_rules`.`type` = 'Spree::Promotion::Rules::OptionValue' AND `spree_promotion_rules`.`preferences` = '---\n:match_policy: any\n:eligible_values:\n \'1\': \'23,3\'\n' ORDER BY `spree_promotion_rules`.`id` ASC LIMIT 1

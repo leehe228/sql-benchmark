@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `stories` WHERE `stories`.`user_id` = 53 AND (created_at >= now() - interval 30 day AND is_expired AND is_moderated)

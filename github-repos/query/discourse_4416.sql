@@ -1,0 +1,1 @@
+SELECT "bookmarks".* FROM "bookmarks" WHERE "bookmarks"."user_id" = 7749 AND "bookmarks"."post_id" = 20179

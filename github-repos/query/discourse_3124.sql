@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."id" IS NULL ORDER BY "topics"."id" ASC LIMIT 1

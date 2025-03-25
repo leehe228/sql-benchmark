@@ -1,0 +1,1 @@
+SELECT `spree_customer_returns`.* FROM `spree_customer_returns` ORDER BY `spree_customer_returns`.`created_at` DESC LIMIT 25 OFFSET 0

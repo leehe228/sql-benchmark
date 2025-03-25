@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE (lower(slug) = 'category-24') ORDER BY case when parent_category_id is null then 0 else 1 end

@@ -1,0 +1,1 @@
+select login_log_id AS "loginLogId", log_name AS "logName", user_id AS "userId", create_time AS "createTime", succeed AS "succeed", message AS "message", ip_address AS "ipAddress" from sys_login_log where 1 = 1 and (create_time between CONCAT('2019-07-08',' 00:00:00') and CONCAT('2019-10-31',' 23:59:59')) LIMIT 0,10

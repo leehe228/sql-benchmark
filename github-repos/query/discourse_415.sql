@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "group_users" ON "users"."id" = "group_users"."user_id" INNER JOIN "groups" ON "group_users"."group_id" = "groups"."id" INNER JOIN "topic_allowed_groups" ON "groups"."id" = "topic_allowed_groups"."group_id" WHERE "topic_allowed_groups"."topic_id" = 15635

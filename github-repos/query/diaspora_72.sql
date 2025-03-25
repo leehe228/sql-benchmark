@@ -1,0 +1,1 @@
+SELECT `blocks`.`id` FROM `blocks` WHERE `blocks`.`user_id` = 1465

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `messages` WHERE `messages`.`guid` = 'e4860dd06c3001384b8408e9fe568a11' AND `messages`.`author_id` = 5325 LIMIT 1

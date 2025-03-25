@@ -1,0 +1,1 @@
+SELECT `spree_assets`.* FROM `spree_assets` WHERE `spree_assets`.`viewable_type` = 'Spree::Variant' AND `spree_assets`.`viewable_id` IN (3, 4, 5) ORDER BY `spree_assets`.`position` ASC

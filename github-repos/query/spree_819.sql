@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.* FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 98 AND `spree_shipments`.`id` NOT IN (91, 92)

@@ -1,0 +1,1 @@
+select c.*, t.title, t.id as topicId, u.username from comment c left join topic t on c.topic_id = t.id left join user u on u.id = c.user_id order by c.in_time desc LIMIT 0,20

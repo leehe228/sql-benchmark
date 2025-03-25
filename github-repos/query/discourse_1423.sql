@@ -1,0 +1,1 @@
+SELECT "anonymous_users".* FROM "anonymous_users" WHERE "anonymous_users"."user_id" = 1115 LIMIT 1

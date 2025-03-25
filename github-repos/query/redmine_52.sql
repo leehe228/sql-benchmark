@@ -1,0 +1,1 @@
+SELECT `member_roles`.* FROM `member_roles` WHERE `member_roles`.`inherited_from` = 1588

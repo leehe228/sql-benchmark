@@ -1,0 +1,1 @@
+SELECT `taggings`.* FROM `taggings` WHERE `taggings`.`story_id` = 67

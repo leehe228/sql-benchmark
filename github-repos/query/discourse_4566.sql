@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE ("invites"."deleted_at" IS NOT NULL) AND "invites"."email" = 'invite@example.com' AND "invites"."invited_by_id" = 8118 ORDER BY "invites"."id" ASC LIMIT 1

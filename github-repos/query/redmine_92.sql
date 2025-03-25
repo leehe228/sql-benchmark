@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` WHERE `issue_statuses`.`id` IN (1, 2, 3, 4, 5, 6, 0) ORDER BY `issue_statuses`.`position` ASC

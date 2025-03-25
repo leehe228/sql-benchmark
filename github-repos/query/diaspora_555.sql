@@ -1,0 +1,1 @@
+SELECT `aspect_memberships`.* FROM `aspect_memberships` WHERE `aspect_memberships`.`contact_id` = 580 ORDER BY `aspect_memberships`.`id` ASC LIMIT 1

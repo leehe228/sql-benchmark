@@ -1,0 +1,1 @@
+SELECT "push_subscriptions".* FROM "push_subscriptions" WHERE "push_subscriptions"."user_id" = 2040 AND "push_subscriptions"."data" = '{"endpoint":"endpoint","keys":{"p256dh":"256dh","auth":"auth"}}' LIMIT 1

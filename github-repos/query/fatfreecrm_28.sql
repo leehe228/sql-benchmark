@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `contacts`.`id`) FROM `contacts` WHERE ((`contacts`.`assigned_to` = 688) OR ((`contacts`.`user_id` = 688) OR (`contacts`.`access` = 'Public')))

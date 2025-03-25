@@ -1,0 +1,1 @@
+SELECT `issue_categories`.* FROM `issue_categories` WHERE (`issue_categories`.`id` IN (1, 2) OR `issue_categories`.`id` IS NULL)

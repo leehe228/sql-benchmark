@@ -1,0 +1,1 @@
+SELECT `spree_payments`.`source_id` FROM `spree_payments` WHERE `spree_payments`.`order_id` = 1244 AND `spree_payments`.`payment_method_id` = 843 ORDER BY `spree_payments`.`created_at` ASC

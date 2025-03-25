@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_promotions`.* FROM `spree_promotions` INNER JOIN spree_order_promotions ON spree_order_promotions.promotion_id = spree_promotions.id

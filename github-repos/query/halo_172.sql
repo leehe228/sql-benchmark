@@ -1,0 +1,1 @@
+select distinct photo0_.team as col_0_0_ from photos photo0_

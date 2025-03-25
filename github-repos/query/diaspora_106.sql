@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` WHERE `aspects`.`id` = 1 LIMIT 1

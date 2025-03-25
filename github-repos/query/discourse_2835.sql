@@ -1,0 +1,1 @@
+SELECT "tags"."id", "tags"."name" FROM "tags" WHERE "tags"."id" = 1773

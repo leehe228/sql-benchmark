@@ -1,0 +1,1 @@
+SELECT "topic_link_clicks".* FROM "topic_link_clicks" WHERE "topic_link_clicks"."topic_link_id" = 2425

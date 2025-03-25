@@ -1,0 +1,1 @@
+SELECT `issue_relations`.* FROM `issue_relations` WHERE `issue_relations`.`issue_from_id` IN (1, 2, 3, 7, 5, 13) AND `issue_relations`.`issue_to_id` IN (1, 2, 3, 7, 5, 13) AND `issue_relations`.`relation_type` IN ('blocks', 'precedes')

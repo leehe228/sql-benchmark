@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`parent_id` = 1 ORDER BY `projects`.`lft` ASC

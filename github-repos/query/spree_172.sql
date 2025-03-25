@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 34 AND `spree_payments`.`source_type` = 'Spree::StoreCredit' AND `spree_payments`.`state` = 'checkout' ORDER BY `spree_payments`.`created_at` ASC

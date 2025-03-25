@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."target_type" = 'Post' AND "reviewables"."target_id" IS NULL ORDER BY "reviewables"."id" ASC LIMIT 1

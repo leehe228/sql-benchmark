@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` WHERE 1=0

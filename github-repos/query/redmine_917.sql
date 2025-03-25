@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` WHERE `queries`.`type` IN ('IssueQuery') AND (`queries`.`project_id` IS NULL OR `queries`.`project_id` = 1) AND `queries`.`id` = 2111 LIMIT 1

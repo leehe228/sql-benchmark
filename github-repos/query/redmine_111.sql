@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `trackers` WHERE `trackers`.`name` = 'Bug' AND `trackers`.`id` != 1 LIMIT 1

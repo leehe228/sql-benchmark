@@ -1,0 +1,1 @@
+SELECT "javascript_caches"."updated_at" FROM "javascript_caches" WHERE "javascript_caches"."digest" = '0123456789abcdefabcd0123456789abcdefabcd' LIMIT 1

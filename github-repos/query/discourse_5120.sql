@@ -1,0 +1,1 @@
+SELECT "post_custom_fields".* FROM "post_custom_fields" WHERE "post_custom_fields"."name" = 'import_id' AND "post_custom_fields"."value" = '10' ORDER BY "post_custom_fields"."id" ASC LIMIT 1

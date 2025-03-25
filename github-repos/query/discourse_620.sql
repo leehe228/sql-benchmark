@@ -1,0 +1,1 @@
+SELECT "topic_users"."user_id", "topic_users"."notification_level" FROM "topic_users" WHERE "topic_users"."topic_id" = 15679 AND "topic_users"."user_id" IN (277, 276)

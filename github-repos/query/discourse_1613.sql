@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_visits" WHERE "user_visits"."user_id" = 1264 AND (visited_at > '2019-12-17 06:16:32.059629' and posts_read > 0)

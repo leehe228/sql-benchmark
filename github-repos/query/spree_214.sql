@@ -1,0 +1,1 @@
+SELECT `spree_return_authorizations`.* FROM `spree_return_authorizations` WHERE `spree_return_authorizations`.`number` LIKE '%RA603659607%' ORDER BY `spree_return_authorizations`.`created_at` DESC LIMIT 25 OFFSET 0

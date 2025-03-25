@@ -1,0 +1,1 @@
+SELECT `custom_field_enumerations`.* FROM `custom_field_enumerations` WHERE `custom_field_enumerations`.`custom_field_id` = 982 AND (LOWER(name) LIKE LOWER('foo')) ORDER BY `custom_field_enumerations`.`position` ASC LIMIT 1

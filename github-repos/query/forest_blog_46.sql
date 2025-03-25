@@ -1,0 +1,1 @@
+SELECT tag_id, tag_name, tag_description FROM tag

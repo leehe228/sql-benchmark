@@ -1,0 +1,1 @@
+SELECT "category_users"."user_id" FROM "category_users" WHERE "category_users"."category_id" = 3608

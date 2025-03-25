@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`type` IN ('Group', 'GroupBuiltin', 'GroupAnonymous', 'GroupNonMember') AND `users`.`lastname` = 'New name' AND `users`.`id` != 917 LIMIT 1

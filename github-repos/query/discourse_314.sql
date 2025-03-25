@@ -1,0 +1,1 @@
+SELECT "themes"."id", "themes"."name" FROM "themes" WHERE (id = -1 OR user_selectable) ORDER BY "themes"."name" ASC

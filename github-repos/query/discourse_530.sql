@@ -1,0 +1,1 @@
+SELECT "category_tag_groups".* FROM "category_tag_groups" WHERE "category_tag_groups"."category_id" IN (1, 3119)

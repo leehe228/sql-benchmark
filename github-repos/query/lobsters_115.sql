@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `invitations` WHERE `invitations`.`code` = 'rzUu9XHRGvRBSSo' LIMIT 1

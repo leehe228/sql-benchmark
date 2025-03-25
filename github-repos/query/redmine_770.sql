@@ -1,0 +1,1 @@
+SELECT `email_addresses`.* FROM `email_addresses` WHERE `email_addresses`.`user_id` = 2 AND `email_addresses`.`is_default` = FALSE ORDER BY `email_addresses`.`id` ASC

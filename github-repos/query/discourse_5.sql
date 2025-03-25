@@ -1,0 +1,1 @@
+SELECT "user_avatars".* FROM "user_avatars" WHERE "user_avatars"."user_id" = 1 LIMIT 1

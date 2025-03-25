@@ -1,0 +1,1 @@
+SELECT `spree_option_value_variants`.* FROM `spree_option_value_variants` WHERE `spree_option_value_variants`.`variant_id` = 2

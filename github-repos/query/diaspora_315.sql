@@ -1,0 +1,1 @@
+SELECT `profiles`.* FROM `profiles` WHERE `profiles`.`image_url` = 'http://localhost:9887/uploads/images/thumb_large_9228421c662faad3e2ea.png'

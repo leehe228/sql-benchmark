@@ -1,0 +1,1 @@
+SELECT "groups"."id" FROM "groups" INNER JOIN "invited_groups" ON "groups"."id" = "invited_groups"."group_id" WHERE "invited_groups"."invite_id" = 1318

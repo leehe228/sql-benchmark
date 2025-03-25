@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` WHERE `queries`.`project_id` = 2

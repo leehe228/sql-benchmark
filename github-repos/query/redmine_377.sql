@@ -1,0 +1,1 @@
+SELECT MAX(`trackers`.`position`) FROM `trackers`

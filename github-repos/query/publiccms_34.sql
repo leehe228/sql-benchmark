@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_module sysmodule0_ where sysmodule0_.parent_id='develop' and sysmodule0_.menu=1

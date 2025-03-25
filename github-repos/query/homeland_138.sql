@@ -1,0 +1,1 @@
+SELECT "team_users".* FROM "team_users" WHERE "team_users"."id" = $1 LIMIT $2

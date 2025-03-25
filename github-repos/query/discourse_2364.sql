@@ -1,0 +1,1 @@
+SELECT "color_schemes".* FROM "color_schemes" WHERE "color_schemes"."theme_id" = 1 AND (id NOT IN (SELECT color_scheme_id FROM themes where color_scheme_id IS NOT NULL))

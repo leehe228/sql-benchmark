@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_payments` WHERE `spree_payments`.`order_id` = 23 ORDER BY `spree_payments`.`created_at` ASC LIMIT 25 OFFSET 0) subquery_for_count

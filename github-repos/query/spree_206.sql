@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_reimbursements` WHERE `spree_reimbursements`.`order_id` = 11

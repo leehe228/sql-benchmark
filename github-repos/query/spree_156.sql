@@ -1,0 +1,1 @@
+SELECT `spree_taxonomies`.* FROM `spree_taxonomies` WHERE `spree_taxonomies`.`id` = 1 ORDER BY spree_taxonomies.position, spree_taxonomies.created_at LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `contacts` WHERE `contacts`.`user_id` = 2 AND `contacts`.`sharing` = TRUE AND `contacts`.`receiving` = TRUE LIMIT 1

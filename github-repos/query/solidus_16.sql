@@ -1,0 +1,1 @@
+SELECT MAX(`spree_variants`.`position`) FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`product_id` = 1595 AND `spree_variants`.`is_master` = FALSE

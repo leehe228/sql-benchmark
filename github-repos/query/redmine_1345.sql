@@ -1,0 +1,1 @@
+SELECT `issues`.`id` FROM `issues` WHERE `issues`.`fixed_version_id` = 634

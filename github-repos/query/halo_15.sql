@@ -1,0 +1,1 @@
+select sheet0_.id as col_0_0_ from posts sheet0_ where sheet0_.type=1 and sheet0_.url='111' limit 1

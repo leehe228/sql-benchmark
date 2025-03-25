@@ -1,0 +1,1 @@
+SELECT "topic_custom_fields".* FROM "topic_custom_fields" WHERE "topic_custom_fields"."name" = 'featured_link' ORDER BY "topic_custom_fields"."id" ASC LIMIT 1000

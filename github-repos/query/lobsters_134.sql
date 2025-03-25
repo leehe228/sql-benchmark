@@ -1,0 +1,1 @@
+SELECT `stories`.`id` FROM `stories` INNER JOIN `taggings` ON `taggings`.`story_id` = `stories`.`id` INNER JOIN `tags` ON `tags`.`id` = `taggings`.`tag_id` INNER JOIN `users` ON `users`.`id` = `stories`.`user_id` WHERE `stories`.`merged_story_id` IS NULL AND `stories`.`is_expired` = FALSE AND `tags`.`tag` IN ('tag1', 'tag2') GROUP BY stories.id HAVING (COUNT(stories.id) = 2)

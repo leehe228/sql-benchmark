@@ -1,0 +1,1 @@
+SELECT "oauth_applications".* FROM "oauth_applications" WHERE "oauth_applications"."id" IN (SELECT DISTINCT "oauth_access_tokens"."application_id" FROM "oauth_access_tokens" WHERE "oauth_access_tokens"."resource_owner_id" = $1 AND "oauth_access_tokens"."revoked_at" IS NULL)

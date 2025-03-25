@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `posts` WHERE `posts`.`guid` = 'f551d7406c3001384b8408e9fe568a11' AND `posts`.`id` != 2293 LIMIT 1

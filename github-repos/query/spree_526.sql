@@ -1,0 +1,1 @@
+SELECT `spree_line_items`.* FROM `spree_line_items` WHERE `spree_line_items`.`order_id` IN (574, 573, 572, 571) ORDER BY `spree_line_items`.`created_at` ASC

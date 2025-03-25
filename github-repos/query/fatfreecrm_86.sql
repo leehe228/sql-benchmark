@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `leads`.`status` AS leads_status FROM `leads` WHERE ((`leads`.`assigned_to` = 980) OR ((`leads`.`user_id` = 980) OR (`leads`.`access` = 'Public'))) AND `leads`.`status` IN ('new', 'contacted', 'converted', 'rejected') GROUP BY `leads`.`status`

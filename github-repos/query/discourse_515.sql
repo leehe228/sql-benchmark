@@ -1,0 +1,1 @@
+SELECT "theme_fields".* FROM "theme_fields" WHERE "theme_fields"."theme_id" = 1021 AND "theme_fields"."target_id" IN (0, 1, 2) AND "theme_fields"."name" IN ('scss', 'embedded_scss', 'body_tag', 'head_tag', 'header', 'footer', 'after_header')

@@ -1,0 +1,1 @@
+select samplelist0_.project_id as project_1_5_0_, samplelist0_.description as descript2_5_0_, samplelist0_.display_order as display_3_5_0_, samplelist0_.title as title4_5_0_, samplelist0_.url as url5_5_0_ from project_sample_list samplelist0_ where samplelist0_.project_id='spring-ipads'

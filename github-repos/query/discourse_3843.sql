@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" ORDER BY id desc LIMIT 2 OFFSET 0

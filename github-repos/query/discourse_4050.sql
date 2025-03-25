@@ -1,0 +1,1 @@
+SELECT "watched_words".* FROM "watched_words" WHERE "watched_words"."id" = 9999 LIMIT 1

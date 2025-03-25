@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "actions" WHERE "actions"."action_type" = $1 AND "actions"."target_type" = $2 AND "actions"."target_id" = $3

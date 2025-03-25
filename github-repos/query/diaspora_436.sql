@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `authorizations` WHERE `authorizations`.`user_id` = 1 AND `authorizations`.`o_auth_application_id` = 808 LIMIT 1

@@ -1,0 +1,1 @@
+select tbl.ID_VAL from SEQUENCE_GENERATOR tbl where tbl.ID_NAME='ProductOptionImpl' for update

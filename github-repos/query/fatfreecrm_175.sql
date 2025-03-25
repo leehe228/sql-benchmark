@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT `leads`.* FROM `leads` WHERE ((`leads`.`assigned_to` = 1124) OR ((`leads`.`user_id` = 1124) OR (`leads`.`access` = 'Public'))) ORDER BY leads.first_name ASC) subquery_for_count

@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (LOWER(name) IN ('foo'))

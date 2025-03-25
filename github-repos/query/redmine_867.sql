@@ -1,0 +1,1 @@
+SELECT `journals`.* FROM `journals` WHERE `journals`.`journalized_id` = 1 AND `journals`.`journalized_type` = 'Issue' AND (journals.id > 1) ORDER BY journals.id ASC

@@ -1,0 +1,1 @@
+select post0_.id as col_0_0_ from posts post0_ where post0_.type=0 and post0_.id<>2 and post0_.url='xxxx' limit 1

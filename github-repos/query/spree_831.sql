@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.`id` FROM `spree_taxons` INNER JOIN `spree_promotion_rule_taxons` ON `spree_taxons`.`id` = `spree_promotion_rule_taxons`.`taxon_id` WHERE `spree_promotion_rule_taxons`.`promotion_rule_id` = 44

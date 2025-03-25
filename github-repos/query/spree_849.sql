@@ -1,0 +1,1 @@
+SELECT `spree_assets`.* FROM `spree_assets` WHERE `spree_assets`.`viewable_id` IS NULL AND `spree_assets`.`viewable_type` IS NULL AND (`spree_assets`.`position` >= 2) AND (`spree_assets`.id != 14) ORDER BY `spree_assets`.`position` ASC LIMIT 1

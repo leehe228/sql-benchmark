@@ -1,0 +1,1 @@
+SELECT "groups"."id" FROM "groups" WHERE (LOWER(name) in ('group2','group4','badname','trust_level_4') AND NOT automatic)

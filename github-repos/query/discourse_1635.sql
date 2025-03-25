@@ -1,0 +1,1 @@
+SELECT "user_actions"."id" FROM "user_actions" WHERE "user_actions"."action_type" = 1 AND "user_actions"."user_id" = 1265 AND "user_actions"."acting_user_id" = 1263

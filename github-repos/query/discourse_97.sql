@@ -1,0 +1,1 @@
+SELECT "tag_users".* FROM "tag_users" WHERE "tag_users"."tag_id" = 1575

@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`guid` = 'd71572f06c2f01384b7d08e9fe568a11' LIMIT 1

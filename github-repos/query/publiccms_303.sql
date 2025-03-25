@@ -1,0 +1,1 @@
+select sysdeptcon0_.config as config1_27_0_, sysdeptcon0_.dept_id as dept_id2_27_0_ from sys_dept_config sysdeptcon0_ where sysdeptcon0_.config='cors' and sysdeptcon0_.dept_id=3

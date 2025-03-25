@@ -1,0 +1,1 @@
+SELECT `share_visibilities`.* FROM `share_visibilities` WHERE `share_visibilities`.`user_id` = 1465 ORDER BY `share_visibilities`.`id` ASC LIMIT 20

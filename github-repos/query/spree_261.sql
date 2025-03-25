@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_customer_returns`

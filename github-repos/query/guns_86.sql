@@ -1,0 +1,1 @@
+SELECT file_id,file_data,create_time,update_time,create_user,update_user FROM sys_file_info WHERE file_id='1'

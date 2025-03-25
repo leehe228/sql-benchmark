@@ -1,0 +1,1 @@
+SELECT "category_tag_stats".* FROM "category_tag_stats" WHERE "category_tag_stats"."tag_id" = 1575 AND "category_tag_stats"."category_id" = 1 LIMIT 1

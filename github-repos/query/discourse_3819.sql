@@ -1,0 +1,1 @@
+SELECT "tags"."id", "tags"."name" FROM "tags" INNER JOIN "topic_tags" ON "tags"."id" = "topic_tags"."tag_id" WHERE "topic_tags"."topic_id" = 18670

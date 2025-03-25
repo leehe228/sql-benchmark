@@ -1,0 +1,1 @@
+SELECT "application_requests".* FROM "application_requests"

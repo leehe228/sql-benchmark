@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_payments` WHERE `spree_payments`.`order_id` = 1413 AND `spree_payments`.`source_type` = 'Spree::StoreCredit'

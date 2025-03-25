@@ -1,0 +1,1 @@
+SELECT "user_fields".* FROM "user_fields" WHERE "user_fields"."editable" = TRUE

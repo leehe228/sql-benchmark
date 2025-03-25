@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."username" IN ('bruce7016', 'bruce7017') AND "users"."admin" = FALSE AND "users"."moderator" = FALSE

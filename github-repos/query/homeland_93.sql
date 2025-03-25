@@ -1,0 +1,1 @@
+SELECT "team_users".* FROM "team_users" WHERE "team_users"."team_id" = $1 AND "team_users"."id" = $2 LIMIT $3

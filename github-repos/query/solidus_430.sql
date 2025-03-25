@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_stock_locations` WHERE `spree_stock_locations`.`active` = TRUE ORDER BY name ASC LIMIT 25 OFFSET 0) subquery_for_count

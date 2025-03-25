@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `opportunities` WHERE ((`opportunities`.`assigned_to` = 1143) OR ((`opportunities`.`user_id` = 1143) OR (`opportunities`.`access` = 'Public')))

@@ -1,0 +1,1 @@
+SELECT "email_tokens".* FROM "email_tokens" WHERE "email_tokens"."user_id" = 11 AND "email_tokens"."expired" = FALSE AND (created_at > '2020-03-24 06:14:06.293398') AND "email_tokens"."email" = 'iceking@adventuretime.ooo' ORDER BY "email_tokens"."id" ASC LIMIT 1

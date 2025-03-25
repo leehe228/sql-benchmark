@@ -1,0 +1,1 @@
+SELECT `aspects`.`id` FROM `aspects` WHERE `aspects`.`user_id` = 1465 ORDER BY order_id ASC

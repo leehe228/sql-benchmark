@@ -1,0 +1,1 @@
+SELECT `issues`.`parent_id` FROM `issues` WHERE `issues`.`id` IN (2, 4, 5)

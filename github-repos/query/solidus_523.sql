@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_promotion_codes` WHERE `spree_promotion_codes`.`promotion_id` = 114 ORDER BY `spree_promotion_codes`.`value` ASC LIMIT 50 OFFSET 0) subquery_for_count

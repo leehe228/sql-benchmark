@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `contacts` WHERE `contacts`.`assigned_to` IS NULL LIMIT 1

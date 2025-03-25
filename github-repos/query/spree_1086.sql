@@ -1,0 +1,1 @@
+SELECT `spree_tax_categories`.* FROM `spree_tax_categories` WHERE `spree_tax_categories`.`deleted_at` IS NULL AND `spree_tax_categories`.`is_default` = TRUE AND `spree_tax_categories`.`id` != 989 ORDER BY `spree_tax_categories`.`id` ASC LIMIT 1

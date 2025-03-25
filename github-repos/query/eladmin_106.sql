@@ -1,0 +1,1 @@
+select count(*) FROM (select request_ip FROM log where create_time between '2019-10-24' and '2019-10-25' GROUP BY request_ip) as s

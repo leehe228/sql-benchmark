@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "badges" INNER JOIN "user_badges" ON "badges"."id" = "user_badges"."badge_id" WHERE "user_badges"."user_id" = 2112 AND badges.enabled AND "badges"."id" = 1

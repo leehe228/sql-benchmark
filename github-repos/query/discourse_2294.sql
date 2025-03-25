@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "uploads" WHERE "uploads"."secure" = TRUE

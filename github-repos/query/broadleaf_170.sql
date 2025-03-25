@@ -1,0 +1,1 @@
+select stateimpl0_.ABBREVIATION as ABBREVIA1_170_, stateimpl0_.COUNTRY as COUNTRY3_170_, stateimpl0_.NAME as NAME2_170_ from BLC_STATE stateimpl0_ order by stateimpl0_.NAME

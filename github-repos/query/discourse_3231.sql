@@ -1,0 +1,1 @@
+SELECT "user_visits"."posts_read" FROM "user_visits" WHERE "user_visits"."user_id" = 5506

@@ -1,0 +1,1 @@
+SELECT `authorizations`.* FROM `authorizations` WHERE `authorizations`.`o_auth_application_id` = 830 AND `authorizations`.`user_id` = 1 AND `authorizations`.`redirect_uri` = 'http://localhost:3000/' LIMIT 1

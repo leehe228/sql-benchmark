@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" WHERE "themes"."id" IS NULL

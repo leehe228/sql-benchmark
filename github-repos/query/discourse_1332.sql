@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_actions" WHERE "user_actions"."action_type" = 1 AND (created_at > '2020-03-19 06:16:05.365726')

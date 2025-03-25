@@ -1,0 +1,1 @@
+select customerph0_.CUSTOMER_PHONE_ID as CUSTOMER1_47_, customerph0_.CUSTOMER_ID as CUSTOMER3_47_, customerph0_.PHONE_ID as PHONE_ID4_47_, customerph0_.PHONE_NAME as PHONE_NA2_47_ from BLC_CUSTOMER_PHONE customerph0_ where customerph0_.CUSTOMER_ID in (100) order by customerph0_.CUSTOMER_PHONE_ID asc limit 50

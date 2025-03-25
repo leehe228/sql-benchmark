@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `suggested_titles` WHERE `suggested_titles`.`story_id` = 48 LIMIT 1

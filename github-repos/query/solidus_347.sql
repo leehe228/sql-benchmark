@@ -1,0 +1,1 @@
+SELECT `spree_reimbursements`.* FROM `spree_reimbursements` WHERE `spree_reimbursements`.`order_id` = 220 AND `spree_reimbursements`.`id` = 1 LIMIT 1

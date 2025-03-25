@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE `spree_users`.`id` = 230 LIMIT 25 OFFSET 0

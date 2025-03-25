@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`product_id` = 202 ORDER BY `spree_variants`.`id` DESC LIMIT 15 OFFSET 0

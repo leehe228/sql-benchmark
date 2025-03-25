@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE 1=0 ORDER BY "topics"."id" ASC LIMIT 1

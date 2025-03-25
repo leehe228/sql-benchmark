@@ -1,0 +1,1 @@
+SELECT `mentions`.`id` FROM `mentions` WHERE `mentions`.`mentions_container_id` = 2556 AND `mentions`.`mentions_container_type` = 'Post' AND `mentions`.`person_id` = 1

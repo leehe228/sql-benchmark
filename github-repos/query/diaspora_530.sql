@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE (exported_at < '2020-04-15 00:00:00.000183')

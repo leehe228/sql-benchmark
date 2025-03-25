@@ -1,0 +1,1 @@
+SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`asset_id` = 352 AND `tasks`.`asset_type` = 'Lead'

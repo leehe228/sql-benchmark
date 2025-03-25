@@ -1,0 +1,1 @@
+SELECT "category_users".* FROM "category_users" WHERE "category_users"."user_id" = 2112 AND "category_users"."category_id" = 3258 ORDER BY "category_users"."id" ASC LIMIT 1

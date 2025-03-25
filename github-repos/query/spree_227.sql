@@ -1,0 +1,1 @@
+SELECT `spree_payments`.`source_id` FROM `spree_payments` WHERE `spree_payments`.`order_id` = 4 AND `spree_payments`.`source_type` = 'Spree::CreditCard' AND `spree_payments`.`state` NOT IN ('failed', 'invalid') ORDER BY `spree_payments`.`created_at` ASC

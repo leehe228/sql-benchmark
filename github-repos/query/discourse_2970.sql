@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."visible" = TRUE AND (topics.archetype <> 'private_message') AND 1=1 AND "topics"."category_id" = 3466 AND (id <> 17928) AND (bumped_at < '2020-04-25 06:21:50.427050') AND (pinned_at IS NOT NULL AND NOT closed AND NOT archived) ORDER BY bumped_at ASC LIMIT 1

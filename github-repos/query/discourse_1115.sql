@@ -1,0 +1,1 @@
+SELECT "topic_links"."id", "topic_links"."user_id" FROM "topic_links" WHERE (url = 'http://url-that-doesnt-exist.com' OR url = 'https://url-that-doesnt-exist.com' OR url = '//url-that-doesnt-exist.com') AND "topic_links"."post_id" = 16792 ORDER BY "topic_links"."id" ASC LIMIT 1

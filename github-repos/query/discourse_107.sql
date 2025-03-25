@@ -1,0 +1,1 @@
+SELECT distinct "categories"."id" FROM "categories" WHERE "categories"."read_restricted" = FALSE

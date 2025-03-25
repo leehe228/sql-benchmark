@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` WHERE `spree_states`.`id` = 137 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users"."username" FROM "users" WHERE (users.id > 0) AND "users"."admin" = TRUE

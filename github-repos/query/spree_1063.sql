@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_variants` WHERE `spree_variants`.`product_id` = 1890 AND (`spree_variants`.`position` = 3)

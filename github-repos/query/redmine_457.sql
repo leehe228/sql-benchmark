@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`is_default` = TRUE AND `enumerations`.`type` = 'Enumeration' ORDER BY `enumerations`.`position` ASC LIMIT 1

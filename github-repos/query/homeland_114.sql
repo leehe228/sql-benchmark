@@ -1,0 +1,1 @@
+SELECT "devices".* FROM "devices" WHERE "devices"."user_id" = $1

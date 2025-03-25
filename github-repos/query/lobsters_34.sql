@@ -1,0 +1,1 @@
+SELECT `read_ribbons`.* FROM `read_ribbons` WHERE `read_ribbons`.`user_id` = 56 AND `read_ribbons`.`story_id` = 43 ORDER BY `read_ribbons`.`id` ASC LIMIT 1

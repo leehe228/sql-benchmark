@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, date(users.created_at) AS date_users_created_at FROM "users" WHERE (users.created_at >= '2017-01-30 12:00:00' AND users.created_at <= '2017-02-01 12:00:00') GROUP BY date(users.created_at) ORDER BY date(users.created_at)

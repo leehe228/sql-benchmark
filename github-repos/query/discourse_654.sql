@@ -1,0 +1,1 @@
+SELECT "user_search_data".* FROM "user_search_data" WHERE "user_search_data"."user_id" = 312 LIMIT 1

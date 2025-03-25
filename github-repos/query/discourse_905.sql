@@ -1,0 +1,1 @@
+SELECT "groups"."id", "groups"."name" FROM "groups" ORDER BY name ASC, "groups"."name" ASC

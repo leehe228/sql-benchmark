@@ -1,0 +1,1 @@
+SELECT `wiki_redirects`.* FROM `wiki_redirects` WHERE `wiki_redirects`.`redirects_to` = 'Wiki' AND `wiki_redirects`.`redirects_to_wiki_id` = 1

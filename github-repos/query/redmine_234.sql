@@ -1,0 +1,1 @@
+SELECT `wiki_contents`.`id`, `wiki_contents`.`page_id`, `wiki_contents`.`version`, `wiki_contents`.`updated_on` FROM `wiki_contents` WHERE `wiki_contents`.`page_id` IN (2, 5, 12, 6, 1, 4, 11, 10)

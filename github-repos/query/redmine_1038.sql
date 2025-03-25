@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`is_public` = TRUE AND `projects`.`status` = 1

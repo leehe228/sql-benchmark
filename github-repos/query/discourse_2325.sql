@@ -1,0 +1,1 @@
+SELECT MAX("user_badges"."seq") FROM "user_badges" WHERE "user_badges"."badge_id" = 101 AND "user_badges"."user_id" = 2837

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` WHERE `issues`.`project_id` = 1957 LIMIT 1

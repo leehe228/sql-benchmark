@@ -1,0 +1,1 @@
+SELECT "notifications"."id" FROM "notifications" WHERE "notifications"."user_id" = 5190

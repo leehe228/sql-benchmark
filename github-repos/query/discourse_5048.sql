@@ -1,0 +1,1 @@
+SELECT "post_search_data"."post_id" FROM "post_search_data"

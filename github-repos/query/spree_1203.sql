@@ -1,0 +1,1 @@
+select p.id from spree_products p inner join spree_products_taxons op on p.id = op.product_id

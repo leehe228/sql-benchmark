@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`recipient_id` = 1 AND `notifications`.`id` = 112 ORDER BY `notifications`.`id` ASC LIMIT 1

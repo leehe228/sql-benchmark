@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 999999999 AND `posts`.`author_id` = 3881 ORDER BY `posts`.`id` ASC LIMIT 1

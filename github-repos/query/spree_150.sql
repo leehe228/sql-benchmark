@@ -1,0 +1,1 @@
+SELECT `spree_products_taxons`.* FROM `spree_products_taxons` WHERE `spree_products_taxons`.`taxon_id` = 2 AND (`spree_products_taxons`.`position` IS NOT NULL) ORDER BY `spree_products_taxons`.`position` DESC LIMIT 1

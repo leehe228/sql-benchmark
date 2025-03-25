@@ -1,0 +1,1 @@
+SELECT `spree_variant_property_rule_values`.* FROM `spree_variant_property_rule_values` WHERE `spree_variant_property_rule_values`.`variant_property_rule_id` = 18 ORDER BY `spree_variant_property_rule_values`.`position` ASC

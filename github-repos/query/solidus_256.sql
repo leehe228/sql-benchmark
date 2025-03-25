@@ -1,0 +1,1 @@
+SELECT `spree_shipping_methods`.* FROM `spree_shipping_methods` INNER JOIN `spree_shipping_rates` ON `spree_shipping_methods`.`id` = `spree_shipping_rates`.`shipping_method_id` WHERE `spree_shipping_rates`.`shipment_id` = 5 ORDER BY `spree_shipping_rates`.`cost` ASC

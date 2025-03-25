@@ -1,0 +1,1 @@
+SELECT `issue_relations`.* FROM `issue_relations` WHERE `issue_relations`.`issue_from_id` = 3227 AND `issue_relations`.`issue_to_id` = 3227 AND `issue_relations`.`relation_type` IN ('blocks', 'precedes')

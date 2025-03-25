@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` WHERE `refinery_pages`.`menu_match` = '^/404$' ORDER BY `refinery_pages`.`id` ASC LIMIT 1

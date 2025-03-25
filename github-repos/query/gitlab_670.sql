@@ -1,0 +1,1 @@
+SELECT COUNT("clusters_applications_cert_managers"."id") FROM "clusters_applications_cert_managers" WHERE "clusters_applications_cert_managers"."status" IN ($1, $2) AND "clusters_applications_cert_managers"."id" BETWEEN $3 AND $4 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

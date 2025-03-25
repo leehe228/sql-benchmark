@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `custom_fields` WHERE `custom_fields`.`type` IN ('IssueCustomField')

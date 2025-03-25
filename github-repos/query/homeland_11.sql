@@ -1,0 +1,1 @@
+SELECT "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2

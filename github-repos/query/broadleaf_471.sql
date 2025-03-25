@@ -1,0 +1,1 @@
+select indexfield0_.INDEX_FIELD_ID as INDEX_FI1_78_, indexfield0_.ARCHIVED as ARCHIVED2_78_, indexfield0_.FIELD_ID as FIELD_ID4_78_, indexfield0_.SEARCHABLE as SEARCHAB3_78_ from BLC_INDEX_FIELD indexfield0_ cross join BLC_FIELD fieldimpl1_ where indexfield0_.FIELD_ID=fieldimpl1_.FIELD_ID and indexfield0_.SEARCHABLE=1 and (fieldimpl1_.ENTITY_TYPE in ('PRODUCT'))

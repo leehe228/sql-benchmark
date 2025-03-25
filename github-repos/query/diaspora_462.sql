@@ -1,0 +1,1 @@
+SELECT `profiles`.* FROM `profiles` WHERE (EXTRACT(MONTH FROM birthday) = 9) AND (EXTRACT(DAY FROM birthday) = 9)

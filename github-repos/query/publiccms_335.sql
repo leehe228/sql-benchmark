@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_dept sysdept0_ where sysdept0_.site_id=1 and sysdept0_.parent_id=1

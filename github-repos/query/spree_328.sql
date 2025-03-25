@@ -1,0 +1,1 @@
+SELECT `spree_store_credits`.* FROM `spree_store_credits` WHERE `spree_store_credits`.`id` = 2 LIMIT 1

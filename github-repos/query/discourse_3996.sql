@@ -1,0 +1,1 @@
+SELECT "group_users".* FROM "group_users" WHERE "group_users"."user_id" = 6783 AND (group_id IN (SELECT id FROM groups WHERE LOWER(name) in ('group3','group5','badname')))

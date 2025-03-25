@@ -1,0 +1,1 @@
+SELECT MAX("posts"."post_number") FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 17060 AND "posts"."post_type" IN (1, 2, 3) AND ( posts.post_number = 1 OR posts.user_id IN (SELECT u.id FROM users u WHERE u.username_lower IN ('bruce2061')) )

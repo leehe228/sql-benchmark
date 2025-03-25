@@ -1,0 +1,1 @@
+select productatt0_.PRODUCT_ATTRIBUTE_ID as PRODUCT_1_120_, productatt0_.NAME as NAME2_120_, productatt0_.PRODUCT_ID as PRODUCT_4_120_, productatt0_.VALUE as VALUE3_120_ from BLC_PRODUCT_ATTRIBUTE productatt0_ where productatt0_.PRODUCT_ID in (1) order by productatt0_.PRODUCT_ATTRIBUTE_ID asc limit 50

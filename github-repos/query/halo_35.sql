@@ -1,0 +1,1 @@
+select log0_.id as id1_5_, log0_.create_time as create_t2_5_, log0_.deleted as deleted3_5_, log0_.update_time as update_t4_5_, log0_.content as content5_5_, log0_.ip_address as ip_addre6_5_, log0_.log_key as log_key7_5_, log0_.type as type8_5_ from logs log0_ order by log0_.create_time desc limit 5

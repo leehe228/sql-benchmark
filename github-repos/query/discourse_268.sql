@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "posts" INNER JOIN "post_replies" ON "posts"."id" = "post_replies"."reply_post_id" WHERE ("posts"."deleted_at" IS NOT NULL) AND "post_replies"."post_id" = 16404

@@ -1,0 +1,1 @@
+SELECT DISTINCT `opportunities`.`id` FROM `opportunities` INNER JOIN `account_opportunities` ON `opportunities`.`id` = `account_opportunities`.`opportunity_id` WHERE `account_opportunities`.`account_id` = 1106 ORDER BY opportunities.id DESC

@@ -1,0 +1,1 @@
+SELECT `mentions`.* FROM `mentions` WHERE `mentions`.`mentions_container_id` = 285 AND `mentions`.`mentions_container_type` = 'Post'

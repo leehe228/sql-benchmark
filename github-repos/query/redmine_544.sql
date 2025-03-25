@@ -1,0 +1,1 @@
+SELECT `boards`.* FROM `boards` WHERE `boards`.`parent_id` = 251

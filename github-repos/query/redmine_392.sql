@@ -1,0 +1,1 @@
+SELECT versions.id FROM `projects` INNER JOIN `versions` ON `versions`.`project_id` = `projects`.`id` WHERE (projects.lft >= 11 AND projects.rgt <= 12) ORDER BY `projects`.`lft` ASC

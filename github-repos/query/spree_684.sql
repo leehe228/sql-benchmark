@@ -1,0 +1,1 @@
+SELECT `spree_option_types`.* FROM `spree_option_types` ORDER BY `spree_option_types`.`position` ASC

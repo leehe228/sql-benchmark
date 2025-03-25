@@ -1,0 +1,1 @@
+SELECT `spree_zones`.* FROM `spree_zones` WHERE `spree_zones`.`default_tax` = TRUE LIMIT 1

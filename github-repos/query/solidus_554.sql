@@ -1,0 +1,1 @@
+SELECT `spree_option_values`.* FROM `spree_option_values` WHERE `spree_option_values`.`option_type_id` IN (144, 145) ORDER BY `spree_option_values`.`position` ASC

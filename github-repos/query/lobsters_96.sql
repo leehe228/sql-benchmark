@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`user_id` = 82 AND (upvotes - downvotes < 0) ORDER BY `comments`.`id` ASC LIMIT 1000

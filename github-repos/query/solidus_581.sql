@@ -1,0 +1,1 @@
+SELECT `spree_shipping_rates`.* FROM `spree_shipping_rates` WHERE `spree_shipping_rates`.`tax_rate_id` IS NOT NULL ORDER BY `spree_shipping_rates`.`id` ASC LIMIT 1000

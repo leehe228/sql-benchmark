@@ -1,0 +1,1 @@
+SELECT "user_security_keys".* FROM "user_security_keys" WHERE "user_security_keys"."user_id" = 5715 AND "user_security_keys"."enabled" = TRUE AND "user_security_keys"."factor_type" = 0 ORDER BY "user_security_keys"."created_at" ASC

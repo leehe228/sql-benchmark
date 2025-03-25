@@ -1,0 +1,1 @@
+SELECT "tags"."id" FROM "tags" INNER JOIN "tag_search_data" ON "tag_search_data"."tag_id" = "tags"."id" WHERE (tag_search_data.locale != 'fr' OR tag_search_data.version != 3) ORDER BY tags.id asc LIMIT 10000

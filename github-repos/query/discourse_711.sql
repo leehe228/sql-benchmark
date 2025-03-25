@@ -1,0 +1,1 @@
+SELECT "groups"."id", "groups"."name", "groups"."flair_url", "groups"."flair_bg_color", "groups"."flair_color" FROM "groups" WHERE 1=0

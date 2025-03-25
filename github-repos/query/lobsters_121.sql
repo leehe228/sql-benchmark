@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`id` IN (39, 40)

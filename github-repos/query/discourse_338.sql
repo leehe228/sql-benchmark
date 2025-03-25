@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE (moderator or admin ) AND (users.id > 0) AND (username_lower not in ('admin','moderator','administrator','mod','sys','system','community','info','you','name','username','user','nickname','discourse','discourseorg','discourseforum','support','hp'))

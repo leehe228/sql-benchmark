@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (groups.id > 0) AND (groups.id <> 0) AND "groups"."automatic" = FALSE ORDER BY name ASC, "groups"."name" ASC

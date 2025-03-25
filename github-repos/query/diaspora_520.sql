@@ -1,0 +1,1 @@
+SELECT `messages`.`author_id` FROM `messages` WHERE `messages`.`conversation_id` = 252 ORDER BY created_at ASC

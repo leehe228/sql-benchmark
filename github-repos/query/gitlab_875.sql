@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "keys"."user_id") FROM "keys" WHERE "keys"."type" = $1 AND "keys"."user_id" BETWEEN $2 AND $3 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

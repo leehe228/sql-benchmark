@@ -1,0 +1,1 @@
+SELECT `trackers`.* FROM `trackers` WHERE `trackers`.`id` IN (1, 2, 3)

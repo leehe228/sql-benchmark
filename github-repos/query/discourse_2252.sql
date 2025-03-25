@@ -1,0 +1,1 @@
+SELECT DISTINCT value FROM "topic_custom_fields" WHERE "topic_custom_fields"."name" = 'tags'

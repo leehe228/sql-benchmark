@@ -1,0 +1,1 @@
+select localeimpl0_.LOCALE_CODE as LOCALE_C1_82_, localeimpl0_.CURRENCY_CODE as CURRENCY5_82_, localeimpl0_.DEFAULT_FLAG as DEFAULT_2_82_, localeimpl0_.FRIENDLY_NAME as FRIENDLY3_82_, localeimpl0_.USE_IN_SEARCH_INDEX as USE_IN_S4_82_ from BLC_LOCALE localeimpl0_ where localeimpl0_.LOCALE_CODE=?

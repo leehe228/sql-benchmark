@@ -1,0 +1,1 @@
+SELECT `spree_prototypes`.* FROM `spree_prototypes` WHERE `spree_prototypes`.`id` = 1 LIMIT 1

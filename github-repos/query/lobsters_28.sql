@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `stories` WHERE `stories`.`user_id` = 142 AND `stories`.`is_expired` = FALSE

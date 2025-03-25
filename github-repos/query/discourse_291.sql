@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" INNER JOIN "group_users" ON "groups"."id" = "group_users"."group_id" WHERE "group_users"."user_id" = 154 AND (groups.id > 0) AND (groups.id > 0) ORDER BY "groups"."id" ASC, name ASC

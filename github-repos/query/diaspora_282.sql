@@ -1,0 +1,1 @@
+SELECT `profiles`.* FROM `profiles` WHERE `profiles`.`person_id` IN (2, 3)

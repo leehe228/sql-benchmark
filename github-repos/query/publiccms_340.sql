@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from log_login loglogin0_ where loglogin0_.site_id=1 and loglogin0_.user_id=1 and loglogin0_.result=1

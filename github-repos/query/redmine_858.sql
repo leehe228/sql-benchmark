@@ -1,0 +1,1 @@
+SELECT `issue_relations`.* FROM `issue_relations` WHERE `issue_relations`.`id` = 2 LIMIT 1

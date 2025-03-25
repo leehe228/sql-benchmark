@@ -1,0 +1,1 @@
+SELECT "users"."username_lower" FROM "users" WHERE "users"."staged" = FALSE AND "users"."username_lower" = 'bruce5944'

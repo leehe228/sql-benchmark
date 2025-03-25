@@ -1,0 +1,1 @@
+select cmsword0_.id as id1_15_, cmsword0_.create_date as create_d2_15_, cmsword0_.hidden as hidden3_15_, cmsword0_.name as name4_15_, cmsword0_.search_count as search_c5_15_, cmsword0_.site_id as site_id6_15_ from cms_word cmsword0_ where cmsword0_.site_id=1 and cmsword0_.hidden=0 and (cmsword0_.name like '%2%') order by cmsword0_.id desc limit 30

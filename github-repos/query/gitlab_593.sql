@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "ci_pipeline_schedules"."owner_id") FROM "ci_pipeline_schedules" WHERE "ci_pipeline_schedules"."created_at" BETWEEN $1 AND $2 AND "ci_pipeline_schedules"."owner_id" BETWEEN $3 AND $4 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

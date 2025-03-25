@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.id IN (SELECT DISTINCT m.project_id FROM members m INNER JOIN member_roles mr ON mr.member_id = m.id INNER JOIN custom_fields_roles cfr ON cfr.role_id = mr.role_id WHERE m.user_id = 2 AND cfr.custom_field_id = 1219))

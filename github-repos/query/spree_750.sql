@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_state_changes` WHERE `spree_state_changes`.`stateful_id` = 527 AND `spree_state_changes`.`stateful_type` = 'Spree::Order'

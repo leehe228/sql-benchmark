@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`commentable_id` = 2302 AND `comments`.`commentable_type` = 'Post' AND (created_at > '1900-01-01T00:00:00.000Z') ORDER BY created_at ASC LIMIT 15

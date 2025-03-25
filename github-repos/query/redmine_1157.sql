@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` WHERE `enumerations`.`type` IN ('DocumentCategory') AND `enumerations`.`project_id` IS NULL LIMIT 1

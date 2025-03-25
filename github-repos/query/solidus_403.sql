@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` IN (4, 5, 6)

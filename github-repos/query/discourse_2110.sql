@@ -1,0 +1,1 @@
+SELECT distinct user_id FROM "group_users" WHERE 1=0

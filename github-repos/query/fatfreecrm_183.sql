@@ -1,0 +1,1 @@
+SELECT `opportunities`.`id` FROM `opportunities` WHERE `opportunities`.`campaign_id` = 526 ORDER BY id DESC

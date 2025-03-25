@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `user_preferences` WHERE `user_preferences`.`user_id` = 2 AND `user_preferences`.`email_type` = 'started_sharing' LIMIT 1

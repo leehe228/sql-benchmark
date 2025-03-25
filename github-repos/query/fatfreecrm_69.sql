@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE ((lower(alt_email) = 'ben@example.com')) ORDER BY `contacts`.`id` ASC LIMIT 1

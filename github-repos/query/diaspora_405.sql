@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`author_id` = 1 AND `photos`.`id` = 240 ORDER BY `photos`.`id` ASC LIMIT 1

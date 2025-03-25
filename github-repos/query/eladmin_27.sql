@@ -1,0 +1,1 @@
+select name from dept where id = 7

@@ -1,0 +1,1 @@
+SELECT `spree_customer_returns`.* FROM `spree_customer_returns` WHERE `spree_customer_returns`.`id` = 67 LIMIT 1

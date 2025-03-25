@@ -1,0 +1,1 @@
+select ratingdeta0_.RATING_DETAIL_ID as RATING_D1_133_, ratingdeta0_.CUSTOMER_ID as CUSTOMER4_133_, ratingdeta0_.RATING as RATING2_133_, ratingdeta0_.RATING_SUBMITTED_DATE as RATING_S3_133_, ratingdeta0_.RATING_SUMMARY_ID as RATING_S5_133_ from BLC_RATING_DETAIL ratingdeta0_ where ratingdeta0_.CUSTOMER_ID=100 and ratingdeta0_.RATING_SUMMARY_ID=null

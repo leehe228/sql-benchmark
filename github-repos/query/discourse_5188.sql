@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" LEFT JOIN group_users gu ON gu.group_id = groups.id AND gu.user_id = 296 AND gu.owner WHERE groups.visibility_level IN (0, 1, 2, 4) OR ( groups.visibility_level = 3 AND gu.id IS NOT NULL ) AND (groups.id > 0) AND ( name ILIKE '%GO%' OR full_name ILIKE '%GO%' ) ORDER BY name ASC

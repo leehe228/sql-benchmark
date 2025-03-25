@@ -1,0 +1,1 @@
+SELECT "post_actions"."post_id" FROM "post_actions" WHERE "post_actions"."post_id" IN (19350, 19353, 19355, 19358, 19364) AND "post_actions"."user_id" != 5522 AND "post_actions"."agreed_at" IS NOT NULL

@@ -1,0 +1,1 @@
+SELECT `friendly_id_slugs`.* FROM `friendly_id_slugs` WHERE `friendly_id_slugs`.`deleted_at` IS NULL AND `friendly_id_slugs`.`sluggable_id` = 94 AND `friendly_id_slugs`.`sluggable_type` = 'Spree::Taxon' ORDER BY `friendly_id_slugs`.`id` DESC

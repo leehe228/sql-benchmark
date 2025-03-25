@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` WHERE `issue_statuses`.`is_closed` = TRUE ORDER BY `issue_statuses`.`id` ASC LIMIT 1

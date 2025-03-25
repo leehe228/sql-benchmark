@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`container_id` = 92 AND `attachments`.`container_type` = 'News' ORDER BY attachments.created_on ASC, attachments.id ASC

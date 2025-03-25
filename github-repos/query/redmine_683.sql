@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` WHERE `enumerations`.`name` = 'User documentation' AND `enumerations`.`id` != 2 AND `enumerations`.`type` = 'DocumentCategory' AND `enumerations`.`project_id` IS NULL LIMIT 1

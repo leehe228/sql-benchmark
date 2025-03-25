@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE ((lower(email) = 'aaron@example.com' OR lower(alt_email) = 'aaron@example.com') AND suspended_at IS NULL) LIMIT 1

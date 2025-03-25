@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND `spree_products`.`name` = 'Denim Shirt' ORDER BY `spree_products`.`id` ASC LIMIT 1

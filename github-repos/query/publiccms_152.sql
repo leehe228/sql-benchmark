@@ -1,0 +1,1 @@
+select sysroleuse0_.role_id as role_id1_38_, sysroleuse0_.user_id as user_id2_38_ from sys_role_user sysroleuse0_ where sysroleuse0_.user_id=4 limit 2147483647

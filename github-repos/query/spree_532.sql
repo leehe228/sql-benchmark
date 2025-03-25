@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` = 664 AND `spree_orders`.`completed_at` IS NOT NULL LIMIT 2 OFFSET 0

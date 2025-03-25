@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `watchers` WHERE `watchers`.`watchable_type` = 'Issue' AND `watchers`.`watchable_id` IN (1, 4) AND `watchers`.`user_id` = 2 LIMIT 1

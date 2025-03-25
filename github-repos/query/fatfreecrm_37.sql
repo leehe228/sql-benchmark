@@ -1,0 +1,1 @@
+SELECT `addresses`.* FROM `addresses` WHERE `addresses`.`addressable_id` = 352 AND `addresses`.`addressable_type` = 'Lead'

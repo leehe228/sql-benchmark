@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE `contacts`.`person_id` = 1 ORDER BY `contacts`.`id` ASC LIMIT 20

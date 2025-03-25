@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `participations` WHERE `participations`.`target_id` = 2296 AND `participations`.`id` != 348 AND `participations`.`target_type` = 'Post' AND `participations`.`author_id` = 5462 LIMIT 1

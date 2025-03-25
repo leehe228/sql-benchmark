@@ -1,0 +1,1 @@
+SELECT DISTINCT "user_histories"."context" FROM "user_histories" WHERE "user_histories"."action" = 40 AND "user_histories"."context" IN ('locale', 'forum-title', 'introduction', 'privacy', 'contact', 'corporate', 'colors', 'themes-further-reading', 'logos', 'icons', 'homepage', 'emoji', 'invites') ORDER BY "user_histories"."context" ASC

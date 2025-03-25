@@ -1,0 +1,1 @@
+select posttag0_.tag_id as col_0_0_ from post_tags posttag0_ where posttag0_.post_id=14

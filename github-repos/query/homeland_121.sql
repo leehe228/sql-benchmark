@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."type" = $1 AND "users"."id" IS NULL LIMIT $2

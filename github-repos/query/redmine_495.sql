@@ -1,0 +1,1 @@
+SELECT SUM(`time_entries`.`hours`) FROM `time_entries` INNER JOIN `issues` ON `issues`.`id` = `time_entries`.`issue_id` WHERE (issues.fixed_version_id = 687)

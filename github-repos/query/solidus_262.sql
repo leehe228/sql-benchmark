@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`id` = 3

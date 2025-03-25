@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `issues` WHERE `issues`.`project_id` = 1

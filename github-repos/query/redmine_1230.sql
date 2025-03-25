@@ -1,0 +1,1 @@
+SELECT `users`.`id` FROM `users` INNER JOIN `groups_users` ON `users`.`id` = `groups_users`.`user_id` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `groups_users`.`group_id` = 985

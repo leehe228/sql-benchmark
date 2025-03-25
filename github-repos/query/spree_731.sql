@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_product_properties` LEFT OUTER JOIN `spree_properties` ON `spree_properties`.`id` = `spree_product_properties`.`property_id` WHERE `spree_product_properties`.`product_id` = 1063 AND `spree_properties`.`name` LIKE '%size%' ORDER BY `spree_product_properties`.`position` ASC LIMIT 25 OFFSET 0) subquery_for_count

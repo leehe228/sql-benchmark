@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `tags` WHERE (name LIKE 'apipartyt%')

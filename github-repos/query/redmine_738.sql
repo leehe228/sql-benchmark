@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`container_id` = 3 AND `attachments`.`container_type` = 'Issue' AND `attachments`.`id` IN (1, 5) ORDER BY attachments.created_on ASC, attachments.id ASC

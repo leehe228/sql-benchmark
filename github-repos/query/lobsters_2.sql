@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `stories` WHERE `stories`.`short_id` = 'jaghax' LIMIT 1

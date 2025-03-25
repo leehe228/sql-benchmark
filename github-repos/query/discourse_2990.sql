@@ -1,0 +1,1 @@
+SELECT SUM("application_requests"."count") FROM "application_requests" WHERE "application_requests"."req_type" = 5 AND (date >= '2020-02-14 06:21:55.749242' AND date < '2020-03-16 06:21:55.749242')

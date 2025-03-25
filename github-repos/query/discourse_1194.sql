@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15988 AND (posts.user_id = 911 OR post_type IN (1,2,3)) AND (posts.sort_order < NULL) ORDER BY "posts"."sort_order" DESC LIMIT 20 OFFSET 0

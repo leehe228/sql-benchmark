@@ -1,0 +1,1 @@
+SELECT "topic_tags".* FROM "topic_tags" WHERE "topic_tags"."topic_id" = 17852

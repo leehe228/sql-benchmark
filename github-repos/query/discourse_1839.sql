@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, date(users.created_at) AS date_users_created_at FROM "users" WHERE (users.id > 0) AND (NOT EXISTS( SELECT 1 FROM anonymous_users a WHERE a.user_id = users.id )) AND (users.created_at >= '2020-03-25 00:00:00' AND users.created_at <= '2020-04-24 23:59:59.999999') GROUP BY date(users.created_at) ORDER BY date(users.created_at)

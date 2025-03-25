@@ -1,0 +1,1 @@
+select depts0_.role_id as role_id1_17_0_, depts0_.dept_id as dept_id2_17_0_, dept1_.id as id1_1_1_, dept1_.create_time as create_t2_1_1_, dept1_.enabled as enabled3_1_1_, dept1_.name as name4_1_1_, dept1_.pid as pid5_1_1_ from roles_depts depts0_ inner join dept dept1_ on depts0_.dept_id=dept1_.id where depts0_.role_id=1

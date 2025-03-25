@@ -1,0 +1,1 @@
+select additional0_.CUSTOMER_PAYMENT_ID as CUSTOMER1_46_0_, additional0_.FIELD_VALUE as FIELD_VA2_46_0_, additional0_.FIELD_NAME as FIELD_NA3_0_ from BLC_CUSTOMER_PAYMENT_FIELDS additional0_ where additional0_.CUSTOMER_PAYMENT_ID=1

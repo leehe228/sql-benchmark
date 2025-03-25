@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1234 AND `taggings`.`taggable_type` = 'Contact' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)

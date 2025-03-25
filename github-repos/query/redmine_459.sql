@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` WHERE `issues`.`status_id` = 1 LIMIT 1

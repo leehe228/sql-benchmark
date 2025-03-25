@@ -1,0 +1,1 @@
+SELECT id, title, slug FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."id" IN (19601, 19605, 19603)

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `reports` WHERE `reports`.`item_id` IS NULL AND `reports`.`item_type` = 'Post' AND `reports`.`user_id` = 3 LIMIT 1

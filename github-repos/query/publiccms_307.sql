@@ -1,0 +1,1 @@
+select logtask0_.id as id1_18_0_, logtask0_.begintime as begintim2_18_0_, logtask0_.endtime as endtime3_18_0_, logtask0_.result as result4_18_0_, logtask0_.site_id as site_id5_18_0_, logtask0_.success as success6_18_0_, logtask0_.task_id as task_id7_18_0_ from log_task logtask0_ where logtask0_.id=1

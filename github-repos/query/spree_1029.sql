@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` INNER JOIN `spree_line_items` ON `spree_adjustments`.`adjustable_id` = `spree_line_items`.`id` WHERE `spree_line_items`.`order_id` = 1505 AND `spree_adjustments`.`adjustable_type` = 'Spree::LineItem' ORDER BY `spree_line_items`.`created_at` ASC

@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" INNER JOIN "posts" ON "topics"."id" = "posts"."topic_id" WHERE ("topics"."deleted_at" IS NOT NULL) AND ("posts"."deleted_at" IS NOT NULL) AND "posts"."id" = 17595 LIMIT 1

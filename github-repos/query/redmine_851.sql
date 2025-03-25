@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`parent_id` IS NULL AND `issues`.`id` = 3161 LIMIT 1

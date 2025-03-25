@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE "categories"."topic_featured_link_allowed" = TRUE

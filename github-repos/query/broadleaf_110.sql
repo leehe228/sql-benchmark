@@ -1,0 +1,1 @@
+select count(featuredpr0_.FEATURED_PRODUCT_ID) as col_0_0_ from BLC_PRODUCT_FEATURED featuredpr0_ cross join BLC_PRODUCT productimp1_ where featuredpr0_.PRODUCT_ID=productimp1_.PRODUCT_ID and featuredpr0_.CATEGORY_ID=2001 and (productimp1_.ARCHIVED='N' or productimp1_.ARCHIVED is null)

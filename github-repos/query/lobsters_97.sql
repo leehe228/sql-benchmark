@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`author_user_id` = 82

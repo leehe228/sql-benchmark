@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_taxons` WHERE `spree_taxons`.`name` LIKE '%taxon_7%'

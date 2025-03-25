@@ -1,0 +1,1 @@
+SELECT "application_requests"."id" FROM "application_requests" WHERE "application_requests"."date" = '2020-03-27' AND "application_requests"."req_type" = 0 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" LEFT OUTER JOIN "topic_invites" ON "topic_invites"."topic_id" = "topics"."id" LEFT OUTER JOIN (SELECT * FROM "invites") AS "sub" ON "sub"."id" = "topic_invites"."invite_id"

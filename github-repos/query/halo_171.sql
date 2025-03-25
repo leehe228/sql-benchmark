@@ -1,0 +1,1 @@
+select link0_.id as id1_4_, link0_.create_time as create_t2_4_, link0_.deleted as deleted3_4_, link0_.update_time as update_t4_4_, link0_.description as descript5_4_, link0_.logo as logo6_4_, link0_.name as name7_4_, link0_.priority as priority8_4_, link0_.team as team9_4_, link0_.url as url10_4_ from links link0_ order by link0_.priority asc

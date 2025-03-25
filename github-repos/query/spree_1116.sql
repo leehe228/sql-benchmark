@@ -1,0 +1,1 @@
+SELECT `spree_option_types`.* FROM `spree_option_types` WHERE `spree_option_types`.`name` = 'color' AND `spree_option_types`.`presentation` = 'Color' AND `spree_option_types`.`position` = 1 ORDER BY `spree_option_types`.`position` ASC LIMIT 1

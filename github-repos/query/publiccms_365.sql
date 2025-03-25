@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_tag cmstag0_ where cmstag0_.site_id=1 and cmstag0_.type_id=1 and (cmstag0_.name like 'tag1%')

@@ -1,0 +1,1 @@
+SELECT "post_revisions".* FROM "post_revisions" WHERE "post_revisions"."post_id" = 16414 AND "post_revisions"."number" = 1 LIMIT 1

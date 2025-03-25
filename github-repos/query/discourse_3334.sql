@@ -1,0 +1,1 @@
+SELECT "uploads"."url" FROM "uploads"

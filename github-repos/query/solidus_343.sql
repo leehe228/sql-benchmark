@@ -1,0 +1,1 @@
+SELECT `spree_store_credit_events`.* FROM `spree_store_credit_events` WHERE `spree_store_credit_events`.`deleted_at` IS NULL AND `spree_store_credit_events`.`store_credit_id` = 182 AND `spree_store_credit_events`.`action` = 'capture' AND `spree_store_credit_events`.`authorization_code` = '1-SC-20141111111111' LIMIT 1

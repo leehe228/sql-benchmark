@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `notification_actors` ON `people`.`id` = `notification_actors`.`person_id` WHERE `notification_actors`.`notification_id` = 389

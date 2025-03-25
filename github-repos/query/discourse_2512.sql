@@ -1,0 +1,1 @@
+SELECT "uploads"."url", "uploads"."etag" FROM "uploads" WHERE (uploads.id > 0) ORDER BY "uploads"."url" ASC

@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE (uploads.extension IS NOT NULL) ORDER BY "uploads"."id" ASC LIMIT 1000

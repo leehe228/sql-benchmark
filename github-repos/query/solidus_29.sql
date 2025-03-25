@@ -1,0 +1,1 @@
+SELECT `spree_credit_cards`.* FROM `spree_credit_cards` WHERE `spree_credit_cards`.`gateway_customer_profile_id` = 'BGS-443013' ORDER BY `spree_credit_cards`.`id` ASC LIMIT 1

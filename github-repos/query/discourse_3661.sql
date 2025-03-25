@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."type" = 'ReviewableQueuedPost' AND "reviewables"."status" = 0 AND "reviewables"."created_by_id" = 6225 AND "reviewables"."topic_id" = 18513 ORDER BY "reviewables"."created_at" ASC

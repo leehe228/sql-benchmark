@@ -1,0 +1,1 @@
+SELECT "posts"."user_id", "posts"."post_type" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15642 AND "posts"."post_number" = 1 ORDER BY "posts"."id" ASC LIMIT 1 FOR UPDATE

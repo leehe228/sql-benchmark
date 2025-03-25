@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`inventory_unit_id` = 55 AND `spree_return_items`.`reception_status` IN ('received', 'given_to_customer') ORDER BY `spree_return_items`.`id` ASC LIMIT 1

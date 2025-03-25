@@ -1,0 +1,1 @@
+SELECT MAX(`issues`.`due_date`) FROM `issues` WHERE `issues`.`fixed_version_id` = 7

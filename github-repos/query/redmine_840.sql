@@ -1,0 +1,1 @@
+SELECT SUM(COALESCE(estimated_hours, 25.0) * 100) FROM `issues` INNER JOIN `issue_statuses` ON `issue_statuses`.`id` = `issues`.`status_id` WHERE `issues`.`fixed_version_id` = 621 AND `issue_statuses`.`is_closed` = TRUE

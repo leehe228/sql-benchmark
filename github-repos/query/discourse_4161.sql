@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = -1 AND 1=0 AND "posts"."deleted_at" IS NOT NULL ORDER BY "posts"."created_at" DESC LIMIT 60 OFFSET 0

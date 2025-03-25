@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" LEFT JOIN posts ON posts.user_id = users.id WHERE "users"."last_posted_at" IS NOT NULL AND "users"."trust_level" = 0 AND "users"."admin" = FALSE AND "users"."moderator" = FALSE AND (posts.user_id IS NULL AND users.last_seen_at < '2020-03-22 06:15:32.343850') LIMIT 1000

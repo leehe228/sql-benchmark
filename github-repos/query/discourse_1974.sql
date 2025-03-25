@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."id" IN (17565, 17568) ORDER BY "posts"."created_at" DESC LIMIT 1

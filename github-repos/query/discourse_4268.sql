@@ -1,0 +1,1 @@
+SELECT "category_users".* FROM "category_users" WHERE "category_users"."category_id" IN (3775, 3774) AND "category_users"."user_id" = 7461

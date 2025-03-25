@@ -1,0 +1,1 @@
+SELECT DISTINCT "tag_users"."user_id" FROM "tag_users" WHERE 1=0 AND "tag_users"."notification_level" = 3

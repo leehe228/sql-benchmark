@@ -1,0 +1,1 @@
+SELECT SUM(`time_entries`.`hours`) FROM `time_entries` WHERE `time_entries`.`user_id` = 2 AND `time_entries`.`spent_on` = '2020-05-15' AND `time_entries`.`id` IS NOT NULL

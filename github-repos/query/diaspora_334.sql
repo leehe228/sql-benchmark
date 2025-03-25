@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` WHERE `likes`.`author_id` = 1 AND `likes`.`target_type` = 'Post' AND `likes`.`target_id` = 418 LIMIT 1

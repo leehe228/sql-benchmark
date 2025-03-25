@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT *, amount*probability FROM `opportunities` WHERE ((`opportunities`.`assigned_to` = 1496) OR ((`opportunities`.`user_id` = 1496) OR (`opportunities`.`access` = 'Public'))) ORDER BY opportunities.name ASC) subquery_for_count

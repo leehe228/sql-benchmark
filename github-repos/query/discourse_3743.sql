@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."staged" = FALSE AND "users"."username_lower" = 'participant_1' LIMIT 1

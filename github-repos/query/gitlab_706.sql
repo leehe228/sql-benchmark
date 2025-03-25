@@ -1,0 +1,1 @@
+SELECT COUNT("zoom_meetings"."id") FROM "zoom_meetings" WHERE "zoom_meetings"."issue_status" = $1 AND "zoom_meetings"."id" BETWEEN $2 AND $3 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

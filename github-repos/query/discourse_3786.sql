@@ -1,0 +1,1 @@
+SELECT "tags"."id" FROM "tags" WHERE (lower(tags.name) IN ('category-25')) LIMIT 1

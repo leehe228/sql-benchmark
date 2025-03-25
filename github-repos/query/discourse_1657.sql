@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."id" = 1336 ORDER BY "users"."id" ASC LIMIT 1

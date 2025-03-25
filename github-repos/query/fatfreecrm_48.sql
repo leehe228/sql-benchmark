@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `leads` WHERE `leads`.`assigned_to` = 33 LIMIT 1

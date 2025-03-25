@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_line_items` WHERE `spree_line_items`.`order_id` = 287

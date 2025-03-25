@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `photos` WHERE `photos`.`status_message_guid` = '632d30906b4401384b7908e9fe568a11' LIMIT 1

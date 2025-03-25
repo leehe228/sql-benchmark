@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.`id` FROM `spree_stock_locations` INNER JOIN `spree_user_stock_locations` ON `spree_stock_locations`.`id` = `spree_user_stock_locations`.`stock_location_id` WHERE `spree_user_stock_locations`.`user_id` = 785

@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE (NOT categories.read_restricted) ORDER BY "categories"."position" ASC, "categories"."id" ASC

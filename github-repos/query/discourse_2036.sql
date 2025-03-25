@@ -1,0 +1,1 @@
+SELECT "incoming_domains".* FROM "incoming_domains" WHERE "incoming_domains"."name" = 'twitter.com' AND "incoming_domains"."https" = FALSE AND "incoming_domains"."port" = 80 LIMIT 1

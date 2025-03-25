@@ -1,0 +1,1 @@
+SELECT "color_schemes".* FROM "color_schemes" WHERE "color_schemes"."id" = 311 LIMIT 1

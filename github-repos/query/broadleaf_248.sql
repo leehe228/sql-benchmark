@@ -1,0 +1,1 @@
+select count(customerad0_.CUSTOMER_ADDRESS_ID) as col_0_0_ from BLC_CUSTOMER_ADDRESS customerad0_ where (customerad0_.CUSTOMER_ID in (100)) and (customerad0_.ARCHIVED='N' or customerad0_.ARCHIVED is null)

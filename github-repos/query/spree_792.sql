@@ -1,0 +1,1 @@
+SELECT `spree_calculators`.* FROM `spree_calculators` WHERE `spree_calculators`.`deleted_at` IS NULL ORDER BY `spree_calculators`.`id` ASC LIMIT 1

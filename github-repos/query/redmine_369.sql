@@ -1,0 +1,1 @@
+SELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1

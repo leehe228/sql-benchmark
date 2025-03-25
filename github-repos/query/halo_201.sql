@@ -1,0 +1,1 @@
+select journal0_.id as id1_3_, journal0_.create_time as create_t2_3_, journal0_.deleted as deleted3_3_, journal0_.update_time as update_t4_3_, journal0_.content as content5_3_, journal0_.likes as likes6_3_, journal0_.type as type7_3_ from journals journal0_ where journal0_.content like '%1%' order by journal0_.create_time desc limit 10

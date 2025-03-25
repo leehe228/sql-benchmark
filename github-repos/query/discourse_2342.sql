@@ -1,0 +1,1 @@
+SELECT "users"."id", "users"."username_lower", "user_emails"."email" FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE (username_lower IN ('bruce2768','bruce2777@wayne.com','doesnt_exist') OR lower(user_emails.email) IN ('bruce2768','bruce2777@wayne.com','doesnt_exist'))

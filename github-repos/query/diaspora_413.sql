@@ -1,0 +1,1 @@
+SELECT `poll_answers`.* FROM `poll_answers` WHERE `poll_answers`.`id` = -1 LIMIT 1

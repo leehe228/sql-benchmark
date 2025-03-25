@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_dictionary cmsdiction0_ where cmsdiction0_.site_id=1

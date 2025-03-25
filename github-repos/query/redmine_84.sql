@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE `custom_fields`.`visible` = TRUE AND `custom_fields`.`is_filter` = TRUE

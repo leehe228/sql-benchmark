@@ -1,0 +1,1 @@
+SELECT `projects`.`id` FROM `projects` INNER JOIN `custom_fields_projects` ON `projects`.`id` = `custom_fields_projects`.`project_id` WHERE `custom_fields_projects`.`custom_field_id` = 1

@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') ORDER BY `users`.`id` ASC LIMIT 1

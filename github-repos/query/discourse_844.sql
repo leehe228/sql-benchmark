@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "email_logs" WHERE (created_at > '2020-03-25 06:15:22.004080') AND "email_logs"."user_id" = 735

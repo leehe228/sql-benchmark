@@ -1,0 +1,1 @@
+SELECT `enabled_modules`.* FROM `enabled_modules` WHERE `enabled_modules`.`project_id` = 1

@@ -1,0 +1,1 @@
+SELECT "topic_links".* FROM "topic_links" WHERE "topic_links"."topic_id" = 17281 AND "topic_links"."post_id" IS NULL AND "topic_links"."url" = 'http://test.localhost:5678/t/unique-topic-name/17279' LIMIT 1

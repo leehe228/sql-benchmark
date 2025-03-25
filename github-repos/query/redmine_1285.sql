@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `members` WHERE `members`.`user_id` IS NULL AND `members`.`project_id` = 1 LIMIT 1

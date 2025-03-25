@@ -1,0 +1,1 @@
+SELECT "users"."id", "users"."username", "users"."locale" FROM "users" WHERE "users"."username_lower" IN ('username1', 'username2', 'username3')

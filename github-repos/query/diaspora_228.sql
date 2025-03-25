@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `aspects` INNER JOIN `aspect_memberships` ON `aspects`.`id` = `aspect_memberships`.`aspect_id` WHERE `aspect_memberships`.`contact_id` = 1032

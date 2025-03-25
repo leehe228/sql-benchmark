@@ -1,0 +1,1 @@
+select count(categoryex0_.CAT_EXCL_SEARCH_FACET_ID) as col_0_0_ from BLC_CAT_SEARCH_FACET_EXCL_XREF categoryex0_ cross join BLC_SEARCH_FACET searchface1_ where categoryex0_.SEARCH_FACET_ID=searchface1_.SEARCH_FACET_ID and categoryex0_.CATEGORY_ID=2001 and (searchface1_.ARCHIVED='N' or searchface1_.ARCHIVED is null)

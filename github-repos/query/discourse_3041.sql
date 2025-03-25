@@ -1,0 +1,1 @@
+SELECT "user_auth_tokens".* FROM "user_auth_tokens" WHERE "user_auth_tokens"."id" = 6289 LIMIT 1

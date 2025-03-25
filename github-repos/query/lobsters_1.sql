@@ -1,0 +1,1 @@
+SELECT `keystores`.* FROM `keystores` WHERE `keystores`.`key` = 'user:172:stories_submitted' LIMIT 1

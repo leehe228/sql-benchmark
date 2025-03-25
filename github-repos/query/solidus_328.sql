@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`completed_at` IS NOT NULL ORDER BY `spree_orders`.`completed_at` DESC LIMIT 15 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT "groups"."default_notification_level" FROM "groups" LEFT OUTER JOIN group_users gu ON gu.group_id = groups.id AND gu.user_id = 416 LEFT OUTER JOIN topic_allowed_groups tag ON tag.topic_id = 15757 WHERE (gu.id IS NOT NULL AND tag.id IS NOT NULL)

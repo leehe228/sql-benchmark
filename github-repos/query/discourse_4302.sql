@@ -1,0 +1,1 @@
+SELECT "tags"."id", "tags"."target_tag_id" FROM "tags" WHERE "tags"."id" IN (1932, 1930)

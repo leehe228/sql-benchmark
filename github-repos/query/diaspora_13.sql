@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`diaspora_handle` = 'bob@localhost:9887' LIMIT 1

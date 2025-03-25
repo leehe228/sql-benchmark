@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE (custom_fields.visible = TRUE OR custom_fields.id IN (SELECT DISTINCT cfr.custom_field_id FROM members m INNER JOIN member_roles mr ON mr.member_id = m.id INNER JOIN custom_fields_roles cfr ON cfr.role_id = mr.role_id WHERE m.user_id = 3)) AND `custom_fields`.`is_filter` = TRUE

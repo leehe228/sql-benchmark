@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `workflows` WHERE `workflows`.`type` IN ('WorkflowTransition') AND (old_status_id = 1 OR new_status_id = 1) LIMIT 1

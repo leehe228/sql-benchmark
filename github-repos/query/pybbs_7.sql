@@ -1,0 +1,1 @@
+SELECT id,`key`,`value`,description,pid,`type`,`option`,`reboot` FROM system_config WHERE `key` = 'redis_host'

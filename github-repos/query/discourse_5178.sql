@@ -1,0 +1,1 @@
+SELECT DISTINCT "child_themes"."child_theme_id" FROM "child_themes" WHERE "child_themes"."parent_theme_id" = 1050 

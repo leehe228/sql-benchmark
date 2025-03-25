@@ -1,0 +1,1 @@
+select menu0_.id as id1_6_, menu0_.create_time as create_t2_6_, menu0_.deleted as deleted3_6_, menu0_.update_time as update_t4_6_, menu0_.icon as icon5_6_, menu0_.name as name6_6_, menu0_.parent_id as parent_i7_6_, menu0_.priority as priority8_6_, menu0_.target as target9_6_, menu0_.team as team10_6_, menu0_.url as url11_6_ from menus menu0_ order by menu0_.priority desc

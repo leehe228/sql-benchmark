@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` WHERE `refinery_pages`.`lft` <= 5 AND `refinery_pages`.`rgt` >= 6 AND `refinery_pages`.`parent_id` IS NULL ORDER BY `refinery_pages`.`lft` ASC LIMIT 1

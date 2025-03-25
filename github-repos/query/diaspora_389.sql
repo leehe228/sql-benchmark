@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`conversation_id` = 48 ORDER BY created_at ASC

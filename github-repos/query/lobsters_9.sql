@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`id` = 56 LIMIT 1

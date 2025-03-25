@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` LIMIT 10 OFFSET 0

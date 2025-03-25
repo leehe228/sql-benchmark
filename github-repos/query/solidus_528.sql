@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` = 1068 AND `spree_orders`.`store_id` = 851 AND `spree_orders`.`completed_at` IS NULL AND (id != 758)

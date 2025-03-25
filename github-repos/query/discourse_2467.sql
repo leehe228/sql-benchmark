@@ -1,0 +1,1 @@
+SELECT "groups"."title" FROM "groups" WHERE "groups"."id" = 2708 LIMIT 1

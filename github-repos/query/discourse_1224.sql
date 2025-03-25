@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE "posts"."topic_id" = 15986 AND (posts.user_id = 915 OR post_type IN (1,2,3,4)) AND (posts.sort_order >= 3) ORDER BY "posts"."sort_order" ASC LIMIT 2

@@ -1,0 +1,1 @@
+select menuimpl0_.MENU_ID as MENU_ID1_32_, menuimpl0_.NAME as NAME2_32_ from BLC_CMS_MENU menuimpl0_ where menuimpl0_.NAME='Header Nav'

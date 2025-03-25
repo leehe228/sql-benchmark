@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tags` WHERE `tags`.`tag` = 'modified_tag' AND `tags`.`id` != 1 LIMIT 1

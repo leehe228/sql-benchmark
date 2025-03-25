@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` WHERE `queries`.`type` IN ('TimeEntryQuery') ORDER BY `queries`.`id` DESC LIMIT 1

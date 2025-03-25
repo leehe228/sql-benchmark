@@ -1,0 +1,1 @@
+SELECT `refinery_page_part_translations`.* FROM `refinery_page_part_translations` WHERE `refinery_page_part_translations`.`refinery_page_part_id` = 44

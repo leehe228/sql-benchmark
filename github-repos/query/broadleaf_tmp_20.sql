@@ -1,0 +1,1 @@
+select customerro0_.CUSTOMER_ROLE_ID as CUSTOMER1_48_, customerro0_.CUSTOMER_ID as CUSTOMER2_48_, customerro0_.ROLE_ID as ROLE_ID3_48_ from BLC_CUSTOMER_ROLE customerro0_ where customerro0_.CUSTOMER_ID=?

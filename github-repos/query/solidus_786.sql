@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` WHERE `spree_states`.`name` = 'Uhuhuh' AND `spree_states`.`country_id` = 468 ORDER BY `spree_states`.`id` ASC LIMIT 1

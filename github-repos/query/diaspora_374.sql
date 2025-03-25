@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `poll_answers` WHERE `poll_answers`.`poll_id` = 51

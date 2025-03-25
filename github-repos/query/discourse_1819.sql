@@ -1,0 +1,1 @@
+SELECT DISTINCT "posts"."id" FROM "posts" LEFT OUTER JOIN "post_details" ON "post_details"."post_id" = "posts"."id" WHERE ("posts"."deleted_at" IS NOT NULL) AND "post_details"."key" = 'key0' AND "post_details"."value" = 'test value' LIMIT 1

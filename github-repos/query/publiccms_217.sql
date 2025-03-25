@@ -1,0 +1,1 @@
+select sysmodulel0_.lang as lang1_34_0_, sysmodulel0_.module_id as module_i2_34_0_, sysmodulel0_.value as value3_34_0_ from sys_module_lang sysmodulel0_ where sysmodulel0_.lang='en' and sysmodulel0_.module_id='myself_device_find'

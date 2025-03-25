@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `messages` WHERE `messages`.`conversation_id` = 12

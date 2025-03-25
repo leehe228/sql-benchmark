@@ -1,0 +1,1 @@
+SELECT `tag_filters`.* FROM `tag_filters` WHERE `tag_filters`.`user_id` = 56

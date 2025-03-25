@@ -1,0 +1,1 @@
+SELECT SUM(CASE WHEN users.moderator OR users.admin THEN 3 ELSE 1 END) FROM "post_actions" INNER JOIN "users" ON "users"."id" = "post_actions"."user_id" WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."post_id" = 16406

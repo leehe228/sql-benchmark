@@ -1,0 +1,1 @@
+SELECT "group_histories".* FROM "group_histories" WHERE "group_histories"."group_id" = 2576 ORDER BY group_histories.created_at DESC LIMIT 25 OFFSET 0

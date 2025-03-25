@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE (recipient_id = 842 AND created_at >= '2020-04-30') AND (created_at < '2021-04-29T10:11:48.000Z') ORDER BY created_at DESC LIMIT 15

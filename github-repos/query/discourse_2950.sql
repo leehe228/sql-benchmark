@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE "categories"."slug" = 'amazing-category-329' AND "categories"."parent_category_id" IS NULL LIMIT 1

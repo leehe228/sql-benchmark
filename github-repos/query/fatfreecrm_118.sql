@@ -1,0 +1,1 @@
+SELECT `emails`.* FROM `emails` WHERE `emails`.`mediator_id` = 42 AND `emails`.`mediator_type` = 'Lead'

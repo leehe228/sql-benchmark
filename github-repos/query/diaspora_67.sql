@@ -1,0 +1,1 @@
+SELECT `tag_followings`.`id` FROM `tag_followings` WHERE `tag_followings`.`user_id` = 1465

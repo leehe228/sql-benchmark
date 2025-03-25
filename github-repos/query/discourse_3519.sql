@@ -1,0 +1,1 @@
+SELECT "groups"."name" FROM "groups" WHERE "groups"."name" = 'bruce5944'

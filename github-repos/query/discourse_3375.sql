@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."category_id" = 3614 AND "topics"."id" IS NOT NULL ORDER BY created_at ASC LIMIT 1

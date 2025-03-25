@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `trackers` INNER JOIN `projects_trackers` ON `trackers`.`id` = `projects_trackers`.`tracker_id` WHERE `projects_trackers`.`project_id` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `custom_fields` WHERE `custom_fields`.`name` = 'Custom field 15' AND `custom_fields`.`type` = 'IssueCustomField' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "watched_words" WHERE "watched_words"."action" = 3

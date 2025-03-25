@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND `users`.`admin` = TRUE

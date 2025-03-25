@@ -1,0 +1,1 @@
+SELECT `items`.* FROM `spree_stock_items` items WHERE `items`.`deleted_at` IS NULL AND `items`.`stock_location_id` = 23 AND `items`.`id` IN ( SELECT i.`id` FROM `spree_stock_items` i LEFT OUTER JOIN `spree_stock_locations` ON `spree_stock_locations`.`id` = i.`stock_location_id` WHERE `spree_stock_locations`.`active` = TRUE ) LIMIT 25 OFFSET 0

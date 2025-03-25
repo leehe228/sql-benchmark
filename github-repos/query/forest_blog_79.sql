@@ -1,0 +1,1 @@
+SELECT notice_id, notice_title, notice_content, notice_create_time, notice_update_time, notice_status, notice_order FROM notice WHERE notice_status=1 ORDER BY notice_status ASC, notice_order DESC, notice_id ASC

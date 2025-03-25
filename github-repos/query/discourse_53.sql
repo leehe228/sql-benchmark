@@ -1,0 +1,1 @@
+SELECT "email_tokens".* FROM "email_tokens" WHERE "email_tokens"."user_id" = 11 AND "email_tokens"."email" = 'iceking@adventuretime.ooo' AND "email_tokens"."confirmed" = TRUE

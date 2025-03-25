@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "events"."author_id") FROM "events" WHERE "events"."created_at" BETWEEN $1 AND $2 AND "events"."author_id" BETWEEN $3 AND $4 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

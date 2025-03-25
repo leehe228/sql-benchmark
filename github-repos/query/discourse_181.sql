@@ -1,0 +1,1 @@
+SELECT "tag_users"."user_id" FROM "tag_users" INNER JOIN "tags" ON "tag_users"."tag_id" = "tags"."id" INNER JOIN "topic_tags" ON "tags"."id" = "topic_tags"."tag_id" WHERE "topic_tags"."topic_id" = 15596 AND "tag_users"."notification_level" = 4

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `notifications` WHERE `notifications`.`recipient_id` = 1 AND `notifications`.`type` = 'Notifications::StartedSharing'

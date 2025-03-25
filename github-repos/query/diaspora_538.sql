@@ -1,0 +1,1 @@
+SELECT `o_embed_caches`.* FROM `o_embed_caches` WHERE `o_embed_caches`.`id` = 5 LIMIT 1

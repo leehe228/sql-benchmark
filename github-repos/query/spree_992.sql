@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 1352 AND `spree_adjustments`.`eligible` = TRUE

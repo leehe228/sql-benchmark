@@ -1,0 +1,1 @@
+select ID_VAL from SEQUENCE_GENERATOR where ID_NAME = 'SkuBundleItemImpl'

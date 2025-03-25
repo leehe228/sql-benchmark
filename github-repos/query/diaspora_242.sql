@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` WHERE `likes`.`target_id` = 797 AND `likes`.`target_type` = 'Post' AND `likes`.`positive` = TRUE ORDER BY author_id = 1 DESC LIMIT 30

@@ -1,0 +1,1 @@
+SELECT `spree_payment_methods`.* FROM `spree_payment_methods` WHERE (1 = 1) AND (`spree_payment_methods`.`position` IS NOT NULL) ORDER BY `spree_payment_methods`.`position` DESC LIMIT 1

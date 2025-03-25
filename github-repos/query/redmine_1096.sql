@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE (`users`.`id` IN (2, 3) OR `users`.`id` IS NULL)

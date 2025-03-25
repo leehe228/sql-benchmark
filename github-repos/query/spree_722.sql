@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` WHERE `spree_properties`.`id` IN (4, 3)

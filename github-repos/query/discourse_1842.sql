@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "post_actions" WHERE "post_actions"."post_action_type_id" = 2

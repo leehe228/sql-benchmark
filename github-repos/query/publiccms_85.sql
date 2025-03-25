@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_app sysapp0_ where sysapp0_.site_id=1

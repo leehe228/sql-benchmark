@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`author_id` = 1 AND `posts`.`public` = TRUE AND (created_at < '2020-04-29T10:11:40.544Z') ORDER BY created_at DESC LIMIT 2

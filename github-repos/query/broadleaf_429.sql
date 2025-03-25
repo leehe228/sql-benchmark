@@ -1,0 +1,1 @@
+select additional0_.PAYMENT_TRANSACTION_ID as PAYMENT_1_177_0_, additional0_.FIELD_VALUE as FIELD_VA2_177_0_, additional0_.FIELD_NAME as FIELD_NA3_0_ from BLC_TRANS_ADDITNL_FIELDS additional0_ where additional0_.PAYMENT_TRANSACTION_ID in (1, 2)

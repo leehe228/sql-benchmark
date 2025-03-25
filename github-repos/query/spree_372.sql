@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.`id` FROM `spree_taxons` WHERE `spree_taxons`.`lft` >= 2 AND `spree_taxons`.`lft` < 3 ORDER BY `spree_taxons`.`lft` ASC

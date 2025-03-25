@@ -1,0 +1,1 @@
+select phoneimpl0_.PHONE_ID as PHONE_ID1_118_0_, phoneimpl0_.COUNTRY_CODE as COUNTRY_2_118_0_, phoneimpl0_.EXTENSION as EXTENSIO3_118_0_, phoneimpl0_.IS_ACTIVE as IS_ACTIV4_118_0_, phoneimpl0_.IS_DEFAULT as IS_DEFAU5_118_0_, phoneimpl0_.PHONE_NUMBER as PHONE_NU6_118_0_ from BLC_PHONE phoneimpl0_ where phoneimpl0_.PHONE_ID=9

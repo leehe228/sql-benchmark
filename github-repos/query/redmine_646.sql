@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `member_roles` WHERE `member_roles`.`member_id` = 1 LIMIT 1

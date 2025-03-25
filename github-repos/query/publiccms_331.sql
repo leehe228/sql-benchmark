@@ -1,0 +1,1 @@
+select sysapptoke0_.auth_token as auth_tok1_22_0_, sysapptoke0_.app_id as app_id2_22_0_, sysapptoke0_.create_date as create_d3_22_0_, sysapptoke0_.expiry_date as expiry_d4_22_0_ from sys_app_token sysapptoke0_ where sysapptoke0_.auth_token='3bfc7c7a-4925-4cc9-b810-3193acec1845'

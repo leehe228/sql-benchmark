@@ -1,0 +1,1 @@
+SELECT "developers"."user_id" FROM "developers"

@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`parent_id` = 1 ORDER BY messages.created_on ASC, messages.id ASC LIMIT 25 OFFSET 0

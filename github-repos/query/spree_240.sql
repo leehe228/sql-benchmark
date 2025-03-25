@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` ORDER BY `spree_states`.`name` ASC

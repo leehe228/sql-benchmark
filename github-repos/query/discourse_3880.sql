@@ -1,0 +1,1 @@
+SELECT "user_api_keys".* FROM "user_api_keys" WHERE "user_api_keys"."key" = 'f7627af3f2143cb94c29fd9651938de2' LIMIT 1

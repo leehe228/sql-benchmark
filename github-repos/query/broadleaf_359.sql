@@ -1,0 +1,1 @@
+select countrysub0_.COUNTRY_SUB_CAT_ID as COUNTRY_1_37_0_, countrysub0_.CREATED_BY as CREATED_2_37_0_, countrysub0_.DATE_CREATED as DATE_CRE3_37_0_, countrysub0_.DATE_UPDATED as DATE_UPD4_37_0_, countrysub0_.UPDATED_BY as UPDATED_5_37_0_, countrysub0_.NAME as NAME6_37_0_ from BLC_COUNTRY_SUB_CAT countrysub0_ where countrysub0_.COUNTRY_SUB_CAT_ID=79

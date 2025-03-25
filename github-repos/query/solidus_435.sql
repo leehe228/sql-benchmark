@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`lft` <= 10 AND `spree_taxons`.`rgt` >= 11 AND `spree_taxons`.`parent_id` IS NULL ORDER BY `spree_taxons`.`lft` ASC LIMIT 1

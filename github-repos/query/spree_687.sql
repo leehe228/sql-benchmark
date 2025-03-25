@@ -1,0 +1,1 @@
+SELECT `spree_product_option_types`.* FROM `spree_product_option_types` WHERE `spree_product_option_types`.`option_type_id` = 123

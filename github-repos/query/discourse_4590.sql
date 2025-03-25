@@ -1,0 +1,1 @@
+SELECT "reviewable_histories".* FROM "reviewable_histories" WHERE "reviewable_histories"."reviewable_id" IN (1952, 1951)

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "anonymous_users" ON "users"."id" = "anonymous_users"."master_user_id" WHERE "anonymous_users"."user_id" = 6012 LIMIT 1

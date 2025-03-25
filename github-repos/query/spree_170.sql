@@ -1,0 +1,1 @@
+SELECT `spree_prices`.* FROM `spree_prices` WHERE `spree_prices`.`variant_id` = 60 AND `spree_prices`.`currency` = 'USD' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `taggings`.`tag_id` AS taggings_tag_id FROM `taggings` INNER JOIN `tags` ON `tags`.`id` = `taggings`.`tag_id` GROUP BY `taggings`.`tag_id` ORDER BY count(taggings.id) DESC LIMIT 50

@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` INNER JOIN likes as l2 ON (likes.target_id = l2.target_id AND likes.target_type = l2.target_type AND likes.author_id=4573 AND l2.author_id=4589)

@@ -1,0 +1,1 @@
+SELECT SUM(`spree_tax_rates`.`amount`) FROM `spree_tax_rates` WHERE `spree_tax_rates`.`deleted_at` IS NULL AND `spree_tax_rates`.`zone_id` IN (783, 785) AND `spree_tax_rates`.`included_in_price` = TRUE AND `spree_tax_rates`.`tax_category_id` = 1037

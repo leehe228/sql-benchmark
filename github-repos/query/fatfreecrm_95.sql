@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `tasks` WHERE ((user_id = 1621 AND assigned_to IS NULL) OR assigned_to = 1621) AND (due_at IS NULL AND bucket = 'due_asap') AND (completed_at IS NULL)

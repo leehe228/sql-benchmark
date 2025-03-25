@@ -1,0 +1,1 @@
+SELECT `spree_shipping_method_stock_locations`.* FROM `spree_shipping_method_stock_locations` WHERE `spree_shipping_method_stock_locations`.`stock_location_id` = 404

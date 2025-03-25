@@ -1,0 +1,1 @@
+SELECT "email_logs".* FROM "email_logs" WHERE "email_logs"."message_id" = '12345@il.com' AND "email_logs"."to_address" = 'em@il.com' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT category_id FROM article_category_ref WHERE article_id = 33

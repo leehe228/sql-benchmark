@@ -1,0 +1,1 @@
+select count(log0_.id) as col_0_0_ from log log0_ where (log0_.username like '%127%' or log0_.description like '%127%' or log0_.address like '%127%' or log0_.request_ip like '%127%' or log0_.method like '%127%' or log0_.params like '%127%') and log0_.log_type='INFO'

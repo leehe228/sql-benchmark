@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`status` = 1 AND (projects.id IN (SELECT em.project_id FROM enabled_modules em WHERE em.name='repository')) AND `projects`.`id` = 1 LIMIT 1

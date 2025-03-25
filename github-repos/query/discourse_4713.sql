@@ -1,0 +1,1 @@
+SELECT "child_themes".* FROM "child_themes" WHERE (parent_theme_id = 1227)

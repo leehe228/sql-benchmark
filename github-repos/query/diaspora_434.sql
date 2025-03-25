@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` WHERE `likes`.`author_id` = 1 AND `likes`.`target_id` IN (661, 660, 659, 658, 657, 656, 655, 654, 653, 652, 651, 650, 649, 648, 647) AND `likes`.`target_type` = 'Post'

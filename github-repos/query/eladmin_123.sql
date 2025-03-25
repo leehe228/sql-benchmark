@@ -1,0 +1,1 @@
+select count(quartzlog0_.id) as col_0_0_ from quartz_log quartzlog0_ where quartzlog0_.job_name like '%d%'

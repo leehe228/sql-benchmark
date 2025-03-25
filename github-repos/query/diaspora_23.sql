@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`id` = 849 LIMIT 1

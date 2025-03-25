@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT comments.id) FROM `comments` LEFT OUTER JOIN `users` ON `users`.`id` = `comments`.`user_id` LEFT OUTER JOIN `stories` ON `stories`.`id` = `comments`.`story_id` WHERE `comments`.`is_deleted` = FALSE AND `comments`.`is_moderated` = FALSE AND `comments`.`story_id` = 67

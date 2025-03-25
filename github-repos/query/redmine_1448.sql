@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND `users`.`admin` = TRUE AND (id <> 1) LIMIT 1

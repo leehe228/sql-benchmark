@@ -1,0 +1,1 @@
+SELECT id,title,content,in_time,modify_time,user_id,comment_count,collect_count,view,top,good,up_ids FROM topic WHERE title = 'd'

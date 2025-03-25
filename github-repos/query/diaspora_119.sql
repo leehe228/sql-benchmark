@@ -1,0 +1,1 @@
+SELECT `o_auth_access_tokens`.* FROM `o_auth_access_tokens` WHERE (expires_at >= '2020-04-28 06:08:27.587246') AND `o_auth_access_tokens`.`token` = 'a4a84171f117ca1aa16d3a9520408208044658a08e7ae2697cc8eb1a18ccb6e8' LIMIT 1

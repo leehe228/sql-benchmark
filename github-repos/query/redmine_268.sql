@@ -1,0 +1,1 @@
+SELECT `custom_values`.* FROM `custom_values` WHERE `custom_values`.`customized_type` = 'Issue' AND `custom_values`.`customized_id` IN (1, 4)

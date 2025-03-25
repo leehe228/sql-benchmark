@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."type" = 'ReviewableUser' AND "reviewables"."target_id" IS NULL ORDER BY score desc, created_at desc

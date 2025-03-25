@@ -1,0 +1,1 @@
+SELECT dict_type_id,code,name,description,system_flag,status,sort,create_time,create_user,update_time,update_user FROM sys_dict_type ORDER BY sort ASC LIMIT 0,10

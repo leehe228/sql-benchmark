@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`number` = 'R123456789' AND `spree_orders`.`email` = 'spree@example.com' ORDER BY `spree_orders`.`id` ASC LIMIT 1

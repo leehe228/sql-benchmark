@@ -1,0 +1,1 @@
+SELECT `auth_sources`.* FROM `auth_sources` LIMIT 25 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count, created_at::date AS date FROM "search_logs" WHERE (lower(term) = 'ruby' AND created_at > '1020-03-20') AND (search_type = 1) GROUP BY date ORDER BY date

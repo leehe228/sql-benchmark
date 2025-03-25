@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.* FROM `spree_stock_locations` WHERE `spree_stock_locations`.`default` = TRUE AND `spree_stock_locations`.`id` != 645

@@ -1,0 +1,1 @@
+SELECT tags.name FROM "tag_users" INNER JOIN "tags" ON "tags"."id" = "tag_users"."tag_id" WHERE "tag_users"."user_id" IS NULL AND "tag_users"."notification_level" = 3

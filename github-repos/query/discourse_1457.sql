@@ -1,0 +1,1 @@
+SELECT posts.id FROM "posts" join topics on topics.id = topic_id WHERE ("posts"."deleted_at" IS NOT NULL) AND (NOT hidden) AND (topics.category_id = 1) ORDER BY posts.created_at desc LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "post_actions".* FROM "post_actions"

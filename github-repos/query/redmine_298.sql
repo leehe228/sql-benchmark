@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` WHERE `issue_statuses`.`id` IN (2, 5)

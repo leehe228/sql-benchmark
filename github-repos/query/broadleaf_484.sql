@@ -1,0 +1,1 @@
+select cartmessag0_.ORDER_ITEM_ID as ORDER_IT1_100_0_, cartmessag0_.CART_MESSAGE as CART_MES2_100_0_ from BLC_ORDER_ITEM_CART_MESSAGE cartmessag0_ where cartmessag0_.ORDER_ITEM_ID=2

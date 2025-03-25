@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" JOIN user_actions AS a ON (a.target_post_id = posts.id AND a.action_type = 7) WHERE (a.user_id = 89) ORDER BY "posts"."id" ASC LIMIT 1000

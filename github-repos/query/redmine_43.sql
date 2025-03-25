@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`parent_id` = 3133 ORDER BY `issues`.`lft` ASC

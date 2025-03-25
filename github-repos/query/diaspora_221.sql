@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`author_id` = 1 AND (photos.created_at < '2020-04-28 06:04:25.129172') AND `photos`.`pending` = FALSE ORDER BY photos.created_at DESC, created_at DESC

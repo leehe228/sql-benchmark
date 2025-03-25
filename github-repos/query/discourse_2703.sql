@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "email_tokens" ON "email_tokens"."user_id" = "users"."id" WHERE "users"."active" = FALSE AND "users"."staged" = TRUE AND (email_tokens.email = 'test@reply') ORDER BY "users"."id" ASC LIMIT 1

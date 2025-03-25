@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `campaigns`.`status` AS campaigns_status FROM `campaigns` WHERE ((`campaigns`.`assigned_to` = 369) OR ((`campaigns`.`user_id` = 369) OR (`campaigns`.`access` = 'Public'))) AND `campaigns`.`status` IN ('planned', 'started', 'completed', 'on_hold', 'called_off') GROUP BY `campaigns`.`status`

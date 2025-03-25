@@ -1,0 +1,1 @@
+SELECT "user_actions".* FROM "user_actions" WHERE "user_actions"."target_post_id" IN (19995, 19994)

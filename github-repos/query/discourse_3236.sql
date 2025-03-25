@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_actions" WHERE "user_actions"."user_id" = 5519 AND "user_actions"."action_type" = 2 AND (created_at > '2019-12-17 06:22:49.181791')

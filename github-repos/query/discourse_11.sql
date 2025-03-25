@@ -1,0 +1,1 @@
+SELECT "topic_invites"."topic_id" FROM "topic_invites" WHERE "topic_invites"."invite_id" = 1294

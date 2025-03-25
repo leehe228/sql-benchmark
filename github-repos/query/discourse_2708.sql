@@ -1,0 +1,1 @@
+SELECT "posts"."user_id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."id" = 18804

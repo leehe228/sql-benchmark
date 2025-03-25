@@ -1,0 +1,1 @@
+SELECT `o_auth_applications`.`id` FROM `o_auth_applications` INNER JOIN `authorizations` ON `o_auth_applications`.`id` = `authorizations`.`o_auth_application_id` WHERE `authorizations`.`user_id` = 1465

@@ -1,0 +1,1 @@
+SELECT "spam_logs".* FROM "spam_logs" WHERE "spam_logs"."user_id" = $1 /*application:test,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

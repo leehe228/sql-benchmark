@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE ("invites"."deleted_at" IS NOT NULL) AND "invites"."invite_key" = 'eaeecca6702036e53d6cf922fe92727d' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `contacts` ON `contacts`.`person_id` = `people`.`id` WHERE `contacts`.`user_id` = 1231 AND (people.owner_id IS NULL)

@@ -1,0 +1,1 @@
+SELECT DISTINCT "category_users"."user_id" FROM "category_users" WHERE 1=0 AND "category_users"."notification_level" = 3

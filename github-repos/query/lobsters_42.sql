@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `messages` WHERE `messages`.`recipient_user_id` = 106 AND `messages`.`has_been_read` = FALSE AND `messages`.`deleted_by_recipient` = FALSE

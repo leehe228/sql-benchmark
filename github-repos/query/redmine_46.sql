@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('AnonymousUser') AND `users`.`lastname` = 'Anonymous' LIMIT 1

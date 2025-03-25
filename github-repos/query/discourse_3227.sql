@@ -1,0 +1,1 @@
+SELECT "user_profiles".* FROM "user_profiles" WHERE (bio_cooked_version IS NULL OR bio_cooked_version < 1) LIMIT 250

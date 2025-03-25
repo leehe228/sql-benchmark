@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 999999999 AND `posts`.`public` = TRUE ORDER BY `posts`.`id` ASC LIMIT 1

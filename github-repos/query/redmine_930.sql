@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE `custom_fields`.`type` = 'IssueCustomField' AND `custom_fields`.`searchable` = TRUE

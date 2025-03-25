@@ -1,0 +1,1 @@
+SELECT MAX(`import_items`.`position`) FROM `import_items` WHERE `import_items`.`import_id` = 172

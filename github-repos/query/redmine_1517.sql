@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`subject` = 'This is the test_new issue' LIMIT 1

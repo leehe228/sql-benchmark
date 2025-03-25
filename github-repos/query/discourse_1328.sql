@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND (created_at > '2020-03-19 06:16:05.361987')

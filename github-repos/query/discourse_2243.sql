@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, email_tokens.email AS email_tokens_email FROM "users" INNER JOIN "email_tokens" ON "email_tokens"."user_id" = "users"."id" WHERE "users"."active" = FALSE AND "users"."staged" = TRUE GROUP BY email_tokens.email HAVING (COUNT(email_tokens.email) > 1)

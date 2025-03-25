@@ -1,0 +1,1 @@
+SELECT `spree_prices`.* FROM `spree_prices` WHERE `spree_prices`.`currency` = 'USD' AND `spree_prices`.`country_iso` IS NULL AND `spree_prices`.`variant_id` = 535 ORDER BY country_iso IS NULL, `spree_prices`.`updated_at` DESC, `spree_prices`.`id` DESC

@@ -1,0 +1,1 @@
+SELECT `spree_promotions`.`code` FROM `spree_promotions` INNER JOIN `spree_order_promotions` ON `spree_promotions`.`id` = `spree_order_promotions`.`promotion_id` WHERE `spree_order_promotions`.`order_id` = 1354

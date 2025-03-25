@@ -1,0 +1,1 @@
+SELECT id,topic_id,user_id,content,in_time,comment_id,up_ids FROM comment WHERE id=1

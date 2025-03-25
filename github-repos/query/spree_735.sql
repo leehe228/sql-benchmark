@@ -1,0 +1,1 @@
+SELECT `spree_product_properties`.* FROM `spree_product_properties` WHERE `spree_product_properties`.`id` = 21 LIMIT 1

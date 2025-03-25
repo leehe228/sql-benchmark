@@ -1,0 +1,1 @@
+SELECT `spree_store_credits`.* FROM `spree_store_credits` WHERE `spree_store_credits`.`deleted_at` IS NULL ORDER BY `spree_store_credits`.`id` DESC LIMIT 1

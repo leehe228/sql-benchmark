@@ -1,0 +1,1 @@
+SELECT `tag_followings`.* FROM `tag_followings` INNER JOIN tag_followings as t2 ON (tag_followings.tag_id = t2.tag_id AND tag_followings.user_id=1553 AND t2.user_id=1554)

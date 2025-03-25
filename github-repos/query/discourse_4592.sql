@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE "reviewables"."status" IN (1, 2, 3, 4) AND "reviewables"."type" = 'ReviewableUser'

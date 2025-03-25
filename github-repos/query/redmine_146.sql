@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enabled_modules` WHERE `enabled_modules`.`name` = 'issue_tracking' AND `enabled_modules`.`project_id` IS NULL LIMIT 1

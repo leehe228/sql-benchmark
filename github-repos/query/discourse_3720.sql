@@ -1,0 +1,1 @@
+SELECT "group_users".* FROM "group_users" WHERE "group_users"."user_id" IN (-1, 6358)

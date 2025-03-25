@@ -1,0 +1,1 @@
+select count(sheetcomme0_.id) as col_0_0_ from comments sheetcomme0_ where sheetcomme0_.type=1 and sheetcomme0_.status=0

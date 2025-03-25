@@ -1,0 +1,1 @@
+SELECT DISTINCT `projects`.* FROM `projects` LEFT JOIN projects child ON projects.lft <= child.lft AND projects.rgt >= child.rgt WHERE (projects.status <> 9) AND (child.id IN (1957)) ORDER BY projects.lft ASC

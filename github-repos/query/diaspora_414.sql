@@ -1,0 +1,1 @@
+SELECT `conversations`.* FROM `conversations` INNER JOIN `conversation_visibilities` ON `conversations`.`id` = `conversation_visibilities`.`conversation_id` INNER JOIN `people` ON `conversation_visibilities`.`person_id` = `people`.`id` WHERE `people`.`owner_id` = 1 AND `conversations`.`id` = -1 ORDER BY `conversations`.`id` ASC LIMIT 1

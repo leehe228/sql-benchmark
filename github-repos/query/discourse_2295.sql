@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."secure" = TRUE ORDER BY "uploads"."id" ASC LIMIT 20

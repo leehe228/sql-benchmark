@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `participations` WHERE `participations`.`guid` = 'ddcd6d906c3001384b8408e9fe568a11' AND `participations`.`author_id` = 5252 LIMIT 1

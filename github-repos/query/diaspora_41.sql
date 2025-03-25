@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `notifications` WHERE `notifications`.`type` IN ('Notifications::MentionedInComment') AND `notifications`.`target_type` = 'Mention' AND `notifications`.`target_id` IN (SELECT `mentions`.`id` FROM `mentions` WHERE `mentions`.`mentions_container_id` = 591 AND `mentions`.`mentions_container_type` = 'Comment' AND `mentions`.`person_id` = 1) LIMIT 1

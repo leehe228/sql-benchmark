@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `projects` WHERE (projects.status <> 9) AND ((projects.parent_id IN ('1')))

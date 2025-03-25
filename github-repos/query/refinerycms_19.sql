@@ -1,0 +1,1 @@
+SELECT `refinery_resources`.* FROM `refinery_resources` ORDER BY updated_at DESC LIMIT 20 OFFSET 0

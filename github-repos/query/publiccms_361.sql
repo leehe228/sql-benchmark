@@ -1,0 +1,1 @@
+select cmscategor0_.category_id as category1_2_, cmscategor0_.model_id as model_id2_2_, cmscategor0_.template_path as template3_2_ from cms_category_model cmscategor0_ where cmscategor0_.category_id=6 order by cmscategor0_.category_id, cmscategor0_.model_id desc

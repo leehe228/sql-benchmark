@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `email_addresses`

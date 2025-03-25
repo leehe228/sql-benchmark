@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE (id != 2821) ORDER BY first_name, last_name, email

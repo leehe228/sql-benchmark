@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "merge_requests"."author_id") FROM "merge_requests" WHERE "merge_requests"."created_at" BETWEEN $1 AND $2 AND "merge_requests"."author_id" BETWEEN $3 AND $4 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

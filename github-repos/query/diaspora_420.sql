@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` INNER JOIN posts ON (commentable_type = 'Post' AND posts.id = commentable_id) WHERE `comments`.`author_id` != 2882 AND (posts.author_id = 2882) ORDER BY `comments`.`id` ASC LIMIT 20

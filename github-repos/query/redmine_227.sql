@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND `enumerations`.`active` = TRUE LIMIT 1

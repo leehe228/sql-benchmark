@@ -1,0 +1,1 @@
+select categoryse0_.CATEGORY_SEARCH_FACET_ID as CATEGORY1_23_, categoryse0_.CATEGORY_ID as CATEGORY3_23_, categoryse0_.SEARCH_FACET_ID as SEARCH_F4_23_, categoryse0_.SEQUENCE as SEQUENCE2_23_ from BLC_CAT_SEARCH_FACET_XREF categoryse0_ where categoryse0_.CATEGORY_ID=2001 order by coalesce(categoryse0_.SEQUENCE, 9223372036854775807) desc limit 1

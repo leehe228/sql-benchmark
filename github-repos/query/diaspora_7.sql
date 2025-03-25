@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1

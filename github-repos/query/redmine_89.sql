@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND `enumerations`.`id` IN (5, 4) ORDER BY `enumerations`.`position` ASC

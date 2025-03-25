@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_content cmscontent0_ where cmscontent0_.site_id=1 and cmscontent0_.category_id=19 and (cmscontent0_.parent_id is null) and cmscontent0_.disabled=0 and cmscontent0_.user_id=1 and (cmscontent0_.title like '%This is a post for testing.%') and cmscontent0_.publish_date>'2019-10-07 00:00:00.0'

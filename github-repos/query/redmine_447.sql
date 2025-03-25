@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` INNER JOIN `projects` ON `projects`.`id` = `versions`.`project_id` WHERE (projects.status <> 9 AND versions.sharing = 'system')

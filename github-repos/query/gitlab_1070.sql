@@ -1,0 +1,1 @@
+SELECT "user_statuses".* FROM "user_statuses" WHERE "user_statuses"."user_id" = $1 LIMIT $2 /*application:test,controller:applications,action:index,correlation_id:b9055a1a2d73b0b126217607f275b2ad*/

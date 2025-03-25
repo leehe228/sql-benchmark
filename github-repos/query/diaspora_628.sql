@@ -1,0 +1,1 @@
+SELECT `posts`.`id` FROM `posts` INNER JOIN `comments` ON `comments`.`commentable_id` = `posts`.`id` AND `comments`.`commentable_type` = 'Post' WHERE `posts`.`type` IN ('StatusMessage') AND `comments`.`author_id` = 10 GROUP BY posts.id 

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_return_authorizations` WHERE `spree_return_authorizations`.`order_id` = 89 LIMIT 1 OFFSET 0) subquery_for_count

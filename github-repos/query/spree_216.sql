@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` WHERE `spree_inventory_units`.`order_id` = 13 LIMIT 3

@@ -1,0 +1,1 @@
+SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'locale' AND `preferences`.`user_id` IS NULL LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."active" = TRUE AND "users"."staged" = FALSE AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:16:54.426728') AND "users"."username_lower" = 'under_sc' LIMIT 20

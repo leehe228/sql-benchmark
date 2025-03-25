@@ -1,0 +1,1 @@
+SELECT DISTINCT `users`.`id` FROM `users` INNER JOIN `members` ON `members`.`user_id` = `users`.`id` WHERE `users`.`status` = 1 AND ( members.project_id IN (1, 3, 4, 6) )

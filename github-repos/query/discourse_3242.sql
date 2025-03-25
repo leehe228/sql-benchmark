@@ -1,0 +1,1 @@
+SELECT "screened_urls".* FROM "screened_urls" WHERE "screened_urls"."url" = 'spamspot.com/buy/it' LIMIT 1

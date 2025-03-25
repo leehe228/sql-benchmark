@@ -1,0 +1,1 @@
+SELECT "groups"."id" FROM "groups" INNER JOIN "category_groups" ON "groups"."id" = "category_groups"."group_id" WHERE "category_groups"."category_id" = 3086

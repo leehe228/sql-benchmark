@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` WHERE `spree_states`.`country_id` = 1132 ORDER BY `spree_states`.`name` ASC

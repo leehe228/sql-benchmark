@@ -1,0 +1,1 @@
+SELECT "group_users".* FROM "group_users" WHERE "group_users"."user_id" = 154 ORDER BY "group_users"."group_id" ASC

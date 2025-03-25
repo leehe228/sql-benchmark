@@ -1,0 +1,1 @@
+SELECT "post_action_types"."score_bonus" FROM "post_action_types" WHERE "post_action_types"."id" = 7

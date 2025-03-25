@@ -1,0 +1,1 @@
+SELECT "invited_groups"."group_id" FROM "invited_groups" WHERE "invited_groups"."invite_id" = 1339

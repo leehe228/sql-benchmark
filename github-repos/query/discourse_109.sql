@@ -1,0 +1,1 @@
+SELECT "permalinks".* FROM "permalinks" WHERE "permalinks"."url" = 'c/amazing-category-0' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(count_column) FROM (SELECT type, id, name, login, email, email_md5, email_public, avatar, state, tagline, github, website, location, location_id, twitter, team_users_count, created_at, updated_at AS count_column FROM "users" WHERE "users"."location_id" = 1 AND "users"."type" IS NOT NULL ORDER BY "users"."replies_count" DESC LIMIT 25 OFFSET 0) subquery_for_count

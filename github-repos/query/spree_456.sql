@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` LIMIT 1 OFFSET 0

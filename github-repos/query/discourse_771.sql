@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE (users.id > 0) AND (NOT EXISTS( SELECT 1 FROM anonymous_users a WHERE a.user_id = users.id )) AND "users"."active" = TRUE AND "users"."staged" = FALSE AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:15:04.099067') AND (created_at > '2020-02-26')

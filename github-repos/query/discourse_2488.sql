@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "posts" INNER JOIN reviewables r ON posts.id = r.target_id WHERE "posts"."user_id" = 3700 AND "r"."status" = 2 AND "r"."type" = 'ReviewableQueuedPost'

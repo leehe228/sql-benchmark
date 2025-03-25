@@ -1,0 +1,1 @@
+SELECT "badge_groupings".* FROM "badge_groupings" WHERE "badge_groupings"."id" = 5

@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` INNER JOIN `account_contacts` ON `accounts`.`id` = `account_contacts`.`account_id` WHERE `account_contacts`.`contact_id` = 1234 LIMIT 1

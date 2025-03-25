@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` INNER JOIN `projects` ON `projects`.`id` = `issues`.`project_id` WHERE (issues.created_on BETWEEN '2020-04-14' AND '2020-05-14') AND (((projects.id = 1 OR (projects.lft > 1 AND projects.rgt < 10))) AND (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='issue_tracking')))

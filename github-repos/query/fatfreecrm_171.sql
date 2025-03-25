@@ -1,0 +1,1 @@
+SELECT `leads`.* FROM `leads` WHERE `leads`.`campaign_id` = 42 ORDER BY id DESC LIMIT 20 OFFSET 0

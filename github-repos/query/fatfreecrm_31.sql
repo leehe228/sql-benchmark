@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `versions` WHERE `versions`.`whodunnit` = '3075' AND `versions`.`item_type` IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity') LIMIT 1 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT "single_sign_on_records".* FROM "single_sign_on_records" WHERE "single_sign_on_records"."user_id" IN (-1, 6358)

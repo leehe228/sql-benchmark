@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_site syssite0_ where syssite0_.disabled=0 and (syssite0_.parent_id is null)

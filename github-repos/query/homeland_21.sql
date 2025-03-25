@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE ((lower(login) = 'login36' OR lower(email) = 'login36') and state != -1) ORDER BY "users"."id" ASC LIMIT $1

@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_option_values_variants`.`option_value_id` FROM `spree_option_values_variants` INNER JOIN `spree_variants` ON `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`id` = `spree_option_values_variants`.`variant_id` WHERE `spree_variants`.`product_id` = 897

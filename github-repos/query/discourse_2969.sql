@@ -1,0 +1,1 @@
+SELECT "topic_timers"."topic_id" FROM "topic_timers" WHERE ("topic_timers"."deleted_at" IS NOT NULL) AND "topic_timers"."status_type" = 6 AND "topic_timers"."deleted_at" IS NOT NULL

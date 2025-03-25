@@ -1,0 +1,1 @@
+SELECT "post_search_data"."raw_data" FROM "post_search_data" WHERE "post_search_data"."post_id" = 99

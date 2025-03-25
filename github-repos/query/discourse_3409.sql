@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."active" = TRUE AND "users"."staged" = FALSE AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:23:09.331424') AND (users.id IN (SELECT p.user_id FROM posts p WHERE topic_id = 18426)) ORDER BY last_seen_at DESC LIMIT 20

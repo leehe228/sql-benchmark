@@ -1,0 +1,1 @@
+SELECT "plugin_store_rows".* FROM "plugin_store_rows" WHERE "plugin_store_rows"."plugin_name" = 'my_plugin' AND "plugin_store_rows"."key" = 'hello'

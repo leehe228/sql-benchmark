@@ -1,0 +1,1 @@
+SELECT `refinery_resource_translations`.* FROM `refinery_resource_translations` WHERE `refinery_resource_translations`.`refinery_resource_id` = 5

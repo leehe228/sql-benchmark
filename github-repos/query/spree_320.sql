@@ -1,0 +1,1 @@
+SELECT `spree_promotion_rule_users`.* FROM `spree_promotion_rule_users` WHERE `spree_promotion_rule_users`.`user_id` = 2

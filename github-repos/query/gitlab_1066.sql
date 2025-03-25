@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."id" = $1 /*application:test,controller:applications,action:index,correlation_id:b9055a1a2d73b0b126217607f275b2ad*/

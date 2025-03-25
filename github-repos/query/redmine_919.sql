@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`board_id` = 3 ORDER BY messages.created_on DESC

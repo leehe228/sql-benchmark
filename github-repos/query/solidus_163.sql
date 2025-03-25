@@ -1,0 +1,1 @@
+SELECT `spree_stores`.* FROM `spree_stores` WHERE `spree_stores`.`id` = 245 LIMIT 1

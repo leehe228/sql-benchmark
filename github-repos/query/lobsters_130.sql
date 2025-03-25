@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`password_reset_token` = '1589643560-U9o8uihpb79VKViE2kiQXZWvfkmt06' ORDER BY `users`.`id` ASC LIMIT 1

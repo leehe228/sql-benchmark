@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "posts" INNER JOIN "topics" ON "topics"."id" = "posts"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE ("posts"."deleted_at" IS NOT NULL) AND (topics.category_id = 1) AND (topics.visible = true) AND (posts.deleted_at IS NOT NULL) AND (posts.user_deleted = false) AND (posts.created_at > '2019-03-26 06:21:48.092556')

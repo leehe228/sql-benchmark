@@ -1,0 +1,1 @@
+SELECT SUM("application_requests"."count") FROM "application_requests" WHERE "application_requests"."req_type" = 5

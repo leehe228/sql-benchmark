@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `users` WHERE `users`.`type` IN ('Group', 'GroupBuiltin', 'GroupAnonymous', 'GroupNonMember') AND (LOWER(users.login) LIKE LOWER('%cli%') OR users.id IN (SELECT user_id FROM email_addresses WHERE LOWER(address) LIKE LOWER('%cli%')) OR ((LOWER(users.firstname) LIKE LOWER('%cli%') OR LOWER(users.lastname) LIKE LOWER('%cli%'))))

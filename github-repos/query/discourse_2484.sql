@@ -1,0 +1,1 @@
+SELECT "topic_links".* FROM "topic_links" WHERE "topic_links"."user_id" = 3690 AND "topic_links"."post_id" NOT IN (18551, 18552)

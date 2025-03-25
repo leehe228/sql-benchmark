@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` INNER JOIN `people` ON `people`.`owner_id` = `users`.`id` INNER JOIN `profiles` ON `profiles`.`person_id` = `people`.`id` WHERE `profiles`.`birthday` > '2007-04-29'

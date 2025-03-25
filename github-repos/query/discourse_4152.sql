@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 18908 AND "posts"."post_type" IN (1, 2, 3) AND (created_at >= '2020-03-26 00:00:00') ORDER BY created_at ASC LIMIT 1

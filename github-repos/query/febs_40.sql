@@ -1,0 +1,1 @@
+SELECT JOB_ID, bean_name, method_name, params, cron_expression, status, remark, create_time FROM t_job WHERE JOB_ID = 12

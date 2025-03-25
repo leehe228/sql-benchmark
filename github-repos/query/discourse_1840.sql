@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE (users.id > 0) AND (NOT EXISTS( SELECT 1 FROM anonymous_users a WHERE a.user_id = users.id )) AND (created_at >= '2020-02-24 00:00:00' and created_at < '2020-03-25 00:00:00')

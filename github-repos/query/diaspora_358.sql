@@ -1,0 +1,1 @@
+SELECT `conversation_visibilities`.* FROM `conversation_visibilities` WHERE `conversation_visibilities`.`conversation_id` = 196 AND `conversation_visibilities`.`person_id` = 1 AND (unread > 0) ORDER BY `conversation_visibilities`.`id` ASC LIMIT 1

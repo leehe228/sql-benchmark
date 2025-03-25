@@ -1,0 +1,1 @@
+SELECT "users"."username" FROM "users" WHERE (length(username) > 10) LIMIT 1

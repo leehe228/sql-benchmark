@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('Reshare') AND `posts`.`author_id` = 1 AND `posts`.`root_guid` = '88227fc06b4401384b7908e9fe568a11' ORDER BY `posts`.`id` ASC LIMIT 1

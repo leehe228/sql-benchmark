@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.`number` FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 1520

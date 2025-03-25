@@ -1,0 +1,1 @@
+SELECT `refinery_crud_dummies`.* FROM `refinery_crud_dummies` ORDER BY `refinery_crud_dummies`.`rgt` DESC LIMIT 1

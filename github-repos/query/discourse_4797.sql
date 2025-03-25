@@ -1,0 +1,1 @@
+SELECT "tag_groups"."name" FROM "tag_groups" WHERE (( id IN (SELECT tag_group_id FROM category_tag_groups WHERE category_id IN (1,3846,3847)) OR id NOT IN (SELECT tag_group_id FROM category_tag_groups) ) AND id IN (SELECT tag_group_id FROM tag_group_permissions WHERE group_id = 0) )

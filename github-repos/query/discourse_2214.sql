@@ -1,0 +1,1 @@
+SELECT "topic_users"."user_id", "topic_users"."notification_level" FROM "topic_users" WHERE "topic_users"."topic_id" = 17126 AND "topic_users"."user_id" = 2112

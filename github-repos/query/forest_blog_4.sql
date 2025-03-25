@@ -1,0 +1,1 @@
+SELECT SUM(article_comment_count) FROM article WHERE article_status = 1

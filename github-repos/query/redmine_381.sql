@@ -1,0 +1,1 @@
+SELECT MIN(`issues`.`start_date`) FROM `issues` WHERE `issues`.`fixed_version_id` IN (1, 2, 3, 7, 4, 6)

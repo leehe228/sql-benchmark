@@ -1,0 +1,1 @@
+SELECT "groups"."id" FROM "groups" WHERE (name ilike 'like_a_boss' OR (id = 0 AND id > 0)) LIMIT 1

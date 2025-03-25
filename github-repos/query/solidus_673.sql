@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`email` = 'sam@tom.com' AND `spree_orders`.`completed_at` IS NOT NULL ORDER BY `spree_orders`.`id` ASC LIMIT 1

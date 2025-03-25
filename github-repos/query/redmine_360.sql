@@ -1,0 +1,1 @@
+SELECT `tokens`.* FROM `tokens` WHERE `tokens`.`id` = 1143 LIMIT 1

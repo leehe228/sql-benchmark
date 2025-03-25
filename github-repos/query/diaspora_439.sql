@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`author_id` = 1464 ORDER BY `comments`.`id` ASC LIMIT 20

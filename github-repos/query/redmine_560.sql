@@ -1,0 +1,1 @@
+SELECT `journal_details`.* FROM `journal_details` WHERE `journal_details`.`journal_id` = 751 AND `journal_details`.`id` = 719 LIMIT 1

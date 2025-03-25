@@ -1,0 +1,1 @@
+SELECT MAX("posts"."post_number") FROM "posts" WHERE "posts"."topic_id" = 16699 AND (posts.user_id = 2113 OR post_type IN (1,2,3,4))

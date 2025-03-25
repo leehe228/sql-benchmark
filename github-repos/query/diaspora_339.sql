@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('Reshare') AND `posts`.`root_guid` = '0f558be06c3101384b8408e9fe568a11'

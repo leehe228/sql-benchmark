@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`author_id` = 1919 AND (created_at < '2021-04-28T06:08:12.000Z') ORDER BY created_at DESC LIMIT 15

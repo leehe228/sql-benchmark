@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`adjustable_id` = 41 AND `spree_adjustments`.`adjustable_type` = 'Spree::Shipment' AND `spree_adjustments`.`included` = FALSE

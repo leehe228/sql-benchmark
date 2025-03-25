@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`id` IN (1, 5) AND (projects.status <> 9)

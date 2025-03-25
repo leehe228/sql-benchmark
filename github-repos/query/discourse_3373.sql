@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."admin" = TRUE AND (users.id > 0) ORDER BY last_seen_at DESC

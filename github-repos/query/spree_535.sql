@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`adjustable_id` = 849 AND `spree_adjustments`.`adjustable_type` = 'Spree::LineItem' AND `spree_adjustments`.`source_type` IN ('Spree::PromotionAction', 'Custom') AND `spree_adjustments`.`eligible` = TRUE ORDER BY amount ASC, created_at DESC, id DESC LIMIT 1

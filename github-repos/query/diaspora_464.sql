@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `posts` WHERE `posts`.`type` IN ('Reshare') AND `posts`.`guid` = 'b57af2b06b4401384b7908e9fe568a11' AND `posts`.`author_id` = 2226 LIMIT 1

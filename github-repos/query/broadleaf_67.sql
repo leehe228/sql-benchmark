@@ -1,0 +1,1 @@
+select count(customerim0_.CUSTOMER_ID) as col_0_0_ from BLC_CUSTOMER customerim0_ where customerim0_.ARCHIVED='N' or customerim0_.ARCHIVED is null

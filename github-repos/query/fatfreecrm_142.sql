@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` WHERE (versions.created_at >= '2020-05-13 02:42:45.676538') ORDER BY created_at DESC LIMIT 500

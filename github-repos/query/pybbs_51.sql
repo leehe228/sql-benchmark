@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM comment c LEFT JOIN topic t ON c.topic_id = t.id LEFT JOIN user u ON u.id = c.user_id

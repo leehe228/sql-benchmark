@@ -1,0 +1,1 @@
+SELECT "users"."username" FROM "users" WHERE "users"."moderator" = TRUE AND (users.id > 0) ORDER BY last_seen_at DESC LIMIT 3

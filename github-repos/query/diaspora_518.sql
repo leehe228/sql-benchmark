@@ -1,0 +1,1 @@
+SELECT `o_auth_applications`.* FROM `o_auth_applications` WHERE `o_auth_applications`.`client_name` = 'Diaspora Test Client decfa2' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` ORDER BY `refinery_pages`.`id` DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE 1=0 AND (LOWER(identifier) LIKE LOWER('%coo%') OR LOWER(name) LIKE LOWER('%coo%'))

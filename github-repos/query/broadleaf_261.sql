@@ -1,0 +1,1 @@
+select count(productopt0_.PRODUCT_OPTION_ID) as col_0_0_ from BLC_PRODUCT_OPTION productopt0_ where 1=1

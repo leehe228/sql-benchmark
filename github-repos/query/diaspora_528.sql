@@ -1,0 +1,1 @@
+SELECT DISTINCT posts.* FROM `posts` INNER JOIN `comments` ON `comments`.`commentable_id` = `posts`.`id` AND `comments`.`commentable_type` = 'Post' WHERE `comments`.`author_id` = 1017 AND (posts.created_at < '2020-04-28 06:05:18') AND `posts`.`type` IN ('StatusMessage', 'Reshare') ORDER BY posts.created_at DESC, posts.id DESC LIMIT 15

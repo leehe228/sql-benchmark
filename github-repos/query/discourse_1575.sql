@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE "posts"."id" = 17099 AND "posts"."topic_id" = 16108 LIMIT 1

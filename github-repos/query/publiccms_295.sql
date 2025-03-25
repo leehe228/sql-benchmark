@@ -1,0 +1,1 @@
+select sysdeptcat0_.category_id as category1_26_, sysdeptcat0_.dept_id as dept_id2_26_ from sys_dept_category sysdeptcat0_ where sysdeptcat0_.dept_id=4 limit 2147483647

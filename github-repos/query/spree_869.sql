@@ -1,0 +1,1 @@
+SELECT `spree_state_changes`.* FROM `spree_state_changes` WHERE `spree_state_changes`.`stateful_id` = 292 AND `spree_state_changes`.`stateful_type` = 'Spree::Shipment' ORDER BY `spree_state_changes`.`id` ASC LIMIT 1

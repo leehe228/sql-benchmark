@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" WHERE "topics"."deleted_at" IS NULL AND "topics"."grade" != $1 AND "topics"."suggested_at" IS NULL

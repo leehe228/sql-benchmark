@@ -1,0 +1,1 @@
+SELECT "post_uploads"."upload_id", "secure" FROM "post_uploads" INNER JOIN "uploads" ON "uploads"."id" = "post_uploads"."upload_id" WHERE "post_uploads"."post_id" = 17345

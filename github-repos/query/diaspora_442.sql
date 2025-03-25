@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `people` INNER JOIN `conversation_visibilities` ON `people`.`id` = `conversation_visibilities`.`person_id` WHERE `conversation_visibilities`.`conversation_id` = 98 AND `people`.`id` = 3 LIMIT 1

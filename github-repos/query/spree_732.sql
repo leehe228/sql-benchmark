@@ -1,0 +1,1 @@
+SELECT `spree_product_properties`.* FROM `spree_product_properties` WHERE `spree_product_properties`.`product_id` = 1064 AND `spree_product_properties`.`id` = NULL ORDER BY `spree_product_properties`.`position` ASC LIMIT 1

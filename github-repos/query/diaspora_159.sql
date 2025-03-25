@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `roles` WHERE `roles`.`name` = 'moderator' AND `roles`.`person_id` = 1 LIMIT 1

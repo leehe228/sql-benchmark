@@ -1,0 +1,1 @@
+select * FROM visits where create_time between '2019-10-18' and '2019-10-25'

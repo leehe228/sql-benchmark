@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (topics.archetype <> 'private_message') AND "topics"."slug" = 'welcome-to-discourse'

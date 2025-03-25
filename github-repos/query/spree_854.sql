@@ -1,0 +1,1 @@
+SELECT `spree_states`.`id` FROM `spree_states` INNER JOIN `spree_zone_members` ON `spree_states`.`id` = `spree_zone_members`.`zoneable_id` WHERE `spree_zone_members`.`zone_id` = 162 AND `spree_zone_members`.`zoneable_type` = 'Spree::State'

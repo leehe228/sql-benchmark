@@ -1,0 +1,1 @@
+SELECT r.role_id as id, r.pid, r.name, ( CASE WHEN (r.pid = 0 OR r.pid IS NULL) THEN 'true' ELSE 'false' END ) as "open", ( CASE WHEN (r1.role_id = 0 OR r1.role_id IS NULL) THEN 'false' ELSE 'true' END ) as "checked" FROM sys_role r LEFT JOIN ( SELECT role_id FROM sys_role WHERE role_id IN ( 1 ) ) r1 ON r.role_id = r1.role_id ORDER BY pid,sort ASC

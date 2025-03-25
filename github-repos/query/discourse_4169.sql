@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."id" IN (20006, 20007) ORDER BY "posts"."id" ASC

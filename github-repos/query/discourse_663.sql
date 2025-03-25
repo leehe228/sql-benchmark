@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" WHERE "themes"."id" = -1 ORDER BY "themes"."id" ASC LIMIT 1

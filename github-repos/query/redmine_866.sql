@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` INNER JOIN `projects` ON `projects`.`id` = `issues`.`project_id` WHERE (projects.lft < 6 OR projects.rgt > 7) AND `issues`.`fixed_version_id` = 4 LIMIT 1

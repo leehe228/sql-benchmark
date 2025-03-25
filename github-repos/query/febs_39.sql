@@ -1,0 +1,1 @@
+SELECT field1, field2, field3, create_time FROM t_eximport LIMIT 10,10

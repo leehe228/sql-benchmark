@@ -1,0 +1,1 @@
+SELECT "user_histories".* FROM "user_histories" WHERE "user_histories"."action" = 40 AND "user_histories"."context" IN ('first', 'second')

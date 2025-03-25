@@ -1,0 +1,1 @@
+SELECT `import_items`.`obj_id` FROM `import_items` WHERE `import_items`.`import_id` = 187 AND (obj_id IS NOT NULL)

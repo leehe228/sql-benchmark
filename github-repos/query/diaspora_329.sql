@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`conversation_id` = 12 ORDER BY created_at ASC LIMIT 15 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` LIMIT 25 OFFSET 0

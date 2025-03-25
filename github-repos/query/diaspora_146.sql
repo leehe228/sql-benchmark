@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `aspects` WHERE LOWER(`aspects`.`name`) = LOWER('Family') AND `aspects`.`user_id` = 526 LIMIT 1

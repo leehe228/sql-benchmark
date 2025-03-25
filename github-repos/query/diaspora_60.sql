@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE `contacts`.`person_id` = 4589 AND `contacts`.`sharing` = TRUE

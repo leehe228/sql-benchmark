@@ -1,0 +1,1 @@
+SELECT "posts"."id", EXTRACT(DAYS FROM CURRENT_TIMESTAMP - created_at)::INT AS days_ago FROM "posts" WHERE "posts"."topic_id" = 16699 AND (posts.user_id = 2113 OR post_type IN (1,2,3,4)) ORDER BY "posts"."sort_order" ASC

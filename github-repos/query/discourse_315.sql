@@ -1,0 +1,1 @@
+SELECT categories.*, t.slug topic_slug FROM "categories" LEFT JOIN topics t on t.id = categories.topic_id WHERE (NOT categories.read_restricted) ORDER BY "categories"."position" ASC

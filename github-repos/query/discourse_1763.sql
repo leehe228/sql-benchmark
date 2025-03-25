@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" INNER JOIN group_users ON group_users.user_id = users.id WHERE "users"."active" = TRUE AND "users"."staged" = FALSE AND (group_users.group_id IN (2624)) AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:16:54.479936') AND "users"."username_lower" = 'sam' LIMIT 20

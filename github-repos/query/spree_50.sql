@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.* FROM `spree_stock_locations` WHERE `spree_stock_locations`.`id` = 86 LIMIT 1

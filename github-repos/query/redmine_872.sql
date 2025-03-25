@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `issues`.`status_id` AS issues_status_id FROM `issues` INNER JOIN `projects` ON `projects`.`id` = `issues`.`project_id` WHERE `issues`.`fixed_version_id` = 588 AND (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='issue_tracking')) GROUP BY `issues`.`status_id`

@@ -1,0 +1,1 @@
+SELECT "stylesheet_cache"."content" FROM "stylesheet_cache" WHERE "stylesheet_cache"."target" = 'desktop_346' ORDER BY id desc LIMIT 1

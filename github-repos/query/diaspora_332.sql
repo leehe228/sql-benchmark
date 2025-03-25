@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `people`.`id`) FROM `people` INNER JOIN `profiles` ON `profiles`.`person_id` = `people`.`id` WHERE `profiles`.`searchable` = TRUE AND ( profiles.full_name LIKE '%unsearchable@example.org%' OR people.diaspora_handle LIKE 'unsearchable@example.org%' ) AND `people`.`closed_account` = FALSE

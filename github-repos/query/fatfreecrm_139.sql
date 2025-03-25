@@ -1,0 +1,1 @@
+SELECT DISTINCT `contacts`.* FROM `contacts` INNER JOIN `account_contacts` ON `contacts`.`id` = `account_contacts`.`contact_id` WHERE `account_contacts`.`account_id` = 42 ORDER BY updated_at desc LIMIT 20 OFFSET 0

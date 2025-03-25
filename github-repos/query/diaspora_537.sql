@@ -1,0 +1,1 @@
+SELECT `open_graph_caches`.* FROM `open_graph_caches` WHERE `open_graph_caches`.`id` = 7 LIMIT 1

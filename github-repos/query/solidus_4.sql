@@ -1,0 +1,1 @@
+SELECT `spree_shipping_categories`.* FROM `spree_shipping_categories` ORDER BY `spree_shipping_categories`.`id` ASC LIMIT 1

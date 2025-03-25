@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issue_statuses` LIMIT 1

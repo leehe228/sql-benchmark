@@ -1,0 +1,1 @@
+SELECT `spree_payment_methods`.* FROM `spree_payment_methods` WHERE `spree_payment_methods`.`deleted_at` IS NULL AND `spree_payment_methods`.`name` = 'Credit Card' AND `spree_payment_methods`.`active` = TRUE ORDER BY `spree_payment_methods`.`id` ASC LIMIT 1

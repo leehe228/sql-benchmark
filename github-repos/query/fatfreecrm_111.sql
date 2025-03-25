@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `campaigns` WHERE ((`campaigns`.`assigned_to` = 410) OR ((`campaigns`.`user_id` = 410) OR (`campaigns`.`access` = 'Public')))

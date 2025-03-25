@@ -1,0 +1,1 @@
+select sysrolemod0_.module_id as module_i1_37_0_, sysrolemod0_.role_id as role_id2_37_0_ from sys_role_module sysrolemod0_ where sysrolemod0_.module_id='myself' and sysrolemod0_.role_id=3

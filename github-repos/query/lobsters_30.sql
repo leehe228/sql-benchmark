@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `comments` WHERE `comments`.`user_id` = 142 AND `comments`.`is_deleted` = TRUE

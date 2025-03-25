@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`email` = 'foo123@example.com' LIMIT 1

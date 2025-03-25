@@ -1,0 +1,1 @@
+SELECT `tokens`.* FROM `tokens` WHERE `tokens`.`action` = 'api' AND `tokens`.`value` = '8cb94bdf26789b6887e5bd0cf8511409ad4b5a4a' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tag_followings` WHERE `tag_followings`.`user_id` = 1 LIMIT 1

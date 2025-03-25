@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tasks` WHERE `tasks`.`assigned_to` IS NULL LIMIT 1

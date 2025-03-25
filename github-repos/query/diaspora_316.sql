@@ -1,0 +1,1 @@
+SELECT `mentions`.`id` FROM `mentions` WHERE `mentions`.`person_id` = 6

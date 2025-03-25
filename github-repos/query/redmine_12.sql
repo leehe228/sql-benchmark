@@ -1,0 +1,1 @@
+SELECT `members`.`user_id`, `role_id`, `members`.`project_id` FROM `members` INNER JOIN `projects` ON `projects`.`id` = `members`.`project_id` INNER JOIN `member_roles` ON `member_roles`.`member_id` = `members`.`id` WHERE (projects.status <> 9) AND (members.user_id = 2 OR (projects.is_public = TRUE AND members.user_id = 12))

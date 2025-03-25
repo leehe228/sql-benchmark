@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" WHERE (tags.id NOT IN (SELECT tag_id FROM tag_group_memberships)) AND (tags.topic_count > 0)

@@ -1,0 +1,1 @@
+SELECT `fields`.* FROM `fields` WHERE `fields`.`field_group_id` = 1066 AND `fields`.`pair_id` IS NULL ORDER BY `fields`.`position` ASC

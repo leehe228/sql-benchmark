@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_adjustments` INNER JOIN `spree_shipments` ON `spree_adjustments`.`adjustable_id` = `spree_shipments`.`id` WHERE `spree_shipments`.`order_id` = 96 AND `spree_adjustments`.`adjustable_type` = 'Spree::Shipment'

@@ -1,0 +1,1 @@
+SELECT `spree_zone_members`.`zoneable_type` FROM `spree_zone_members` WHERE `spree_zone_members`.`zone_id` = 14 AND `spree_zone_members`.`zoneable_type` IS NOT NULL ORDER BY created_at ASC

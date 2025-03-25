@@ -1,0 +1,1 @@
+select count(adminpermi0_.ADMIN_PERMISSION_ID) as col_0_0_ from BLC_ADMIN_PERMISSION adminpermi0_ where adminpermi0_.IS_FRIENDLY=1

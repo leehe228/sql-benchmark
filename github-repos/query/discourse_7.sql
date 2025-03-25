@@ -1,0 +1,1 @@
+SELECT "custom_emojis".* FROM "custom_emojis" ORDER BY "custom_emojis"."name" ASC

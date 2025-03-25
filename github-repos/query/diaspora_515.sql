@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` WHERE `aspects`.`user_id` = 187 ORDER BY order_id ASC LIMIT 15 OFFSET 0

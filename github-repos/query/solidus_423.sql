@@ -1,0 +1,1 @@
+SELECT `spree_adjustment_reasons`.* FROM `spree_adjustment_reasons` WHERE `spree_adjustment_reasons`.`active` = TRUE

@@ -1,0 +1,1 @@
+select role0_.id as id1_16_, role0_.create_time as create_t2_16_, role0_.data_scope as data_sco3_16_, role0_.level as level4_16_, role0_.name as name5_16_, role0_.remark as remark6_16_ from role role0_ where role0_.name like '%d%' or role0_.remark like '%d%' order by role0_.level asc limit 10

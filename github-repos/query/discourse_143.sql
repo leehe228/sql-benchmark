@@ -1,0 +1,1 @@
+SELECT "category_users"."notification_level" FROM "category_users" WHERE "category_users"."user_id" = 97 AND (category_id IN (SELECT category_id FROM topics WHERE id = 15595)) AND (notification_level IN (3,2)) ORDER BY notification_level DESC LIMIT 1

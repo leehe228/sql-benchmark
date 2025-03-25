@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`guid` = 'e11760d06b4401384b7a08e9fe568a11' LIMIT 1

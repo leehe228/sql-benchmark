@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "email_logs" WHERE (created_at >= '2016-12-31 00:00:00' and created_at < '2017-01-30 00:00:00')

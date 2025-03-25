@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE (users.id > 0) AND (moderator or admin )

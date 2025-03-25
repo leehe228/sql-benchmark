@@ -1,0 +1,1 @@
+select cmsword0_.id as id1_15_0_, cmsword0_.create_date as create_d2_15_0_, cmsword0_.hidden as hidden3_15_0_, cmsword0_.name as name4_15_0_, cmsword0_.search_count as search_c5_15_0_, cmsword0_.site_id as site_id6_15_0_ from cms_word cmsword0_ where cmsword0_.id=1

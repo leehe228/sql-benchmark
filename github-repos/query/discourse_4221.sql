@@ -1,0 +1,1 @@
+SELECT "users"."id", "users"."username", "users"."uploaded_avatar_id" FROM "users" WHERE "users"."username" IN ('amy', 'bob')

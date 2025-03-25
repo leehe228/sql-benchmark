@@ -1,0 +1,1 @@
+select downloads0_.spring_tools_platform_id as spring_t1_8_0_, downloads0_.download_url as download2_8_0_, downloads0_.label as label3_8_0_, downloads0_.variant as variant4_8_0_ from spring_tools_platform_downloads downloads0_ where downloads0_.spring_tools_platform_id='acme-platform'

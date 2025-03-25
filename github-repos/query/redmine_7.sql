@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND `enumerations`.`is_default` = TRUE ORDER BY `enumerations`.`position` ASC LIMIT 1

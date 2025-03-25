@@ -1,0 +1,1 @@
+SELECT `repositories`.* FROM `repositories` WHERE `repositories`.`id` = 10

@@ -1,0 +1,1 @@
+SELECT `posts`.`guid` FROM `posts` INNER JOIN `participations` ON `participations`.`target_id` = `posts`.`id` AND `participations`.`target_type` = 'Post' WHERE `participations`.`author_id` = 5060

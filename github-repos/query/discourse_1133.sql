@@ -1,0 +1,1 @@
+SELECT "api_keys".* FROM "api_keys" WHERE (revoked_at IS NOT NULL) AND "api_keys"."key_hash" = '9dc8e0253a94a47e160ffa0e49d2299ea05860da72a2d3a6eb06cf14cac7345c' ORDER BY "api_keys"."id" ASC LIMIT 1

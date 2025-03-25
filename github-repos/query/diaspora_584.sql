@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, DATE(created_at) AS date_created_at FROM `posts` WHERE (created_at >= '2020-04-08') GROUP BY DATE(created_at) ORDER BY DATE(created_at) ASC

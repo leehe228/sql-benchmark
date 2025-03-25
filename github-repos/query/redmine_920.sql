@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`parent_id` = 7 ORDER BY messages.created_on ASC

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `comments` WHERE `comments`.`user_id` IS NULL LIMIT 1

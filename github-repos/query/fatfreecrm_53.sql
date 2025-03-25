@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `opportunities` WHERE (user_id = 33) LIMIT 1

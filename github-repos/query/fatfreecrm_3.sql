@@ -1,0 +1,1 @@
+SELECT `permissions`.`asset_type`, `permissions`.`asset_id` FROM `permissions` WHERE `permissions`.`user_id` = 2939 AND `permissions`.`asset_type` IN ('Account', 'Campaign', 'Contact', 'Lead', 'Opportunity')

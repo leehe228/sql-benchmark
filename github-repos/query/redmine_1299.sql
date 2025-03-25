@@ -1,0 +1,1 @@
+SELECT `boards`.* FROM `boards` WHERE `boards`.`id` IN (1, 3)

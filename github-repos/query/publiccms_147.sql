@@ -1,0 +1,1 @@
+select cmstagtype0_.id as id1_14_0_, cmstagtype0_.count as count2_14_0_, cmstagtype0_.name as name3_14_0_, cmstagtype0_.site_id as site_id4_14_0_ from cms_tag_type cmstagtype0_ where cmstagtype0_.id=2

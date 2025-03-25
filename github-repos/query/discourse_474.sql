@@ -1,0 +1,1 @@
+SELECT "tag_users".* FROM "tag_users" WHERE "tag_users"."user_id" = 232

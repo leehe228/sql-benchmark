@@ -1,0 +1,1 @@
+SELECT COUNT("ci_pipelines"."id") FROM "ci_pipelines" WHERE ("ci_pipelines"."source" IN ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) OR "ci_pipelines"."source" IS NULL) AND "ci_pipelines"."id" BETWEEN $12 AND $13 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

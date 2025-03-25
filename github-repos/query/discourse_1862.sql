@@ -1,0 +1,1 @@
+SELECT "badges".* FROM "badges" WHERE "badges"."enabled" = TRUE AND "badges"."listable" = TRUE

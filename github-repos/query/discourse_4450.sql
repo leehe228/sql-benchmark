@@ -1,0 +1,1 @@
+SELECT "user_exports".* FROM "user_exports" WHERE (created_at < '2020-03-24 06:14:00.405808') ORDER BY "user_exports"."id" ASC LIMIT 1000

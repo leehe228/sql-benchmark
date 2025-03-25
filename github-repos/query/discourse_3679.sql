@@ -1,0 +1,1 @@
+SELECT "user_badges".* FROM "user_badges" WHERE "user_badges"."badge_id" = 100 ORDER BY granted_at DESC, id DESC LIMIT 96

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `account_migrations` WHERE `account_migrations`.`new_person_id` = 4589 AND `account_migrations`.`id` != 35 LIMIT 1

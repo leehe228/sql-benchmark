@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_products_taxons` WHERE `spree_products_taxons`.`taxon_id` = 193 AND (`spree_products_taxons`.`position` = 0)

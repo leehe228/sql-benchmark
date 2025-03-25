@@ -1,0 +1,1 @@
+SELECT `spree_promotions`.* FROM `spree_promotions` WHERE (spree_promotions.starts_at IS NULL OR spree_promotions.starts_at < '2020-05-01 07:37:16.133815') AND (spree_promotions.expires_at IS NULL OR spree_promotions.expires_at > '2020-05-01 07:37:16.133997') AND `spree_promotions`.`path` = '10off' LIMIT 1

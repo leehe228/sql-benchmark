@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_payments` WHERE `spree_payments`.`order_id` = 19 AND `spree_payments`.`state` = 'failed'

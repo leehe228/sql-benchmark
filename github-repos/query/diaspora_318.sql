@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`target_type` = 'Mention' AND `notifications`.`target_id` = 251

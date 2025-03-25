@@ -1,0 +1,1 @@
+SELECT `references`.* FROM `references` WHERE `references`.`source_id` = 1129 AND `references`.`source_type` = 'Post'

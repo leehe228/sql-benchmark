@@ -1,0 +1,1 @@
+SELECT role_id,permission_id FROM role_permission WHERE role_id = 1

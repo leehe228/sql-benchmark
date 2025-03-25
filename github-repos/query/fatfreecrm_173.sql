@@ -1,0 +1,1 @@
+SELECT `opportunities`.* FROM `opportunities` WHERE `opportunities`.`campaign_id` = 42 ORDER BY id DESC, updated_at desc LIMIT 20 OFFSET 0

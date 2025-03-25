@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 1 AND `spree_payments`.`amount` = 43.99 AND `spree_payments`.`source_type` = 'Spree::CreditCard' AND `spree_payments`.`source_id` = 1 AND `spree_payments`.`payment_method_id` = 2 ORDER BY `spree_payments`.`created_at` ASC LIMIT 1

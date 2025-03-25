@@ -1,0 +1,1 @@
+SELECT `issue_categories`.* FROM `issue_categories` WHERE `issue_categories`.`project_id` = 2 AND `issue_categories`.`name` = 'Printing' ORDER BY `issue_categories`.`name` ASC LIMIT 1

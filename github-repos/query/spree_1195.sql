@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND ( `spree_products`.discontinue_on IS NULL or `spree_products`.discontinue_on >= '2020-05-06 10:25:30.428898' ) GROUP BY `spree_products`.id ORDER BY `spree_products`.`name` ASC LIMIT 0,0

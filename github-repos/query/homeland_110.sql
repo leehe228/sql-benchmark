@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "replies" WHERE "replies"."topic_id" = $1

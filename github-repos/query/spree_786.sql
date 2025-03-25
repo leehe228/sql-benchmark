@@ -1,0 +1,1 @@
+SELECT `spree_taxonomies`.* FROM `spree_taxonomies` ORDER BY spree_taxonomies.position, spree_taxonomies.created_at, name LIMIT 1 OFFSET 0

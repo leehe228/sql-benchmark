@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" INNER JOIN "category_tags" ON "tags"."id" = "category_tags"."tag_id" WHERE "category_tags"."category_id" = 3164

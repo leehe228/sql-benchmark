@@ -1,0 +1,1 @@
+SELECT "topic_timers".* FROM "topic_timers" WHERE ("topic_timers"."deleted_at" IS NOT NULL) AND "topic_timers"."topic_id" = 17635

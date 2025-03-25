@@ -1,0 +1,1 @@
+SELECT `participations`.* FROM `participations` INNER JOIN participations as p2 ON (participations.target_id = p2.target_id AND participations.target_type = p2.target_type AND participations.author_id=4573 AND p2.author_id=4589)

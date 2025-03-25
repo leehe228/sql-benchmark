@@ -1,0 +1,1 @@
+select sum(post0_.visits) as col_0_0_ from posts post0_ where post0_.type=0

@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE (id IN ( SELECT user_id FROM topic_users WHERE notification_level = 3 AND topic_id = 15596 UNION SELECT cu.user_id FROM category_users cu LEFT JOIN topic_users tu ON tu.user_id = cu.user_id AND tu.topic_id = 15596 WHERE cu.notification_level = 3 AND cu.category_id = 1 AND tu.user_id IS NULL /*tags*/ ) ) AND (id NOT IN (100,99))

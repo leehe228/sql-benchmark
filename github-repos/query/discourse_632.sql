@@ -1,0 +1,1 @@
+SELECT "category_users"."category_id" FROM "category_users" WHERE "category_users"."user_id" = 296 AND "category_users"."notification_level" NOT IN (0, 1) ORDER BY CASE WHEN notification_level = 3 THEN 1 WHEN notification_level = 2 THEN 2 WHEN notification_level = 4 THEN 3 END

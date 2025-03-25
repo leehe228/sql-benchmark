@@ -1,0 +1,1 @@
+select loglogin0_.id as id1_16_0_, loglogin0_.channel as channel2_16_0_, loglogin0_.create_date as create_d3_16_0_, loglogin0_.error_password as error_pa4_16_0_, loglogin0_.ip as ip5_16_0_, loglogin0_.name as name6_16_0_, loglogin0_.result as result7_16_0_, loglogin0_.site_id as site_id8_16_0_, loglogin0_.user_id as user_id9_16_0_ from log_login loglogin0_ where loglogin0_.id=22

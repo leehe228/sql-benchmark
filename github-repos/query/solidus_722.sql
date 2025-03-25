@@ -1,0 +1,1 @@
+SELECT `spree_promotion_codes`.`value` FROM `spree_promotion_codes` WHERE `spree_promotion_codes`.`value` = 'abc_73'

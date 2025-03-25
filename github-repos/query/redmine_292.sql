@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `custom_values` INNER JOIN `custom_fields` ON `custom_fields`.`id` = `custom_values`.`custom_field_id` WHERE `custom_values`.`value` = '3' AND `custom_fields`.`field_format` = 'version' LIMIT 1

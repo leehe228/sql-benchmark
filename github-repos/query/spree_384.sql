@@ -1,0 +1,1 @@
+SELECT `spree_product_option_types`.* FROM `spree_product_option_types` WHERE `spree_product_option_types`.`product_id` IN (282, 283, 284, 285, 286, 287)

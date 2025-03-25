@@ -1,0 +1,1 @@
+SELECT DISTINCT `changesets`.`committed_on`, `changesets`.`id` FROM `changesets` INNER JOIN `repositories` ON `repositories`.`id` = `changesets`.`repository_id` INNER JOIN `projects` ON `projects`.`id` = `repositories`.`project_id` WHERE (1=0) AND (((comments LIKE '%%very first commit%%'))) ORDER BY `changesets`.`committed_on` DESC, `changesets`.`id` DESC

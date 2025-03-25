@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE "topics"."id" = 15563 LIMIT 1

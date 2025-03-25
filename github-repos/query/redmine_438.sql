@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND (LOWER(login) = 'jsmith@somenet.foo' AND type = 'User') LIMIT 1

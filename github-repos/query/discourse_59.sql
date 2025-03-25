@@ -1,0 +1,1 @@
+SELECT "group_users"."group_id" FROM "group_users" WHERE "group_users"."user_id" = 11

@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` WHERE (default_done_ratio >= 0)

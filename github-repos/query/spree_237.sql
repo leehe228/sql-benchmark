@@ -1,0 +1,1 @@
+SELECT `spree_state_changes`.* FROM `spree_state_changes` WHERE `spree_state_changes`.`stateful_id` = 1 AND `spree_state_changes`.`stateful_type` = 'Spree::Order' ORDER BY `spree_state_changes`.`created_at` DESC

@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE ("invites"."deleted_at" IS NOT NULL) AND "invites"."invited_by_id" = 8091 AND "invites"."email" = 'iceking@adventuretime.ooo' LIMIT 1

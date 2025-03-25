@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` ORDER BY id DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."type" IS NULL AND "users"."id" = $1

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE (login ilike 'r%' or name ilike 'r%') ORDER BY replies_count desc LIMIT $1

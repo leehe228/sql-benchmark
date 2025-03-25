@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`reception_status` != 'cancelled' AND `spree_return_items`.`inventory_unit_id` = 55 LIMIT 1

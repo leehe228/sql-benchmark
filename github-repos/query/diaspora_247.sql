@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`author_id` = 1 AND (posts.created_at < '2020-04-29 10:13:06') AND `posts`.`type` IN ('StatusMessage', 'Reshare') ORDER BY posts.created_at desc, posts.created_at DESC, posts.id DESC LIMIT 15

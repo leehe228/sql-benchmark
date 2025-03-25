@@ -1,0 +1,1 @@
+SELECT "optimized_images".* FROM "optimized_images" WHERE "optimized_images"."upload_id" = 42 ORDER BY "optimized_images"."id" ASC LIMIT 1000

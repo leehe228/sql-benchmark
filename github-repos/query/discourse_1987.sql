@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE "reviewables"."type" = 'ReviewableQueuedPost' AND "reviewables"."created_by_id" = 1997 AND "reviewables"."status" = 0

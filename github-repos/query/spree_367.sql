@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 117 ORDER BY `spree_payments`.`created_at` DESC LIMIT 1

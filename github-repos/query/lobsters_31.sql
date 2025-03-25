@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`story_id` IN (106, 105) ORDER BY (comments.upvotes - comments.downvotes) < 0 ASC, comments.confidence DESC

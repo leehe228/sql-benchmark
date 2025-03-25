@@ -1,0 +1,1 @@
+SELECT `spree_payment_methods`.* FROM `spree_payment_methods` WHERE `spree_payment_methods`.`deleted_at` IS NULL AND `spree_payment_methods`.`id` = 206

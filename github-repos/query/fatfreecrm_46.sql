@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `campaigns` WHERE `campaigns`.`assigned_to` = 33 LIMIT 1

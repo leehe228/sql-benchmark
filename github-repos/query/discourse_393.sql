@@ -1,0 +1,1 @@
+SELECT "topic_allowed_users"."user_id" FROM "topic_allowed_users" WHERE "topic_allowed_users"."topic_id" = 15634

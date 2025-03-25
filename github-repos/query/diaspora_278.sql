@@ -1,0 +1,1 @@
+SELECT `ppid`.* FROM `ppid` WHERE `ppid`.`user_id` = 2016 AND `ppid`.`identifier` = 'https://example.com/uri' LIMIT 1

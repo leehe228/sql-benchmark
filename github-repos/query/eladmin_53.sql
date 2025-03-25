@@ -1,0 +1,1 @@
+select verificati0_.id as id1_23_0_, verificati0_.code as code2_23_0_, verificati0_.create_time as create_t3_23_0_, verificati0_.scenes as scenes4_23_0_, verificati0_.status as status5_23_0_, verificati0_.type as type6_23_0_, verificati0_.value as value7_23_0_ from verification_code verificati0_ where verificati0_.id=1

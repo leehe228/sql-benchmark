@@ -1,0 +1,1 @@
+SELECT "custom_emojis".* FROM "custom_emojis" WHERE "custom_emojis"."name" = 'test' LIMIT 1

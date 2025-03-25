@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`product_id` = 1142 AND `spree_variants`.`deleted_at` IS NOT NULL ORDER BY `spree_variants`.`position` ASC

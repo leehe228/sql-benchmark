@@ -1,0 +1,1 @@
+SELECT "web_hooks".* FROM "web_hooks" WHERE "web_hooks"."id" IS NULL ORDER BY id ASC LIMIT 1

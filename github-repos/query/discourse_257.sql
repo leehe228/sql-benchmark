@@ -1,0 +1,1 @@
+SELECT "posts"."created_at", "posts"."user_id", "posts"."post_number" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND (topic_id = 15617 and id <> 16405) ORDER BY created_at desc LIMIT 1

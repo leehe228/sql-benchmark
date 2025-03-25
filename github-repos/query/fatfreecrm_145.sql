@@ -1,0 +1,1 @@
+SELECT `account_opportunities`.* FROM `account_opportunities` WHERE `account_opportunities`.`opportunity_id` = 1037 LIMIT 1

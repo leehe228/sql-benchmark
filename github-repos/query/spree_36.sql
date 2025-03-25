@@ -1,0 +1,1 @@
+SELECT SUM(`spree_shipments`.`cost`) FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 41

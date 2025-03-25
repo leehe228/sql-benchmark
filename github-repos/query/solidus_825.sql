@@ -1,0 +1,1 @@
+SELECT `spree_tax_rate_tax_categories`.* FROM `spree_tax_rate_tax_categories` WHERE `spree_tax_rate_tax_categories`.`tax_category_id` = 582

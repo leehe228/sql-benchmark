@@ -1,0 +1,1 @@
+SELECT "email_tokens".* FROM "email_tokens" WHERE "email_tokens"."token" = '9aaf8123bde49402fbf194200764a7cd' AND "email_tokens"."expired" = FALSE AND "email_tokens"."confirmed" = FALSE AND (created_at >= '2020-03-24 06:14:06.294270') ORDER BY "email_tokens"."id" ASC LIMIT 1

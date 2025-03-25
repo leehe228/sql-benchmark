@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `custom_fields` WHERE `custom_fields`.`type` IN ('IssueCustomField') LIMIT 1

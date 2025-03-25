@@ -1,0 +1,1 @@
+SELECT "post_actions".* FROM "post_actions" INNER JOIN "posts" ON "posts"."id" = "post_actions"."post_id" AND ("posts"."deleted_at" IS NOT NULL) WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."user_id" = 2112 AND (topic_id = 17104)

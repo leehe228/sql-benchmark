@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`guid` = '67d426f06c3001384b7e08e9fe568a11' ORDER BY `posts`.`id` ASC LIMIT 1

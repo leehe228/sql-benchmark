@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_option_values`.* FROM `spree_option_values` WHERE `spree_option_values`.`option_type_id` = 5 AND `spree_option_values`.`name` LIKE '%Size-5%' ORDER BY `spree_option_values`.`position` ASC

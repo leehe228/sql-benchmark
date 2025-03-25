@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `participations` WHERE `participations`.`guid` = 'f65016106c3001384b8408e9fe568a11' AND `participations`.`id` != 348 LIMIT 1

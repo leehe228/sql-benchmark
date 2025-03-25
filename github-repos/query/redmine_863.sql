@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` WHERE `versions`.`project_id` = 1 AND (LOWER(versions.name) = LOWER('2.0')) ORDER BY `versions`.`id` ASC LIMIT 1

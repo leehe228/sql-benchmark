@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `auth_sources` LIMIT 1

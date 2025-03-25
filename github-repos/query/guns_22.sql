@@ -1,0 +1,1 @@
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=1188371829954314242

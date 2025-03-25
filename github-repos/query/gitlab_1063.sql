@@ -1,0 +1,1 @@
+SELECT "oauth_applications".* FROM "oauth_applications" WHERE "oauth_applications"."owner_id" IS NULL /*application:test,controller:applications,action:index,correlation_id:b9055a1a2d73b0b126217607f275b2ad*/

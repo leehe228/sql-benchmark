@@ -1,0 +1,1 @@
+SELECT `news`.* FROM `news` WHERE `news`.`id` = 92 LIMIT 1

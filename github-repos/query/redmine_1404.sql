@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `versions` WHERE `versions`.`project_id` = 2326

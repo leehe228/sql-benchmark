@@ -1,0 +1,1 @@
+SELECT `trackers`.* FROM `trackers` INNER JOIN `projects_trackers` ON `trackers`.`id` = `projects_trackers`.`tracker_id` WHERE `projects_trackers`.`project_id` = 1 AND `trackers`.`id` = 1 ORDER BY `trackers`.`position` ASC

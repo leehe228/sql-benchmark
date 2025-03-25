@@ -1,0 +1,1 @@
+select URL from sys_relation rel inner join sys_menu m on rel.menu_id = m.menu_id where rel.role_id = 1

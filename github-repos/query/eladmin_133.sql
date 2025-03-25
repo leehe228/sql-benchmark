@@ -1,0 +1,1 @@
+select qiniuconte0_.id as id1_13_, qiniuconte0_.bucket as bucket2_13_, qiniuconte0_.name as name3_13_, qiniuconte0_.size as size4_13_, qiniuconte0_.suffix as suffix5_13_, qiniuconte0_.type as type6_13_, qiniuconte0_.update_time as update_t7_13_, qiniuconte0_.url as url8_13_ from qiniu_content qiniuconte0_ where 1=1 order by qiniuconte0_.id desc limit 10

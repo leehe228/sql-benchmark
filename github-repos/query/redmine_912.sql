@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `workflows`.`tracker_id` AS workflows_tracker_id, `workflows`.`role_id` AS workflows_role_id FROM `workflows` WHERE `workflows`.`type` IN ('WorkflowTransition') GROUP BY `workflows`.`tracker_id`, `workflows`.`role_id`

@@ -1,0 +1,1 @@
+SELECT "bookmarks".* FROM "bookmarks" WHERE (reminder_type = 0 AND user_id = 2112)

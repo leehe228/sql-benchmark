@@ -1,0 +1,1 @@
+SELECT "application_setting_terms".* FROM "application_setting_terms" ORDER BY "application_setting_terms"."id" DESC LIMIT $1 /*application:test,correlation_id:15829df51824e682dd7c262cd5b7f10c*/

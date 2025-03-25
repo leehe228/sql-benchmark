@@ -1,0 +1,1 @@
+SELECT "groups"."title" FROM "groups" WHERE "groups"."id" IS NULL LIMIT 1

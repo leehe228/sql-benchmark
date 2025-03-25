@@ -1,0 +1,1 @@
+SELECT `spree_option_values`.* FROM `spree_option_values` WHERE `spree_option_values`.`option_type_id` = 94 AND `spree_option_values`.`name` = 'small' ORDER BY `spree_option_values`.`id` ASC LIMIT 1

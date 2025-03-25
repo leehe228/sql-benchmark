@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `stories` WHERE `stories`.`user_id` = 220 AND `stories`.`user_is_author` = TRUE

@@ -1,0 +1,1 @@
+SELECT "user_auth_tokens".* FROM "user_auth_tokens" WHERE ((auth_token = 'r1jnmkWHrJ61WxH56Z2yU4H/FB8=' OR prev_auth_token = 'r1jnmkWHrJ61WxH56Z2yU4H/FB8=') AND rotated_at > '2020-01-26 06:14:17.687902') LIMIT 1

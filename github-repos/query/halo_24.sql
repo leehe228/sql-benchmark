@@ -1,0 +1,1 @@
+select category0_.id as id1_1_, category0_.create_time as create_t2_1_, category0_.deleted as deleted3_1_, category0_.update_time as update_t4_1_, category0_.description as descript5_1_, category0_.name as name6_1_, category0_.parent_id as parent_i7_1_, category0_.slug_name as slug_nam8_1_ from categories category0_ where category0_.id in (1)

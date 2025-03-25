@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "api_keys" WHERE "api_keys"."user_id" = 4000 AND (revoked_at IS NOT NULL)

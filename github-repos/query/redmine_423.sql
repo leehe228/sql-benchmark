@@ -1,0 +1,1 @@
+SELECT `journal_details`.* FROM `journal_details` WHERE `journal_details`.`journal_id` IN (1, 2)

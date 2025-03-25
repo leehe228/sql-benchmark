@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_users` WHERE `spree_users`.`created_at` < '2020-05-09 05:03:22'

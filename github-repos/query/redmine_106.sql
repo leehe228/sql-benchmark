@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`digest` = '6bc2eb7e87cfbf9145065689aaa8b5f513089ca0af68e2dc41f9cc025473d106' AND `attachments`.`filesize` = 59 AND (id <> 1047 and disk_filename <> '200515094115_testfile.txt') ORDER BY `attachments`.`id` ASC LIMIT 1

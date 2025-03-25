@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('Reshare') AND `posts`.`root_guid` = 'e211c4606b4401384b7a08e9fe568a11' LIMIT 30

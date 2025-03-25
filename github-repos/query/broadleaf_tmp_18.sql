@@ -1,0 +1,1 @@
+select broadleafc0_.CURRENCY_CODE as CURRENCY1_38_, broadleafc0_.DEFAULT_FLAG as DEFAULT_2_38_, broadleafc0_.FRIENDLY_NAME as FRIENDLY3_38_ from BLC_CURRENCY broadleafc0_ where broadleafc0_.DEFAULT_FLAG=1

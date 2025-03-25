@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = 1087 AND "notifications"."notification_type" IN (2, 9, 6) AND "notifications"."topic_id" = 16038

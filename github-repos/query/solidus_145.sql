@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_inventory_units` WHERE 1=0

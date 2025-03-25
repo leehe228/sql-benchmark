@@ -1,0 +1,1 @@
+SELECT DISTINCT `contacts`.`id` FROM `contacts` INNER JOIN `account_contacts` ON `contacts`.`id` = `account_contacts`.`contact_id` WHERE `account_contacts`.`account_id` = 1106

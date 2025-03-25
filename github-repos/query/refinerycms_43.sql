@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.`lft`, COUNT(`refinery_pages`.`lft`) as _count FROM `refinery_pages` GROUP BY `refinery_pages`.`lft`, `refinery_pages`.`id` HAVING (COUNT(`refinery_pages`.`lft`) > 1) ORDER BY `refinery_pages`.`id` ASC LIMIT 1

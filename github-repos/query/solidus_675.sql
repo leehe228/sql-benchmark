@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE `spree_users`.`id` = 239 AND `spree_users`.`id` = 238 LIMIT 1

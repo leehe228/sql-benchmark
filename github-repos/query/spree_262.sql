@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.* FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 9 ORDER BY `spree_shipments`.`id` DESC LIMIT 1

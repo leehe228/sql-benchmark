@@ -1,0 +1,1 @@
+SELECT `watchers`.* FROM `watchers` WHERE `watchers`.`user_id` = 1

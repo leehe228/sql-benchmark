@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_cartons`.* FROM `spree_cartons` INNER JOIN `spree_inventory_units` ON `spree_cartons`.`id` = `spree_inventory_units`.`carton_id` INNER JOIN `spree_shipments` ON `spree_inventory_units`.`shipment_id` = `spree_shipments`.`id` WHERE `spree_shipments`.`order_id` = 56 ORDER BY `spree_cartons`.`shipped_at` ASC

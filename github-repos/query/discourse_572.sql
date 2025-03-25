@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "quoted_posts" WHERE "quoted_posts"."post_id" = 16437 AND "quoted_posts"."quoted_post_id" = 16435

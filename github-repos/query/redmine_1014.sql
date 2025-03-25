@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `journals` WHERE `journals`.`journalized_id` = 3586 AND `journals`.`journalized_type` = 'Issue'

@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` WHERE `roles`.`builtin` = 0 ORDER BY `roles`.`position` ASC

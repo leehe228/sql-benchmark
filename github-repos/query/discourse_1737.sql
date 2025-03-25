@@ -1,0 +1,1 @@
+SELECT "theme_modifier_sets"."serialize_topic_excerpts" FROM "theme_modifier_sets" WHERE "theme_modifier_sets"."theme_id" IS NULL AND "theme_modifier_sets"."serialize_topic_excerpts" IS NOT NULL

@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" INNER JOIN "topic_tags" ON "tags"."id" = "topic_tags"."tag_id" WHERE "topic_tags"."topic_id" = 15986 ORDER BY tags.topic_count DESC LIMIT 1

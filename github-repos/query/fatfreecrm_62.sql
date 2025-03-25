@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE (first_name LIKE '%Cindy' AND last_name LIKE '%Cluster') ORDER BY `contacts`.`id` ASC LIMIT 1

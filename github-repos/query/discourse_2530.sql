@@ -1,0 +1,1 @@
+SELECT "group_users"."user_id" FROM "group_users" WHERE "group_users"."group_id" = 2720 AND "group_users"."notification_level" = 4

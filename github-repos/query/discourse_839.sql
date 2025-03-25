@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_badges" WHERE "user_badges"."badge_id" = 28

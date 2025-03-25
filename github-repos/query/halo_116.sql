@@ -1,0 +1,1 @@
+select journal0_.id as id1_3_0_, journal0_.create_time as create_t2_3_0_, journal0_.deleted as deleted3_3_0_, journal0_.update_time as update_t4_3_0_, journal0_.content as content5_3_0_, journal0_.likes as likes6_3_0_, journal0_.type as type7_3_0_ from journals journal0_ where journal0_.id=2

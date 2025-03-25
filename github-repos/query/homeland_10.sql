@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "replies" WHERE "replies"."deleted_at" IS NULL AND "replies"."topic_id" = $1 AND "replies"."action" IS NULL

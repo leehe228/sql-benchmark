@@ -1,0 +1,1 @@
+select projectrep0_.id as id1_6_0_, projectrep0_.name as name2_6_0_, projectrep0_.snapshots_enabled as snapshot3_6_0_, projectrep0_.url as url4_6_0_ from project_repository projectrep0_ where projectrep0_.id='spring-snapshots'

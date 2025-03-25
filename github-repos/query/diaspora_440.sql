@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` WHERE `likes`.`author_id` = 1464 ORDER BY `likes`.`id` ASC LIMIT 20

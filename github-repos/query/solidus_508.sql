@@ -1,0 +1,1 @@
+SELECT SUM(`spree_payments`.`amount`) FROM `spree_payments` WHERE `spree_payments`.`order_id` = 1333 AND `spree_payments`.`state` IN ('checkout', 'pending', 'completed')

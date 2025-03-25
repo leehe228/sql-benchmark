@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`story_id` = 2 AND `comments`.`user_id` = 2 AND `comments`.`parent_comment_id` IS NULL ORDER BY `comments`.`id` ASC LIMIT 1

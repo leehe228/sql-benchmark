@@ -1,0 +1,1 @@
+SELECT "badge_groupings".* FROM "badge_groupings" ORDER BY "badge_groupings"."position" ASC

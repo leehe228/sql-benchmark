@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`type` IN ('TimeEntryActivity') AND `enumerations`.`project_id` IN (1, 3) ORDER BY `enumerations`.`position` ASC

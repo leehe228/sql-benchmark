@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` WHERE ((LOWER(iso) = 'i158') OR (LOWER(iso3) = 'i158')) LIMIT 1

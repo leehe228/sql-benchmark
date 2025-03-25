@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."slug" = 'guidelines' LIMIT 1

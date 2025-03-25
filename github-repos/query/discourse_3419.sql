@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (messageable_level in (99) OR ( messageable_level = 3 AND id in ( SELECT group_id FROM group_users WHERE user_id = 5778) ) OR ( messageable_level = 4 AND id in ( SELECT group_id FROM group_users WHERE user_id = 5778 AND owner IS TRUE) )) AND (name ILIKE '%a%' OR full_name ILIKE '%a%') ORDER BY groups.name asc

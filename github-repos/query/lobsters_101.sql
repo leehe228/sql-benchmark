@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `tags` WHERE `tags`.`tag` IN ('A1', 'B2')

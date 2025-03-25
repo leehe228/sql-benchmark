@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_content_related cmscontent0_ where cmscontent0_.related_content_id=3

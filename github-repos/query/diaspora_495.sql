@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `conversation_visibilities` ON `people`.`id` = `conversation_visibilities`.`person_id` WHERE `conversation_visibilities`.`conversation_id` = 193

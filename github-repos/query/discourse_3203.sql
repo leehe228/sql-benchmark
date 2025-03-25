@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM "top_topics" INNER JOIN "topics" ON "topics"."id" = "top_topics"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE (monthly_score > 0) AND (topics.category_id = 3583) LIMIT 50) subquery_for_count

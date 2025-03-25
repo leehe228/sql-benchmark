@@ -1,0 +1,1 @@
+SELECT "badges"."name" FROM "badges" INNER JOIN "user_badges" ON "badges"."id" = "user_badges"."badge_id" WHERE "user_badges"."user_id" = 1111 AND (user_badges.badge_id IN (SELECT id FROM badges WHERE enabled)) AND "badges"."allow_title" = TRUE

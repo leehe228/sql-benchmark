@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` WHERE `aspects`.`user_id` = 70 AND `aspects`.`name` = 'generic' ORDER BY order_id ASC

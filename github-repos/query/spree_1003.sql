@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`completed_at` IS NULL AND `spree_orders`.`currency` IS NULL AND `spree_orders`.`token` = '0A9OCCxncxOh--gAt1Rb5Q1588318647685' AND `spree_orders`.`store_id` IS NULL LIMIT 1

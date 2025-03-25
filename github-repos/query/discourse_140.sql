@@ -1,0 +1,1 @@
+SELECT "post_custom_fields"."name", "post_custom_fields"."value" FROM "post_custom_fields" WHERE "post_custom_fields"."post_id" = 16377 ORDER BY id asc

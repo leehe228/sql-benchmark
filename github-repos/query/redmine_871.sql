@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `projects` WHERE (projects.lft > 1 AND projects.rgt < 10) AND `projects`.`status` = 1 LIMIT 1

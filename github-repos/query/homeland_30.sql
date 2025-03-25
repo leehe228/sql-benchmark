@@ -1,0 +1,1 @@
+SELECT date(created_at ) AS date, count(id) AS total_amount FROM "replies" WHERE "replies"."deleted_at" IS NULL AND "replies"."user_id" = $1 AND (created_at > '2019-05-01') GROUP BY date(created_at )

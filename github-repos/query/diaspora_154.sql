@@ -1,0 +1,1 @@
+SELECT `authorizations`.* FROM `authorizations` WHERE `authorizations`.`redirect_uri` IS NULL AND `authorizations`.`code` = '123456' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` IN (171, 172, 174, 176, 178, 179, 181, 183) ORDER BY `spree_taxons`.`lft` ASC

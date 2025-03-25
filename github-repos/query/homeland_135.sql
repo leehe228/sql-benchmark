@@ -1,0 +1,1 @@
+SELECT "nodes".* FROM "nodes" WHERE "nodes"."section_id" = $1 ORDER BY "nodes"."sort" DESC

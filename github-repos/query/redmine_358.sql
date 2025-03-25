@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` INNER JOIN `watchers` ON `users`.`id` = `watchers`.`user_id` WHERE `watchers`.`watchable_id` = 3510 AND `watchers`.`watchable_type` = 'Issue'

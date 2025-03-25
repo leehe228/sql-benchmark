@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` WHERE `spree_countries`.`name` LIKE '%zam%' ORDER BY name ASC LIMIT 25 OFFSET 0

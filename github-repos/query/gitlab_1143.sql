@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1

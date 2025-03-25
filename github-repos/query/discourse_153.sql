@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "topics"."id") FROM "topics" INNER JOIN posts ON topics.id = posts.topic_id AND topics.user_id <> posts.user_id WHERE ("topics"."deleted_at" IS NOT NULL) AND (posts.deleted_at IS NOT NULL AND posts.user_id = 97)

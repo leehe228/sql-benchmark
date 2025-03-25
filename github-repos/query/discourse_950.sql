@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "groups" WHERE (groups.id > 0) AND "groups"."automatic" = TRUE

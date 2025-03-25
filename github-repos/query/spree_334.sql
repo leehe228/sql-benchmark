@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` LEFT OUTER JOIN `spree_users` ON `spree_users`.`id` = `spree_orders`.`user_id` WHERE `spree_users`.`id` = 3 ORDER BY spree_orders.completed_at IS NULL, `spree_orders`.`completed_at` DESC, `spree_orders`.`created_at` DESC LIMIT 1 OFFSET 0

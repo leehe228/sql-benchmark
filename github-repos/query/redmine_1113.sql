@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `changes` WHERE `changes`.`changeset_id` = 100 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `campaigns` WHERE `campaigns`.`name` = 'Repellendus magnam odit eum occaecati tempora sunt aspernatur de' AND `campaigns`.`user_id` = 2085 AND `campaigns`.`deleted_at` IS NULL LIMIT 1

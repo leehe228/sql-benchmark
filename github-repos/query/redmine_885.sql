@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` INNER JOIN `members` ON `members`.`user_id` = `users`.`id` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND (members.project_id = 1) LIMIT 1

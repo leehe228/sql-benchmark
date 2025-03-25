@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE `contacts`.`user_id` = 1 AND `contacts`.`person_id` IN (3, 2, 1907)

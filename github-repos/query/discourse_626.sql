@@ -1,0 +1,1 @@
+SELECT "reviewables"."id" FROM "reviewables" WHERE "reviewables"."type" = 'ReviewableQueuedPost' AND "reviewables"."status" = 0 AND (created_at < '2020-03-25 06:14:44.867479')

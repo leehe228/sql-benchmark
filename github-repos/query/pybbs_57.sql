@@ -1,0 +1,1 @@
+SELECT id,user_id,code,in_time,expire_time,email,mobile,used FROM code WHERE email = '321@qq.com' AND user_id = 3 AND used = 0 AND expire_time > '2019-10-21 19:50:16.271'

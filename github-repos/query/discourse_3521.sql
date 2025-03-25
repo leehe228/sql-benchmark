@@ -1,0 +1,1 @@
+SELECT "groups"."name", "groups"."user_count" FROM "groups" WHERE (mentionable_level in (99) OR ( mentionable_level = 3 AND id in ( SELECT group_id FROM group_users WHERE user_id = 5952) ) OR ( mentionable_level = 4 AND id in ( SELECT group_id FROM group_users WHERE user_id = 5952 AND owner IS TRUE) ) ) AND "groups"."name" = 'Unmentionable'

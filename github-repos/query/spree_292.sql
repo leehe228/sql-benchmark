@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_dummy_models` WHERE (1 = 1) AND (`spree_dummy_models`.`position` = 1)

@@ -1,0 +1,1 @@
+SELECT "posts"."id", EXTRACT(DAYS FROM CURRENT_TIMESTAMP - created_at)::INT AS days_ago FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15986 AND "posts"."post_type" IN (1, 2, 3) AND (posts.post_type = 1) ORDER BY "posts"."sort_order" ASC

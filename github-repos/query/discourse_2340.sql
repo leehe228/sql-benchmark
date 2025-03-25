@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."username" IN ('anne2766', 'bruce2767')

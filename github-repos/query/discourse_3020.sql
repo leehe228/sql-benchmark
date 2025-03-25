@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_visits" WHERE "user_visits"."mobile" = TRUE AND (visited_at >= '1999-11-02 00:00:00' and visited_at < '1999-12-02 00:00:00')

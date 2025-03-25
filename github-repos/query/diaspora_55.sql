@@ -1,0 +1,1 @@
+SELECT `account_migrations`.* FROM `account_migrations` WHERE `account_migrations`.`old_person_id` = 4589 LIMIT 1

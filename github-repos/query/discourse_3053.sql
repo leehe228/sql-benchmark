@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" INNER JOIN "groups_web_hooks" ON "groups"."id" = "groups_web_hooks"."group_id" WHERE "groups_web_hooks"."web_hook_id" = 164

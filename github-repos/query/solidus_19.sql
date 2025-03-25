@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_stores` WHERE `spree_stores`.`default` = TRUE

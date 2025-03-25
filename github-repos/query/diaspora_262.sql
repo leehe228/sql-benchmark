@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('nokia') OR LOWER(name) = LOWER('meego') OR LOWER(name) = LOWER('maemo') OR LOWER(name) = LOWER('mer') OR LOWER(name) = LOWER('linux') OR LOWER(name) = LOWER('smartphone'))

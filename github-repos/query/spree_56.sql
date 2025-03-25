@@ -1,0 +1,1 @@
+SELECT `spree_zones`.* FROM `spree_zones` INNER JOIN `spree_shipping_method_zones` ON `spree_zones`.`id` = `spree_shipping_method_zones`.`zone_id` WHERE `spree_shipping_method_zones`.`shipping_method_id` = 41

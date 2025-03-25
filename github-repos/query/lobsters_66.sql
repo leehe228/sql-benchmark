@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `comments` WHERE `comments`.`short_id` = 'arjbrw' LIMIT 1

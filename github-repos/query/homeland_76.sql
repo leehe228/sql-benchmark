@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS "size", MAX(subquery_for_cache_key.collection_cache_key_timestamp) AS timestamp FROM (SELECT "topics"."updated_at" AS collection_cache_key_timestamp FROM "topics" WHERE "topics"."deleted_at" IS NULL AND "topics"."grade" != $1 ORDER BY "topics"."id" DESC LIMIT $2) subquery_for_cache_key

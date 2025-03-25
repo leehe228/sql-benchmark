@@ -1,0 +1,1 @@
+SELECT MAX(`custom_fields`.`position`) FROM `custom_fields` WHERE `custom_fields`.`type` IN ('IssueCustomField')

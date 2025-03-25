@@ -1,0 +1,1 @@
+SELECT `notification_actors`.* FROM `notification_actors` WHERE `notification_actors`.`notification_id` IN (102, 103)

@@ -1,0 +1,1 @@
+SELECT SUM(`time_entries`.`hours`) FROM `time_entries` WHERE `time_entries`.`issue_id` = 13

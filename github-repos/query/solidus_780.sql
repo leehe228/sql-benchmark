@@ -1,0 +1,1 @@
+SELECT `spree_preferences`.* FROM `spree_preferences` WHERE `spree_preferences`.`key` = 'test' ORDER BY `spree_preferences`.`id` ASC LIMIT 1

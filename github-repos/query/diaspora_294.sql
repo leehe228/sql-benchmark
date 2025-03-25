@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `contacts` WHERE `contacts`.`user_id` = 3 AND `contacts`.`sharing` = TRUE AND `contacts`.`receiving` = FALSE

@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE `custom_fields`.`type` IN ('IssueCustomField') AND (is_for_all = TRUE OR EXISTS (SELECT 1 FROM custom_fields_projects cfp JOIN projects p ON p.id = cfp.project_id WHERE cfp.custom_field_id = custom_fields.id AND p.lft >= 1 AND p.rgt <= 10)) ORDER BY `custom_fields`.`position` ASC

@@ -1,0 +1,1 @@
+select roles0_.user_id as user_id1_22_0_, roles0_.role_id as role_id2_22_0_, role1_.id as id1_16_1_, role1_.create_time as create_t2_16_1_, role1_.data_scope as data_sco3_16_1_, role1_.level as level4_16_1_, role1_.name as name5_16_1_, role1_.remark as remark6_16_1_ from users_roles roles0_ inner join role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=1

@@ -1,0 +1,1 @@
+SELECT `repositories`.* FROM `repositories` WHERE `repositories`.`is_default` = TRUE AND `repositories`.`project_id` IN (1, 2, 3)

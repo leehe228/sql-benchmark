@@ -1,0 +1,1 @@
+SELECT "user_profiles".* FROM "user_profiles"

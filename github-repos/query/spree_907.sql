@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 892

@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` WHERE `versions`.`item_type` = 'Task' AND (versions.created_at >= '2020-05-13 02:42:46.672022') ORDER BY created_at DESC LIMIT 500

@@ -1,0 +1,1 @@
+SELECT "incoming_referers".* FROM "incoming_referers" WHERE "incoming_referers"."path" = '/embed/comments/' AND "incoming_referers"."incoming_domain_id" = 39 LIMIT 1

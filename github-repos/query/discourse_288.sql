@@ -1,0 +1,1 @@
+SELECT "user_api_keys".* FROM "user_api_keys" WHERE "user_api_keys"."user_id" = 154 AND "user_api_keys"."revoked_at" IS NOT NULL

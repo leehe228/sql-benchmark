@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `spree_orders`.`id`) FROM `spree_orders` LEFT OUTER JOIN `spree_line_items` ON `spree_line_items`.`order_id` = `spree_orders`.`id` LEFT OUTER JOIN `spree_variants` ON `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`id` = `spree_line_items`.`variant_id` WHERE (`spree_variants`.`sku` = 'SKU-65' AND `spree_orders`.`completed_at` IS NOT NULL)

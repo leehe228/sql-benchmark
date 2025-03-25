@@ -1,0 +1,1 @@
+SELECT `email_addresses`.* FROM `email_addresses` WHERE `email_addresses`.`user_id` = 1 AND `email_addresses`.`is_default` = TRUE LIMIT 1

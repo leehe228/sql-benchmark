@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`username` = 'cary2954' AND (`users`.`id` != 1077) LIMIT 1

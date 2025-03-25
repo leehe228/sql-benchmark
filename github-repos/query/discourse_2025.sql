@@ -1,0 +1,1 @@
+SELECT "users"."id", "user_emails"."email", "users"."username", "users"."name", "users"."uploaded_avatar_id" FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE "users"."id" IN (2111, 2118)

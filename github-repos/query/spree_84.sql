@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND (`spree_products`.discontinue_on IS NULL or `spree_products`.discontinue_on >= '2020-05-01 07:25:40.976158')

@@ -1,0 +1,1 @@
+SELECT `stories`.`id` FROM `stories` WHERE `stories`.`short_id` = '6baban'

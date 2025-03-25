@@ -1,0 +1,1 @@
+SELECT comments.*, (comment) LIKE '%comment2 comment3%' AS rel_comment FROM `comments` WHERE `comments`.`is_deleted` = FALSE AND `comments`.`is_moderated` = FALSE AND `comments`.`story_id` IN (67, 68, 69, 71) AND ((comment) LIKE '%comment2 comment3%') ORDER BY rel_comment DESC LIMIT 20 OFFSET 0

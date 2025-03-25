@@ -1,0 +1,1 @@
+SELECT "stylesheet_cache"."id" FROM "stylesheet_cache" WHERE "stylesheet_cache"."target" = 'a' ORDER BY id desc LIMIT 50

@@ -1,0 +1,1 @@
+SELECT "clusters_applications_helm".* FROM "clusters_applications_helm" WHERE "clusters_applications_helm"."cluster_id" = $1 LIMIT $2 /*application:test,controller:applications,action:create,correlation_id:92f7cd2156668f0a0ca5d61fbf35733e*/

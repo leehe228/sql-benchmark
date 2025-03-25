@@ -1,0 +1,1 @@
+SELECT `tags`.`name` FROM `tags` INNER JOIN `tag_followings` ON `tags`.`id` = `tag_followings`.`tag_id` WHERE `tag_followings`.`user_id` = 1578 ORDER BY tags.name

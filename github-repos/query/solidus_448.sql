@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE 1=0

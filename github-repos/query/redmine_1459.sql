@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `issue_categories` WHERE `issue_categories`.`project_id` = 1

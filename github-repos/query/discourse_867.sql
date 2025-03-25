@@ -1,0 +1,1 @@
+SELECT "topic_custom_fields".* FROM "topic_custom_fields" WHERE "topic_custom_fields"."topic_id" = 15956

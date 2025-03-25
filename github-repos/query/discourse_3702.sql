@@ -1,0 +1,1 @@
+SELECT "directory_items".* FROM "directory_items" WHERE "directory_items"."period_type" = 1 ORDER BY directory_items.likes_received DESC LIMIT 50 OFFSET 0

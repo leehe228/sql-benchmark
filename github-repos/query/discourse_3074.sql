@@ -1,0 +1,1 @@
+SELECT "screened_emails".* FROM "screened_emails" ORDER BY last_match_at desc LIMIT 200

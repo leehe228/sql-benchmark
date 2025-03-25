@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_option_values`.* FROM `spree_option_values`

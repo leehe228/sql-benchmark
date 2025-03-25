@@ -1,0 +1,1 @@
+SELECT "users"."username" FROM "users" INNER JOIN "muted_users" ON "users"."id" = "muted_users"."muted_user_id" WHERE "muted_users"."user_id" = 5962

@@ -1,0 +1,1 @@
+SELECT "clusters".* FROM "clusters" WHERE "clusters"."cluster_type" = $1 AND "clusters"."id" = $2 LIMIT $3 /*application:test,controller:applications,action:create,correlation_id:92f7cd2156668f0a0ca5d61fbf35733e*/

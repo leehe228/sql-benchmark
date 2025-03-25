@@ -1,0 +1,1 @@
+SELECT "user_uploads".* FROM "user_uploads" WHERE "user_uploads"."user_id" = 336 AND "user_uploads"."upload_id" = 10 LIMIT 1

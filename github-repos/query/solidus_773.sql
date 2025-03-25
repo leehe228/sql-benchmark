@@ -1,0 +1,1 @@
+SELECT `spree_return_authorizations`.* FROM `spree_return_authorizations` WHERE `spree_return_authorizations`.`order_id` = 94 LIMIT 25 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE (id != 1 AND email = 'alice@newmail.com') LIMIT 1

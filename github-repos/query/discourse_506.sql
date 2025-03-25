@@ -1,0 +1,1 @@
+SELECT "reviewable_scores".* FROM "reviewable_scores" WHERE "reviewable_scores"."user_id" = 232

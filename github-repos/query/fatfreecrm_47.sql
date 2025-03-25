@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `campaigns` WHERE `campaigns`.`user_id` = 33 LIMIT 1

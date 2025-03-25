@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `signature_orders` WHERE `signature_orders`.`order` = 'parent_guid author text guid created_at edited_at new_property' LIMIT 1

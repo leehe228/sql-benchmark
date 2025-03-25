@@ -1,0 +1,1 @@
+SELECT "tag_users".* FROM "tag_users" WHERE "tag_users"."user_id" = 1083 AND "tag_users"."tag_id" = 1655 ORDER BY "tag_users"."id" ASC LIMIT 1

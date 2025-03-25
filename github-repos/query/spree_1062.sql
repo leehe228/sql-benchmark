@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`product_id` = 1887 AND (`spree_variants`.`position` >= 2) AND (`spree_variants`.id != 2423) ORDER BY `spree_variants`.`position` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "group_users"."group_id" FROM "group_users" WHERE "group_users"."group_id" IN (SELECT "groups"."id" FROM "groups" LEFT JOIN group_users gu ON gu.group_id = groups.id WHERE (groups.id > 0) AND (groups.id > 0) AND (gu.user_id = 780) ORDER BY name ASC) AND "group_users"."user_id" = 762 AND "group_users"."owner" = TRUE

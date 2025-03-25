@@ -1,0 +1,1 @@
+select count(menuitemim0_.MENU_ITEM_ID) as col_0_0_ from BLC_CMS_MENU_ITEM menuitemim0_ where menuitemim0_.MENU_ITEM_ID in (1001)

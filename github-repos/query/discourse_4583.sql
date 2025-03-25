@@ -1,0 +1,1 @@
+SELECT "post_action_types".* FROM "post_action_types" WHERE "post_action_types"."id" IN (3, 4, 8, 6, 7) ORDER BY id

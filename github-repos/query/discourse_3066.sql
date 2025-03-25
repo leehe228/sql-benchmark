@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" WHERE "themes"."color_scheme_id" = 346 LIMIT 1

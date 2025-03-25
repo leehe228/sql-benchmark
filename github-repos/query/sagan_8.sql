@@ -1,0 +1,1 @@
+select springtool0_.id as id1_7_0_ from spring_tools_platform springtool0_ where springtool0_.id='acme'

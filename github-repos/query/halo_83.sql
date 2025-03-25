@@ -1,0 +1,1 @@
+select postcatego0_.category_id as col_0_0_ from post_categories postcatego0_ where postcatego0_.post_id=14

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `messages` WHERE `messages`.`short_id` = 'du2j4y' LIMIT 1

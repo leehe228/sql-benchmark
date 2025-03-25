@@ -1,0 +1,1 @@
+SELECT "oauth_applications".* FROM "oauth_applications" WHERE "oauth_applications"."owner_id" = $1 AND "oauth_applications"."owner_type" = $2 AND "oauth_applications"."id" = $3 LIMIT $4

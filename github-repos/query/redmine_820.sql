@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`container_id` = 4 AND `attachments`.`container_type` = 'WikiPage' AND `attachments`.`id` = 3 ORDER BY attachments.created_on ASC, attachments.id ASC

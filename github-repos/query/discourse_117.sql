@@ -1,0 +1,1 @@
+SELECT "category_groups".* FROM "category_groups" WHERE "category_groups"."category_id" = 3086

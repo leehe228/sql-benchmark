@@ -1,0 +1,1 @@
+SELECT SUM("user_visits"."time_read") AS sum_time_read, "user_visits"."user_id" AS user_visits_user_id FROM "user_visits" WHERE "user_visits"."user_id" = -1 AND (visited_at >= '2020-01-26 06:23:08.806117') GROUP BY "user_visits"."user_id"

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_second_factors" WHERE "user_second_factors"."user_id" = 7170 AND "user_second_factors"."method" = 2 AND "user_second_factors"."enabled" = TRUE

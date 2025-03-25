@@ -1,0 +1,1 @@
+SELECT "muted_users".* FROM "muted_users" WHERE (user_id = 5962 AND muted_user_id not in (5964,5963))

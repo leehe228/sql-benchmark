@@ -1,0 +1,1 @@
+SELECT "incoming_emails"."subject" FROM "incoming_emails" INNER JOIN "posts" ON "posts"."id" = "incoming_emails"."post_id" AND ("posts"."deleted_at" IS NOT NULL) WHERE (posts.topic_id = 15808 AND posts.post_number = 1)

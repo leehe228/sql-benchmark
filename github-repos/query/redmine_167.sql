@@ -1,0 +1,1 @@
+SELECT `wiki_contents`.* FROM `wiki_contents` WHERE `wiki_contents`.`page_id` = 1 LIMIT 1

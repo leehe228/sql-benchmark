@@ -1,0 +1,1 @@
+SELECT "theme_fields".* FROM "theme_fields" WHERE "theme_fields"."theme_id" = 1226 AND "theme_fields"."target_id" = 6 AND (compiler_version <> 'a30b7c9f78a08ea878eeb529d1e1a60193c35a41')

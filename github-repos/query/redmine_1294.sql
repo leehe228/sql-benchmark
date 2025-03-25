@@ -1,0 +1,1 @@
+SELECT `custom_values`.`id` FROM `custom_values` WHERE `custom_values`.`custom_field_id` = 1220 AND (EXISTS(SELECT 1 FROM custom_values cve WHERE cve.custom_field_id = custom_values.custom_field_id AND cve.customized_type = custom_values.customized_type AND cve.customized_id = custom_values.customized_id AND cve.id > custom_values.id))

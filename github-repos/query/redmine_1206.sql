@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`commented_id` = 1 AND `comments`.`commented_type` = 'News' AND `comments`.`id` = 2 ORDER BY created_on LIMIT 1

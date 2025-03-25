@@ -1,0 +1,1 @@
+SELECT "posts"."topic_id", "posts"."post_number", "posts"."raw", "posts"."like_count", "posts"."reply_count", "posts"."created_at" FROM "posts" WHERE "posts"."user_id" = 6360 ORDER BY "posts"."created_at" ASC

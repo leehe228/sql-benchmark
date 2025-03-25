@@ -1,0 +1,1 @@
+select count(pagetempla0_.PAGE_TMPLT_ID) as col_0_0_ from BLC_PAGE_TMPLT pagetempla0_ where 1=1

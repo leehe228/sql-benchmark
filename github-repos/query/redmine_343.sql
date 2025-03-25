@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.lft >= 15 AND projects.rgt <= 16) ORDER BY `projects`.`lft` ASC

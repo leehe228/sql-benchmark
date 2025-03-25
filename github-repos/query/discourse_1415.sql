@@ -1,0 +1,1 @@
+SELECT "tag_users".* FROM "tag_users" WHERE "tag_users"."user_id" = 1095 AND "tag_users"."notification_level" = 3 AND (tag_id in (1664))

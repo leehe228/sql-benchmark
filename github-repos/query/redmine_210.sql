@@ -1,0 +1,1 @@
+SELECT `wiki_content_versions`.* FROM `wiki_content_versions` WHERE `wiki_content_versions`.`wiki_content_id` = 1 AND `wiki_content_versions`.`version` = 2 LIMIT 1

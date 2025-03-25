@@ -1,0 +1,1 @@
+SELECT "shared_drafts".* FROM "shared_drafts" WHERE "shared_drafts"."topic_id" = 17635 LIMIT 1

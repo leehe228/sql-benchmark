@@ -1,0 +1,1 @@
+SELECT `spree_credit_cards`.* FROM `spree_credit_cards` WHERE 1=0

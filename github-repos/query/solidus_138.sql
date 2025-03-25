@@ -1,0 +1,1 @@
+SELECT `spree_shipping_rate_taxes`.* FROM `spree_shipping_rate_taxes` WHERE `spree_shipping_rate_taxes`.`shipping_rate_id` = 954

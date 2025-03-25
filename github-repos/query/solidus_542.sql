@@ -1,0 +1,1 @@
+SELECT `spree_stock_items`.* FROM `spree_stock_items` WHERE `spree_stock_items`.`deleted_at` IS NULL AND `spree_stock_items`.`variant_id` IN (101, 102, 103, 104, 105)

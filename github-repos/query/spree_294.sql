@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 19 AND `spree_payments`.`state` NOT IN ('failed', 'invalid') ORDER BY `spree_payments`.`created_at` DESC LIMIT 1

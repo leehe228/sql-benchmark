@@ -1,0 +1,1 @@
+SELECT `spree_shipping_methods`.* FROM `spree_shipping_methods` WHERE `spree_shipping_methods`.`deleted_at` IS NULL AND `spree_shipping_methods`.`deleted_at` IS NULL ORDER BY `spree_shipping_methods`.`id` DESC LIMIT 1

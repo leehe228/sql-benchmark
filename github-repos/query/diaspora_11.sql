@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('StatusMessage') AND `posts`.`id` = 1399 LIMIT 1

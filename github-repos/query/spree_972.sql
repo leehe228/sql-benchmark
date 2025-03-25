@@ -1,0 +1,1 @@
+SELECT SUM(`spree_adjustments`.`amount`) FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 1185 AND `spree_adjustments`.`eligible` = TRUE AND (`spree_adjustments`.amount != 0) AND `spree_adjustments`.`source_type` = 'Spree::PromotionAction' AND `spree_adjustments`.`adjustable_type` != 'Spree::Shipment'

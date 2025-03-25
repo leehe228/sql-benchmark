@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, "topic_links"."domain" AS topic_links_domain, "topic_links"."post_id" AS topic_links_post_id FROM "topic_links" WHERE "topic_links"."domain" = 'www.example.net' AND "topic_links"."user_id" = 1722 GROUP BY "topic_links"."domain", "topic_links"."post_id"

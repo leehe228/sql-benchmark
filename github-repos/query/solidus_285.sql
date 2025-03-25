@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` INNER JOIN `spree_shipments` ON `spree_inventory_units`.`shipment_id` = `spree_shipments`.`id` WHERE `spree_shipments`.`order_id` = 18 AND `spree_inventory_units`.`state` IN ('on_hand', 'backordered', 'shipped') AND `spree_inventory_units`.`pending` = FALSE

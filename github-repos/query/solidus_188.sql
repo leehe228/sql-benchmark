@@ -1,0 +1,1 @@
+SELECT `spree_wallet_payment_sources`.* FROM `spree_wallet_payment_sources` WHERE `spree_wallet_payment_sources`.`user_id` = 2318 AND `spree_wallet_payment_sources`.`default` = TRUE LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_line_items`.* FROM `spree_line_items` WHERE `spree_line_items`.`order_id` = 1130 AND `spree_line_items`.`variant_id` = 1575 ORDER BY `spree_line_items`.`created_at` ASC LIMIT 1

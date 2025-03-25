@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE (user_emails.email ~* '@(wat\.com)$') AND (users.id NOT IN (SELECT user_id FROM group_users WHERE group_users.group_id = 2818)) AND "users"."active" = TRUE AND "users"."staged" = FALSE ORDER BY "users"."id" ASC LIMIT 1000

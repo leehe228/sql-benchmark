@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`first_name` = 'Billy' AND `users`.`last_name` = 'Bones'

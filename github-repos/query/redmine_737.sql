@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issue_relations` WHERE `issue_relations`.`issue_to_id` = 3536 AND `issue_relations`.`id` != 355 AND `issue_relations`.`issue_from_id` = 3535 LIMIT 1

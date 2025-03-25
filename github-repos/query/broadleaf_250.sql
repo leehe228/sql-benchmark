@@ -1,0 +1,1 @@
+select count(customerph0_.CUSTOMER_PHONE_ID) as col_0_0_ from BLC_CUSTOMER_PHONE customerph0_ where customerph0_.CUSTOMER_ID in (100)

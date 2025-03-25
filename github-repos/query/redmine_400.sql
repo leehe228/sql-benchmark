@@ -1,0 +1,1 @@
+SELECT `journals`.* FROM `journals` ORDER BY id DESC LIMIT 1

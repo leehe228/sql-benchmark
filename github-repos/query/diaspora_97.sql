@@ -1,0 +1,1 @@
+SELECT `serialized_private_key` FROM `people` INNER JOIN `users` ON `users`.`id` = `people`.`owner_id` WHERE `people`.`diaspora_handle` = 'bob190e569bc@localhost:9887'

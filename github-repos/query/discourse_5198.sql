@@ -1,0 +1,1 @@
+SELECT COUNT("users"."username") AS count_all, email_tokens.email AS email_tokens_email FROM "users" INNER JOIN "email_tokens" ON "email_tokens"."user_id" = "users"."id" WHERE "email_tokens"."email" IS NOT NULL GROUP BY email_tokens.email HAVING "email_tokens"."email" IS NOT NULL

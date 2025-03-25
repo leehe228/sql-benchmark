@@ -1,0 +1,1 @@
+SELECT role_id,pid,name,description,sort,version,create_time,update_time,create_user,update_user FROM sys_role WHERE role_id=1

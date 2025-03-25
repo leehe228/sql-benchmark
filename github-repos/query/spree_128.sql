@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `spree_orders`.`id`) FROM `spree_orders` WHERE (`spree_orders`.`completed_at` IS NOT NULL AND `spree_orders`.`considered_risky` = TRUE)

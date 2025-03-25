@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` INNER JOIN `spree_product_properties` ON `spree_properties`.`id` = `spree_product_properties`.`property_id` WHERE `spree_product_properties`.`product_id` = 926 AND `spree_properties`.`name` = 'the_prop' ORDER BY `spree_product_properties`.`position` ASC LIMIT 1

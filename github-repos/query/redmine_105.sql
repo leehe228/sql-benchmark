@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1047 LIMIT 1 FOR UPDATE

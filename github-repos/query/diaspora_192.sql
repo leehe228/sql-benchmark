@@ -1,0 +1,1 @@
+SELECT `user_preferences`.* FROM `user_preferences` WHERE `user_preferences`.`user_id` = 1 AND `user_preferences`.`email_type` = 'mentioned_in_comment' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "reviewables"."id" FROM "reviewables" WHERE "reviewables"."created_by_id" = 5418

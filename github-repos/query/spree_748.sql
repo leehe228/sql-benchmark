@@ -1,0 +1,1 @@
+SELECT SUM(`spree_payments`.`amount`) FROM `spree_payments` WHERE `spree_payments`.`order_id` = 514 AND `spree_payments`.`source_type` = 'Spree::StoreCredit' AND `spree_payments`.`state` NOT IN ('failed', 'invalid')

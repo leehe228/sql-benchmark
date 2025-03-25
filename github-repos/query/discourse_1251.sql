@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "categories" WHERE "categories"."id" IN (3147, 12312323)

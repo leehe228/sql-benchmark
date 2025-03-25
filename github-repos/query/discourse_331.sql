@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."admin" = TRUE AND "users"."id" != 164 AND (users.id > 0)

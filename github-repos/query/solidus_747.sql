@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` INNER JOIN `spree_variants` ON `spree_products`.`id` = `spree_variants`.`product_id` INNER JOIN `spree_line_items` ON `spree_variants`.`id` = `spree_line_items`.`variant_id` WHERE `spree_line_items`.`order_id` = 1065 ORDER BY `spree_line_items`.`created_at` ASC, `spree_line_items`.`id` ASC

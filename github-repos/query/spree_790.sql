@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_store_credit_categories`

@@ -1,0 +1,1 @@
+select count(menuimpl0_.MENU_ID) as col_0_0_ from BLC_CMS_MENU menuimpl0_ where 1=1

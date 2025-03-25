@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` INNER JOIN `spree_option_values_variants` ON `spree_variants`.`id` = `spree_option_values_variants`.`variant_id` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_option_values_variants`.`option_value_id` = 46 ORDER BY `spree_variants`.`id` ASC LIMIT 1000

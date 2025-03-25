@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tags` WHERE `tags`.`tag` = 'mytag' LIMIT 1

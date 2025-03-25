@@ -1,0 +1,1 @@
+SELECT "user_actions".* FROM "user_actions" WHERE "user_actions"."action_type" = 5 AND "user_actions"."user_id" = 97 AND "user_actions"."acting_user_id" = 97 AND "user_actions"."target_post_id" = 16378 AND "user_actions"."target_topic_id" = 15595 LIMIT 1

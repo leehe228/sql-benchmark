@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_return_items`.* FROM `spree_return_items` INNER JOIN `spree_inventory_units` ON `spree_inventory_units`.`original_return_item_id` = `spree_return_items`.`id` WHERE `spree_return_items`.`reception_status` = 'awaiting' AND (spree_inventory_units.created_at < '2020-04-17 07:31:25.419849' AND spree_inventory_units.state = 'shipped')

@@ -1,0 +1,1 @@
+SELECT `spree_product_properties`.* FROM `spree_product_properties` WHERE `spree_product_properties`.`product_id` IN (73, 74) ORDER BY `spree_product_properties`.`position` ASC

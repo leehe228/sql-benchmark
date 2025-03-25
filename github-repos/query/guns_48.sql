@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_login_log WHERE 1 = 1

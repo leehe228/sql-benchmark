@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 18498 AND "posts"."post_type" IN (1, 2, 3) AND (user_id IS NOT NULL) AND "posts"."hidden" = FALSE ORDER BY "posts"."sort_order" ASC LIMIT 100 OFFSET 1

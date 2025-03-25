@@ -1,0 +1,1 @@
+SELECT "user_stats".* FROM "user_stats" WHERE "user_stats"."user_id" IN (3997, 3996, -1)

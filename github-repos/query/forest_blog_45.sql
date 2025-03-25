@@ -1,0 +1,1 @@
+SELECT tag.* FROM tag, article_tag_ref WHERE article_tag_ref.article_id = 7 AND article_tag_ref.tag_id = tag.tag_id

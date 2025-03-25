@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `posts` ON `people`.`id` = `posts`.`author_id` WHERE `posts`.`type` IN ('StatusMessage') AND `posts`.`id` = 2337 LIMIT 1

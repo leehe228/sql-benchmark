@@ -1,0 +1,1 @@
+SELECT `spree_stores`.* FROM `spree_stores` WHERE `spree_stores`.`default` = TRUE ORDER BY `spree_stores`.`id` ASC LIMIT 1

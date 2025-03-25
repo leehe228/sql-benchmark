@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "anonymous_users" ON "users"."id" = "anonymous_users"."user_id" WHERE "anonymous_users"."master_user_id" = 1251 AND "anonymous_users"."active" = TRUE LIMIT 1

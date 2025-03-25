@@ -1,0 +1,1 @@
+SELECT `comment_signatures`.* FROM `comment_signatures` WHERE `comment_signatures`.`comment_id` = 431 LIMIT 1

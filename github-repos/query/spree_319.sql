@@ -1,0 +1,1 @@
+SELECT `spree_role_users`.* FROM `spree_role_users` WHERE `spree_role_users`.`user_id` = 2

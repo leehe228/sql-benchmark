@@ -1,0 +1,1 @@
+SELECT "drafts".* FROM "drafts" WHERE "drafts"."user_id" = 1258 AND "drafts"."draft_key" = 'test'

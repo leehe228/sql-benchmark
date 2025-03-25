@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT `contacts`.* FROM `contacts` WHERE ((`contacts`.`assigned_to` = 688) OR ((`contacts`.`user_id` = 688) OR (`contacts`.`access` = 'Public'))) ORDER BY contacts.created_at DESC) subquery_for_count

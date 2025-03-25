@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `campaigns` WHERE `campaigns`.`name` IS NULL AND `campaigns`.`user_id` = 2870 AND `campaigns`.`deleted_at` IS NULL LIMIT 1

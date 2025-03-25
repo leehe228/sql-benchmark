@@ -1,0 +1,1 @@
+SELECT `spree_reimbursement_types`.* FROM `spree_reimbursement_types` ORDER BY LOWER(spree_reimbursement_types.name)

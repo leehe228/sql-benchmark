@@ -1,0 +1,1 @@
+SELECT "categories"."id", "categories"."topic_id", "categories"."num_featured_topics" FROM "categories" WHERE (id >= 0) ORDER BY id ASC LIMIT 2

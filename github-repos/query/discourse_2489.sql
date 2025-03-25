@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "post_actions" WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."user_id" = 3700 AND "post_actions"."disagreed_at" IS NOT NULL AND "post_actions"."post_action_type_id" IN (3, 4, 8, 7)

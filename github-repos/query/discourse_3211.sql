@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE "topics"."id" IS NULL LIMIT 1

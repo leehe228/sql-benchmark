@@ -1,0 +1,1 @@
+select additional0_.ORDER_ITEM_ID as ORDER_IT1_97_0_, additional0_.VALUE as VALUE2_97_0_, additional0_.NAME as NAME3_0_ from BLC_ORDER_ITEM_ADD_ATTR additional0_ where additional0_.ORDER_ITEM_ID in (1, 3, 5, 6, 8)

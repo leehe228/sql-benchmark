@@ -1,0 +1,1 @@
+SELECT MAX(enumerations.position) FROM `issues` INNER JOIN `issue_statuses` ON `issue_statuses`.`id` = `issues`.`status_id` INNER JOIN `enumerations` ON `enumerations`.`id` = `issues`.`priority_id` AND `enumerations`.`type` IN ('IssuePriority') WHERE `issues`.`parent_id` = 3133 AND `issue_statuses`.`is_closed` = FALSE

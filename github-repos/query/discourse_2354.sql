@@ -1,0 +1,1 @@
+SELECT DISTINCT "users".* FROM "users" INNER JOIN "posts" ON "posts"."user_id" = "users"."id" AND ("posts"."deleted_at" IS NOT NULL) WHERE (posts.topic_id IN (17326,17325)) ORDER BY "users"."id" ASC LIMIT 1000

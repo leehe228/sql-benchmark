@@ -1,0 +1,1 @@
+SELECT "category_users".* FROM "category_users" WHERE "category_users"."user_id" = 6061 AND "category_users"."category_id" = 1 AND "category_users"."notification_level" IN (3, 4)

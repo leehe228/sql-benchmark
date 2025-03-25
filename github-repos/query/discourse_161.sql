@@ -1,0 +1,1 @@
+SELECT COUNT(distinct user_id) FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15595 AND (NOT hidden AND post_type in (1,2,3))

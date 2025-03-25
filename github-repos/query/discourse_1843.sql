@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "post_actions" WHERE "post_actions"."post_action_type_id" = 2 AND (post_actions.created_at >= '2020-02-24 00:00:00' and post_actions.created_at < '2020-03-25 00:00:00')

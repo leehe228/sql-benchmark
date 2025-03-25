@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE (`spree_products`.deleted_at IS NULL or `spree_products`.deleted_at >= '2020-05-16 05:06:48.315363') AND `spree_products`.`id` = 63 LIMIT 1

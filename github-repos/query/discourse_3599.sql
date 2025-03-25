@@ -1,0 +1,1 @@
+SELECT "tag_groups".* FROM "tag_groups" WHERE 1=0

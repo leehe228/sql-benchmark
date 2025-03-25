@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`diaspora_handle` = 'sample@diaspor.us' AND `people`.`closed_account` = FALSE LIMIT 15 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT "tags"."name" FROM "tags"

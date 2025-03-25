@@ -1,0 +1,1 @@
+SELECT `spree_calculators`.* FROM `spree_calculators` WHERE `spree_calculators`.`deleted_at` IS NULL AND `spree_calculators`.`calculable_type` = 'Spree::ShippingMethod' AND `spree_calculators`.`calculable_id` = 1

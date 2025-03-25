@@ -1,0 +1,1 @@
+SELECT MAX("posts"."post_number") FROM "posts" WHERE "posts"."topic_id" = 15644

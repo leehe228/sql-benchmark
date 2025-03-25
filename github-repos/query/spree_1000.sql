@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.* FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 1378 LIMIT 11

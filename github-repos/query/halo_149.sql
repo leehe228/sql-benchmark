@@ -1,0 +1,1 @@
+select count(journalcom0_.id) as col_0_0_, journalcom0_.post_id as col_1_0_ from comments journalcom0_ where journalcom0_.type=2 and (journalcom0_.post_id in (2)) group by journalcom0_.post_id

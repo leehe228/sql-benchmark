@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM "group_histories" WHERE "group_histories"."group_id" = 2578 AND "group_histories"."action" = 2 ORDER BY group_histories.created_at DESC LIMIT 25 OFFSET 0) subquery_for_count

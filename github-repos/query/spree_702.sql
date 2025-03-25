@@ -1,0 +1,1 @@
+SELECT `spree_product_properties`.* FROM `spree_product_properties` WHERE `spree_product_properties`.`product_id` = 950 AND (`spree_product_properties`.`position` IS NOT NULL) ORDER BY `spree_product_properties`.`position` DESC LIMIT 1

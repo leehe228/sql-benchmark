@@ -1,0 +1,1 @@
+SELECT `simple_captcha_data`.* FROM `simple_captcha_data` WHERE `simple_captcha_data`.`key` = '98e022ed5b7f1e6d992c6e8989b14dfbf4c3900c' ORDER BY `simple_captcha_data`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "groups"."id", "groups"."publish_read_state" FROM "groups" WHERE (name ilike 'd') ORDER BY "groups"."id" ASC LIMIT 1

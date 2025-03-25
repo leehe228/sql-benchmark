@@ -1,0 +1,1 @@
+SELECT DISTINCT posts.* FROM `posts` INNER JOIN `taggings` ON `taggings`.`taggable_id` = `posts`.`id` AND `taggings`.`taggable_type` = 'Post' WHERE `posts`.`type` IN ('StatusMessage') AND `posts`.`public` = TRUE AND (taggings.tag_id IN (400)) AND (posts.created_at < '2021-04-28T06:07:34.000Z') ORDER BY posts.created_at DESC LIMIT 15

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `messages` WHERE `messages`.`board_id` = 1 AND `messages`.`parent_id` IS NULL

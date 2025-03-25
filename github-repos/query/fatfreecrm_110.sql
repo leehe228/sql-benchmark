@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `tasks` WHERE ((user_id = 1627 AND assigned_to IS NULL) OR assigned_to = 1627) AND ((due_at IS NULL AND bucket = 'due_later') OR due_at >= '2020-05-25 23:59:59.999999') AND (completed_at IS NULL)

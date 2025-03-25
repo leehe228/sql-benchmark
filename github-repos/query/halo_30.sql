@@ -1,0 +1,1 @@
+select count(postcatego0_.post_id) as col_0_0_, postcatego0_.category_id as col_1_0_ from post_categories postcatego0_ group by postcatego0_.category_id

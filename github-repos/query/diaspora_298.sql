@@ -1,0 +1,1 @@
+SELECT `o_embed_caches`.* FROM `o_embed_caches` WHERE `o_embed_caches`.`url` = 'http://www.flickr.com/photos/bees/2341623661' LIMIT 1

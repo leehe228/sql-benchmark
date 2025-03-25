@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "categories" WHERE "categories"."id" = 3147

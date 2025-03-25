@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issue_statuses` WHERE `issue_statuses`.`name` = 'New' LIMIT 1

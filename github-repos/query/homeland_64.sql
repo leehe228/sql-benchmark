@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = $1 AND "notifications"."id" = $2 LIMIT $3

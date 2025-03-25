@@ -1,0 +1,1 @@
+SELECT "invites"."id" FROM "invites" WHERE ("invites"."deleted_at" IS NOT NULL) AND "invites"."emailed_status" = 2 LIMIT 200

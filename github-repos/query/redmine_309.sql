@@ -1,0 +1,1 @@
+SELECT `wiki_pages`.* FROM `wiki_pages` WHERE `wiki_pages`.`parent_id` = 631 ORDER BY title

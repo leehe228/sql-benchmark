@@ -1,0 +1,1 @@
+SELECT "backup_metadata"."value" FROM "backup_metadata" WHERE "backup_metadata"."name" = 'last_restore_date' LIMIT 1

@@ -1,0 +1,1 @@
+select count(order0_.ORDER_ID) as col_0_0_ from ORDERS order0_ where order0_.MERCHANTID=1

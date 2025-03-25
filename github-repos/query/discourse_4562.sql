@@ -1,0 +1,1 @@
+SELECT "email_tokens"."token" FROM "email_tokens" WHERE "email_tokens"."user_id" = 8108 AND "email_tokens"."confirmed" = FALSE AND "email_tokens"."expired" = FALSE

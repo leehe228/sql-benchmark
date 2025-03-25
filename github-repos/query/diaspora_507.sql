@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `o_auth_applications` WHERE `o_auth_applications`.`client_id` = '657d216dc78998dfb179e87c5b8baae0' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT MAX(`projects`.`rgt`) FROM `projects` WHERE `projects`.`parent_id` IS NULL AND (name < 'Project with wiki')

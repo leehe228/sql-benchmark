@@ -1,0 +1,1 @@
+SELECT COUNT(count_column) FROM (SELECT DISTINCT `users`.`id` AS count_column FROM `users` INNER JOIN `members` ON `members`.`user_id` = `users`.`id` WHERE `users`.`status` = 1 AND (members.project_id = 1) AND `users`.`status` = 1 AND `users`.`status` = 1 AND `users`.`type` IN ('User', 'Group') LIMIT 21) subquery_for_count

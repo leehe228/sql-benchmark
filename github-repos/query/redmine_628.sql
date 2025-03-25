@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `repositories` WHERE `repositories`.`identifier` = 'test' AND `repositories`.`project_id` = 3 LIMIT 1

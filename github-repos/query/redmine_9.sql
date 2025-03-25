@@ -1,0 +1,1 @@
+SELECT `settings`.* FROM `settings` WHERE `settings`.`name` = 'default_issue_start_date_to_creation_date' ORDER BY `settings`.`id` DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `refinery_resources`.* FROM `refinery_resources` ORDER BY `refinery_resources`.`id` ASC LIMIT 500

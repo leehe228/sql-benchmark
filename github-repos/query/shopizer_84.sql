@@ -1,0 +1,1 @@
+select zone0_.ZONE_ID as ZONE_ID1_75_0_, zone0_.ZONE_CODE as ZONE_COD2_75_0_, zone0_.COUNTRY_ID as COUNTRY_3_75_0_ from ZONE zone0_ where zone0_.ZONE_ID=8

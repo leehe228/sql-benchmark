@@ -1,0 +1,1 @@
+SELECT "user_histories".* FROM "user_histories" WHERE "user_histories"."context" = '1064' AND "user_histories"."action" = 78 ORDER BY created_at DESC LIMIT 1

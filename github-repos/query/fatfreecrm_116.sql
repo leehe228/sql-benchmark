@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` WHERE ((item_id = 42 AND item_type = 'Contact') OR (related_id = 42 AND related_type = 'Contact')) AND (event NOT IN ('view')) ORDER BY created_at DESC LIMIT 20 OFFSET 0

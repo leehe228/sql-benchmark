@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.lft > 1 AND projects.rgt < 10) ORDER BY `projects`.`lft` ASC

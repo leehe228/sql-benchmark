@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from comments postcommen0_ where postcommen0_.type=0 and postcommen0_.id=2

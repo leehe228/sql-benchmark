@@ -1,0 +1,1 @@
+SELECT `repositories`.* FROM `repositories` WHERE `repositories`.`project_id` = 1 AND `repositories`.`id` = 10 LIMIT 1

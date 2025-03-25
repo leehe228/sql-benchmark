@@ -1,0 +1,1 @@
+SELECT `spree_line_item_actions`.* FROM `spree_line_item_actions` WHERE `spree_line_item_actions`.`action_id` = 109 AND `spree_line_item_actions`.`line_item_id` = 690 ORDER BY `spree_line_item_actions`.`id` ASC LIMIT 1

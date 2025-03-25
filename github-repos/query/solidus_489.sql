@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_product_properties` WHERE `spree_product_properties`.`product_id` = 429 ORDER BY `spree_product_properties`.`position` ASC LIMIT 25 OFFSET 0) subquery_for_count

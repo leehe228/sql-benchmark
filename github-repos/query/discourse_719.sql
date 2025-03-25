@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE (trust_level >= 2) AND "users"."ip_address" = '99.232.23.113'

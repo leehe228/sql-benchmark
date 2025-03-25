@@ -1,0 +1,1 @@
+SELECT "locations".* FROM "locations" WHERE "locations"."users_count" != $1 ORDER BY "locations"."users_count" DESC

@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` WHERE `accounts`.`id` = 1279 ORDER BY `accounts`.`id` ASC LIMIT 1

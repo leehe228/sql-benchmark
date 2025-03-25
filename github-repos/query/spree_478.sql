@@ -1,0 +1,1 @@
+SELECT `spree_credit_cards`.* FROM `spree_credit_cards` WHERE `spree_credit_cards`.`deleted_at` IS NULL AND `spree_credit_cards`.`user_id` = 341 AND `spree_credit_cards`.`user_id` = 341

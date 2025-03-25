@@ -1,0 +1,1 @@
+SELECT `permissions`.* FROM `permissions` WHERE 1=0 AND `permissions`.`asset_id` IS NULL AND `permissions`.`asset_type` = 'Lead'

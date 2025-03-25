@@ -1,0 +1,1 @@
+SELECT `spree_zones`.* FROM `spree_zones` ORDER BY `spree_zones`.`name` ASC LIMIT 25 OFFSET 0

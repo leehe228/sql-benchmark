@@ -1,0 +1,1 @@
+SELECT `projects`.`lft`, `projects`.`rgt` FROM `projects` WHERE `projects`.`id` = 1969

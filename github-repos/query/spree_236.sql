@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 1 AND `spree_shipments`.`state` = 'shipped'

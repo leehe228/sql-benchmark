@@ -1,0 +1,1 @@
+SELECT "user_badges"."id" FROM "user_badges" WHERE "user_badges"."user_id" = 1263

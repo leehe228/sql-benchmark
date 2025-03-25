@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE "posts"."user_id" = 5522 AND (created_at > '2019-12-17 06:22:50.258287' AND (spam_count > 0 OR inappropriate_count > 0))

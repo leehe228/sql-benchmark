@@ -1,0 +1,1 @@
+SELECT "topic_links".* FROM "topic_links" WHERE "topic_links"."post_id" = 16384

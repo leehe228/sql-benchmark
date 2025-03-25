@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `users`.`status` AS users_status FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') GROUP BY `users`.`status`

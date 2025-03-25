@@ -1,0 +1,1 @@
+SELECT DISTINCT people.id FROM `people` INNER JOIN `contacts` ON `contacts`.`person_id` = `people`.`id` INNER JOIN `aspect_memberships` ON `aspect_memberships`.`contact_id` = `contacts`.`id` WHERE `aspect_memberships`.`aspect_id` = 1

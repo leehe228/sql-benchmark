@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`board_id` = 1 ORDER BY `messages`.`id` DESC LIMIT 15

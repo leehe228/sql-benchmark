@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE `custom_fields`.`is_filter` = TRUE AND `custom_fields`.`type` = 'UserCustomField'

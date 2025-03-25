@@ -1,0 +1,1 @@
+SELECT `auth_sources`.* FROM `auth_sources` WHERE `auth_sources`.`onthefly_register` = TRUE

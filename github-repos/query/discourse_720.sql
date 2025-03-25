@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE 1=0 AND "users"."ip_address" = '99.232.23.113'

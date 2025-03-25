@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE ((`contacts`.`assigned_to` = 195) OR ((`contacts`.`user_id` = 195) OR (`contacts`.`access` = 'Public'))) AND `contacts`.`id` = 9 LIMIT 1

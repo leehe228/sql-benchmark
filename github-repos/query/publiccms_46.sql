@@ -1,0 +1,1 @@
+select cmscategor0_.id as id1_3_0_, cmscategor0_.extend_id as extend_i2_3_0_, cmscategor0_.name as name3_3_0_, cmscategor0_.site_id as site_id4_3_0_, cmscategor0_.sort as sort5_3_0_ from cms_category_type cmscategor0_ where cmscategor0_.id=3

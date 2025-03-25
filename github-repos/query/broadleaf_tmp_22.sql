@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from BLC_ORDER_LOCK orderlocki0_ where orderlocki0_.ORDER_ID=? and orderlocki0_.LOCK_KEY=?

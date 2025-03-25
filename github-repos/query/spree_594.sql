@@ -1,0 +1,1 @@
+SELECT `spree_taxonomies`.* FROM `spree_taxonomies` WHERE `spree_taxonomies`.`id` = 15 LIMIT 1

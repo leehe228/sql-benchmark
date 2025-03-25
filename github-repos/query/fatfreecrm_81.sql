@@ -1,0 +1,1 @@
+SELECT `comments`.`id` FROM `comments` WHERE `comments`.`commentable_id` = 42 AND `comments`.`commentable_type` = 'Campaign'

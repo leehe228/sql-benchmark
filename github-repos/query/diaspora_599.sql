@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` INNER JOIN `likes` ON `likes`.`target_id` = `posts`.`id` AND `likes`.`target_type` = 'Post' AND `likes`.`positive` = TRUE WHERE `likes`.`author_id` = 1101 AND (posts.created_at < '2020-04-28 06:05:42') AND `posts`.`type` IN ('StatusMessage', 'Reshare') ORDER BY posts.created_at DESC, posts.id DESC LIMIT 15

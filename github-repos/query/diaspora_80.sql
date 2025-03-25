@@ -1,0 +1,1 @@
+SELECT `pods`.* FROM `pods` WHERE 1=0

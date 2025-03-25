@@ -1,0 +1,1 @@
+SELECT SUM(`spree_return_items`.`pre_tax_amount`) FROM `spree_return_items` WHERE `spree_return_items`.`customer_return_id` = 2

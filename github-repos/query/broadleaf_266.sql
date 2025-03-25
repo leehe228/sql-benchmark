@@ -1,0 +1,1 @@
+select count(productatt0_.PRODUCT_ATTRIBUTE_ID) as col_0_0_ from BLC_PRODUCT_ATTRIBUTE productatt0_ where productatt0_.PRODUCT_ID in (1)

@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE "invites"."id" = 1294 LIMIT 1

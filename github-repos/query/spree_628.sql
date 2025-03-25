@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_adjustments` WHERE `spree_adjustments`.`adjustable_id` = 213 AND `spree_adjustments`.`adjustable_type` = 'Spree::Order'

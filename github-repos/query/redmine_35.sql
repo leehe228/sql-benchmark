@@ -1,0 +1,1 @@
+SELECT `issues`.`root_id`, `issues`.`lft`, `issues`.`rgt` FROM `issues` WHERE `issues`.`id` = 3133

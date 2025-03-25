@@ -1,0 +1,1 @@
+SELECT MAX(`journals`.`id`) FROM `journals` WHERE `journals`.`journalized_id` = 3502 AND `journals`.`journalized_type` = 'Issue'

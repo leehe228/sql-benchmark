@@ -1,0 +1,1 @@
+SELECT "posts"."reply_to_user_id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 17603 AND "posts"."user_id" = 4072 ORDER BY created_at desc LIMIT 2

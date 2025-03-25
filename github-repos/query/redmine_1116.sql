@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` ORDER BY `versions`.`id` DESC LIMIT 1

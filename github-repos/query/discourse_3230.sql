@@ -1,0 +1,1 @@
+SELECT COUNT(distinct topic_id) FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."user_id" = 5501 AND (created_at > '2019-12-17 06:22:47.734428' AND post_number > 1)

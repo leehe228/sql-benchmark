@@ -1,0 +1,1 @@
+SELECT `spree_taxonomies`.* FROM `spree_taxonomies` WHERE (1 = 1) AND (`spree_taxonomies`.`position` IS NOT NULL) ORDER BY `spree_taxonomies`.`position` DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` LIMIT 1

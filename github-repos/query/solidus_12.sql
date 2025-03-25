@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.* FROM `spree_stock_locations` WHERE (1 = 1) AND (`spree_stock_locations`.`position` IS NOT NULL) ORDER BY `spree_stock_locations`.`position` DESC LIMIT 1

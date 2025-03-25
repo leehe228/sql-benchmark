@@ -1,0 +1,1 @@
+SELECT "post_timings"."msecs" FROM "post_timings" WHERE "post_timings"."topic_id" = 16138 AND "post_timings"."post_number" = 1 AND "post_timings"."user_id" = 1263

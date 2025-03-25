@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_customer_returns` WHERE `spree_customer_returns`.`number` LIKE '%CR389142455%'

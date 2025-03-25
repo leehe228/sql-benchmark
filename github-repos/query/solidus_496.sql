@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 174 AND `spree_payments`.`id` = 54 ORDER BY `spree_payments`.`created_at` ASC LIMIT 1

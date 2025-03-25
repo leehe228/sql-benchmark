@@ -1,0 +1,1 @@
+SELECT "theme_fields".* FROM "theme_fields" INNER JOIN "uploads" ON "uploads"."id" = "theme_fields"."upload_id" WHERE "theme_fields"."theme_id" = 1017 AND "theme_fields"."type_id" = 2

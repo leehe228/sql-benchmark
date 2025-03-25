@@ -1,0 +1,1 @@
+SELECT "authorizations".* FROM "authorizations" WHERE "authorizations"."user_id" = $1

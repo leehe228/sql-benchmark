@@ -1,0 +1,1 @@
+SELECT `spree_stock_items`.`variant_id`, `spree_stock_items`.`stock_location_id` FROM `spree_stock_items` WHERE `spree_stock_items`.`deleted_at` IS NULL AND 1=0 AND `spree_stock_items`.`stock_location_id` IN (SELECT `spree_stock_locations`.`id` FROM `spree_stock_locations` WHERE `spree_stock_locations`.`active` = TRUE) AND `spree_stock_items`.`backorderable` = TRUE

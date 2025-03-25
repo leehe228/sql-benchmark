@@ -1,0 +1,1 @@
+SELECT `spree_properties`.`name` FROM `spree_properties`

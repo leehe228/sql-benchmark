@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."type" = $1 AND "users"."login" = $2 ORDER BY "users"."id" ASC LIMIT $3

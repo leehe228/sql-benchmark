@@ -1,0 +1,1 @@
+SELECT "topic_allowed_groups"."group_id" FROM "topic_allowed_groups" WHERE "topic_allowed_groups"."topic_id" = 17673 AND "topic_allowed_groups"."group_id" = 2796 LIMIT 1

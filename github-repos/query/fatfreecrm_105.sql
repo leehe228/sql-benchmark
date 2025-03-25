@@ -1,0 +1,1 @@
+SELECT `opportunities`.* FROM `opportunities` WHERE ((`opportunities`.`assigned_to` = 202) OR ((`opportunities`.`user_id` = 202) OR (`opportunities`.`access` = 'Public'))) AND `opportunities`.`id` = 9 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_promotion_action_line_items`.* FROM `spree_promotion_action_line_items` WHERE 1=0 ORDER BY `spree_promotion_action_line_items`.`id` ASC LIMIT 1000

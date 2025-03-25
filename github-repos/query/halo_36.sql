@@ -1,0 +1,1 @@
+select count(log0_.id) as col_0_0_ from logs log0_

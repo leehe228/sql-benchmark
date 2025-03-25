@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `wiki_content_versions` WHERE `wiki_content_versions`.`wiki_content_id` = 2

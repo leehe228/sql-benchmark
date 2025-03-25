@@ -1,0 +1,1 @@
+SELECT `spree_promotion_rule_taxons`.* FROM `spree_promotion_rule_taxons` WHERE `spree_promotion_rule_taxons`.`taxon_id` = 96

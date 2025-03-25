@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`name` LIKE '%Imaginary%' ORDER BY `spree_taxons`.`taxonomy_id` ASC, `spree_taxons`.`lft` ASC LIMIT 25 OFFSET 0

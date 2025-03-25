@@ -1,0 +1,1 @@
+SELECT SUM(upvotes + 1 - downvotes) FROM `comments` WHERE `comments`.`story_id` IS NULL AND `comments`.`user_id` != 271

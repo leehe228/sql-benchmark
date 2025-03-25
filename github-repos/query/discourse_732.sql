@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "group_users" WHERE "group_users"."group_id" = 1

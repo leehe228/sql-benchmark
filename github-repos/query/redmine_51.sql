@@ -1,0 +1,1 @@
+SELECT MAX(`settings`.`updated_on`) FROM `settings`

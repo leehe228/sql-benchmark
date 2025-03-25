@@ -1,0 +1,1 @@
+SELECT "username" FROM "ignored_users" INNER JOIN "users" ON "users"."id" = "ignored_users"."ignored_user_id" WHERE "ignored_users"."user_id" IS NULL

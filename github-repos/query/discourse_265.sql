@@ -1,0 +1,1 @@
+SELECT "post_replies"."post_id" FROM "post_replies" WHERE "post_replies"."reply_post_id" = 16405

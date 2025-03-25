@@ -1,0 +1,1 @@
+select count(adminpermi0_.ADMIN_PERMISSION_ID) as col_0_0_ from BLC_ADMIN_PERMISSION adminpermi0_ inner join BLC_ADMIN_ROLE_PERMISSION_XREF allroles1_ on adminpermi0_.ADMIN_PERMISSION_ID=allroles1_.ADMIN_PERMISSION_ID inner join BLC_ADMIN_ROLE adminrolei2_ on allroles1_.ADMIN_ROLE_ID=adminrolei2_.ADMIN_ROLE_ID where adminpermi0_.IS_FRIENDLY=1 and adminrolei2_.ADMIN_ROLE_ID=1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT `conversation_visibilities`.`id` FROM `conversation_visibilities` LEFT OUTER JOIN `conversations` ON `conversations`.`id` = `conversation_visibilities`.`conversation_id` WHERE `conversation_visibilities`.`person_id` = 2) subquery_for_count

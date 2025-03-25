@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` INNER JOIN `refinery_page_translations` `refinery_page_translations_en` ON `refinery_page_translations_en`.`refinery_page_id` = `refinery_pages`.`id` AND `refinery_page_translations_en`.`locale` = 'en' WHERE `refinery_page_translations_en`.`slug` = 'draft' LIMIT 1

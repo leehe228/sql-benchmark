@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_orders`.`channel` FROM `spree_orders`

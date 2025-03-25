@@ -1,0 +1,1 @@
+SELECT "email_change_requests".* FROM "email_change_requests" WHERE "email_change_requests"."user_id" = 824 AND "email_change_requests"."new_email_token_id" = 34243 ORDER BY "email_change_requests"."id" ASC LIMIT 1

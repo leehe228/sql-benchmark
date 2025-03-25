@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `hidden_stories` WHERE `hidden_stories`.`story_id` = 129

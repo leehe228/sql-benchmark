@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE `spree_users`.`id` = 353

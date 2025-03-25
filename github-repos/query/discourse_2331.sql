@@ -1,0 +1,1 @@
+SELECT "topic_links"."id" FROM "topic_links" WHERE "topic_links"."topic_id" = 17279

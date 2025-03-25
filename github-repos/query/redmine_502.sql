@@ -1,0 +1,1 @@
+SELECT DISTINCT `changesets`.`committer`, `changesets`.`user_id` FROM `changesets` WHERE `changesets`.`repository_id` = 10

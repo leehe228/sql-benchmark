@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`board_id` = 1 AND `messages`.`parent_id` IS NULL ORDER BY `messages`.`sticky` DESC, COALESCE(messages.last_reply_id, messages.id) DESC LIMIT 25 OFFSET 0

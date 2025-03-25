@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` WHERE `enumerations`.`name` = 'Project Specific' AND `enumerations`.`id` != 3017 AND `enumerations`.`type` = 'TimeEntryActivity' AND `enumerations`.`project_id` = 1 LIMIT 1

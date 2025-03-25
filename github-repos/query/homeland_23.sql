@@ -1,0 +1,1 @@
+SELECT "commentable_pages".* FROM "commentable_pages" WHERE "commentable_pages"."id" = $1 LIMIT $2

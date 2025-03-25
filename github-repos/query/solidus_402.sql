@@ -1,0 +1,1 @@
+SELECT `spree_roles_users`.* FROM `spree_roles_users` WHERE `spree_roles_users`.`user_id` IN (4, 5, 6)

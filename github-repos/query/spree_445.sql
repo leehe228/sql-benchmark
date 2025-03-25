@@ -1,0 +1,1 @@
+SELECT `spree_assets`.* FROM `spree_assets` WHERE `spree_assets`.`type` = 'Spree::TaxonImage' AND `spree_assets`.`viewable_type` = 'Spree::Taxon' AND `spree_assets`.`viewable_id` IN (115, 116)

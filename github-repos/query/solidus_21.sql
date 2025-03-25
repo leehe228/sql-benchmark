@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` INNER JOIN `spree_countries` ON `spree_countries`.`id` = `spree_states`.`country_id` WHERE (spree_countries.iso = ('US')) AND `spree_states`.`abbr` = 'AL' LIMIT 1

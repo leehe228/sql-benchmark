@@ -1,0 +1,1 @@
+SELECT SUM(`time_entries`.`hours`) AS sum_hours, `time_entries`.`issue_id` AS time_entries_issue_id FROM `time_entries` INNER JOIN (SELECT * FROM `projects`) AS `sub` ON `sub`.`id` = `time_entries`.`project_id` WHERE `time_entries`.`issue_id` = 3 GROUP BY `time_entries`.`issue_id`

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_return_items`

@@ -1,0 +1,1 @@
+SELECT `documents`.* FROM `documents` WHERE `documents`.`id` = 1 LIMIT 1

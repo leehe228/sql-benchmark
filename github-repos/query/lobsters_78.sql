@@ -1,0 +1,1 @@
+SELECT `stories`.`id` FROM `stories` WHERE `stories`.`merged_story_id` = 48

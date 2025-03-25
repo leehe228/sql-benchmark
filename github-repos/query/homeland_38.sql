@@ -1,0 +1,1 @@
+SELECT "actions".* FROM "actions" WHERE "actions"."user_id" = $1 AND "actions"."action_type" = $2 AND "actions"."target_type" = $3 AND "actions"."user_type" = $4 ORDER BY "actions"."id" ASC LIMIT $5

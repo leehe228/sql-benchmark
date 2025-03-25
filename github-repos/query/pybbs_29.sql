@@ -1,0 +1,1 @@
+SELECT id,username,telegram_name,avatar,password,email,mobile,website,bio,score,in_time,token,email_notification,active FROM user WHERE id=1

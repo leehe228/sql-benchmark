@@ -1,0 +1,1 @@
+SELECT "replies".* FROM "replies" WHERE "replies"."deleted_at" IS NULL AND "replies"."topic_id" = $1 AND "replies"."action" IS NULL AND "replies"."id" != $2 ORDER BY "replies"."id" DESC LIMIT $3

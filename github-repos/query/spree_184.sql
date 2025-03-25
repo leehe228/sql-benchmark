@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_promotion_rules` WHERE `spree_promotion_rules`.`promotion_id` = 1

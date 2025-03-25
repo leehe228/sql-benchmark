@@ -1,0 +1,1 @@
+SELECT "topic_timers".* FROM "topic_timers" WHERE ("topic_timers"."deleted_at" IS NOT NULL) AND (topic_timers.execute_at < '2020-03-26 09:21:15.948689') ORDER BY "topic_timers"."id" ASC LIMIT 1000

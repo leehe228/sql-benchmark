@@ -1,0 +1,1 @@
+SELECT `poll_participations`.* FROM `poll_participations` INNER JOIN poll_participations as p2 ON (poll_participations.poll_id = p2.poll_id AND poll_participations.author_id=4573 AND p2.author_id=4589)

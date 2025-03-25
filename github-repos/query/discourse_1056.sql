@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_exports" WHERE "user_exports"."user_id" = 814 AND "user_exports"."created_at" BETWEEN '2020-03-26 00:00:00' AND '2020-03-26 23:59:59.999999'

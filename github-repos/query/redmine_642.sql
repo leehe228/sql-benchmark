@@ -1,0 +1,1 @@
+SELECT id, author_id, comments, updated_on, version FROM `wiki_content_versions` WHERE `wiki_content_versions`.`wiki_content_id` = 2 ORDER BY version DESC LIMIT 26 OFFSET 0

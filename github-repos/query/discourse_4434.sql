@@ -1,0 +1,1 @@
+SELECT "drafts"."revisions" FROM "drafts" WHERE "drafts"."sequence" = 0 AND "drafts"."user_id" = 7805 AND "drafts"."draft_key" = 'new_topic' LIMIT 1

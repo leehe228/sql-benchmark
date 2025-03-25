@@ -1,0 +1,1 @@
+SELECT "topic_users"."user_id", "topic_users"."last_read_post_number", "topic_users"."notification_level" FROM "topic_users" WHERE "topic_users"."topic_id" = 15614 AND (COALESCE(topic_users.notification_level, 1) >= 2)

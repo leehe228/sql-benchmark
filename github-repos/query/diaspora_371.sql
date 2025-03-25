@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` INNER JOIN aspects as a2 ON (aspects.name = a2.name AND aspects.user_id=1553 AND a2.user_id=1554)

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."user_type" = $1 ORDER BY "users"."id" ASC LIMIT $2 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

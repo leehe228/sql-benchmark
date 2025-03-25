@@ -1,0 +1,1 @@
+SELECT `workflows`.* FROM `workflows` WHERE `workflows`.`type` IN ('WorkflowPermission') AND `workflows`.`tracker_id` = 2 AND `workflows`.`role_id` = 1

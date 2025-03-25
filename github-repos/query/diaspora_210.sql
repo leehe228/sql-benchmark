@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('StatusMessage') AND `posts`.`guid` = '1775bc606c3001384b7e08e9fe568a11' LIMIT 1

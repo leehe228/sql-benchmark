@@ -1,0 +1,1 @@
+SELECT `spree_payment_methods`.* FROM `spree_payment_methods` WHERE `spree_payment_methods`.`id` = 29 LIMIT 1

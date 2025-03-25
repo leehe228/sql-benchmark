@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` WHERE `spree_countries`.`iso3` = 'IS727' LIMIT 1

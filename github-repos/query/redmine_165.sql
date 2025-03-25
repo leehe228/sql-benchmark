@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments`

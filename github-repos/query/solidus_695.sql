@@ -1,0 +1,1 @@
+SELECT `spree_shipping_methods`.* FROM `spree_shipping_methods` WHERE `spree_shipping_methods`.`deleted_at` IS NULL

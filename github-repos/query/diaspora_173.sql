@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `posts` WHERE `posts`.`id` IS NULL LIMIT 1

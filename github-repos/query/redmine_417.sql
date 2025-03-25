@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `projects` INNER JOIN `members` ON `projects`.`id` = `members`.`project_id` WHERE `members`.`user_id` = 2 AND `projects`.`status` != 9 LIMIT 1

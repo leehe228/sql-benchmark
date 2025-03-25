@@ -1,0 +1,1 @@
+SELECT `time_entries`.* FROM `time_entries` ORDER BY `time_entries`.`id` ASC LIMIT 1

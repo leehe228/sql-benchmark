@@ -1,0 +1,1 @@
+SELECT `watchers`.* FROM `watchers` WHERE `watchers`.`watchable_id` = 3502 AND `watchers`.`watchable_type` = 'Issue'

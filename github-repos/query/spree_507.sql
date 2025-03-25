@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE (`spree_products`.deleted_at IS NULL or `spree_products`.deleted_at >= '2020-05-01 07:08:23.093117') AND (`spree_products`.discontinue_on IS NULL or `spree_products`.discontinue_on >= '2020-05-01 07:08:23.093347') AND `spree_products`.`slug` = '1172' LIMIT 1

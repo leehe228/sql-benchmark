@@ -1,0 +1,1 @@
+SELECT DISTINCT `roles`.`id` FROM `roles` INNER JOIN `member_roles` ON `roles`.`id` = `member_roles`.`role_id` WHERE `member_roles`.`member_id` = 1

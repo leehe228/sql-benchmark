@@ -1,0 +1,1 @@
+SELECT `spree_shipping_rates`.* FROM `spree_shipping_rates` WHERE `spree_shipping_rates`.`shipment_id` = 749 ORDER BY `spree_shipping_rates`.`cost` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."username" IN ('bruce664', 'bruce668', 'bruce669') ORDER BY "users"."id" ASC LIMIT 1000

@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."id" = 1946 ORDER BY score desc, created_at desc LIMIT 1

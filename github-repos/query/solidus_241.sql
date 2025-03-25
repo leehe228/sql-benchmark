@@ -1,0 +1,1 @@
+SELECT `spree_calculators`.* FROM `spree_calculators` WHERE `spree_calculators`.`calculable_type` = 'Spree::ShippingMethod' AND `spree_calculators`.`calculable_id` = 965

@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = $1 ORDER BY id desc LIMIT $2 OFFSET $3

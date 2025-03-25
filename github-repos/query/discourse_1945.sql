@@ -1,0 +1,1 @@
+SELECT "groups"."incoming_email" FROM "groups"

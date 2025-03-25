@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issue_statuses` WHERE `issue_statuses`.`name` = 'Renamed status' AND `issue_statuses`.`id` != 3 LIMIT 1

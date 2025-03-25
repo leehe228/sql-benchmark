@@ -1,0 +1,1 @@
+select forgotpass0_.PASSWORD_TOKEN as PASSWORD1_3_0_, forgotpass0_.ADMIN_USER_ID as ADMIN_US2_3_0_, forgotpass0_.CREATE_DATE as CREATE_D3_3_0_, forgotpass0_.TOKEN_USED_DATE as TOKEN_US4_3_0_, forgotpass0_.TOKEN_USED_FLAG as TOKEN_US5_3_0_ from BLC_ADMIN_PASSWORD_TOKEN forgotpass0_ where forgotpass0_.PASSWORD_TOKEN='dnxjpgj2lxmu'

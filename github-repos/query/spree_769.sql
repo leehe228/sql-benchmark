@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_properties` WHERE `spree_properties`.`id` = 44 LIMIT 25 OFFSET 0) subquery_for_count

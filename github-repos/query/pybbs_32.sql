@@ -1,0 +1,1 @@
+select t.*, u.username from topic t left join user u on t.user_id = u.id order by t.in_time desc LIMIT 0,20

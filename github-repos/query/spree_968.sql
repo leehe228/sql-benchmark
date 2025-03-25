@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 1174 AND `spree_adjustments`.`amount` IN (0.0, -50.0, -200.0)

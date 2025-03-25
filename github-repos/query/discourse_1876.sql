@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" LEFT JOIN posts ON posts.user_id = users.id WHERE (posts.user_id IS NULL) AND "users"."staged" = TRUE AND "users"."admin" = FALSE AND "users"."moderator" = FALSE AND (users.created_at < '2019-03-27 06:17:31.321087') ORDER BY "users"."id" ASC LIMIT 1000

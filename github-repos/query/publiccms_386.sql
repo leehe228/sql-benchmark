@@ -1,0 +1,1 @@
+select cmsplaceat0_.place_id as place_id1_12_0_, cmsplaceat0_.data as data2_12_0_ from cms_place_attribute cmsplaceat0_ where cmsplaceat0_.place_id=2

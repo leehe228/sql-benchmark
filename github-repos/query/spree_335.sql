@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_orders` LEFT OUTER JOIN `spree_users` ON `spree_users`.`id` = `spree_orders`.`user_id` WHERE `spree_users`.`id` = 20 LIMIT 25 OFFSET 0) subquery_for_count

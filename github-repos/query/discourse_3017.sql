@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, "users"."trust_level" AS users_trust_level FROM "users" WHERE (users.id > 0) AND (NOT EXISTS( SELECT 1 FROM anonymous_users a WHERE a.user_id = users.id )) GROUP BY "users"."trust_level"

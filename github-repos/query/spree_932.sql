@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` WHERE `spree_inventory_units`.`line_item_id` = 583 ORDER BY `spree_inventory_units`.`id` ASC LIMIT 1

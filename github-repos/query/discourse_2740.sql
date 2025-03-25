@@ -1,0 +1,1 @@
+SELECT "category_search_data".* FROM "category_search_data" WHERE "category_search_data"."category_id" = 3361 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `permissions` WHERE `permissions`.`user_id` = 7 AND `permissions`.`group_id` IS NULL AND `permissions`.`asset_id` = 42 AND `permissions`.`asset_type` = 'Contact' LIMIT 1

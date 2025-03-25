@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (topics.archetype <> 'private_message') AND "topics"."visible" = TRUE AND "topics"."category_id" = 1 AND "topics"."pinned_globally" = FALSE AND "topics"."pinned_at" IS NOT NULL

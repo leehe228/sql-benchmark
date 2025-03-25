@@ -1,0 +1,1 @@
+select count(pageimpl0_.PAGE_ID) as col_0_0_ from BLC_PAGE pageimpl0_ where 1=1

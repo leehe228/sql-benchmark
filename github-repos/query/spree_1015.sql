@@ -1,0 +1,1 @@
+SELECT `spree_dummy_models`.* FROM `spree_dummy_models` WHERE `spree_dummy_models`.`name` LIKE '%Test%'

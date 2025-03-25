@@ -1,0 +1,1 @@
+SELECT `users`.`serialized_private_key` FROM `users` WHERE `users`.`id` = 3

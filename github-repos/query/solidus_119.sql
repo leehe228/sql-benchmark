@@ -1,0 +1,1 @@
+SELECT `spree_variant_property_rules`.* FROM `spree_variant_property_rules` WHERE `spree_variant_property_rules`.`product_id` = 452

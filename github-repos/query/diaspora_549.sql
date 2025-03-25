@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `reports` WHERE `reports`.`reviewed` = FALSE LIMIT 1

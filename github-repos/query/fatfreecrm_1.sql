@@ -1,0 +1,1 @@
+SELECT `settings`.* FROM `settings` WHERE `settings`.`name` = 'lead_status' LIMIT 1

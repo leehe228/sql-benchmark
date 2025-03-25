@@ -1,0 +1,1 @@
+SELECT `spree_promotion_categories`.* FROM `spree_promotion_categories` WHERE `spree_promotion_categories`.`id` = 25 LIMIT 1

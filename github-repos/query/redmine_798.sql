@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `versions` WHERE `versions`.`name` = 'New version name' AND `versions`.`id` != 2 AND `versions`.`project_id` = 1 LIMIT 1

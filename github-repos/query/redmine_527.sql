@@ -1,0 +1,1 @@
+SELECT `wikis`.* FROM `wikis` WHERE `wikis`.`project_id` IN (1, 5)

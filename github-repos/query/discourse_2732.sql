@@ -1,0 +1,1 @@
+SELECT "reviewables"."id" FROM "reviewables" WHERE "reviewables"."status" = 0 AND (score >= 0.0) AND (latest_score < '2020-03-24 06:20:58.225000') ORDER BY id DESC

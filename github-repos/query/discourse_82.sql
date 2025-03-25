@@ -1,0 +1,1 @@
+SELECT "user_stats".* FROM "user_stats" WHERE "user_stats"."user_id" = 36 LIMIT 1

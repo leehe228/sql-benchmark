@@ -1,0 +1,1 @@
+SELECT `journals`.* FROM `journals` WHERE `journals`.`journalized_id` = 3 AND `journals`.`journalized_type` = 'Issue' ORDER BY `journals`.`created_on` ASC, `journals`.`id` ASC

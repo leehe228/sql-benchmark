@@ -1,0 +1,1 @@
+SELECT `spree_reimbursement_types`.* FROM `spree_reimbursement_types` WHERE `spree_reimbursement_types`.`id` = 2 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `journals`.* FROM `journals` WHERE `journals`.`id` IN (2, 896, 4, 5)

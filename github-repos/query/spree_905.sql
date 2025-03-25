@@ -1,0 +1,1 @@
+SELECT `spree_stock_items`.* FROM `spree_stock_items` WHERE `spree_stock_items`.`variant_id` = 1206

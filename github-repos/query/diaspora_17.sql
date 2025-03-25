@@ -1,0 +1,1 @@
+SELECT posts.* FROM `posts` INNER JOIN `share_visibilities` ON `share_visibilities`.`shareable_id` = `posts`.`id` AND `share_visibilities`.`shareable_type` = 'Post' WHERE `posts`.`guid` = '2149f6b06c3001384b7e08e9fe568a11' AND `share_visibilities`.`user_id` = 1105 ORDER BY `posts`.`id` ASC LIMIT 1

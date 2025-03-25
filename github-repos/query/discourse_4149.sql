@@ -1,0 +1,1 @@
+SELECT "post_actions".* FROM "post_actions" WHERE "post_actions"."user_id" = 7298 AND "post_actions"."post_id" = 19968 AND "post_actions"."post_action_type_id" = 2 ORDER BY "post_actions"."id" ASC LIMIT 1

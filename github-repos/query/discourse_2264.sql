@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "bookmarks"."id") FROM "bookmarks" LEFT OUTER JOIN "users" ON "users"."id" = "bookmarks"."user_id" WHERE (reminder_at IS NOT NULL AND reminder_type = 0) AND (users.last_seen_at >= '2020-03-25 06:18:50.902180')

@@ -1,0 +1,1 @@
+SELECT "groups"."user_count" FROM "groups" WHERE "groups"."id" = 2612 LIMIT 1

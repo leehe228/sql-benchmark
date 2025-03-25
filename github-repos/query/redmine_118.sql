@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 2

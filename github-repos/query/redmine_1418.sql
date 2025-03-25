@@ -1,0 +1,1 @@
+SELECT `custom_field_enumerations`.* FROM `custom_field_enumerations` WHERE `custom_field_enumerations`.`id` = 143 LIMIT 1

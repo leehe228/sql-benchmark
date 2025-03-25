@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE 1=0

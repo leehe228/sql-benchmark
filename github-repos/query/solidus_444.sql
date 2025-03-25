@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` INNER JOIN `friendly_id_slugs` ON `friendly_id_slugs`.`sluggable_type` = 'Spree::Product' AND `friendly_id_slugs`.`sluggable_id` = `spree_products`.`id` WHERE `friendly_id_slugs`.`sluggable_type` = 'Spree::Product' AND `friendly_id_slugs`.`slug` = 'non-existent-product' ORDER BY `friendly_id_slugs`.`id` DESC LIMIT 1

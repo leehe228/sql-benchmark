@@ -1,0 +1,1 @@
+SELECT "post_actions".* FROM "post_actions" WHERE "post_actions"."post_action_type_id" IN (1, 2) AND "post_actions"."post_id" = 17082 AND "post_actions"."id" IS NULL ORDER BY "post_actions"."id" ASC LIMIT 1000

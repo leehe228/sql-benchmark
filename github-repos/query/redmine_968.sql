@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `trackers` WHERE `trackers`.`default_status_id` = 1 LIMIT 1

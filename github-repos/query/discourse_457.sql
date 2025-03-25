@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "stylesheet_cache"

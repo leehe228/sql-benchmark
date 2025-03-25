@@ -1,0 +1,1 @@
+SELECT user_id,avatar,account,password,salt,name,birthday,sex,email,phone,role_id,dept_id,status,create_time,create_user,update_time,update_user,version FROM sys_user WHERE user_id=1188369796975165441

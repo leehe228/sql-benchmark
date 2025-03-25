@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND `spree_products`.`name` = 'Denim Shirt' LIMIT 1

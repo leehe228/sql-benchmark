@@ -1,0 +1,1 @@
+SELECT "ci_pipelines".* FROM "ci_pipelines" WHERE "ci_pipelines"."user_id" = $1 AND "ci_pipelines"."status" IN ($2, $3, $4, $5, $6, $7) ORDER BY "ci_pipelines"."id" ASC LIMIT $8 /*application:test,correlation_id:1741cc87b49b285316122edc85cfc5a2*/

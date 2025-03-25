@@ -1,0 +1,1 @@
+SELECT `trackers`.* FROM `trackers` INNER JOIN `custom_fields_trackers` ON `trackers`.`id` = `custom_fields_trackers`.`tracker_id` WHERE `custom_fields_trackers`.`custom_field_id` = 1

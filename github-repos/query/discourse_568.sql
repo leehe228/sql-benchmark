@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15644 AND "posts"."post_type" != 4 ORDER BY "posts"."post_number" DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, "user_visits"."visited_at" AS user_visits_visited_at FROM "user_visits" WHERE (visited_at >= '2020-03-24' and visited_at <= '2020-03-26') GROUP BY "user_visits"."visited_at" ORDER BY "user_visits"."visited_at" ASC

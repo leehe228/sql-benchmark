@@ -1,0 +1,1 @@
+SELECT "group_id" FROM "groups" INNER JOIN "topic_allowed_groups" ON "groups"."id" = "topic_allowed_groups"."group_id" WHERE "topic_allowed_groups"."topic_id" = 15596

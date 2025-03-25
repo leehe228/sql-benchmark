@@ -1,0 +1,1 @@
+select sysroleaut0_.role_id as role_id1_36_, sysroleaut0_.url as url2_36_ from sys_role_authorized sysroleaut0_ where sysroleaut0_.role_id=3 limit 2147483647

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `people` INNER JOIN `blocks` ON `people`.`id` = `blocks`.`person_id` WHERE `blocks`.`user_id` = 1 AND `people`.`id` = 1 LIMIT 1

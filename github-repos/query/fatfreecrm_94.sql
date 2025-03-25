@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT `accounts`.* FROM `accounts` WHERE ((`accounts`.`assigned_to` = 239) OR ((`accounts`.`user_id` = 239) OR (`accounts`.`access` = 'Public'))) AND (`accounts`.`name` LIKE '%second%' OR `accounts`.`email` LIKE '%second%') ORDER BY accounts.created_at DESC) subquery_for_count

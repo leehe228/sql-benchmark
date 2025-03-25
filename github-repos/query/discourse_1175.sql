@@ -1,0 +1,1 @@
+SELECT "post_custom_fields"."post_id", "post_custom_fields"."name", "post_custom_fields"."value" FROM "post_custom_fields" WHERE "post_custom_fields"."post_id" IN (16809, 16810, 16811) AND "post_custom_fields"."name" IN ('notice_type', 'notice_args', 'action_code_who')

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_users` LEFT OUTER JOIN `spree_roles_users` ON `spree_roles_users`.`user_id` = `spree_users`.`id` LEFT OUTER JOIN `spree_roles` ON `spree_roles`.`id` = `spree_roles_users`.`role_id` WHERE `spree_roles`.`id` IN (76)

@@ -1,0 +1,1 @@
+SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'contacts_sort_by' AND `preferences`.`user_id` = 688 LIMIT 1

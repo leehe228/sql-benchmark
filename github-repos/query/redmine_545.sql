@@ -1,0 +1,1 @@
+SELECT `wiki_pages`.* FROM `wiki_pages` WHERE `wiki_pages`.`wiki_id` = 1 AND `wiki_pages`.`id` = 1 ORDER BY title LIMIT 1

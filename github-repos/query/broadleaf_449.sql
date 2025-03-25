@@ -1,0 +1,1 @@
+select personalme0_.PERSONAL_MESSAGE_ID as PERSONAL1_116_0_, personalme0_.MESSAGE as MESSAGE2_116_0_, personalme0_.MESSAGE_FROM as MESSAGE_3_116_0_, personalme0_.MESSAGE_TO as MESSAGE_4_116_0_, personalme0_.OCCASION as OCCASION5_116_0_ from BLC_PERSONAL_MESSAGE personalme0_ where personalme0_.PERSONAL_MESSAGE_ID=3

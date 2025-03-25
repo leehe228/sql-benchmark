@@ -1,0 +1,1 @@
+SELECT MAX(`issues`.`rgt`) FROM `issues` WHERE `issues`.`root_id` = 3537 AND `issues`.`parent_id` = 3537 AND (id < 3536)

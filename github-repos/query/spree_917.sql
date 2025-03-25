@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_store_credit_events` WHERE `spree_store_credit_events`.`deleted_at` IS NULL

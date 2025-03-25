@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "clusters_applications_helm" /*application:test,correlation_id:92f7cd2156668f0a0ca5d61fbf35733e*/

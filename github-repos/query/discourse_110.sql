@@ -1,0 +1,1 @@
+SELECT "category_custom_fields"."name", "category_custom_fields"."value" FROM "category_custom_fields" WHERE "category_custom_fields"."category_id" = 3085 ORDER BY id asc

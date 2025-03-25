@@ -1,0 +1,1 @@
+SELECT `people`.`id` FROM `people` WHERE `people`.`owner_id` = 3

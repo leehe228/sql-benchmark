@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM article WHERE article_user_id=1 AND article_status = 1

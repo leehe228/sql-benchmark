@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` WHERE `likes`.`target_id` = 2415 AND `likes`.`target_type` = 'Post' AND `likes`.`positive` = TRUE

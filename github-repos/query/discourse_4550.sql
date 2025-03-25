@@ -1,0 +1,1 @@
+SELECT "github_user_infos"."github_user_id" FROM "github_user_infos" WHERE "github_user_infos"."user_id" = 8081

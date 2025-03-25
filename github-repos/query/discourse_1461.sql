@@ -1,0 +1,1 @@
+SELECT "user_api_keys".* FROM "user_api_keys" WHERE "user_api_keys"."key" = '7c56f993d63013bb5bb3803ef4a6f156' AND "user_api_keys"."revoked_at" IS NOT NULL ORDER BY "user_api_keys"."id" ASC LIMIT 1

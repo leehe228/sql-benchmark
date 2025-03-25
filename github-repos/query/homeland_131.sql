@@ -1,0 +1,1 @@
+SELECT "replies".* FROM "replies" WHERE "replies"."deleted_at" IS NULL AND "replies"."user_id" = $1 ORDER BY "replies"."id" DESC LIMIT $2 OFFSET $3

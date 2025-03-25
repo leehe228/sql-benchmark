@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`parent_id` = 3161 AND `issues`.`rgt` IS NULL AND `issues`.`lft` IS NULL ORDER BY `issues`.`id` ASC

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_adjustments` WHERE `spree_adjustments`.`eligible` = TRUE AND `spree_adjustments`.`source_type` = 'Spree::PromotionAction' AND `spree_adjustments`.`source_id` = 1

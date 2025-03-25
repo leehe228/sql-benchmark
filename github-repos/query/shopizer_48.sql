@@ -1,0 +1,1 @@
+select producttyp0_.PRODUCT_TYPE_ID as PRODUCT_1_59_, producttyp0_.PRD_TYPE_ADD_TO_CART as PRD_TYPE2_59_, producttyp0_.DATE_CREATED as DATE_CRE3_59_, producttyp0_.DATE_MODIFIED as DATE_MOD4_59_, producttyp0_.UPDT_ID as UPDT_ID5_59_, producttyp0_.PRD_TYPE_CODE as PRD_TYPE6_59_ from PRODUCT_TYPE producttyp0_

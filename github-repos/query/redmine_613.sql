@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE ((1=0) OR projects.id = 1) AND (projects.id IN (SELECT DISTINCT project_id FROM projects_trackers))

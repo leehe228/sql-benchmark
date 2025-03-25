@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `photos` WHERE `photos`.`guid` = '62b203d06c3001384b7e08e9fe568a11' AND `photos`.`id` != 894 LIMIT 1

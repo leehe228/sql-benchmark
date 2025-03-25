@@ -1,0 +1,1 @@
+SELECT `poll_participations`.* FROM `poll_participations` INNER JOIN `polls` ON `polls`.`id` = `poll_participations`.`poll_id` INNER JOIN `posts` ON `posts`.`id` = `polls`.`status_message_id` AND `posts`.`type` IN ('StatusMessage') WHERE `poll_participations`.`author_id` != 2882 AND (posts.author_id = 2882) ORDER BY `poll_participations`.`id` ASC LIMIT 20

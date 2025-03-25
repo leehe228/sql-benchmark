@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE ((email LIKE '%Result%') OR 1=0) LIMIT 25 OFFSET 0

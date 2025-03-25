@@ -1,0 +1,1 @@
+SELECT `spree_products_taxons`.* FROM `spree_products_taxons` WHERE `spree_products_taxons`.`taxon_id` IN (115, 116) ORDER BY `spree_products_taxons`.`position` ASC

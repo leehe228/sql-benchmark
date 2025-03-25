@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_log_entries` WHERE `spree_log_entries`.`source_type` = 'Spree::Payment' AND `spree_log_entries`.`source_id` = 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_visits" WHERE (visited_at >= '2020-01-26 00:00:00' and visited_at < '2020-02-25 00:00:00')

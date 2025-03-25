@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`recipient_id` = 1 ORDER BY updated_at desc LIMIT 25 OFFSET 0

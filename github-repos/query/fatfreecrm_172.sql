@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `leads` WHERE `leads`.`campaign_id` = 42

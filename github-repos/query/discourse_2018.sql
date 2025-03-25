@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE "posts"."topic_id" = 16517 AND (posts.user_id = 2113 OR post_type IN (1,2,3,4)) AND "posts"."hidden" = FALSE

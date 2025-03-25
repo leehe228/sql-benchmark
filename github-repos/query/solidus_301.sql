@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` LIMIT 1 OFFSET 0

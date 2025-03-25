@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, DATE(created_at) AS date_created_at FROM "email_logs" WHERE (created_at BETWEEN '2017-01-30 00:00:00' AND '2017-03-01 23:59:59.999999') GROUP BY DATE(created_at) ORDER BY DATE(created_at)

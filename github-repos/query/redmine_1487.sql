@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `time_entries` WHERE `time_entries`.`activity_id` IN (2500, 2501)

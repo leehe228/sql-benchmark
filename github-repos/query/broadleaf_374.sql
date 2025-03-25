@@ -1,0 +1,1 @@
+select count(categoryxr0_.CATEGORY_XREF_ID) as col_0_0_ from BLC_CATEGORY_XREF categoryxr0_ cross join BLC_CATEGORY categoryim1_ where categoryxr0_.SUB_CATEGORY_ID=categoryim1_.CATEGORY_ID and categoryxr0_.CATEGORY_ID=2001 and (categoryim1_.ARCHIVED='N' or categoryim1_.ARCHIVED is null)

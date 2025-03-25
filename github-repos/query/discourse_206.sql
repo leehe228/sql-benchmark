@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE "posts"."topic_id" = 15601 AND (posts.user_id = -1 OR post_type IN (1,2,3,4)) ORDER BY "posts"."sort_order" ASC LIMIT 20 OFFSET 0

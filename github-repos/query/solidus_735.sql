@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`response_code` = '121-SC-20140602164814476128' ORDER BY `spree_payments`.`created_at` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "user_associated_accounts".* FROM "user_associated_accounts" WHERE "user_associated_accounts"."user_id" = 232

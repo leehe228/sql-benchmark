@@ -1,0 +1,1 @@
+SELECT `spree_store_credit_categories`.* FROM `spree_store_credit_categories` WHERE `spree_store_credit_categories`.`id` = 2 LIMIT 1

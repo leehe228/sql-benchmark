@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_product_properties` WHERE `spree_product_properties`.`product_id` = 1059

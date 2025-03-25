@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE "categories"."id" IN (3174, 3175)

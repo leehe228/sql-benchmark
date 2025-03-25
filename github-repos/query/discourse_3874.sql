@@ -1,0 +1,1 @@
+SELECT "user_second_factors"."method" FROM "user_second_factors" WHERE "user_second_factors"."user_id" = 6580 AND "user_second_factors"."method" = 2 AND "user_second_factors"."enabled" = TRUE

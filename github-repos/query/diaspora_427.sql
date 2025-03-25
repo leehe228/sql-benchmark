@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`author_id` = 2029 AND `photos`.`guid` = 'a3efea006b4401384b7908e9fe568a11' ORDER BY `photos`.`id` ASC LIMIT 1

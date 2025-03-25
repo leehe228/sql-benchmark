@@ -1,0 +1,1 @@
+SELECT "user_emails"."email" FROM "user_emails" WHERE "user_emails"."user_id" = 5876 ORDER BY user_emails.primary DESC NULLS LAST

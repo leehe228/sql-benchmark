@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `posts` ON `posts`.`author_id` = `people`.`id` WHERE 1=0 AND `posts`.`type` = 'Reshare' AND (people.owner_id IS NULL)

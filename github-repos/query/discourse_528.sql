@@ -1,0 +1,1 @@
+SELECT "uploads"."id", "uploads"."url" FROM "uploads" WHERE (id < 0)

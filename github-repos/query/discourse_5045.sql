@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" INNER JOIN "user_search_data" ON "user_search_data"."user_id" = "users"."id" WHERE (user_search_data.locale != 'fr' OR user_search_data.version != 3) ORDER BY users.id asc LIMIT 10000

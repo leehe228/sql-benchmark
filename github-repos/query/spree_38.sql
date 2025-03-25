@@ -1,0 +1,1 @@
+SELECT SUM(`spree_line_items`.`adjustment_total`) FROM `spree_line_items` WHERE `spree_line_items`.`order_id` = 41

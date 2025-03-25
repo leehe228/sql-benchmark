@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` ORDER BY id DESC LIMIT 1

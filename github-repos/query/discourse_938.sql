@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "groups" WHERE (groups.id > 0) AND "groups"."public_admission" = FALSE AND "groups"."automatic" = FALSE

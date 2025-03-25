@@ -1,0 +1,1 @@
+SELECT "groups"."flair_url" FROM "groups" WHERE (flair_url LIKE '%fa-%')

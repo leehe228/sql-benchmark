@@ -1,0 +1,1 @@
+SELECT MAX("project_feature_usages"."project_id") FROM "project_feature_usages" WHERE "project_feature_usages"."jira_dvcs_server_last_sync_at" IS NOT NULL /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

@@ -1,0 +1,1 @@
+select dictdetail0_.dict_id as dict_id5_3_0_, dictdetail0_.id as id1_3_0_, dictdetail0_.id as id1_3_1_, dictdetail0_.dict_id as dict_id5_3_1_, dictdetail0_.label as label2_3_1_, dictdetail0_.sort as sort3_3_1_, dictdetail0_.value as value4_3_1_ from dict_detail dictdetail0_ where dictdetail0_.dict_id=7

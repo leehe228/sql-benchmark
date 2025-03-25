@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."category_id" = 1 AND "topics"."visible" = TRUE AND (topics.created_at > '2019-03-26 06:21:48.089826')

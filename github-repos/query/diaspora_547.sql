@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `users` INNER JOIN `people` ON `people`.`owner_id` = `users`.`id` INNER JOIN `profiles` ON `profiles`.`person_id` = `people`.`id` WHERE `users`.`username` LIKE '%bob110193fc40%'

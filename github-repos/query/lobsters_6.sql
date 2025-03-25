@@ -1,0 +1,1 @@
+SELECT `stories`.`id` FROM `stories` WHERE `stories`.`merged_story_id` = 6 AND (merged_story_id is not null)

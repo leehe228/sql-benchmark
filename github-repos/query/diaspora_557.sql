@@ -1,0 +1,1 @@
+SELECT DISTINCT posts.* FROM `posts` LEFT OUTER JOIN share_visibilities ON share_visibilities.shareable_id = posts.id AND share_visibilities.shareable_type = 'Post' WHERE `posts`.`author_id` = 1 AND (`share_visibilities`.`user_id` = 1970 OR `posts`.`public` = TRUE) AND (created_at < '2021-04-28T06:21:44.000Z') ORDER BY created_at DESC LIMIT 15

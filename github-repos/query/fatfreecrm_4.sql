@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` WHERE ((`accounts`.`assigned_to` = 2939) OR ((`accounts`.`user_id` = 2939) OR (`accounts`.`access` = 'Public'))) ORDER BY `accounts`.`name` ASC LIMIT 25

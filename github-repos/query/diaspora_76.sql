@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `contacts` ON `people`.`id` = `contacts`.`person_id` WHERE `contacts`.`user_id` = 1

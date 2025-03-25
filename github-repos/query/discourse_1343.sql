@@ -1,0 +1,1 @@
+SELECT "translation_overrides"."translation_key" FROM "translation_overrides" WHERE "translation_overrides"."locale" = 'en_US'

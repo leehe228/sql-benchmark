@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` WHERE `enumerations`.`type` IN ('TimeEntryActivity') AND (enumerations.project_id IS NULL OR enumerations.project_id = 1) AND `enumerations`.`active` = TRUE LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` WHERE `issues`.`tracker_id` = 845 LIMIT 1

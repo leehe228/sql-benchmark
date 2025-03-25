@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) LIMIT 1) subquery_for_count

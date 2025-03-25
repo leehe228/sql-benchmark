@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."username" = 'bruce7014' AND "users"."admin" = FALSE AND "users"."moderator" = FALSE

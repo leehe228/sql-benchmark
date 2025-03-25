@@ -1,0 +1,1 @@
+SELECT MAX("topics"."updated_at") FROM "topics" LEFT OUTER JOIN "nodes" ON "nodes"."id" = "topics"."node_id" LEFT OUTER JOIN "users" ON "users"."id" = "topics"."user_id" LEFT OUTER JOIN "users" "last_reply_users_topics" ON "last_reply_users_topics"."id" = "topics"."last_reply_user_id" WHERE "topics"."deleted_at" IS NULL AND "topics"."grade" != $1 LIMIT $2

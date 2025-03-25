@@ -1,0 +1,1 @@
+SELECT `spree_store_credit_reasons`.* FROM `spree_store_credit_reasons` WHERE `spree_store_credit_reasons`.`active` = TRUE ORDER BY LOWER(`spree_store_credit_reasons`.`name`), `spree_store_credit_reasons`.`name` ASC

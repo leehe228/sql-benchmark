@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 801 ORDER BY `posts`.`id` ASC LIMIT 1

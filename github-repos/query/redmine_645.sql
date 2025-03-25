@@ -1,0 +1,1 @@
+SELECT `imports`.* FROM `imports` WHERE `imports`.`user_id` = 2 AND `imports`.`filename` = '5897eeaa4aa31d16ece1a8f8e6a66cfa' ORDER BY `imports`.`id` ASC LIMIT 1

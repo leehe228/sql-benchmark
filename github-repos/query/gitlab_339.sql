@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."model_id" = $1 AND "uploads"."model_type" = $2 AND "uploads"."uploader" IN ($3, $4, $5) AND "uploads"."store" = $6 ORDER BY "uploads"."id" ASC LIMIT $7 /*application:test,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`guid` = '6a25ee606c3001384b7e08e9fe568a11' AND `posts`.`author_id` = 4261 ORDER BY `posts`.`id` ASC LIMIT 1

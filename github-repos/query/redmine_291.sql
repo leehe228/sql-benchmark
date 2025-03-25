@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` WHERE `issues`.`fixed_version_id` = 3 LIMIT 1

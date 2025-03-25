@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `taggings` WHERE `taggings`.`tag_id` = 1 AND `taggings`.`taggable_type` = 'Profile' AND `taggings`.`taggable_id` = 5270 AND `taggings`.`context` = 'tags' AND `taggings`.`tagger_id` IS NULL AND `taggings`.`tagger_type` IS NULL LIMIT 1

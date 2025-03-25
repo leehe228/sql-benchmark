@@ -1,0 +1,1 @@
+SELECT "quoted_posts"."quoted_post_id" FROM "quoted_posts" WHERE "quoted_posts"."post_id" = 20641

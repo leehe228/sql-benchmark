@@ -1,0 +1,1 @@
+select role_id AS "roleId", pid AS "pid", name AS "name", description AS "description", sort AS "sort", version AS "version", create_time AS "createTime", update_time AS "updateTime", create_user AS "createUser", update_user AS "updateUser" from sys_role where name like CONCAT('%','','%') order by sort asc LIMIT 0,10

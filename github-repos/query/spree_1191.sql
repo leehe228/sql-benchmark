@@ -1,0 +1,1 @@
+SELECT `spree_promotions`.* FROM `spree_promotions` WHERE `spree_promotions`.`name` LIKE '%name1%' ORDER BY `spree_promotions`.`id` DESC LIMIT 25 OFFSET 0

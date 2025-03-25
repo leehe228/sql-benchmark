@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` ORDER BY `roles`.`id` DESC LIMIT 1

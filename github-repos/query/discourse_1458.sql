@@ -1,0 +1,1 @@
+SELECT topics.id FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (visible) AND (topics.category_id = 1) ORDER BY topics.created_at desc LIMIT 1

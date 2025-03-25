@@ -1,0 +1,1 @@
+select count(category0_.id) as col_0_0_ from categories category0_ where category0_.name='111'

@@ -1,0 +1,1 @@
+SELECT `spree_shipping_categories`.* FROM `spree_shipping_categories` INNER JOIN `spree_shipping_method_categories` ON `spree_shipping_categories`.`id` = `spree_shipping_method_categories`.`shipping_category_id` WHERE `spree_shipping_method_categories`.`shipping_method_id` = 5

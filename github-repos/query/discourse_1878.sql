@@ -1,0 +1,1 @@
+SELECT "category_custom_fields"."category_id", "category_custom_fields"."name", "category_custom_fields"."value" FROM "category_custom_fields" WHERE (category_id in (1,3204)) AND (name in ('enable_marketplace'))

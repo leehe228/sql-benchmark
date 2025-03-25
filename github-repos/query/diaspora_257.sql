@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('acapella') OR LOWER(name) = LOWER('movie') OR LOWER(name) = LOWER('dub'))

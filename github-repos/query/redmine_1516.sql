@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` WHERE `messages`.`board_id` = 1 AND `messages`.`id` IS NULL ORDER BY messages.created_on DESC LIMIT 1

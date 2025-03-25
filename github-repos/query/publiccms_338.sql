@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from log_login loglogin0_ where loglogin0_.site_id=1 and loglogin0_.create_date<='2019-10-08 00:00:00.0' and loglogin0_.channel='1' and (loglogin0_.name like '%tag1%')

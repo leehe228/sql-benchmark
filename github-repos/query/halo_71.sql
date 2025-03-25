@@ -1,0 +1,1 @@
+select distinct attachment0_.media_type as col_0_0_ from attachments attachment0_

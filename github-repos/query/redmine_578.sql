@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.status = 1 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='time_tracking'))

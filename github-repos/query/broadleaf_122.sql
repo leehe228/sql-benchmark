@@ -1,0 +1,1 @@
+select categoryex0_.CAT_EXCL_SEARCH_FACET_ID as CAT_EXCL1_22_, categoryex0_.CATEGORY_ID as CATEGORY3_22_, categoryex0_.SEARCH_FACET_ID as SEARCH_F4_22_, categoryex0_.SEQUENCE as SEQUENCE2_22_ from BLC_CAT_SEARCH_FACET_EXCL_XREF categoryex0_ where categoryex0_.CATEGORY_ID=2001 and categoryex0_.SEARCH_FACET_ID=2

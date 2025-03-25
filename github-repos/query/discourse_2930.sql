@@ -1,0 +1,1 @@
+SELECT "api_keys".* FROM "api_keys" WHERE "api_keys"."hidden" = FALSE ORDER BY CASE WHEN revoked_at IS NOT NULL THEN 0 ELSE 1 END, COALESCE(revoked_at, created_at) DESC

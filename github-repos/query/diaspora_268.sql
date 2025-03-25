@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `photos` WHERE `photos`.`author_id` = 1 AND (photos.created_at < '2020-04-29 10:13:06.010882') AND `photos`.`pending` = FALSE

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topic_users" INNER JOIN "topics" ON "topics"."id" = "topic_users"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE "topic_users"."user_id" = 6058 AND "topic_users"."notification_level" = 3 AND "topics"."category_id" = 1

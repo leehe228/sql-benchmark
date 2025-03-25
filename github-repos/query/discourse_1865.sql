@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."access_control_post_id" = 17440

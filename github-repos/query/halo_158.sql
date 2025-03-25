@@ -1,0 +1,1 @@
+select count(tag0_.id) as col_0_0_ from tags tag0_ where tag0_.name='11' or tag0_.slug_name='11'

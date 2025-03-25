@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tags` WHERE `tags`.`name` = '6bfec517-c42e-4e02-90b2-4b92fdba22ba' LIMIT 1

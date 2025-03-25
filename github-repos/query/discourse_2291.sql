@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "uploads" INNER JOIN "post_uploads" ON "post_uploads"."upload_id" = "uploads"."id"

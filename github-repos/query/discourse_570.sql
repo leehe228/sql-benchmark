@@ -1,0 +1,1 @@
+SELECT "topic_links".* FROM "topic_links" WHERE "topic_links"."id" = 2050 AND "topic_links"."internal" = FALSE AND "topic_links"."crawled_at" IS NOT NULL LIMIT 1

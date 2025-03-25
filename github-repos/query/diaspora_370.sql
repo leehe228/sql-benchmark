@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`recipient_id` = 1 AND `notifications`.`target_type` = 'Person' AND `notifications`.`target_id` = 3505 AND `notifications`.`unread` = TRUE

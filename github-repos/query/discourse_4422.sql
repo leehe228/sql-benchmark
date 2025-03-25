@@ -1,0 +1,1 @@
+SELECT bounce_key::text FROM "email_logs" WHERE "email_logs"."id" = 701

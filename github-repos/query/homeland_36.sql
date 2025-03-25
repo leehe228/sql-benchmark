@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" INNER JOIN "actions" ON "topics"."id" = "actions"."target_id" WHERE "topics"."deleted_at" IS NULL AND "actions"."user_id" = $1 AND "actions"."action_type" = $2 AND "actions"."target_type" = $3 AND "actions"."user_type" = $4 AND "actions"."target_type" = $5 ORDER BY actions.id desc LIMIT $6 OFFSET $7

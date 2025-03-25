@@ -1,0 +1,1 @@
+SELECT `spree_promotion_codes`.`value` FROM `spree_promotion_codes` WHERE `spree_promotion_codes`.`value` IN ('test_r8sem7', 'test_p33euv', 'test_8vdn3f', 'test_42ttkr', 'test_bx4cmp', 'test_htb9aa', 'test_deqajv', 'test_znj69g', 'test_vtlbam', 'test_68ggy5')

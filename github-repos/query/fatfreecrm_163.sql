@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `leads` WHERE `leads`.`user_id` IS NULL LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`completed_at` IS NOT NULL AND `spree_orders`.`number` = 'R352266382' AND `spree_orders`.`token` = 'sh3fpQCo3wvkHfBVRvHAjw1588316907160' LIMIT 1

@@ -1,0 +1,1 @@
+select categoryat0_.CATEGORY_ID as CATEGORY4_27_1_, categoryat0_.CATEGORY_ATTRIBUTE_ID as CATEGORY1_27_1_, categoryat0_.CATEGORY_ATTRIBUTE_ID as CATEGORY1_27_0_, categoryat0_.CATEGORY_ID as CATEGORY4_27_0_, categoryat0_.NAME as NAME2_27_0_, categoryat0_.VALUE as VALUE3_27_0_ from BLC_CATEGORY_ATTRIBUTE categoryat0_ where categoryat0_.CATEGORY_ID in (2007, 2003)

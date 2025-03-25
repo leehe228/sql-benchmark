@@ -1,0 +1,1 @@
+SELECT "user_badges".* FROM "user_badges" WHERE "user_badges"."id" = 616 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "theme_settings"."updated_at" FROM "theme_settings" WHERE "theme_settings"."theme_id" IN (1028, 1029)

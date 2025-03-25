@@ -1,0 +1,1 @@
+SELECT "sections".* FROM "sections" ORDER BY "sections"."sort" DESC

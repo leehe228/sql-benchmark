@@ -1,0 +1,1 @@
+SELECT `refinery_crud_dummies`.`lft`, COUNT(`refinery_crud_dummies`.`lft`) as _count FROM `refinery_crud_dummies` GROUP BY `refinery_crud_dummies`.`lft`, `refinery_crud_dummies`.`id` HAVING (COUNT(`refinery_crud_dummies`.`lft`) > 1) ORDER BY `refinery_crud_dummies`.`id` ASC LIMIT 1

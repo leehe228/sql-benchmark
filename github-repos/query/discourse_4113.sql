@@ -1,0 +1,1 @@
+SELECT "email_logs"."to_address" FROM "email_logs" WHERE "email_logs"."user_id" = 7155 AND "email_logs"."email_type" = 'signup' ORDER BY "email_logs"."created_at" DESC LIMIT 1

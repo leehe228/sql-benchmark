@@ -1,0 +1,1 @@
+SELECT "backup_draft_topics"."topic_id" FROM "backup_draft_topics" WHERE "backup_draft_topics"."user_id" = 1258 LIMIT 1

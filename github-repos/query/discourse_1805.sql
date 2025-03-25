@@ -1,0 +1,1 @@
+SELECT posts.id as post_id, post_number, topics.slug, topics.title, topics.id FROM "topics" INNER JOIN "posts" ON "posts"."topic_id" = "topics"."id" AND ("posts"."deleted_at" IS NOT NULL) WHERE ("topics"."deleted_at" IS NOT NULL) AND "posts"."id" IN (17335, 17336)

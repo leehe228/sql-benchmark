@@ -1,0 +1,1 @@
+SELECT `leads`.* FROM `leads` WHERE ((`leads`.`assigned_to` = 929) OR ((`leads`.`user_id` = 929) OR (`leads`.`access` = 'Public'))) AND `leads`.`id` = 327 LIMIT 1

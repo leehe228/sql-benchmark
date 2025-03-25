@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`customer_return_id` = 2 AND `spree_return_items`.`acceptance_status` = 'accepted'

@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_place cmsplace0_ where cmsplace0_.site_id=1 and cmsplace0_.path='/5cbc9b64-b38f-4c56-bdd8-6365563b7766.html' and (cmsplace0_.status in (0 , 1)) and cmsplace0_.disabled=0

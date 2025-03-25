@@ -1,0 +1,1 @@
+select count(adminuseri0_.ADMIN_USER_ID) as col_0_0_ from BLC_ADMIN_USER adminuseri0_ left outer join BLC_ADMIN_USER_SANDBOX adminuseri0_1_ on adminuseri0_.ADMIN_USER_ID=adminuseri0_1_.ADMIN_USER_ID where (adminuseri0_.ADMIN_USER_ID in (-1)) and (adminuseri0_.ARCHIVED='N' or adminuseri0_.ARCHIVED is null)

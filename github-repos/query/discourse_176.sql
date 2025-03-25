@@ -1,0 +1,1 @@
+SELECT topic_tags.tag_id FROM "topic_tags" WHERE "topic_tags"."topic_id" = 15596

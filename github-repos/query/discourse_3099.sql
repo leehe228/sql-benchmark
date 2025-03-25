@@ -1,0 +1,1 @@
+SELECT "category_featured_topics"."topic_id" FROM "category_featured_topics" WHERE "category_featured_topics"."category_id" = 3574 ORDER BY rank asc

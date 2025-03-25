@@ -1,0 +1,1 @@
+select menu_id from sys_relation where role_id = 1188370535139115009

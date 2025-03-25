@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `documents` WHERE `documents`.`project_id` = 1

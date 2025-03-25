@@ -1,0 +1,1 @@
+SELECT "watched_words"."action" FROM "watched_words"

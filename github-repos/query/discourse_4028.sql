@@ -1,0 +1,1 @@
+SELECT "color_schemes".* FROM "color_schemes" WHERE "color_schemes"."base_scheme_id" = 'Light' AND "color_schemes"."via_wizard" = TRUE LIMIT 1

@@ -1,0 +1,1 @@
+select role0_.id as id1_16_, role0_.create_time as create_t2_16_, role0_.data_scope as data_sco3_16_, role0_.level as level4_16_, role0_.name as name5_16_, role0_.remark as remark6_16_ from role role0_ left outer join users_roles users1_ on role0_.id=users1_.role_id left outer join user user2_ on users1_.user_id=user2_.id where user2_.id=1

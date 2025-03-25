@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.`adjustable_id` FROM `spree_adjustments` WHERE `spree_adjustments`.`source_id` = 46 AND `spree_adjustments`.`source_type` = 'Spree::PromotionAction' AND `spree_adjustments`.`adjustable_id` = 353 AND `spree_adjustments`.`adjustable_type` = 'Spree::LineItem'

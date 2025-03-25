@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.* FROM `spree_stock_locations` ORDER BY name ASC LIMIT 25 OFFSET 0

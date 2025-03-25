@@ -1,0 +1,1 @@
+SELECT "actions".* FROM "actions" WHERE "actions"."action_type" = $1 AND "actions"."target_type" = $2 AND "actions"."target_id" = $3 AND "actions"."user_id" = $4 AND "actions"."user_type" = $5 LIMIT $6

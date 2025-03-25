@@ -1,0 +1,1 @@
+SELECT MAX(`enumerations`.`position`) FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND `enumerations`.`parent_id` IS NULL

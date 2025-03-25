@@ -1,0 +1,1 @@
+SELECT `journal_details`.* FROM `journal_details` WHERE `journal_details`.`journal_id` = 805 AND `journal_details`.`prop_key` = 'start_date' LIMIT 1

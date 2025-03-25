@@ -1,0 +1,1 @@
+SELECT "uploads"."sha1", "uploads"."url", "uploads"."extension", "uploads"."original_filename", "uploads"."secure" FROM "uploads" WHERE "uploads"."sha1" IN ('0286dd552c9bea9a69ecb3759e7b94777635514b', '98fbc42faedc02492397cb5962ea3a3ffc0a9243')

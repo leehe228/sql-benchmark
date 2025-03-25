@@ -1,0 +1,1 @@
+SELECT `spree_roles`.`name` FROM `spree_roles` INNER JOIN `spree_role_users` ON `spree_roles`.`id` = `spree_role_users`.`role_id` WHERE `spree_role_users`.`user_id` = 333

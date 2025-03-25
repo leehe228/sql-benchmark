@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`username` = 'ophelia.gorczany2158' LIMIT 1

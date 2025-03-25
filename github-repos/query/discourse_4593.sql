@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."status" IN (1, 2, 3, 4) AND "reviewables"."type" = 'ReviewableUser' ORDER BY score DESC, created_at DESC LIMIT 10 OFFSET 0

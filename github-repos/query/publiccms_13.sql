@@ -1,0 +1,1 @@
+select cmscontent0_.content_id as content_1_6_0_, cmscontent0_.data as data2_6_0_, cmscontent0_.search_text as search_t3_6_0_, cmscontent0_.source as source4_6_0_, cmscontent0_.source_url as source_u5_6_0_, cmscontent0_.text as text6_6_0_, cmscontent0_.word_count as word_cou7_6_0_ from cms_content_attribute cmscontent0_ where cmscontent0_.content_id=1

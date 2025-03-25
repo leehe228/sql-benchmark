@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM topic t LEFT JOIN user u ON t.user_id = u.id

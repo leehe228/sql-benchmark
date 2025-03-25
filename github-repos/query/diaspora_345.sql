@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('foo')) ORDER BY `tags`.`id` ASC LIMIT 1

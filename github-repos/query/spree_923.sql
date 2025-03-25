@@ -1,0 +1,1 @@
+SELECT `spree_payment_capture_events`.* FROM `spree_payment_capture_events` WHERE `spree_payment_capture_events`.`payment_id` = 268 ORDER BY `spree_payment_capture_events`.`id` ASC LIMIT 1

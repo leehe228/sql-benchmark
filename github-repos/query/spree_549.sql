@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE (sku like '%MySku') ORDER BY `spree_variants`.`created_at` DESC LIMIT 1

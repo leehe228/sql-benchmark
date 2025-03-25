@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`id` = 55 LIMIT 1

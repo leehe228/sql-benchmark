@@ -1,0 +1,1 @@
+SELECT `participations`.`id` FROM `participations` WHERE `participations`.`author_id` = 6

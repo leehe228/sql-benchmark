@@ -1,0 +1,1 @@
+SELECT "translation_overrides"."value" FROM "translation_overrides" WHERE "translation_overrides"."translation_key" = 'js.topic.bumped_at_title_MF' AND "translation_overrides"."locale" = 'en_US'

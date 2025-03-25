@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('nsfw'))

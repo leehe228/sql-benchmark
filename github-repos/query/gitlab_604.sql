@@ -1,0 +1,1 @@
+SELECT MAX("historical_data"."active_user_count") FROM "historical_data" WHERE "historical_data"."date" BETWEEN $1 AND $2 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

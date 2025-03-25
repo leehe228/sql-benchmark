@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` WHERE `queries`.`type` IN ('IssueQuery') AND `queries`.`id` = 2476 LIMIT 1

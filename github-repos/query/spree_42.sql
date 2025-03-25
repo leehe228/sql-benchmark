@@ -1,0 +1,1 @@
+SELECT SUM(`spree_shipments`.`included_tax_total`) FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 41

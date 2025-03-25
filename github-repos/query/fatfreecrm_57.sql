@@ -1,0 +1,1 @@
+SELECT `avatars`.* FROM `avatars` WHERE `avatars`.`entity_id` = 33 AND `avatars`.`entity_type` = 'User' LIMIT 1

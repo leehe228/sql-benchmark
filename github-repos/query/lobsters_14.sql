@@ -1,0 +1,1 @@
+SELECT SUM(downvotes * -0.5) FROM `comments` WHERE `comments`.`story_id` = 108 AND `comments`.`user_id` != 200

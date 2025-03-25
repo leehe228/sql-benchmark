@@ -1,0 +1,1 @@
+SELECT `invitation_codes`.* FROM `invitation_codes` WHERE `invitation_codes`.`token` = 'c0f2afccc5cd' LIMIT 1

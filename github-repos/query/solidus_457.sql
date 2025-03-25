@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.* FROM `spree_stock_locations` WHERE `spree_stock_locations`.`active` = TRUE ORDER BY `spree_stock_locations`.`default` DESC, `spree_stock_locations`.`name` ASC

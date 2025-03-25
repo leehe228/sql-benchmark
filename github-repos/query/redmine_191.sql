@@ -1,0 +1,1 @@
+SELECT DISTINCT `workflows`.`old_status_id`, `workflows`.`new_status_id` FROM `workflows` WHERE `workflows`.`type` IN ('WorkflowTransition') AND `workflows`.`tracker_id` = 2 AND `workflows`.`role_id` IN (1, 2, 3, 4)

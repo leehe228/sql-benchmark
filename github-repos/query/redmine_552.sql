@@ -1,0 +1,1 @@
+SELECT MAX(`enumerations`.`position`) FROM `enumerations` WHERE `enumerations`.`parent_id` IS NULL

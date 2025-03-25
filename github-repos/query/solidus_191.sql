@@ -1,0 +1,1 @@
+SELECT `spree_zone_members`.* FROM `spree_zone_members` WHERE `spree_zone_members`.`zone_id` = 1468

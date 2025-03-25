@@ -1,0 +1,1 @@
+SELECT `spree_prices`.* FROM `spree_prices` WHERE `spree_prices`.`variant_id` = 1541 AND `spree_prices`.`deleted_at` IS NOT NULL

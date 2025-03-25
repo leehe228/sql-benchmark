@@ -1,0 +1,1 @@
+SELECT `spree_products_taxons`.* FROM `spree_products_taxons` WHERE `spree_products_taxons`.`product_id` = 836 ORDER BY `spree_products_taxons`.`id` ASC LIMIT 1

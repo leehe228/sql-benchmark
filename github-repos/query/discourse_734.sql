@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."type" = 'ReviewableUser' AND "reviewables"."target_type" = 'User' AND "reviewables"."target_id" = 411 AND "reviewables"."status" = 0 LIMIT 1

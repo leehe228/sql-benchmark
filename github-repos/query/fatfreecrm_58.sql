@@ -1,0 +1,1 @@
+SELECT `permissions`.* FROM `permissions` WHERE `permissions`.`user_id` = 33

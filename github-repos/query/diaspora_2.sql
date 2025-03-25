@@ -1,0 +1,1 @@
+SELECT `people`.`diaspora_handle` FROM `people` WHERE `people`.`guid` = 'd03e63806b4401384b7a08e9fe568a11' AND `people`.`diaspora_handle` != 'bob812e183cc@localhost:9887'

@@ -1,0 +1,1 @@
+SELECT "incoming_emails"."post_id" FROM "incoming_emails" WHERE "incoming_emails"."message_id" = 'topic/424242/123456@test.localhost'

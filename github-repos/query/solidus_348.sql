@@ -1,0 +1,1 @@
+SELECT `spree_wallet_payment_sources`.* FROM `spree_wallet_payment_sources` WHERE `spree_wallet_payment_sources`.`user_id` = 2077 ORDER BY `spree_wallet_payment_sources`.`id` DESC LIMIT 1

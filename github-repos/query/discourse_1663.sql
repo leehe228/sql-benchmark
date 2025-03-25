@@ -1,0 +1,1 @@
+SELECT "post_revisions".* FROM "post_revisions" WHERE "post_revisions"."id" = 1031 LIMIT 1

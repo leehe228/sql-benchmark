@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (groups.id > 0) AND "groups"."public_admission" = FALSE AND "groups"."automatic" = FALSE ORDER BY name ASC LIMIT 36 OFFSET 0

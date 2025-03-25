@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `accounts` WHERE `accounts`.`user_id` = 35 LIMIT 1

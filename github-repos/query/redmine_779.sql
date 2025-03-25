@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`type` IN ('GroupNonMember') LIMIT 1

@@ -1,0 +1,1 @@
+select notice_id AS "noticeId", title AS "title", content AS "content", create_time AS "createTime", create_user AS "createUser", update_time AS "updateTime", update_user AS "updateUser" from sys_notice order by create_time DESC LIMIT 0,10

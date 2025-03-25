@@ -1,0 +1,1 @@
+SELECT `likes`.* FROM `likes` INNER JOIN posts ON (target_type = 'Post' AND posts.id = target_id) WHERE `likes`.`author_id` != 2882 AND (posts.author_id = 2882) ORDER BY `likes`.`id` ASC LIMIT 20

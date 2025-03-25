@@ -1,0 +1,1 @@
+select countryimp0_.ABBREVIATION as ABBREVIA1_35_, countryimp0_.CREATED_BY as CREATED_2_35_, countryimp0_.DATE_CREATED as DATE_CRE3_35_, countryimp0_.DATE_UPDATED as DATE_UPD4_35_, countryimp0_.UPDATED_BY as UPDATED_5_35_, countryimp0_.NAME as NAME6_35_ from BLC_COUNTRY countryimp0_ order by countryimp0_.ABBREVIATION

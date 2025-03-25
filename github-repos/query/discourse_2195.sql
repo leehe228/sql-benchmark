@@ -1,0 +1,1 @@
+SELECT MIN("posts"."created_at") FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 16514 AND (post_number > 1)

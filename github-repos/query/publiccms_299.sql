@@ -1,0 +1,1 @@
+select sysdeptcat0_.category_id as category1_26_0_, sysdeptcat0_.dept_id as dept_id2_26_0_ from sys_dept_category sysdeptcat0_ where sysdeptcat0_.category_id=1 and sysdeptcat0_.dept_id=3

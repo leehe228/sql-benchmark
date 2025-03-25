@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` INNER JOIN `custom_fields_roles` ON `custom_fields`.`id` = `custom_fields_roles`.`custom_field_id` WHERE `custom_fields_roles`.`role_id` = 2

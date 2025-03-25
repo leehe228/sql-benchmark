@@ -1,0 +1,1 @@
+SELECT `spree_tax_categories`.* FROM `spree_tax_categories` WHERE `spree_tax_categories`.`id` = 251 LIMIT 1

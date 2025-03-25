@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" INNER JOIN "user_profiles" ON "uploads"."id" = "user_profiles"."card_background_upload_id" WHERE "user_profiles"."user_id" = 154 LIMIT 1

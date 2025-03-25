@@ -1,0 +1,1 @@
+SELECT `spree_assets`.* FROM `spree_assets` WHERE `spree_assets`.`type` = 'Spree::Image' AND `spree_assets`.`id` = 40 LIMIT 1

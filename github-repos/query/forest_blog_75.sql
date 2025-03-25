@@ -1,0 +1,1 @@
+select tag_id, tag_name, tag_description from tag where tag_id = 38

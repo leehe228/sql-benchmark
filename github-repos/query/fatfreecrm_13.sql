@@ -1,0 +1,1 @@
+SELECT `permissions`.* FROM `permissions` WHERE `permissions`.`asset_id` = 1234 AND `permissions`.`asset_type` = 'Contact'

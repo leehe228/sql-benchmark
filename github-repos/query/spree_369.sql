@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_shipping_rates` WHERE `spree_shipping_rates`.`shipment_id` = 43

@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` ORDER BY `issue_statuses`.`position` ASC

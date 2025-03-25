@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `polls` WHERE `polls`.`guid` = 'fe6fcdc06b4401384b7d08e9fe568a11' AND `polls`.`id` != 47 LIMIT 1

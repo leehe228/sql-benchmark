@@ -1,0 +1,1 @@
+SELECT `seo_meta`.* FROM `seo_meta` WHERE `seo_meta`.`seo_meta_id` = 701 AND `seo_meta`.`seo_meta_type` = 'SeoMetum' LIMIT 1

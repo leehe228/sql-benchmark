@@ -1,0 +1,1 @@
+SELECT `spree_roles`.* FROM `spree_roles` WHERE 1=0

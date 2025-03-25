@@ -1,0 +1,1 @@
+SELECT COUNT( 1 ) FROM sys_dict_type WHERE ( code = 'NOUSE' OR name = 'd' ) AND ( dict_type_id <> 1188371218487705601 )

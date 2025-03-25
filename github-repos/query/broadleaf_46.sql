@@ -1,0 +1,1 @@
+select count(productimp0_.PRODUCT_ID) as col_0_0_ from BLC_PRODUCT productimp0_ where productimp0_.ARCHIVED='N' or productimp0_.ARCHIVED is null

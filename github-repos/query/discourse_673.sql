@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" WHERE 1=0

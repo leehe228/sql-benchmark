@@ -1,0 +1,1 @@
+SELECT "user_options".* FROM "user_options" WHERE "user_options"."user_id" IN (761, 765, 766)

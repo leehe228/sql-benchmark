@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`email` = 'user@spreecommerce.com' AND `spree_orders`.`completed_at` IS NOT NULL

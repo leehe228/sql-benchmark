@@ -1,0 +1,1 @@
+SELECT `polls`.* FROM `polls` WHERE `polls`.`id` = 98 LIMIT 1

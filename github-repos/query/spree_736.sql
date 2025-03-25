@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.* FROM `spree_shipments` WHERE (TRUE=FALSE) AND `spree_shipments`.`number` = 'H02684400045' LIMIT 1

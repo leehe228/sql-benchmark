@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` WHERE `spree_properties`.`name` LIKE '%ba%' LIMIT 25 OFFSET 0

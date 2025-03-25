@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_taxons` WHERE `spree_taxons`.`name` LIKE '%taxon_7%' LIMIT 25 OFFSET 0) subquery_for_count

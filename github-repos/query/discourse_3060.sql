@@ -1,0 +1,1 @@
+SELECT "web_hook_event_types".* FROM "web_hook_event_types" WHERE "web_hook_event_types"."id" = 1 ORDER BY id ASC

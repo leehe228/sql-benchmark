@@ -1,0 +1,1 @@
+SELECT "translation_overrides".* FROM "translation_overrides" WHERE "translation_overrides"."locale" = 'en_US' AND "translation_overrides"."translation_key" = 'user_notifications.user_invited_to_private_message_pm.text_body_template' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND ( id in ( SELECT topic_id FROM posts p JOIN topics t2 ON t2.id = p.topic_id WHERE p.deleted_at IS NOT NULL AND t2.user_id <> p.user_id AND p.user_id = 13 ) ) 

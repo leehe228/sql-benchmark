@@ -1,0 +1,1 @@
+SELECT "topic_tags".* FROM "topic_tags" WHERE "topic_tags"."topic_id" = 16232 AND "topic_tags"."tag_id" IN (1718, 1719)

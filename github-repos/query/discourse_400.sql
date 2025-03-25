@@ -1,0 +1,1 @@
+SELECT "user_actions".* FROM "user_actions" WHERE "user_actions"."target_topic_id" = 15634 AND "user_actions"."action_type" IN (13, 12) ORDER BY "user_actions"."id" ASC LIMIT 1000

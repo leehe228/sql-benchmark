@@ -1,0 +1,1 @@
+SELECT "incoming_emails"."post_id", "incoming_emails"."to_addresses", "incoming_emails"."cc_addresses" FROM "incoming_emails" WHERE 1=0 AND (EXISTS( SELECT 1 FROM user_emails WHERE user_emails.user_id = 1948 AND (incoming_emails.to_addresses ILIKE '%' || user_emails.email || '%' OR incoming_emails.cc_addresses ILIKE '%' || user_emails.email || '%') ) )

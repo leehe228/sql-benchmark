@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE "posts"."id" = 18099 AND "posts"."topic_id" = 17073 AND (posts.user_id = -1 OR post_type IN (1,2,3,4)) ORDER BY sort_order

@@ -1,0 +1,1 @@
+SELECT "email_tokens".* FROM "email_tokens" WHERE "email_tokens"."user_id" = 879 AND "email_tokens"."confirmed" = FALSE AND "email_tokens"."expired" = FALSE AND (created_at > '2020-03-24 06:15:39.042419') ORDER BY "email_tokens"."id" ASC LIMIT 1

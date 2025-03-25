@@ -1,0 +1,1 @@
+SELECT `users`.`id` FROM `users` WHERE `users`.`status` = 1 AND ( users.id IN ( SELECT DISTINCT user_id FROM members WHERE project_id IN (1, 3, 4, 6) ) )

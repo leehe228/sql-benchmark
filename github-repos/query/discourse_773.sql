@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15791 AND "posts"."post_type" = 1 AND "posts"."user_deleted" = FALSE ORDER BY score desc nulls last LIMIT 1

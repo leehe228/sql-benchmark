@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" LEFT OUTER JOIN topic_users AS tu ON (topics.id = tu.topic_id AND tu.user_id = 2112) WHERE ("topics"."deleted_at" IS NOT NULL) AND (tu.last_read_post_number < topics.highest_post_number) AND (COALESCE(tu.notification_level, 1) >= 2) AND (topics.archetype <> 'private_message')

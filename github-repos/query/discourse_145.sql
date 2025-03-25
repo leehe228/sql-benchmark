@@ -1,0 +1,1 @@
+SELECT "user_options"."auto_track_topics_after_msecs" FROM "user_options" WHERE "user_options"."user_id" = 97 LIMIT 1

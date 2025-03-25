@@ -1,0 +1,1 @@
+SELECT id,oauth_id,`type`,login,access_token,in_time,bio,email,user_id,refresh_token,union_id,expires_in FROM oauth_user WHERE user_id = 3

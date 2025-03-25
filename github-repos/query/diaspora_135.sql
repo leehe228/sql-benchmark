@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 801 AND `taggings`.`taggable_type` = 'Post' AND `taggings`.`context` = 'tags'

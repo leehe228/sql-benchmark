@@ -1,0 +1,1 @@
+SELECT `members`.* FROM `members` WHERE `members`.`project_id` = 1 AND `members`.`user_id` = 2 LIMIT 1

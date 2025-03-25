@@ -1,0 +1,1 @@
+SELECT "ignored_users".* FROM "ignored_users" WHERE "ignored_users"."user_id" = 5829 AND "ignored_users"."ignored_user_id" = 5830 LIMIT 1

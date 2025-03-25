@@ -1,0 +1,1 @@
+SELECT `spree_shipping_rates`.* FROM `spree_shipping_rates` WHERE `spree_shipping_rates`.`id` = 218 LIMIT 1

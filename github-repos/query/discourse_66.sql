@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topic_allowed_groups" WHERE "topic_allowed_groups"."topic_id" = 15565

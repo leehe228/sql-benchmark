@@ -1,0 +1,1 @@
+SELECT MAX("badges"."id") FROM "badges"

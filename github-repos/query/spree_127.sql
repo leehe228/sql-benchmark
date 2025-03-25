@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_orders`.* FROM `spree_orders` ORDER BY `spree_orders`.`created_at` DESC LIMIT 25 OFFSET 0

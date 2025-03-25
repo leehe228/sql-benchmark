@@ -1,0 +1,1 @@
+SELECT MAX(groups.grant_trust_level) FROM "group_users" LEFT OUTER JOIN "groups" ON "groups"."id" = "group_users"."group_id" WHERE "group_users"."user_id" = 1264

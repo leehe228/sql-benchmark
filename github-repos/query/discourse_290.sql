@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE ("invites"."deleted_at" IS NOT NULL) AND "invites"."user_id" = 154 AND (redeemed_at is not null) ORDER BY "invites"."id" ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `posts`.`id` FROM `posts` WHERE `posts`.`author_id` = 6

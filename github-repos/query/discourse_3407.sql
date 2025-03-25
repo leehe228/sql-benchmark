@@ -1,0 +1,1 @@
+SELECT "user_custom_fields"."user_id", "user_custom_fields"."name", "user_custom_fields"."value" FROM "user_custom_fields" WHERE (user_id in (-1,5749)) AND (name in (NULL))

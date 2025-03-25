@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE "reviewables"."status" = 0 AND (created_at >= '2020-03-23') AND (created_at <= '2020-03-25')

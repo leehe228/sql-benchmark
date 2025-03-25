@@ -1,0 +1,1 @@
+SELECT "user_emails"."email" FROM "user_emails" WHERE "user_emails"."user_id" = 3996 AND "user_emails"."primary" = FALSE

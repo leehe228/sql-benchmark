@@ -1,0 +1,1 @@
+SELECT MAX(`projects`.`rgt`) FROM `projects` WHERE `projects`.`parent_id` = 2336 AND (name < 'project-0270')

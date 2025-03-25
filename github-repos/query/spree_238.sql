@@ -1,0 +1,1 @@
+SELECT `spree_option_types`.* FROM `spree_option_types` WHERE (1 = 1) AND (`spree_option_types`.`position` IS NOT NULL) ORDER BY `spree_option_types`.`position` DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_stock_locations` WHERE `spree_stock_locations`.`active` = TRUE

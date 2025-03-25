@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` INNER JOIN `custom_fields_roles` ON `roles`.`id` = `custom_fields_roles`.`role_id` WHERE `custom_fields_roles`.`custom_field_id` = 1280

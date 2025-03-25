@@ -1,0 +1,1 @@
+SELECT `journals`.* FROM `journals` WHERE `journals`.`journalized_id` = 2 AND `journals`.`journalized_type` = 'Issue'

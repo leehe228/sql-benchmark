@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` = 62 AND `spree_taxons`.`name` LIKE '%Ruby%' ORDER BY `spree_taxons`.`lft` ASC LIMIT 25 OFFSET 0) subquery_for_count

@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` LEFT OUTER JOIN projects ON queries.project_id = projects.id WHERE `queries`.`type` IN ('ProjectQuery') AND (queries.project_id IS NULL OR (projects.status <> 9)) AND (queries.visibility <> 0 OR queries.user_id = 1) AND `queries`.`project_id` IS NULL ORDER BY `queries`.`name` ASC, `queries`.`id` ASC

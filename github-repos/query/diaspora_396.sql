@@ -1,0 +1,1 @@
+SELECT `open_graph_caches`.* FROM `open_graph_caches` WHERE `open_graph_caches`.`url` = 'http://www.we-support-open-graph.com' LIMIT 1

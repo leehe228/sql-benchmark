@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" INNER JOIN "user_auth_tokens" ON "user_auth_tokens"."user_id" = "users"."id" WHERE "users"."admin" = TRUE AND (users.id > 0) ORDER BY user_auth_tokens.created_at LIMIT 1

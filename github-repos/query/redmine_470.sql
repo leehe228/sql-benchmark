@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (((projects.status <> 9) AND ((projects.is_public = TRUE AND projects.id NOT IN (SELECT project_id FROM members WHERE user_id IN (6,13)))))) AND (LOWER(identifier) LIKE LOWER('%coo%') OR LOWER(name) LIKE LOWER('%coo%'))

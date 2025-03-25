@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_products_taxons` WHERE `spree_products_taxons`.`taxon_id` = 55

@@ -1,0 +1,1 @@
+SELECT `spree_roles`.* FROM `spree_roles` WHERE `spree_roles`.`name` = 'admin' LIMIT 1

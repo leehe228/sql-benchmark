@@ -1,0 +1,1 @@
+SELECT `poll_answers`.`id` FROM `poll_answers` WHERE `poll_answers`.`guid` = '3f9be3f06c3001384b7e08e9fe568a11'

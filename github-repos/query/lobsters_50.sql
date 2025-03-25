@@ -1,0 +1,1 @@
+SELECT `users`.`username` FROM `users` WHERE `users`.`id` IS NULL

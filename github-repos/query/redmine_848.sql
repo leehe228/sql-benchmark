@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` INNER JOIN `custom_fields_projects` ON `custom_fields`.`id` = `custom_fields_projects`.`custom_field_id` WHERE `custom_fields`.`type` IN ('IssueCustomField') AND `custom_fields_projects`.`project_id` = 1 ORDER BY `custom_fields`.`position` ASC

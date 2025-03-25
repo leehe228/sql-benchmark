@@ -1,0 +1,1 @@
+SELECT `blocks`.`id` FROM `blocks` WHERE `blocks`.`person_id` = 6

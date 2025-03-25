@@ -1,0 +1,1 @@
+SELECT MIN("users"."id") FROM "users" WHERE ("users"."state" IN ('active')) AND (ghost IS NOT TRUE) AND ("users"."user_type" IS NULL OR "users"."user_type" NOT IN ($1, $2, $3)) AND "users"."group_view" = $4 AND "users"."created_at" BETWEEN $5 AND $6 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

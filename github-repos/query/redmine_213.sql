@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND (LOWER(login) = '8cb94bdf26789b6887e5bd0cf8511409ad4b5a4a') LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "topic_embeds".* FROM "topic_embeds" WHERE (deleted_at IS NOT NULL AND embed_url = 'http://example.com/post/248') ORDER BY "topic_embeds"."id" ASC LIMIT 1

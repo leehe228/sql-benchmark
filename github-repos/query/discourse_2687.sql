@@ -1,0 +1,1 @@
+SELECT "user_stats".* FROM "user_stats" WHERE "user_stats"."user_id" = 4011 ORDER BY "user_stats"."user_id" ASC LIMIT 1

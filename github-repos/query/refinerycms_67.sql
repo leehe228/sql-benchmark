@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `refinery_crud_dummies` WHERE `refinery_crud_dummies`.`lft` <= 8 AND `refinery_crud_dummies`.`rgt` >= 9 AND (`refinery_crud_dummies`.`id` != 15)

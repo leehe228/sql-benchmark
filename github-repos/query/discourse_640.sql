@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."status" = 0 AND (created_at < '2020-01-26 06:14:45.673206')

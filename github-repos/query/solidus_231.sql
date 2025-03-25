@@ -1,0 +1,1 @@
+SELECT `spree_store_credit_events`.* FROM `spree_store_credit_events` WHERE `spree_store_credit_events`.`deleted_at` IS NULL AND `spree_store_credit_events`.`store_credit_id` = 177 AND `spree_store_credit_events`.`amount` = 100.0 AND `spree_store_credit_events`.`action` = 'eligible'

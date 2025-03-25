@@ -1,0 +1,1 @@
+SELECT `spree_promotion_codes`.`value` FROM `spree_promotion_codes` WHERE `spree_promotion_codes`.`promotion_id` = 108 ORDER BY `spree_promotion_codes`.`value` ASC, `spree_promotion_codes`.`id` ASC

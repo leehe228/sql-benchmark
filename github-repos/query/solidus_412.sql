@@ -1,0 +1,1 @@
+SELECT `spree_option_types`.`id` FROM `spree_option_types` INNER JOIN `spree_product_option_types` ON `spree_option_types`.`id` = `spree_product_option_types`.`option_type_id` WHERE `spree_product_option_types`.`product_id` = 202 ORDER BY `spree_option_types`.`position` ASC

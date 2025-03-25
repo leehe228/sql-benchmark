@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`identity_url` = 'http://openid.example.com/good_user' ORDER BY `users`.`id` ASC LIMIT 1

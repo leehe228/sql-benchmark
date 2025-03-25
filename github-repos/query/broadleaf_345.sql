@@ -1,0 +1,1 @@
+select additional0_.PAGE_ID as PAGE_ID4_109_1_, additional0_.ATTRIBUTE_ID as ATTRIBUT1_109_1_, additional0_.FIELD_NAME as formula7_1_, additional0_.ATTRIBUTE_ID as ATTRIBUT1_109_0_, additional0_.FIELD_NAME as FIELD_NA2_109_0_, additional0_.PAGE_ID as PAGE_ID4_109_0_, additional0_.FIELD_VALUE as FIELD_VA3_109_0_ from BLC_PAGE_ATTRIBUTES additional0_ where additional0_.PAGE_ID=1000

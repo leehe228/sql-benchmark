@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `spree_option_values`.`option_type_id`) FROM `spree_option_values` WHERE `spree_option_values`.`id` = 587

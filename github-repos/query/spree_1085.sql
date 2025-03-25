@@ -1,0 +1,1 @@
+SELECT `spree_stock_items`.* FROM `spree_stock_items` INNER JOIN `spree_variants` ON `spree_stock_items`.`variant_id` = `spree_variants`.`id` WHERE `spree_stock_items`.`deleted_at` IS NULL AND `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`product_id` = 1947 ORDER BY `spree_variants`.`position` ASC

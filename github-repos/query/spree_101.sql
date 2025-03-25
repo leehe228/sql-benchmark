@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL ORDER BY `spree_variants`.`id` DESC LIMIT 1

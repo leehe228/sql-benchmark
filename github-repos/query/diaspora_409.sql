@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`pending` = TRUE AND (created_at < '2020-04-29 11:21:02.436683')

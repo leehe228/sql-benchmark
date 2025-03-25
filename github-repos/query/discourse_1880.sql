@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" LEFT JOIN user_custom_fields ON users.id = user_id AND user_custom_fields.name = 'activation_reminder' WHERE "users"."active" = FALSE AND "users"."staged" = FALSE AND "user_custom_fields"."value" IS NULL AND (users.created_at BETWEEN '2020-03-23 06:17:35.081233' AND '2020-03-24 06:17:35.081278') ORDER BY "users"."id" ASC LIMIT 1000

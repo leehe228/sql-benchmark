@@ -1,0 +1,1 @@
+select cmscategor0_.category_id as category1_1_0_, cmscategor0_.data as data2_1_0_, cmscategor0_.description as descript3_1_0_, cmscategor0_.keywords as keywords4_1_0_, cmscategor0_.title as title5_1_0_ from cms_category_attribute cmscategor0_ where cmscategor0_.category_id=6

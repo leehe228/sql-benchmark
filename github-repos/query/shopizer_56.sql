@@ -1,0 +1,1 @@
+select count(distinct product0_.PRODUCT_ID) as col_0_0_ from PRODUCT product0_ inner join PRODUCT_DESCRIPTION descriptio1_ on product0_.PRODUCT_ID=descriptio1_.PRODUCT_ID where product0_.MERCHANT_ID=1 and descriptio1_.LANGUAGE_ID=1

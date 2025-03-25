@@ -1,0 +1,1 @@
+select count(1) from notification where target_user_id = 3 and `read` = false

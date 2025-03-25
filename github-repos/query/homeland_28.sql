@@ -1,0 +1,1 @@
+SELECT "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT $1 OFFSET $2

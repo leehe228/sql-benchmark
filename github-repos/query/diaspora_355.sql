@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `people` INNER JOIN `profiles` ON `profiles`.`person_id` = `people`.`id` INNER JOIN `taggings` ON `taggings`.`taggable_id` = `profiles`.`id` AND `taggings`.`taggable_type` = 'Profile' AND `taggings`.`context` = 'tags' INNER JOIN `tags` ON `tags`.`id` = `taggings`.`tag_id` WHERE `tags`.`name` = 'cats' AND (profiles.searchable IS TRUE)

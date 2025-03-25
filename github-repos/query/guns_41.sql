@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_dept WHERE 1 = 1 AND (dept_id = 24 OR dept_id IN (SELECT dept_id FROM sys_dept WHERE pids LIKE CONCAT('%$[', 24, '$]%') ESCAPE '$'))

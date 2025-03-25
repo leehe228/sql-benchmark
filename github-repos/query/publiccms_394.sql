@@ -1,0 +1,1 @@
+select syscluster0_.uuid as uuid1_23_, syscluster0_.cms_version as cms_vers2_23_, syscluster0_.create_date as create_d3_23_, syscluster0_.heartbeat_date as heartbea4_23_, syscluster0_.master as master5_23_ from sys_cluster syscluster0_ order by syscluster0_.uuid desc limit 30

@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `spree_orders`.`id`) FROM `spree_orders` LEFT OUTER JOIN `spree_order_promotions` ON `spree_order_promotions`.`order_id` = `spree_orders`.`id` LEFT OUTER JOIN `spree_promotions` ON `spree_promotions`.`id` = `spree_order_promotions`.`promotion_id` WHERE (`spree_promotions`.`id` IN (1) AND `spree_orders`.`completed_at` IS NOT NULL)

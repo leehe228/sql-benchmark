@@ -1,0 +1,1 @@
+SELECT "licenses".* FROM "licenses"

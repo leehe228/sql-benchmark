@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_promotions`.* FROM `spree_promotions` ORDER BY `spree_promotions`.`id` DESC LIMIT 25 OFFSET 0

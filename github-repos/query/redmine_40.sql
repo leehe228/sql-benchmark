@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND `enumerations`.`position` = 2 ORDER BY `enumerations`.`position` ASC LIMIT 1

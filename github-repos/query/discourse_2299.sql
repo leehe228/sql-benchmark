@@ -1,0 +1,1 @@
+SELECT "theme_fields".* FROM "theme_fields" WHERE "theme_fields"."theme_id" = 1050 AND "theme_fields"."target_id" = 5

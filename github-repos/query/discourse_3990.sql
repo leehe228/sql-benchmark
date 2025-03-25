@@ -1,0 +1,1 @@
+SELECT "group_users"."group_id" FROM "group_users" WHERE (group_id IN (SELECT id FROM groups WHERE NOT automatic)) AND "group_users"."user_id" = 6782 AND (group_id IN (2912))

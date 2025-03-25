@@ -1,0 +1,1 @@
+SELECT SUM(`spree_reimbursements`.`total`) FROM `spree_reimbursements` WHERE `spree_reimbursements`.`order_id` = 473

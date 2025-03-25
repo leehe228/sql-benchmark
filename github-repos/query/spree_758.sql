@@ -1,0 +1,1 @@
+SELECT `spree_users`.`id` FROM `spree_users` LEFT OUTER JOIN `spree_addresses` ON `spree_addresses`.`id` = `spree_users`.`ship_address_id` WHERE ((spree_addresses.firstname like '%Result%') OR (spree_addresses.lastname like '%Result%'))

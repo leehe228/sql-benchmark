@@ -1,0 +1,1 @@
+SELECT "user_second_factors".* FROM "user_second_factors" WHERE "user_second_factors"."user_id" = 232

@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`status_message_guid` = 'd2419e106b4401384b7a08e9fe568a11'

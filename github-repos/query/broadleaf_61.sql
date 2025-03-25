@@ -1,0 +1,1 @@
+select count(categoryim0_.CATEGORY_ID) as col_0_0_ from BLC_CATEGORY categoryim0_ where (categoryim0_.CATEGORY_ID in (2001)) and (categoryim0_.ARCHIVED='N' or categoryim0_.ARCHIVED is null)

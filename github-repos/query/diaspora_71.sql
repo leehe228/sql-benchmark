@@ -1,0 +1,1 @@
+SELECT `notifications`.`id` FROM `notifications` WHERE `notifications`.`recipient_id` = 1465

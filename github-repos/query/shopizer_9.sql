@@ -1,0 +1,1 @@
+select language0_.LANGUAGE_ID as LANGUAGE1_21_, language0_.DATE_CREATED as DATE_CRE2_21_, language0_.DATE_MODIFIED as DATE_MOD3_21_, language0_.UPDT_ID as UPDT_ID4_21_, language0_.CODE as CODE5_21_, language0_.SORT_ORDER as SORT_ORD6_21_ from LANGUAGE language0_ where language0_.CODE='en'

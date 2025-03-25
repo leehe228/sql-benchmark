@@ -1,0 +1,1 @@
+SELECT `spree_product_properties`.* FROM `spree_product_properties` ORDER BY `spree_product_properties`.`position` DESC LIMIT 1

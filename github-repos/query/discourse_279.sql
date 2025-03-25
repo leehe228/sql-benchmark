@@ -1,0 +1,1 @@
+SELECT SUM("user_visits"."time_read") FROM "user_visits" WHERE "user_visits"."user_id" = 154 AND (visited_at >= '2020-01-26 06:14:16.722261')

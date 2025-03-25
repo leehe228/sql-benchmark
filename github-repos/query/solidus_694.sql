@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`product_id` = 515 AND `spree_variants`.`is_master` = FALSE AND `spree_variants`.`id` = 546 ORDER BY `spree_variants`.`position` ASC LIMIT 1

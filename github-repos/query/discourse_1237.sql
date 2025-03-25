@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE "posts"."topic_id" = 15986 AND (posts.user_id = 915 OR post_type IN (1,2,3,4)) AND (posts.deleted_at IS NOT NULL OR posts.post_number = 1) AND (posts.sort_order < 5) ORDER BY "posts"."sort_order" DESC LIMIT 25

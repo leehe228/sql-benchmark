@@ -1,0 +1,1 @@
+SELECT `spree_stock_transfers`.* FROM `spree_stock_transfers` WHERE `spree_stock_transfers`.`destination_location_id` = 4 ORDER BY `spree_stock_transfers`.`created_at` DESC LIMIT 25 OFFSET 0

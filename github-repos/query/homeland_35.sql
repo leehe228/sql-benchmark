@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "team_users" ON "users"."id" = "team_users"."team_id" WHERE "users"."type" = '1' AND "team_users"."user_id" = 1

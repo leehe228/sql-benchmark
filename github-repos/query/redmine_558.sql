@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND (users.status <> 0) AND `users`.`id` = 1034 LIMIT 1

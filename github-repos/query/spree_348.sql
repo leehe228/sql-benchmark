@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 73 AND `spree_adjustments`.`eligible` = TRUE AND (`spree_adjustments`.amount != 0) AND `spree_adjustments`.`source_type` = 'Spree::PromotionAction'

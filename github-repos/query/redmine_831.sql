@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `custom_values` WHERE `custom_values`.`custom_field_id` = 1057 AND `custom_values`.`value` = '125'

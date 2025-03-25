@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."id" IN (16809, 16810, 16811) AND "posts"."topic_id" = 15986 AND (posts.user_id = 915 OR post_type IN (1,2,3)) ORDER BY sort_order

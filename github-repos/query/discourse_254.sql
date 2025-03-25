@@ -1,0 +1,1 @@
+SELECT "posts"."cooked" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND (post_number < 2 AND topic_id = 15617 AND post_type = 1 AND NOT hidden) ORDER BY post_number DESC LIMIT 1

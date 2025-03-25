@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE ((email LIKE '%Michael%') OR `spree_users`.`id` = 634) LIMIT 25 OFFSET 0

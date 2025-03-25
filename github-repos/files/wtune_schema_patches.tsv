@@ -1,0 +1,2447 @@
+patch_app	patch_type	patch_table_name	patch_columns_name	patch_source	patch_reference
+broadleaf	BOOLEAN	blc_address	is_active	manual	
+broadleaf	BOOLEAN	blc_address	is_business	manual	
+broadleaf	BOOLEAN	blc_address	is_default	manual	
+broadleaf	BOOLEAN	blc_address	is_mailing	manual	
+broadleaf	BOOLEAN	blc_address	is_street	manual	
+broadleaf	BOOLEAN	blc_address	standardized	manual	
+broadleaf	BOOLEAN	blc_admin_password_token	token_used_flag	manual	
+broadleaf	BOOLEAN	blc_admin_permission	is_friendly	manual	
+broadleaf	BOOLEAN	blc_admin_section	use_default_handler	manual	
+broadleaf	BOOLEAN	blc_admin_user	active_status_flag	manual	
+broadleaf	BOOLEAN	blc_admin_user	archived	manual	
+broadleaf	BOOLEAN	blc_bund_item_fee_price	is_taxable	manual	
+broadleaf	BOOLEAN	blc_catalog	archived	manual	
+broadleaf	BOOLEAN	blc_category	archived	manual	
+broadleaf	BOOLEAN	blc_category	override_generated_url	manual	
+broadleaf	BOOLEAN	blc_category_product_xref	default_reference	manual	
+broadleaf	BOOLEAN	blc_category_xref	default_reference	manual	
+broadleaf	BOOLEAN	blc_code_types	modifiable	manual	
+broadleaf	BOOLEAN	blc_currency	default_flag	manual	
+broadleaf	BOOLEAN	blc_customer	archived	manual	
+broadleaf	BOOLEAN	blc_customer	deactivated	manual	
+broadleaf	BOOLEAN	blc_customer	is_preview	manual	
+broadleaf	BOOLEAN	blc_customer	is_registered	manual	
+broadleaf	BOOLEAN	blc_customer	is_tax_exempt	manual	
+broadleaf	BOOLEAN	blc_customer	password_change_required	manual	
+broadleaf	BOOLEAN	blc_customer	receive_email	manual	
+broadleaf	BOOLEAN	blc_customer_address	archived	manual	
+broadleaf	BOOLEAN	blc_customer_password_token	token_used_flag	manual	
+broadleaf	BOOLEAN	blc_customer_payment	is_default	manual	
+broadleaf	BOOLEAN	blc_data_drvn_enum	modifiable	manual	
+broadleaf	BOOLEAN	blc_data_drvn_enum_val	enum_type	manual	
+broadleaf	BOOLEAN	blc_data_drvn_enum_val	hidden	manual	
+broadleaf	BOOLEAN	blc_field	override_generated_prop_name	manual	
+broadleaf	BOOLEAN	blc_field	translatable	manual	
+broadleaf	BOOLEAN	blc_fld_def	allow_multiples	manual	
+broadleaf	BOOLEAN	blc_fld_def	hidden_flag	manual	
+broadleaf	BOOLEAN	blc_fld_def	required_flag	manual	
+broadleaf	BOOLEAN	blc_fld_def	text_area_flag	manual	
+broadleaf	BOOLEAN	blc_fld_group	init_collapsed_flag	manual	
+broadleaf	BOOLEAN	blc_fld_group	is_master_field_group	manual	
+broadleaf	BOOLEAN	blc_fulfillment_group	is_primary	manual	
+broadleaf	BOOLEAN	blc_fulfillment_group	shipping_override	manual	
+broadleaf	BOOLEAN	blc_fulfillment_group	shipping_price_taxable	manual	
+broadleaf	BOOLEAN	blc_fulfillment_group_fee	fee_taxable_flag	manual	
+broadleaf	BOOLEAN	blc_fulfillment_option	taxable	manual	
+broadleaf	BOOLEAN	blc_fulfillment_option	use_flat_rates	manual	
+broadleaf	BOOLEAN	blc_index_field	archived	manual	
+broadleaf	BOOLEAN	blc_index_field	searchable	manual	
+broadleaf	BOOLEAN	blc_index_field_type	archived	manual	
+broadleaf	BOOLEAN	blc_locale	default_flag	manual	
+broadleaf	BOOLEAN	blc_locale	use_in_search_index	manual	
+broadleaf	BOOLEAN	blc_module_configuration	archived	manual	
+broadleaf	BOOLEAN	blc_module_configuration	is_default	manual	
+broadleaf	BOOLEAN	blc_offer	apply_to_child_items	manual	
+broadleaf	BOOLEAN	blc_offer	apply_to_sale_price	manual	
+broadleaf	BOOLEAN	blc_offer	archived	manual	
+broadleaf	BOOLEAN	blc_offer	automatically_added	manual	
+broadleaf	BOOLEAN	blc_offer	combinable_with_other_offers	manual	
+broadleaf	BOOLEAN	blc_offer	requires_related_tar_qual	manual	
+broadleaf	BOOLEAN	blc_offer	totalitarian_offer	manual	
+broadleaf	BOOLEAN	blc_offer_code	archived	manual	
+broadleaf	BOOLEAN	blc_order	is_preview	manual	
+broadleaf	BOOLEAN	blc_order	tax_override	manual	
+broadleaf	BOOLEAN	blc_order_item	discounts_allowed	manual	
+broadleaf	BOOLEAN	blc_order_item	has_validation_errors	manual	
+broadleaf	BOOLEAN	blc_order_item	item_taxable_flag	manual	
+broadleaf	BOOLEAN	blc_order_item	retail_price_override	manual	
+broadleaf	BOOLEAN	blc_order_item	sale_price_override	manual	
+broadleaf	BOOLEAN	blc_order_item_adjustment	applied_to_sale_price	manual	
+broadleaf	BOOLEAN	blc_order_item_dtl_adj	applied_to_sale_price	manual	
+broadleaf	BOOLEAN	blc_order_item_price_dtl	use_sale_price	manual	
+broadleaf	BOOLEAN	blc_order_lock	locked	manual	
+broadleaf	BOOLEAN	blc_order_payment	archived	manual	
+broadleaf	BOOLEAN	blc_order_payment_transaction	archived	manual	
+broadleaf	BOOLEAN	blc_order_payment_transaction	save_token	manual	
+broadleaf	BOOLEAN	blc_order_payment_transaction	success	manual	
+broadleaf	BOOLEAN	blc_page	exclude_from_site_map	manual	
+broadleaf	BOOLEAN	blc_page	offline_flag	manual	
+broadleaf	BOOLEAN	blc_payment_log	transaction_success	manual	
+broadleaf	BOOLEAN	blc_phone	is_active	manual	
+broadleaf	BOOLEAN	blc_phone	is_default	manual	
+broadleaf	BOOLEAN	blc_product	archived	manual	
+broadleaf	BOOLEAN	blc_product	can_sell_without_options	manual	
+broadleaf	BOOLEAN	blc_product	is_featured_product	manual	
+broadleaf	BOOLEAN	blc_product	override_generated_url	manual	
+broadleaf	BOOLEAN	blc_product_bundle	auto_bundle	manual	
+broadleaf	BOOLEAN	blc_product_bundle	bundle_promotable	manual	
+broadleaf	BOOLEAN	blc_product_bundle	items_promotable	manual	
+broadleaf	BOOLEAN	blc_product_option	required	manual	
+broadleaf	BOOLEAN	blc_product_option	use_in_sku_generation	manual	
+broadleaf	BOOLEAN	blc_promotion_message	archived	manual	
+broadleaf	BOOLEAN	blc_review_feedback	is_helpful	manual	
+broadleaf	BOOLEAN	blc_sandbox	archived	manual	
+broadleaf	BOOLEAN	blc_sc	offline_flag	manual	
+broadleaf	BOOLEAN	blc_search_facet	archived	manual	
+broadleaf	BOOLEAN	blc_search_facet	multiselect	manual	
+broadleaf	BOOLEAN	blc_search_facet	requires_all_dependent	manual	
+broadleaf	BOOLEAN	blc_search_facet	show_on_search	manual	
+broadleaf	BOOLEAN	blc_search_facet	use_facet_ranges	manual	
+broadleaf	BOOLEAN	blc_search_facet_range	archived	manual	
+broadleaf	BOOLEAN	blc_site	archived	manual	
+broadleaf	BOOLEAN	blc_site	deactivated	manual	
+broadleaf	BOOLEAN	blc_site_map_gen_cfg	disabled	manual	
+broadleaf	BOOLEAN	blc_sku	available_flag	manual	
+broadleaf	BOOLEAN	blc_sku	discountable_flag	manual	
+broadleaf	BOOLEAN	blc_sku	is_machine_sortable	manual	
+broadleaf	BOOLEAN	blc_sku	taxable_flag	manual	
+broadleaf	BOOLEAN	blc_sku_fee	taxable	manual	
+broadleaf	BOOLEAN	blc_store	archived	manual	
+broadleaf	BOOLEAN	blc_store	store_open	manual	
+broadleaf	BOOLEAN	blc_system_property	override_generated_prop_name	manual	
+broadleaf	BOOLEAN	blc_url_handler	is_regex	manual	
+eladmin	BOOLEAN	dept	enabled	manual	
+eladmin	BOOLEAN	gen_config	cover	manual	
+eladmin	BOOLEAN	job	enabled	manual	
+eladmin	BOOLEAN	menu	cache	manual	
+eladmin	BOOLEAN	menu	hidden	manual	
+eladmin	BOOLEAN	menu	i_frame	manual	
+eladmin	BOOLEAN	quartz_job	is_pause	manual	
+eladmin	BOOLEAN	quartz_log	is_success	manual	
+eladmin	BOOLEAN	user	enabled	manual	
+eladmin	BOOLEAN	verification_code	status	manual	
+fanchaoo	BOOLEAN	user	actived	manual	
+febs	BOOLEAN	qrtz_fired_triggers	is_nonconcurrent	manual	
+febs	BOOLEAN	qrtz_fired_triggers	requests_recovery	manual	
+febs	BOOLEAN	qrtz_job_details	is_durable	manual	
+febs	BOOLEAN	qrtz_job_details	is_nonconcurrent	manual	
+febs	BOOLEAN	qrtz_job_details	is_update_data	manual	
+febs	BOOLEAN	qrtz_job_details	requests_recovery	manual	
+febs	BOOLEAN	qrtz_simprop_triggers	bool_prop_1	manual	
+febs	BOOLEAN	qrtz_simprop_triggers	bool_prop_2	manual	
+febs	BOOLEAN	t_generator_config	is_trim	manual	
+febs	BOOLEAN	t_job	status	manual	
+febs	BOOLEAN	t_job_log	status	manual	
+febs	BOOLEAN	t_menu	type	manual	
+febs	BOOLEAN	t_user	is_tab	manual	
+febs	BOOLEAN	t_user	ssex	manual	
+febs	BOOLEAN	t_user	status	manual	
+forest_blog	BOOLEAN	article	article_is_comment	manual	
+forest_blog	BOOLEAN	article	article_status	manual	
+forest_blog	BOOLEAN	comment	comment_role	manual	
+forest_blog	BOOLEAN	link	link_status	manual	
+forest_blog	BOOLEAN	notice	notice_status	manual	
+forest_blog	BOOLEAN	options	option_status	manual	
+forest_blog	BOOLEAN	page	page_status	manual	
+forest_blog	BOOLEAN	user	user_status	manual	
+guns	BOOLEAN	sys_dict	status	manual	
+guns	BOOLEAN	sys_dict_type	status	manual	
+guns	BOOLEAN	sys_dict_type	system_flag	manual	
+guns	BOOLEAN	sys_menu	status	manual	
+halo	BOOLEAN	attachments	deleted	manual	
+halo	BOOLEAN	categories	deleted	manual	
+halo	BOOLEAN	comments	deleted	manual	
+halo	BOOLEAN	comments	is_admin	manual	
+halo	BOOLEAN	comments	type	manual	
+halo	BOOLEAN	journals	deleted	manual	
+halo	BOOLEAN	journals	type	manual	
+halo	BOOLEAN	links	deleted	manual	
+halo	BOOLEAN	logs	deleted	manual	
+halo	BOOLEAN	menus	deleted	manual	
+halo	BOOLEAN	metas	deleted	manual	
+halo	BOOLEAN	metas	type	manual	
+halo	BOOLEAN	options	deleted	manual	
+halo	BOOLEAN	photos	deleted	manual	
+halo	BOOLEAN	post_categories	deleted	manual	
+halo	BOOLEAN	post_tags	deleted	manual	
+halo	BOOLEAN	posts	deleted	manual	
+halo	BOOLEAN	posts	disallow_comment	manual	
+halo	BOOLEAN	tags	deleted	manual	
+halo	BOOLEAN	theme_settings	deleted	manual	
+halo	BOOLEAN	users	deleted	manual	
+publiccms	BOOLEAN	cms_category	allow_contribute	manual	
+publiccms	BOOLEAN	cms_category	contain_child	manual	
+publiccms	BOOLEAN	cms_category	disabled	manual	
+publiccms	BOOLEAN	cms_category	has_static	manual	
+publiccms	BOOLEAN	cms_category	hidden	manual	
+publiccms	BOOLEAN	cms_category	only_url	manual	
+publiccms	BOOLEAN	cms_comment	disabled	manual	
+publiccms	BOOLEAN	cms_content	copied	manual	
+publiccms	BOOLEAN	cms_content	disabled	manual	
+publiccms	BOOLEAN	cms_content	has_files	manual	
+publiccms	BOOLEAN	cms_content	has_images	manual	
+publiccms	BOOLEAN	cms_content	has_static	manual	
+publiccms	BOOLEAN	cms_content	only_url	manual	
+publiccms	BOOLEAN	cms_dictionary	multiple	manual	
+publiccms	BOOLEAN	cms_place	disabled	manual	
+publiccms	BOOLEAN	cms_word	hidden	manual	
+publiccms	BOOLEAN	log_login	result	manual	
+publiccms	BOOLEAN	log_task	success	manual	
+publiccms	BOOLEAN	sys_app_client	disabled	manual	
+publiccms	BOOLEAN	sys_cluster	master	manual	
+publiccms	BOOLEAN	sys_dept	owns_all_category	manual	
+publiccms	BOOLEAN	sys_dept	owns_all_config	manual	
+publiccms	BOOLEAN	sys_dept	owns_all_page	manual	
+publiccms	BOOLEAN	sys_domain	wild	manual	
+publiccms	BOOLEAN	sys_extend_field	required	manual	
+publiccms	BOOLEAN	sys_extend_field	searchable	manual	
+publiccms	BOOLEAN	sys_module	menu	manual	
+publiccms	BOOLEAN	sys_role	owns_all_right	manual	
+publiccms	BOOLEAN	sys_role	show_all_module	manual	
+publiccms	BOOLEAN	sys_site	disabled	manual	
+publiccms	BOOLEAN	sys_site	use_ssi	manual	
+publiccms	BOOLEAN	sys_site	use_static	manual	
+publiccms	BOOLEAN	sys_user	disabled	manual	
+publiccms	BOOLEAN	sys_user	email_checked	manual	
+publiccms	BOOLEAN	sys_user	owns_all_content	manual	
+publiccms	BOOLEAN	sys_user	superuser_access	manual	
+publiccms	BOOLEAN	sys_user	weak_password	manual	
+pybbs	BOOLEAN	code	used	manual	
+pybbs	BOOLEAN	flyway_schema_history	success	manual	
+pybbs	BOOLEAN	notification	read	manual	
+pybbs	BOOLEAN	system_config	reboot	manual	
+pybbs	BOOLEAN	topic	good	manual	
+pybbs	BOOLEAN	topic	top	manual	
+pybbs	BOOLEAN	user	active	manual	
+pybbs	BOOLEAN	user	email_notification	manual	
+sagan	BOOLEAN	member_profile	hidden	manual	
+sagan	BOOLEAN	post	broadcast	manual	
+sagan	BOOLEAN	post	draft	manual	
+sagan	BOOLEAN	project_release_list	is_current	manual	
+sagan	BOOLEAN	project_repository	snapshots_enabled	manual	
+sagan	BOOLEAN	schema_version	success	manual	
+shopizer	BOOLEAN	category	category_status	manual	
+shopizer	BOOLEAN	category	featured	manual	
+shopizer	BOOLEAN	category	visible	manual	
+shopizer	BOOLEAN	content	link_to_menu	manual	
+shopizer	BOOLEAN	content	visible	manual	
+shopizer	BOOLEAN	country	country_supported	manual	
+shopizer	BOOLEAN	currency	currency_supported	manual	
+shopizer	BOOLEAN	customer	customer_anonymous	manual	
+shopizer	BOOLEAN	customer	customer_gender	manual	
+shopizer	BOOLEAN	customer_option	customer_opt_active	manual	
+shopizer	BOOLEAN	customer_option	customer_opt_public	manual	
+shopizer	BOOLEAN	merchant_configuration	active	manual	
+shopizer	BOOLEAN	merchant_store	currency_format_national	manual	
+shopizer	BOOLEAN	merchant_store	use_cache	manual	
+shopizer	BOOLEAN	module_configuration	custom_ind	manual	
+shopizer	BOOLEAN	order_product_attribute	product_attribute_is_free	manual	
+shopizer	BOOLEAN	order_product_price	default_price	manual	
+shopizer	BOOLEAN	order_status_history	customer_notified	manual	
+shopizer	BOOLEAN	orders	confirmed_address	manual	
+shopizer	BOOLEAN	orders	customer_agreed	manual	
+shopizer	BOOLEAN	product	available	manual	
+shopizer	BOOLEAN	product	preorder	manual	
+shopizer	BOOLEAN	product	product_free	manual	
+shopizer	BOOLEAN	product	product_ship	manual	
+shopizer	BOOLEAN	product	product_virtual	manual	
+shopizer	BOOLEAN	product_attribute	product_attribute_default	manual	
+shopizer	BOOLEAN	product_attribute	product_attribute_discounted	manual	
+shopizer	BOOLEAN	product_attribute	product_attribute_for_disp	manual	
+shopizer	BOOLEAN	product_attribute	product_attribute_free	manual	
+shopizer	BOOLEAN	product_attribute	product_attribute_required	manual	
+shopizer	BOOLEAN	product_availability	free_shipping	manual	
+shopizer	BOOLEAN	product_availability	status	manual	
+shopizer	BOOLEAN	product_image	default_image	manual	
+shopizer	BOOLEAN	product_image	image_crop	manual	
+shopizer	BOOLEAN	product_option	product_option_read	manual	
+shopizer	BOOLEAN	product_option_value	product_opt_for_disp	manual	
+shopizer	BOOLEAN	product_price	default_price	manual	
+shopizer	BOOLEAN	product_relationship	active	manual	
+shopizer	BOOLEAN	product_type	prd_type_add_to_cart	manual	
+shopizer	BOOLEAN	shiping_origin	active	manual	
+shopizer	BOOLEAN	shipping_quote	free_shipping	manual	
+shopizer	BOOLEAN	tax_rate	piggyback	manual	
+shopizer	BOOLEAN	user	active	manual	
+guns	BOOLEAN	sys_menu	menu_flag	manual	
+broadleaf	ENUM	blc_module_configuration	config_type	manual	
+broadleaf	ENUM	blc_sandbox	sandbox_type	manual	
+eladmin	ENUM	log	log_type	manual	
+febs	ENUM	qrtz_triggers	trigger_state	manual	
+febs	ENUM	qrtz_triggers	trigger_type	manual	
+febs	ENUM	t_user	theme	manual	
+guns	ENUM	sys_operation_log	log_type	manual	
+guns	ENUM	sys_user	status	manual	
+halo	ENUM	attachments	media_type	manual	
+halo	ENUM	attachments	type	manual	
+halo	ENUM	comments	status	manual	
+halo	ENUM	links	priority	manual	
+halo	ENUM	logs	type	manual	
+halo	ENUM	menus	priority	manual	
+halo	ENUM	posts	status	manual	
+halo	ENUM	posts	type	manual	
+sagan	ENUM	project_release_list	release_status	manual	
+sagan	ENUM	schema_version	type	manual	
+shopizer	ENUM	content	content_type	manual	
+shopizer	ENUM	customer_option	customer_option_type	manual	
+shopizer	ENUM	customer_review	status	manual	
+shopizer	ENUM	merchant_store	seizeunitcode	manual	
+shopizer	ENUM	merchant_store	weightunitcode	manual	
+shopizer	ENUM	order_account_product	order_account_product_status	manual	
+shopizer	ENUM	product_image	image_type	manual	
+shopizer	ENUM	product_option	product_option_type	manual	
+shopizer	ENUM	product_price	product_price_type	manual	
+shopizer	ENUM	product_review	status	manual	
+shopizer	ENUM	sm_group	group_type	manual	
+springblog	ENUM	posts	post_type	manual	
+diaspora	BOOLEAN	profiles	searchable	manual	
+discourse	UNIQUE	user_emails	email	manual	
+discourse	UNIQUE	tags	name	manual	
+discourse	UNIQUE	topics	title	manual	
+discourse	UNIQUE	uploads	extension	manual	
+discourse	UNIQUE	categories	parent_category_id	manual	
+homeland	UNIQUE	users	login	manual	
+homeland	UNIQUE	users	name	manual	
+gitlab	UNIQUE	redirect_routes	path	manual	
+gitlab	UNIQUE	scim_identities	extern_uid	manual	
+broadleaf	INDEX	blc_fld_def	fld_order	reconfig	
+broadleaf	INDEX	blc_system_property	property_name	reconfig	
+broadleaf	INDEX	blc_field	abbreviation	reconfig	
+broadleaf	INDEX	blc_admin_section	ceiling_entity	reconfig	
+broadleaf	INDEX	blc_admin_section	url	reconfig	
+broadleaf	INDEX	blc_offer	end_date	reconfig	
+broadleaf	INDEX	blc_customer	user_name	reconfig	
+broadleaf	INDEX	blc_admin_user	login	reconfig	
+broadleaf	INDEX	blc_offer	start_date	reconfig	
+broadleaf	INDEX	blc_pgtmplt_fldgrp_xref	group_order	reconfig	
+broadleaf	INDEX	blc_cms_menu	name	reconfig	
+diaspora	INDEX	profiles	image_url	reconfig	
+diaspora	INDEX	photos	created_at	reconfig	
+diaspora	INDEX	profiles	birthday	reconfig	
+diaspora	INDEX	users	created_at	reconfig	
+diaspora	INDEX	comments	created_at	reconfig	
+diaspora	INDEX	messages	created_at	reconfig	
+diaspora	INDEX	notifications	type,updated_at	reconfig	
+diaspora	INDEX	blocks	person_id	reconfig	
+diaspora	INDEX	authorizations	redirect_uri	reconfig	
+diaspora	INDEX	references	target_type,target_id	reconfig	
+diaspora	INDEX	aspect_memberships	created_at	reconfig	
+diaspora	INDEX	users	remove_after,locked_at	reconfig	
+discourse	INDEX	themes	name	reconfig	
+discourse	INDEX	group_archived_messages	topic_id	reconfig	
+discourse	INDEX	post_actions	deleted_at	reconfig	
+discourse	INDEX	category_users	notification_level	reconfig	
+discourse	INDEX	user_archived_messages	topic_id	reconfig	
+discourse	INDEX	themes	color_scheme_id	reconfig	
+discourse	INDEX	groups_web_hooks	group_id	reconfig	
+discourse	INDEX	color_schemes	name,theme_id	reconfig	
+discourse	INDEX	user_field_options	user_field_id	reconfig	
+discourse	INDEX	topic_links	url	reconfig	
+discourse	INDEX	user_custom_fields	name	reconfig	
+discourse	INDEX	posts	post_type	reconfig	
+discourse	INDEX	user_histories	context,created_at	reconfig	
+discourse	INDEX	invited_groups	invite_id	reconfig	
+discourse	INDEX	user_avatars	last_gravatar_download_attempt	reconfig	
+discourse	INDEX	theme_settings	theme_id	reconfig	
+discourse	INDEX	users	suspended_till	reconfig	
+discourse	INDEX	application_requests	req_type	reconfig	
+discourse	INDEX	email_change_requests	new_email_token_id	reconfig	
+discourse	INDEX	user_associated_accounts	user_id	reconfig	
+discourse	INDEX	topic_timers	status_type	reconfig	
+discourse	INDEX	post_actions	created_at	reconfig	
+discourse	INDEX	screened_ip_addresses	action_type	reconfig	
+discourse	INDEX	group_users	notification_level	reconfig	
+discourse	INDEX	invites	redeemed_at	reconfig	
+discourse	INDEX	reviewables	category_id	reconfig	
+discourse	INDEX	uploads	updated_at	reconfig	
+discourse	INDEX	topic_timers	deleted_at	reconfig	
+discourse	INDEX	email_change_requests	old_email_token_id	reconfig	
+discourse	INDEX	push_subscriptions	user_id,data	reconfig	
+discourse	INDEX	invites	deleted_at	reconfig	
+discourse	INDEX	reviewable_scores	created_at	reconfig	
+discourse	INDEX	users	ip_address,trust_level	reconfig	
+discourse	INDEX	tags	topic_count,pm_topic_count	reconfig	
+discourse	INDEX	categories_web_hooks	category_id	reconfig	
+discourse	INDEX	topics	subtype	reconfig	
+discourse	INDEX	translation_overrides	translation_key	reconfig	
+discourse	INDEX	embeddable_hosts	host	reconfig	
+discourse	INDEX	category_tag_groups	tag_group_id	reconfig	
+discourse	INDEX	api_keys	created_at	reconfig	
+discourse	INDEX	badge_groupings	position	reconfig	
+discourse	INDEX	topic_users	cleared_pinned_at	reconfig	
+discourse	INDEX	tag_group_permissions	permission_type	reconfig	
+discourse	INDEX	categories	user_id	reconfig	
+discourse	INDEX	topic_embeds	deleted_at	reconfig	
+discourse	INDEX	reviewables	target_id,target_type	reconfig	
+discourse	INDEX	api_keys	revoked_at	reconfig	
+discourse	INDEX	topic_users	notification_level	reconfig	
+discourse	INDEX	tag_groups	name	reconfig	
+discourse	INDEX	users	created_at	reconfig	
+discourse	INDEX	user_exports	user_id,created_at	reconfig	
+discourse	INDEX	topic_timers	category_id	reconfig	
+discourse	INDEX	user_fields	position	reconfig	
+discourse	INDEX	web_hook_events	created_at	reconfig	
+discourse	INDEX	posts	post_number,deleted_at	reconfig	
+discourse	INDEX	user_api_keys	revoked_at	reconfig	
+discourse	INDEX	uploads	original_filename	reconfig	
+discourse	INDEX	email_tokens	email	reconfig	
+eladmin	INDEX	permission	pid	reconfig	
+eladmin	INDEX	job	name	reconfig	
+eladmin	INDEX	log	log_type	reconfig	
+eladmin	INDEX	verification_code	value,type,scenes	reconfig	
+eladmin	INDEX	menu	name	reconfig	
+eladmin	INDEX	quartz_log	job_name	reconfig	
+eladmin	INDEX	dict	name	reconfig	
+eladmin	INDEX	menu	component_name	reconfig	
+eladmin	INDEX	dept	pid	reconfig	
+eladmin	INDEX	role	name	reconfig	
+eladmin	INDEX	permission	name	reconfig	
+fatfreecrm	INDEX	leads	access	reconfig	
+fatfreecrm	INDEX	opportunities	access	reconfig	
+fatfreecrm	INDEX	accounts	category,access	reconfig	
+fatfreecrm	INDEX	leads	campaign_id	reconfig	
+fatfreecrm	INDEX	groups_web_hooks	group_id	reconfig	
+fatfreecrm	INDEX	avatars	entity_type,entity_id	reconfig	
+fatfreecrm	INDEX	field_groups	tag_id,klass_name	reconfig	
+fatfreecrm	INDEX	field_groups	klass_name,position	reconfig	
+fatfreecrm	INDEX	contacts	access	reconfig	
+fatfreecrm	INDEX	campaigns	name,access	reconfig	
+fatfreecrm	INDEX	tasks	asset_type,asset_id	reconfig	
+fatfreecrm	INDEX	accounts	name,access	reconfig	
+fatfreecrm	INDEX	comments	commentable_id,commentable_type	reconfig	
+fatfreecrm	INDEX	fields	position	reconfig	
+fatfreecrm	INDEX	fields	pair_id	reconfig	
+fatfreecrm	INDEX	comments	created_at	reconfig	
+fatfreecrm	INDEX	opportunities	campaign_id,updated_at	reconfig	
+fatfreecrm	INDEX	users	last_name,first_name	reconfig	
+febs	INDEX	t_menu	order_num	reconfig	
+febs	INDEX	t_menu	parent_id	reconfig	
+febs	INDEX	t_login_log	login_time	reconfig	
+febs	INDEX	t_dept	dept_name,order_num	reconfig	
+febs	INDEX	t_dept	parent_id	reconfig	
+febs	INDEX	t_log	create_time	reconfig	
+febs	INDEX	t_user	username	reconfig	
+forest_blog	INDEX	comment	comment_pid	reconfig	
+forest_blog	INDEX	article	article_title	reconfig	
+forest_blog	INDEX	comment	comment_article_id	reconfig	
+forest_blog	INDEX	category	category_order	reconfig	
+forest_blog	INDEX	article_tag_ref	tag_id	reconfig	
+forest_blog	INDEX	link	link_order	reconfig	
+forest_blog	INDEX	notice	notice_order	reconfig	
+forest_blog	INDEX	article	article_user_id	reconfig	
+forest_blog	INDEX	menu	menu_order	reconfig	
+forest_blog	INDEX	category	category_pid	reconfig	
+gitlab	INDEX	keys	created_at	reconfig	
+gitlab	INDEX	subscriptions	user_id	reconfig	
+gitlab	INDEX	epics	created_at	reconfig	
+gitlab	INDEX	approval_merge_request_rules	rule_type	reconfig	
+gitlab	INDEX	keys	type	reconfig	
+gitlab	INDEX	spam_logs	user_id	reconfig	
+gitlab	INDEX	ci_pipelines	config_source,created_at	reconfig	
+gitlab	INDEX	lists	created_at	reconfig	
+gitlab	INDEX	ci_builds	type,created_at	reconfig	
+gitlab	INDEX	members	created_at	reconfig	
+gitlab	INDEX	abuse_reports	reporter_id	reconfig	
+gitlab	INDEX	application_settings	runners_registration_token	reconfig	
+gitlab	INDEX	projects	import_type	reconfig	
+gitlab	INDEX	project_features	repository_access_level	reconfig	
+gitlab	INDEX	members	type,source_type	reconfig	
+gitlab	INDEX	clusters	created_at	reconfig	
+gitlab	INDEX	ci_pipelines	source,created_at	reconfig	
+gitlab	INDEX	historical_data	date	reconfig	
+gitlab	INDEX	application_settings	health_check_access_token	reconfig	
+gitlab	INDEX	users	dashboard	reconfig	
+guns	INDEX	sys_dict_type	name,code	reconfig	
+guns	INDEX	sys_login_log	create_time	reconfig	
+guns	INDEX	sys_dict_type	code,sort	reconfig	
+guns	INDEX	sys_dict	dict_type_id	reconfig	
+guns	INDEX	sys_dict_type	name,sort	reconfig	
+guns	INDEX	sys_menu	levels	reconfig	
+guns	INDEX	sys_user	account	reconfig	
+guns	INDEX	sys_user	status	reconfig	
+halo	INDEX	links	create_time	reconfig	
+halo	INDEX	links	name	reconfig	
+halo	INDEX	comments	post_id,status,parent_id	reconfig	
+halo	INDEX	tags	name	reconfig	
+halo	INDEX	users	username	reconfig	
+halo	INDEX	categories	update_time	reconfig	
+halo	INDEX	tags	create_time	reconfig	
+halo	INDEX	comments	post_id,status,create_time	reconfig	
+halo	INDEX	attachments	media_type	reconfig	
+halo	INDEX	categories	create_time	reconfig	
+halo	INDEX	post_tags	tag_id	reconfig	
+halo	INDEX	categories	name	reconfig	
+halo	INDEX	attachments	name	reconfig	
+halo	INDEX	comments	status,update_time	reconfig	
+halo	INDEX	tags	update_time	reconfig	
+halo	INDEX	menus	create_time	reconfig	
+halo	INDEX	posts	type,create_time	reconfig	
+halo	INDEX	posts	status,type	reconfig	
+halo	INDEX	photos	team,update_time	reconfig	
+halo	INDEX	posts	type,top_priority	reconfig	
+halo	INDEX	menus	parent_id	reconfig	
+halo	INDEX	attachments	type	reconfig	
+halo	INDEX	users	email	reconfig	
+halo	INDEX	posts	status,create_time	reconfig	
+halo	INDEX	posts	status,top_priority	reconfig	
+halo	INDEX	theme_settings	theme_id,setting_key	reconfig	
+halo	INDEX	categories	parent_id	reconfig	
+homeland	INDEX	replies	action	reconfig	
+homeland	INDEX	authorizations	user_id	reconfig	
+homeland	INDEX	users	reset_password_token	reconfig	
+homeland	INDEX	users	type,replies_count	reconfig	
+homeland	INDEX	users	location_id,replies_count	reconfig	
+homeland	INDEX	topics	replies_count	reconfig	
+homeland	INDEX	users	type,topics_count	reconfig	
+homeland	INDEX	users	state	reconfig	
+publiccms	INDEX	sys_cluster	heartbeat_date	reconfig	
+publiccms	INDEX	cms_content	quote_content_id,publish_date	reconfig	
+publiccms	INDEX	cms_content	quote_content_id,parent_id	reconfig	
+publiccms	INDEX	sys_site	parent_id	reconfig	
+publiccms	INDEX	cms_content	quote_content_id,category_id	reconfig	
+publiccms	INDEX	sys_app	channel	reconfig	
+publiccms	INDEX	sys_module_lang	lang	reconfig	
+publiccms	INDEX	sys_role_user	user_id	reconfig	
+publiccms	INDEX	cms_content	quote_content_id,expiry_date	reconfig	
+publiccms	INDEX	cms_content	quote_content_id,sort	reconfig	
+publiccms	INDEX	sys_dept_page	page	reconfig	
+publiccms	INDEX	sys_dept	parent_id	reconfig	
+publiccms	INDEX	cms_content	user_id,parent_id	reconfig	
+publiccms	INDEX	sys_user	site_id,registered_date	reconfig	
+publiccms	INDEX	sys_role_module	module_id	reconfig	
+pybbs	INDEX	tag	topic_count	reconfig	
+pybbs	INDEX	system_config	key	reconfig	
+pybbs	INDEX	tag	in_time	reconfig	
+pybbs	INDEX	comment	in_time	reconfig	
+pybbs	INDEX	user	in_time	reconfig	
+pybbs	INDEX	permission	pid	reconfig	
+pybbs	INDEX	user	email	reconfig	
+pybbs	INDEX	topic	in_time	reconfig	
+pybbs	INDEX	sensitive_word	word	reconfig	
+redmine	INDEX	enumerations	type,position	reconfig	
+redmine	INDEX	wiki_content_versions	author_id	reconfig	
+redmine	INDEX	projects	parent_id,name	reconfig	
+redmine	INDEX	users	status,login	reconfig	
+redmine	INDEX	import_items	position	reconfig	
+redmine	INDEX	roles	builtin,position	reconfig	
+redmine	INDEX	issues	subject	reconfig	
+redmine	INDEX	enabled_modules	name	reconfig	
+redmine	INDEX	time_entries	spent_on	reconfig	
+redmine	INDEX	trackers	position	reconfig	
+redmine	INDEX	versions	status	reconfig	
+redmine	INDEX	custom_values	value	reconfig	
+redmine	INDEX	boards	parent_id	reconfig	
+redmine	INDEX	enumerations	parent_id,position	reconfig	
+redmine	INDEX	attachments	filename	reconfig	
+redmine	INDEX	imports	user_id,filename	reconfig	
+redmine	INDEX	time_entries	author_id	reconfig	
+redmine	INDEX	versions	effective_date	reconfig	
+redmine	INDEX	issues	estimated_hours	reconfig	
+redmine	INDEX	enumerations	name,type	reconfig	
+redmine	INDEX	versions	name	reconfig	
+redmine	INDEX	import_items	obj_id	reconfig	
+redmine	INDEX	issues	due_date	reconfig	
+redmine	INDEX	custom_fields	type,position	reconfig	
+redmine	INDEX	custom_fields	field_format	reconfig	
+redmine	INDEX	tokens	action,updated_on	reconfig	
+redmine	INDEX	issues	lft,rgt	reconfig	
+redmine	INDEX	enumerations	name,position	reconfig	
+redmine	INDEX	projects	status,parent_id	reconfig	
+redmine	INDEX	issue_categories	name	reconfig	
+redmine	INDEX	issues	start_date	reconfig	
+redmine	INDEX	workflows	field_name,type	reconfig	
+redmine	INDEX	users	lastname	reconfig	
+redmine	INDEX	custom_field_enumerations	custom_field_id,position	reconfig	
+redmine	INDEX	journal_details	prop_key	reconfig	
+redmine	INDEX	issues	done_ratio	reconfig	
+redmine	INDEX	queries	type	reconfig	
+redmine	INDEX	wiki_redirects	redirects_to_wiki_id,redirects_to	reconfig	
+refinerycms	INDEX	refinery_images	parent_id,updated_at	reconfig	
+refinerycms	INDEX	refinery_crud_dummies	rgt	reconfig	
+refinerycms	INDEX	refinery_crud_dummies	lft	reconfig	
+refinerycms	INDEX	refinery_page_parts	position	reconfig	
+sagan	INDEX	member_profile	github_id	reconfig	
+sagan	INDEX	member_profile	name	reconfig	
+sagan	INDEX	project	display_order	reconfig	
+sagan	INDEX	member_profile	username	reconfig	
+shopizer	INDEX	language	code	reconfig	
+shopizer	INDEX	module_configuration	module	reconfig	
+shopizer	INDEX	sm_group	group_type	reconfig	
+solidus	INDEX	spree_stock_locations	name	reconfig	
+solidus	INDEX	spree_payment_methods	deleted_at,position	reconfig	
+solidus	INDEX	spree_return_authorizations	order_id	reconfig	
+solidus	INDEX	spree_return_reasons	name	reconfig	
+solidus	INDEX	spree_tax_categories	deleted_at,name	reconfig	
+solidus	INDEX	spree_promotion_rules	type	reconfig	
+solidus	INDEX	spree_adjustments	created_at	reconfig	
+solidus	INDEX	spree_prices	currency,deleted_at	reconfig	
+solidus	INDEX	spree_store_credit_reasons	name	reconfig	
+solidus	INDEX	spree_return_items	exchange_variant_id	reconfig	
+solidus	INDEX	spree_return_items	return_authorization_id	reconfig	
+solidus	INDEX	spree_users	created_at	reconfig	
+solidus	INDEX	spree_orders	email	reconfig	
+solidus	INDEX	spree_promotion_categories	name	reconfig	
+solidus	INDEX	spree_variants	deleted_at	reconfig	
+solidus	INDEX	spree_promotions	path	reconfig	
+solidus	INDEX	spree_payments	source_type,state	reconfig	
+solidus	INDEX	spree_return_items	reimbursement_id,acceptance_status	reconfig	
+solidus	INDEX	spree_shipping_categories	name	reconfig	
+solidus	INDEX	spree_reimbursement_credits	reimbursement_id	reconfig	
+solidus	INDEX	spree_variant_property_rule_va	position	reconfig	
+solidus	INDEX	spree_return_items	reception_status	reconfig	
+solidus	INDEX	spree_properties	name	reconfig	
+solidus	INDEX	spree_option_types	name	reconfig	
+solidus	INDEX	spree_zones	name	reconfig	
+solidus	INDEX	spree_store_credit_events	action,amount	reconfig	
+solidus	INDEX	spree_reimbursement_types	name	reconfig	
+solidus	INDEX	spree_shipping_methods	deleted_at	reconfig	
+solidus	INDEX	spree_store_credit_events	created_at	reconfig	
+solidus	INDEX	spree_adjustments	source_type,adjustable_type	reconfig	
+solidus	INDEX	spree_store_credits	currency	reconfig	
+solidus	INDEX	spree_store_credit_events	action,authorization_code	reconfig	
+solidus	INDEX	spree_payments	response_code,created_at	reconfig	
+solidus	INDEX	spree_store_credit_categories	name	reconfig	
+solidus	INDEX	spree_line_items	created_at	reconfig	
+solidus	INDEX	spree_states	name	reconfig	
+solidus	INDEX	spree_countries	name	reconfig	
+solidus	INDEX	spree_shipping_rates	tax_rate_id	reconfig	
+spree	INDEX	spree_stock_locations	name	reconfig	
+spree	INDEX	spree_payment_methods	deleted_at,position	reconfig	
+spree	INDEX	spree_stock_transfers	created_at	reconfig	
+spree	INDEX	spree_store_credit_events	action,deleted_at	reconfig	
+spree	INDEX	spree_return_items	acceptance_status	reconfig	
+spree	INDEX	spree_inventory_units	state	reconfig	
+spree	INDEX	spree_return_authorizations	state,created_at	reconfig	
+spree	INDEX	spree_payment_methods	deleted_at,type,name	reconfig	
+spree	INDEX	spree_tax_rates	amount,name	reconfig	
+spree	INDEX	spree_promotion_actions	type	reconfig	
+spree	INDEX	spree_taxonomies	name,created_at	reconfig	
+spree	INDEX	spree_orders	email	reconfig	
+spree	INDEX	spree_promotion_categories	name	reconfig	
+spree	INDEX	spree_promotions	path	reconfig	
+spree	INDEX	spree_payments	source_type,state	reconfig	
+spree	INDEX	spree_orders	shipment_state	reconfig	
+spree	INDEX	spree_credit_cards	gateway_customer_profile_id	reconfig	
+spree	INDEX	spree_shipping_methods	display_on	reconfig	
+spree	INDEX	spree_return_items	reception_status	reconfig	
+spree	INDEX	spree_addresses	updated_at	reconfig	
+spree	INDEX	spree_shipping_methods	name	reconfig	
+spree	INDEX	spree_states	name,abbr	reconfig	
+spree	INDEX	spree_zones	name	reconfig	
+spree	INDEX	spree_product_properties	value	reconfig	
+spree	INDEX	spree_store_credit_events	action,amount	reconfig	
+spree	INDEX	spree_tax_categories	name	reconfig	
+spree	INDEX	spree_dummy_models	name	reconfig	
+spree	INDEX	spree_payment_methods	deleted_at,type,display_on	reconfig	
+spree	INDEX	spree_orders	payment_state	reconfig	
+spree	INDEX	spree_adjustments	source_type,adjustable_type	reconfig	
+spree	INDEX	spree_stores	name	reconfig	
+spree	INDEX	spree_payments	state,created_at	reconfig	
+spree	INDEX	spree_payments	response_code,created_at	reconfig	
+spree	INDEX	spree_store_credit_categories	name	reconfig	
+spree	INDEX	spree_dummy_models	position	reconfig	
+spree	INDEX	spree_store_credit_events	amount,deleted_at	reconfig	
+discourse	FOREIGN_KEY	category_search_data	category_id	manual	categories.id
+solidus	UNIQUE	spree_promotion_rule_taxons	taxon_id,promotion_rule_id	manual	
+redmine	UNIQUE	watchers	watchable_type,watchable_id,user_id	manual	
+solidus	UNIQUE	spree_products_taxons	product_id,taxon_id	manual	
+solidus	UNIQUE	spree_option_values_variants	variant_id,option_value_id	manual	
+solidus	UNIQUE	spree_roles_users	user_id,role_id	manual	
+homeland	UNIQUE	actions	action_type,user_type,user_id,target_type,target_id	manual	
+spree	UNIQUE	spree_promotion_rule_taxons	taxon_id,promotion_rule_id	manual	
+discourse	UNIQUE	tag_group_memberships	tag_id,tag_group_id	manual	
+discourse	UNIQUE	category_tag_groups	category_id,tag_group_id	manual	
+fatfreecrm	UNIQUE	groups_users	group_id,user_id	manual	
+discourse	UNIQUE	category_groups	category_id,group_id	manual	
+discourse	UNIQUE	tag_group_permissions	group_id,permission_type,tag_group_id	manual	
+fatfreecrm	NOT_NULL	taggings	tag_id	manual	
+shopizer	NOT_NULL	product	MANUFACTURER_ID	manual	
+spree	NOT_NULL	spree_orders	user_id	manual	
+redmine	NOT_NULL	watchers	user_id	manual	
+solidus	NOT_NULL	spree_product_taxons	taxon_id	manual	
+solidus	NOT_NULL	spree_option_values_variants	option_value_id	manual	
+solidus	NOT_NULL	spree_role_users	role_id	manual	
+solidus	NOT_NULL	spree_role_users	user_id	manual	
+shopizer	NOT_NULL	country	geozone_id		
+shopizer	NOT_NULL	sm_transaction	order_id		
+shopizer	NOT_NULL	system_notification	config_key		
+shopizer	NOT_NULL	system_notification	user_id		
+shopizer	NOT_NULL	system_notification	merchant_id		
+shopizer	NOT_NULL	merchant_store	zone_id		
+shopizer	NOT_NULL	tax_rate_description	tax_rate_id		
+shopizer	NOT_NULL	tax_rate	zone_id		
+shopizer	NOT_NULL	tax_rate	parent_id		
+shopizer	NOT_NULL	product_option_value_descripti	product_option_value_id		
+shopizer	NOT_NULL	shopping_cart	customer_id		
+shopizer	NOT_NULL	product_review	customers_id		
+shopizer	NOT_NULL	product_review	product_id		
+shopizer	NOT_NULL	customer_optin	optin_id		
+shopizer	NOT_NULL	file_history	file_id		
+shopizer	NOT_NULL	geozone_description	geozone_id		
+shopizer	NOT_NULL	orders	merchantid		
+shopizer	NOT_NULL	orders	currency_id		
+shopizer	NOT_NULL	orders	billing_zone_id		
+shopizer	NOT_NULL	orders	delivery_zone_id		
+shopizer	NOT_NULL	orders	delivery_country_id		
+shopizer	NOT_NULL	shipping_quote	delivery_country_id		
+shopizer	NOT_NULL	shipping_quote	delivery_zone_id		
+shopizer	NOT_NULL	merchant_configuration	config_key		
+shopizer	NOT_NULL	merchant_configuration	merchant_id		
+shopizer	NOT_NULL	optin	merchant_id		
+shopizer	NOT_NULL	product_relationship	related_product_id		
+shopizer	NOT_NULL	product_relationship	product_id		
+shopizer	NOT_NULL	currency	currency_code		
+shopizer	NOT_NULL	currency	currency_name		
+shopizer	NOT_NULL	customer_review	reviewed_customer_id		
+shopizer	NOT_NULL	customer_review	customers_id		
+shopizer	NOT_NULL	product_review_description	product_review_id		
+shopizer	NOT_NULL	product	tax_class_id		
+shopizer	NOT_NULL	product	product_type_id		
+shopizer	NOT_NULL	product	customer_id		
+shopizer	NOT_NULL	shiping_origin	zone_id		
+shopizer	NOT_NULL	shiping_origin	country_id		
+shopizer	NOT_NULL	tax_class	merchant_id		
+shopizer	NOT_NULL	customer_opt_val_description	customer_opt_val_id		
+shopizer	NOT_NULL	category	parent_id		
+shopizer	NOT_NULL	customer_review_description	customer_review_id		
+shopizer	NOT_NULL	user	language_id		
+shopizer	NOT_NULL	customer	delivery_zone_id		
+shopizer	NOT_NULL	customer	delivery_country_id		
+shopizer	NOT_NULL	customer	billing_zone_id		
+refinerycms	NOT_NULL	refinery_page_parts	refinery_page_id		
+refinerycms	NOT_NULL	seo_meta	seo_meta_id		
+refinerycms	NOT_NULL	seo_meta	seo_meta_type		
+refinerycms	NOT_NULL	refinery_pages	depth		
+refinerycms	NOT_NULL	refinery_pages	lft		
+refinerycms	NOT_NULL	refinery_pages	parent_id		
+refinerycms	NOT_NULL	refinery_pages	rgt		
+sagan	NOT_NULL	post	public_slug		
+sagan	NOT_NULL	post	publish_at		
+fatfreecrm	NOT_NULL	addresses	addressable_id		
+fatfreecrm	NOT_NULL	addresses	addressable_type		
+fatfreecrm	NOT_NULL	account_opportunities	account_id		
+fatfreecrm	NOT_NULL	account_opportunities	opportunity_id		
+fatfreecrm	NOT_NULL	emails	mediator_id		
+fatfreecrm	NOT_NULL	emails	mediator_type		
+fatfreecrm	NOT_NULL	campaigns	user_id		
+fatfreecrm	NOT_NULL	campaigns	deleted_at		
+fatfreecrm	NOT_NULL	campaigns	assigned_to		
+fatfreecrm	NOT_NULL	permissions	user_id		
+fatfreecrm	NOT_NULL	permissions	asset_id		
+fatfreecrm	NOT_NULL	permissions	asset_type		
+fatfreecrm	NOT_NULL	permissions	group_id		
+fatfreecrm	NOT_NULL	tasks	user_id		
+fatfreecrm	NOT_NULL	tasks	deleted_at		
+fatfreecrm	NOT_NULL	tasks	assigned_to		
+fatfreecrm	NOT_NULL	preferences	user_id		
+fatfreecrm	NOT_NULL	sessions	updated_at		
+fatfreecrm	NOT_NULL	account_contacts	account_id		
+fatfreecrm	NOT_NULL	account_contacts	contact_id		
+fatfreecrm	NOT_NULL	contact_opportunities	contact_id		
+fatfreecrm	NOT_NULL	contact_opportunities	opportunity_id		
+fatfreecrm	NOT_NULL	opportunities	user_id		
+fatfreecrm	NOT_NULL	opportunities	deleted_at		
+fatfreecrm	NOT_NULL	opportunities	assigned_to		
+fatfreecrm	NOT_NULL	users	deleted_at		
+fatfreecrm	NOT_NULL	users	reset_password_token		
+fatfreecrm	NOT_NULL	users	remember_token		
+fatfreecrm	NOT_NULL	users	confirmation_token		
+fatfreecrm	NOT_NULL	users	authentication_token		
+fatfreecrm	NOT_NULL	tags	name		
+fatfreecrm	NOT_NULL	versions	whodunnit		
+fatfreecrm	NOT_NULL	versions	created_at		
+fatfreecrm	NOT_NULL	versions	transaction_id		
+fatfreecrm	NOT_NULL	versions	related_id		
+fatfreecrm	NOT_NULL	versions	related_type		
+fatfreecrm	NOT_NULL	activities	user_id		
+fatfreecrm	NOT_NULL	activities	created_at		
+fatfreecrm	NOT_NULL	leads	user_id		
+fatfreecrm	NOT_NULL	leads	deleted_at		
+fatfreecrm	NOT_NULL	leads	assigned_to		
+fatfreecrm	NOT_NULL	lists	user_id		
+fatfreecrm	NOT_NULL	taggings	taggable_id		
+fatfreecrm	NOT_NULL	taggings	taggable_type		
+fatfreecrm	NOT_NULL	taggings	context		
+fatfreecrm	NOT_NULL	accounts	user_id		
+fatfreecrm	NOT_NULL	accounts	deleted_at		
+fatfreecrm	NOT_NULL	accounts	assigned_to		
+fatfreecrm	NOT_NULL	fields	name		
+fatfreecrm	NOT_NULL	fields	field_group_id		
+fatfreecrm	NOT_NULL	contacts	user_id		
+fatfreecrm	NOT_NULL	contacts	deleted_at		
+fatfreecrm	NOT_NULL	contacts	assigned_to		
+fatfreecrm	NOT_NULL	groups_users	group_id		
+fatfreecrm	NOT_NULL	groups_users	user_id		
+homeland	NOT_NULL	oauth_applications	owner_id		
+homeland	NOT_NULL	oauth_applications	owner_type		
+homeland	NOT_NULL	oauth_access_tokens	refresh_token		
+homeland	NOT_NULL	oauth_access_tokens	resource_owner_id		
+homeland	NOT_NULL	photos	user_id		
+homeland	NOT_NULL	settings	thing_type		
+homeland	NOT_NULL	settings	thing_id		
+homeland	NOT_NULL	comments	commentable_id		
+homeland	NOT_NULL	comments	commentable_type		
+homeland	NOT_NULL	topics	grade		
+homeland	NOT_NULL	topics	last_active_mark		
+homeland	NOT_NULL	topics	last_reply_id		
+homeland	NOT_NULL	topics	likes_count		
+homeland	NOT_NULL	topics	deleted_at		
+homeland	NOT_NULL	topics	suggested_at		
+homeland	NOT_NULL	topics	team_id		
+homeland	NOT_NULL	users	location		
+homeland	NOT_NULL	users	unlock_token		
+homeland	NOT_NULL	users	name		
+homeland	NOT_NULL	replies	deleted_at		
+homeland	NOT_NULL	actions	user_type		
+homeland	NOT_NULL	actions	user_id		
+homeland	NOT_NULL	actions	target_type		
+homeland	NOT_NULL	actions	target_id		
+broadleaf	NOT_NULL	blc_order_item_adjustment	order_item_id		
+broadleaf	NOT_NULL	blc_page	full_url		
+broadleaf	NOT_NULL	blc_page	page_tmplt_id		
+broadleaf	NOT_NULL	blc_order_item_dtl_adj	order_item_price_dtl_id		
+broadleaf	NOT_NULL	blc_product	url		
+broadleaf	NOT_NULL	blc_product	url_key		
+broadleaf	NOT_NULL	blc_product	default_category_id		
+broadleaf	NOT_NULL	blc_product	default_sku_id		
+broadleaf	NOT_NULL	blc_locale	currency_code		
+broadleaf	NOT_NULL	blc_bundle_order_item	sku_id		
+broadleaf	NOT_NULL	blc_bundle_order_item	product_bundle_id		
+broadleaf	NOT_NULL	blc_tar_crit_offer_xref	offer_item_criteria_id		
+broadleaf	NOT_NULL	blc_country_sub	alt_abbreviation		
+broadleaf	NOT_NULL	blc_country_sub	country_sub_cat		
+broadleaf	NOT_NULL	blc_search_facet	index_field_type_id		
+broadleaf	NOT_NULL	blc_product_cross_sale	category_id		
+broadleaf	NOT_NULL	blc_product_cross_sale	product_id		
+broadleaf	NOT_NULL	blc_address	country		
+broadleaf	NOT_NULL	blc_address	state_prov_region		
+broadleaf	NOT_NULL	blc_address	phone_primary_id		
+broadleaf	NOT_NULL	blc_address	phone_secondary_id		
+broadleaf	NOT_NULL	blc_address	iso_country_alpha2		
+broadleaf	NOT_NULL	blc_address	phone_fax_id		
+broadleaf	NOT_NULL	blc_product_option_value	product_option_id		
+broadleaf	NOT_NULL	blc_category_media_map	media_id		
+broadleaf	NOT_NULL	blc_product_option	name		
+broadleaf	NOT_NULL	blc_sku	active_end_date		
+broadleaf	NOT_NULL	blc_sku	active_start_date		
+broadleaf	NOT_NULL	blc_sku	available_flag		
+broadleaf	NOT_NULL	blc_sku	discountable_flag		
+broadleaf	NOT_NULL	blc_sku	external_id		
+broadleaf	NOT_NULL	blc_sku	name		
+broadleaf	NOT_NULL	blc_sku	taxable_flag		
+broadleaf	NOT_NULL	blc_sku	upc		
+broadleaf	NOT_NULL	blc_sku	url_key		
+broadleaf	NOT_NULL	blc_sku	default_product_id		
+broadleaf	NOT_NULL	blc_sku	currency_code		
+broadleaf	NOT_NULL	blc_sku	addl_product_id		
+broadleaf	NOT_NULL	blc_order_item_price_dtl	order_item_id		
+broadleaf	NOT_NULL	blc_page_tmplt	locale_code		
+broadleaf	NOT_NULL	blc_order	email_address		
+broadleaf	NOT_NULL	blc_order	name		
+broadleaf	NOT_NULL	blc_order	order_number		
+broadleaf	NOT_NULL	blc_order	order_status		
+broadleaf	NOT_NULL	blc_order	locale_code		
+broadleaf	NOT_NULL	blc_order	currency_code		
+broadleaf	NOT_NULL	blc_order_adjustment	order_id		
+broadleaf	NOT_NULL	blc_email_tracking_clicks	customer_id		
+broadleaf	NOT_NULL	blc_sku_media_map	media_id		
+broadleaf	NOT_NULL	blc_customer_phone	phone_name		
+broadleaf	NOT_NULL	blc_tax_detail	module_config_id		
+broadleaf	NOT_NULL	blc_tax_detail	currency_code		
+broadleaf	NOT_NULL	blc_sku_fee	currency_code		
+broadleaf	NOT_NULL	blc_offer	offer_discount_type		
+broadleaf	NOT_NULL	blc_offer	marketing_messasge		
+broadleaf	NOT_NULL	blc_fld_enum_item	fld_enum_id		
+broadleaf	NOT_NULL	blc_fg_adjustment	fulfillment_group_id		
+broadleaf	NOT_NULL	blc_fulfillment_price_band	fulfillment_option_id		
+broadleaf	NOT_NULL	blc_sandbox	sandbox_name		
+broadleaf	NOT_NULL	blc_sandbox	parent_sandbox_id		
+broadleaf	NOT_NULL	blc_qual_crit_offer_xref	offer_item_criteria_id		
+broadleaf	NOT_NULL	blc_search_facet_range	search_facet_id		
+broadleaf	NOT_NULL	blc_prorated_order_item_adjust	order_item_id		
+broadleaf	NOT_NULL	blc_pgtmplt_fldgrp_xref	fld_group_id		
+broadleaf	NOT_NULL	blc_pgtmplt_fldgrp_xref	page_tmplt_id		
+broadleaf	NOT_NULL	blc_data_drvn_enum	enum_key		
+broadleaf	NOT_NULL	blc_customer	email_address		
+broadleaf	NOT_NULL	blc_customer	locale_code		
+broadleaf	NOT_NULL	blc_customer	challenge_question_id		
+broadleaf	NOT_NULL	blc_category	external_id		
+broadleaf	NOT_NULL	blc_category	url		
+broadleaf	NOT_NULL	blc_category	url_key		
+broadleaf	NOT_NULL	blc_category	default_parent_category_id		
+broadleaf	NOT_NULL	blc_email_tracking_opens	email_tracking_id		
+broadleaf	NOT_NULL	blc_shipping_rate	fee_sub_type		
+broadleaf	NOT_NULL	blc_email_tracking	email_address		
+broadleaf	NOT_NULL	blc_fulfillment_group_item	status		
+broadleaf	NOT_NULL	blc_search_intercept	active_end_date		
+broadleaf	NOT_NULL	blc_review_detail	rating_detail_id		
+broadleaf	NOT_NULL	blc_product_featured	category_id		
+broadleaf	NOT_NULL	blc_product_featured	product_id		
+broadleaf	NOT_NULL	blc_index_field	searchable		
+broadleaf	NOT_NULL	blc_promotion_message	name		
+broadleaf	NOT_NULL	blc_promotion_message	locale_code		
+broadleaf	NOT_NULL	blc_promotion_message	media_id		
+broadleaf	NOT_NULL	blc_offer_audit	customer_id		
+broadleaf	NOT_NULL	blc_offer_audit	offer_code_id		
+broadleaf	NOT_NULL	blc_offer_audit	offer_id		
+broadleaf	NOT_NULL	blc_offer_audit	order_id		
+broadleaf	NOT_NULL	blc_url_handler	is_regex		
+broadleaf	NOT_NULL	blc_offer_rule_map	offer_rule_id		
+broadleaf	NOT_NULL	blc_store	address_id		
+broadleaf	NOT_NULL	blc_item_offer_qualifier	order_item_id		
+broadleaf	NOT_NULL	blc_data_drvn_enum_val	hidden		
+broadleaf	NOT_NULL	blc_data_drvn_enum_val	enum_key		
+broadleaf	NOT_NULL	blc_data_drvn_enum_val	enum_type		
+broadleaf	NOT_NULL	blc_candidate_fg_offer	fulfillment_group_id		
+broadleaf	NOT_NULL	blc_sc	offline_flag		
+broadleaf	NOT_NULL	blc_sc	sc_type_id		
+broadleaf	NOT_NULL	blc_cat_search_facet_xref	category_id		
+broadleaf	NOT_NULL	blc_cat_search_facet_xref	search_facet_id		
+broadleaf	NOT_NULL	blc_customer_payment	payment_token		
+broadleaf	NOT_NULL	blc_customer_payment	payment_type		
+broadleaf	NOT_NULL	blc_customer_payment	address_id		
+broadleaf	NOT_NULL	blc_search_synonym	term		
+broadleaf	NOT_NULL	blc_order_payment	reference_number		
+broadleaf	NOT_NULL	blc_order_payment	address_id		
+broadleaf	NOT_NULL	blc_order_payment	order_id		
+broadleaf	NOT_NULL	blc_admin_user_sandbox	sandbox_id		
+broadleaf	NOT_NULL	blc_translation	entity_type		
+broadleaf	NOT_NULL	blc_translation	entity_id		
+broadleaf	NOT_NULL	blc_translation	field_name		
+broadleaf	NOT_NULL	blc_translation	locale_code		
+broadleaf	NOT_NULL	blc_sc_type	name		
+broadleaf	NOT_NULL	blc_sc_type	sc_fld_tmplt_id		
+broadleaf	NOT_NULL	blc_admin_permission_entity	admin_permission_id		
+broadleaf	NOT_NULL	blc_fulfillment_option_fixed	currency_code		
+broadleaf	NOT_NULL	blc_sc_fld_map	sc_fld_id		
+broadleaf	NOT_NULL	blc_offer_code	email_address		
+broadleaf	NOT_NULL	blc_sc_fldgrp_xref	fld_group_id		
+broadleaf	NOT_NULL	blc_sc_fldgrp_xref	sc_fld_tmplt_id		
+broadleaf	NOT_NULL	blc_discrete_order_item	sku_bundle_item_id		
+broadleaf	NOT_NULL	blc_discrete_order_item	product_id		
+broadleaf	NOT_NULL	blc_discrete_order_item	bundle_order_item_id		
+broadleaf	NOT_NULL	blc_order_multiship_option	fulfillment_option_id		
+broadleaf	NOT_NULL	blc_order_multiship_option	order_item_id		
+broadleaf	NOT_NULL	blc_order_multiship_option	order_id		
+broadleaf	NOT_NULL	blc_order_multiship_option	address_id		
+broadleaf	NOT_NULL	blc_site	site_identifier_value		
+broadleaf	NOT_NULL	blc_fulfillment_weight_band	fulfillment_option_id		
+broadleaf	NOT_NULL	blc_order_item	order_item_type		
+broadleaf	NOT_NULL	blc_order_item	gift_wrap_item_id		
+broadleaf	NOT_NULL	blc_order_item	parent_order_item_id		
+broadleaf	NOT_NULL	blc_order_item	category_id		
+broadleaf	NOT_NULL	blc_order_item	order_id		
+broadleaf	NOT_NULL	blc_order_item	personal_message_id		
+broadleaf	NOT_NULL	blc_fulfillment_group	method		
+broadleaf	NOT_NULL	blc_fulfillment_group	is_primary		
+broadleaf	NOT_NULL	blc_fulfillment_group	reference_number		
+broadleaf	NOT_NULL	blc_fulfillment_group	service		
+broadleaf	NOT_NULL	blc_fulfillment_group	status		
+broadleaf	NOT_NULL	blc_fulfillment_group	fulfillment_option_id		
+broadleaf	NOT_NULL	blc_fulfillment_group	phone_id		
+broadleaf	NOT_NULL	blc_fulfillment_group	personal_message_id		
+broadleaf	NOT_NULL	blc_fulfillment_group	address_id		
+broadleaf	NOT_NULL	blc_product_up_sale	product_id		
+broadleaf	NOT_NULL	blc_product_up_sale	category_id		
+broadleaf	NOT_NULL	blc_product_up_sale	related_sale_product_id		
+broadleaf	NOT_NULL	blc_cms_menu_item	parent_menu_id		
+broadleaf	NOT_NULL	blc_cms_menu_item	linked_page_id		
+broadleaf	NOT_NULL	blc_cms_menu_item	linked_menu_id		
+broadleaf	NOT_NULL	blc_cat_search_facet_excl_xref	category_id		
+broadleaf	NOT_NULL	blc_cat_search_facet_excl_xref	search_facet_id		
+broadleaf	NOT_NULL	blc_candidate_order_offer	order_id		
+broadleaf	NOT_NULL	blc_candidate_item_offer	order_item_id		
+broadleaf	NOT_NULL	blc_sc_item_criteria	sc_id		
+broadleaf	NOT_NULL	blc_sku_availability	availability_status		
+broadleaf	NOT_NULL	blc_sku_availability	location_id		
+broadleaf	NOT_NULL	blc_sku_availability	sku_id		
+broadleaf	NOT_NULL	blc_media	title		
+broadleaf	NOT_NULL	blc_payment_log	order_payment_id		
+broadleaf	NOT_NULL	blc_payment_log	order_payment_ref_num		
+broadleaf	NOT_NULL	blc_payment_log	currency_code		
+broadleaf	NOT_NULL	blc_payment_log	customer_id		
+broadleaf	NOT_NULL	blc_order_payment_transaction	parent_transaction		
+broadleaf	NOT_NULL	blc_fld_def	enum_id		
+broadleaf	NOT_NULL	blc_fld_def	fld_group_id		
+broadleaf	NOT_NULL	blc_zip_code	zip_city		
+broadleaf	NOT_NULL	blc_zip_code	zip_latitude		
+broadleaf	NOT_NULL	blc_zip_code	zip_longitude		
+broadleaf	NOT_NULL	blc_zip_code	zip_state		
+broadleaf	NOT_NULL	blc_zip_code	zipcode		
+pybbs	NOT_NULL	code	user_id		
+forest_blog	NOT_NULL	link	link_name		
+forest_blog	NOT_NULL	page	page_key		
+forest_blog	NOT_NULL	tag	tag_name		
+forest_blog	NOT_NULL	category	category_name		
+forest_blog	NOT_NULL	menu	menu_name		
+forest_blog	NOT_NULL	user	user_email		
+eladmin	NOT_NULL	visits	date		
+eladmin	NOT_NULL	dict_detail	dict_id		
+eladmin	NOT_NULL	job	dept_id		
+eladmin	NOT_NULL	user	email		
+eladmin	NOT_NULL	user	username		
+eladmin	NOT_NULL	user	dept_id		
+eladmin	NOT_NULL	user	job_id		
+eladmin	NOT_NULL	user	avatar_id		
+discourse	NOT_NULL	skipped_email_logs	post_id		
+discourse	NOT_NULL	skipped_email_logs	user_id		
+discourse	NOT_NULL	themes	remote_theme_id		
+discourse	NOT_NULL	reviewables	reviewable_by_group_id		
+discourse	NOT_NULL	reviewables	topic_id		
+discourse	NOT_NULL	reviewables	target_id		
+discourse	NOT_NULL	user_actions	target_topic_id		
+discourse	NOT_NULL	user_actions	acting_user_id		
+discourse	NOT_NULL	user_actions	target_post_id		
+discourse	NOT_NULL	user_actions	target_user_id		
+discourse	NOT_NULL	group_mentions	post_id		
+discourse	NOT_NULL	group_mentions	group_id		
+discourse	NOT_NULL	optimized_images	etag		
+discourse	NOT_NULL	notifications	post_action_id		
+discourse	NOT_NULL	notifications	topic_id		
+discourse	NOT_NULL	notifications	post_number		
+discourse	NOT_NULL	group_histories	target_user_id		
+discourse	NOT_NULL	topic_search_data	search_data		
+discourse	NOT_NULL	topic_search_data	version		
+discourse	NOT_NULL	tag_search_data	search_data		
+discourse	NOT_NULL	invites	email		
+discourse	NOT_NULL	invites	emailed_status		
+discourse	NOT_NULL	categories	email_in		
+discourse	NOT_NULL	categories	reviewable_by_group_id		
+discourse	NOT_NULL	categories	search_priority		
+discourse	NOT_NULL	categories	parent_category_id		
+discourse	NOT_NULL	api_keys	user_id		
+discourse	NOT_NULL	topics	user_id		
+discourse	NOT_NULL	topics	slug		
+discourse	NOT_NULL	topics	deleted_at		
+discourse	NOT_NULL	topics	pinned_at		
+discourse	NOT_NULL	topics	category_id		
+discourse	NOT_NULL	top_topics	all_score		
+discourse	NOT_NULL	top_topics	daily_score		
+discourse	NOT_NULL	top_topics	monthly_score		
+discourse	NOT_NULL	top_topics	topic_id		
+discourse	NOT_NULL	top_topics	weekly_score		
+discourse	NOT_NULL	top_topics	yearly_score		
+discourse	NOT_NULL	javascript_caches	digest		
+discourse	NOT_NULL	javascript_caches	theme_id		
+discourse	NOT_NULL	javascript_caches	theme_field_id		
+discourse	NOT_NULL	post_actions	disagreed_at		
+discourse	NOT_NULL	screened_emails	last_match_at		
+discourse	NOT_NULL	post_search_data	search_data		
+discourse	NOT_NULL	post_search_data	version		
+discourse	NOT_NULL	post_search_data	locale		
+discourse	NOT_NULL	incoming_links	user_id		
+discourse	NOT_NULL	user_auth_token_logs	user_id		
+discourse	NOT_NULL	onceoff_logs	job_name		
+discourse	NOT_NULL	posts	baked_version		
+discourse	NOT_NULL	posts	reply_to_post_number		
+discourse	NOT_NULL	posts	percent_rank		
+discourse	NOT_NULL	posts	sort_order		
+discourse	NOT_NULL	posts	user_id		
+discourse	NOT_NULL	bookmarks	reminder_at		
+discourse	NOT_NULL	bookmarks	reminder_set_at		
+discourse	NOT_NULL	bookmarks	reminder_type		
+discourse	NOT_NULL	user_security_keys	last_used		
+discourse	NOT_NULL	screened_urls	last_match_at		
+discourse	NOT_NULL	topic_custom_fields	value		
+discourse	NOT_NULL	child_themes	parent_theme_id		
+discourse	NOT_NULL	child_themes	child_theme_id		
+discourse	NOT_NULL	user_profiles	bio_cooked_version		
+discourse	NOT_NULL	user_profiles	profile_background_upload_id		
+discourse	NOT_NULL	user_profiles	granted_title_badge_id		
+discourse	NOT_NULL	user_profiles	card_background_upload_id		
+discourse	NOT_NULL	topic_links	extension		
+discourse	NOT_NULL	topic_links	link_post_id		
+discourse	NOT_NULL	topic_links	reflection		
+discourse	NOT_NULL	topic_links	post_id		
+discourse	NOT_NULL	category_search_data	search_data		
+discourse	NOT_NULL	post_stats	post_id		
+discourse	NOT_NULL	users	last_posted_at		
+discourse	NOT_NULL	users	last_seen_at		
+discourse	NOT_NULL	users	secure_identifier		
+discourse	NOT_NULL	users	uploaded_avatar_id		
+discourse	NOT_NULL	category_users	last_seen_at		
+discourse	NOT_NULL	post_revisions	post_id		
+discourse	NOT_NULL	post_revisions	number		
+discourse	NOT_NULL	group_requests	group_id		
+discourse	NOT_NULL	group_requests	user_id		
+discourse	NOT_NULL	screened_ip_addresses	last_match_at		
+discourse	NOT_NULL	user_search_data	search_data		
+discourse	NOT_NULL	topic_views	user_id		
+discourse	NOT_NULL	topic_views	ip_address		
+discourse	NOT_NULL	post_replies	post_id		
+discourse	NOT_NULL	post_replies	reply_post_id		
+discourse	NOT_NULL	polls	post_id		
+discourse	NOT_NULL	poll_options	poll_id		
+discourse	NOT_NULL	user_avatars	custom_upload_id		
+discourse	NOT_NULL	user_avatars	gravatar_upload_id		
+discourse	NOT_NULL	user_badges	post_id		
+discourse	NOT_NULL	email_logs	bounce_key		
+discourse	NOT_NULL	email_logs	message_id		
+discourse	NOT_NULL	email_logs	post_id		
+discourse	NOT_NULL	email_logs	user_id		
+discourse	NOT_NULL	incoming_emails	error		
+discourse	NOT_NULL	incoming_emails	message_id		
+discourse	NOT_NULL	incoming_emails	post_id		
+discourse	NOT_NULL	incoming_emails	user_id		
+discourse	NOT_NULL	groups	incoming_email		
+discourse	NOT_NULL	post_details	post_id		
+discourse	NOT_NULL	post_details	key		
+discourse	NOT_NULL	user_visits	mobile		
+discourse	NOT_NULL	uploads	etag		
+discourse	NOT_NULL	uploads	original_sha1		
+discourse	NOT_NULL	uploads	sha1		
+discourse	NOT_NULL	uploads	access_control_post_id		
+discourse	NOT_NULL	uploads	extension		
+discourse	NOT_NULL	poll_votes	poll_option_id		
+discourse	NOT_NULL	poll_votes	poll_id		
+discourse	NOT_NULL	poll_votes	user_id		
+discourse	NOT_NULL	user_profile_views	user_id		
+discourse	NOT_NULL	user_profile_views	ip_address		
+discourse	NOT_NULL	user_associated_accounts	user_id		
+discourse	NOT_NULL	user_histories	acting_user_id		
+discourse	NOT_NULL	user_histories	category_id		
+discourse	NOT_NULL	user_histories	subject		
+discourse	NOT_NULL	user_histories	topic_id		
+discourse	NOT_NULL	user_histories	target_user_id		
+redmine	NOT_NULL	projects	lft		
+redmine	NOT_NULL	projects	rgt		
+redmine	NOT_NULL	documents	created_on		
+redmine	NOT_NULL	enumerations	project_id		
+redmine	NOT_NULL	enumerations	type		
+redmine	NOT_NULL	issues	category_id		
+redmine	NOT_NULL	issues	assigned_to_id		
+redmine	NOT_NULL	issues	fixed_version_id		
+redmine	NOT_NULL	issues	created_on		
+redmine	NOT_NULL	issues	root_id		
+redmine	NOT_NULL	issues	lft		
+redmine	NOT_NULL	issues	rgt		
+redmine	NOT_NULL	issues	parent_id		
+redmine	NOT_NULL	member_roles	inherited_from		
+redmine	NOT_NULL	import_items	unique_id		
+redmine	NOT_NULL	users	auth_source_id		
+redmine	NOT_NULL	users	type		
+redmine	NOT_NULL	messages	parent_id		
+redmine	NOT_NULL	messages	last_reply_id		
+redmine	NOT_NULL	messages	author_id		
+redmine	NOT_NULL	wiki_pages	parent_id		
+redmine	NOT_NULL	attachments	created_on		
+redmine	NOT_NULL	attachments	container_id		
+redmine	NOT_NULL	attachments	container_type		
+redmine	NOT_NULL	wiki_contents	author_id		
+redmine	NOT_NULL	boards	last_message_id		
+redmine	NOT_NULL	wiki_redirects	title		
+redmine	NOT_NULL	issue_statuses	position		
+redmine	NOT_NULL	time_entries	issue_id		
+redmine	NOT_NULL	news	project_id		
+redmine	NOT_NULL	news	created_on		
+redmine	NOT_NULL	enabled_modules	project_id		
+redmine	NOT_NULL	issue_categories	assigned_to_id		
+redmine	NOT_NULL	queries	project_id		
+redmine	NOT_NULL	changesets	user_id		
+redmine	NOT_NULL	changesets	scmid		
+solidus	NOT_NULL	spree_tax_rates	deleted_at		
+solidus	NOT_NULL	spree_tax_rates	zone_id		
+solidus	NOT_NULL	spree_payments	number		
+solidus	NOT_NULL	spree_payments	order_id		
+solidus	NOT_NULL	spree_payments	payment_method_id		
+solidus	NOT_NULL	spree_payments	source_id		
+solidus	NOT_NULL	spree_payments	source_type		
+solidus	NOT_NULL	spree_taxons	parent_id		
+solidus	NOT_NULL	spree_taxons	permalink		
+solidus	NOT_NULL	spree_taxons	position		
+solidus	NOT_NULL	spree_taxons	taxonomy_id		
+solidus	NOT_NULL	spree_taxons	lft		
+solidus	NOT_NULL	spree_taxons	rgt		
+solidus	NOT_NULL	spree_assets	viewable_id		
+solidus	NOT_NULL	spree_assets	viewable_type		
+solidus	NOT_NULL	spree_assets	type		
+solidus	NOT_NULL	spree_shipping_rates	shipment_id		
+solidus	NOT_NULL	spree_shipping_rates	shipping_method_id		
+solidus	NOT_NULL	spree_payment_capture_events	payment_id		
+solidus	NOT_NULL	spree_store_credit_events	deleted_at		
+solidus	NOT_NULL	spree_orders_promotions	order_id		
+solidus	NOT_NULL	spree_orders_promotions	promotion_id		
+solidus	NOT_NULL	spree_orders_promotions	promotion_code_id		
+solidus	NOT_NULL	spree_store_credits	deleted_at		
+solidus	NOT_NULL	spree_store_credits	type_id		
+solidus	NOT_NULL	spree_store_credits	user_id		
+solidus	NOT_NULL	spree_shipments	deprecated_address_id		
+solidus	NOT_NULL	spree_shipments	number		
+solidus	NOT_NULL	spree_shipments	order_id		
+solidus	NOT_NULL	spree_shipments	stock_location_id		
+solidus	NOT_NULL	spree_store_credit_types	priority		
+solidus	NOT_NULL	spree_reimbursements	customer_return_id		
+solidus	NOT_NULL	spree_reimbursements	order_id		
+solidus	NOT_NULL	spree_stock_items	deleted_at		
+solidus	NOT_NULL	spree_stock_items	variant_id		
+solidus	NOT_NULL	spree_stock_items	stock_location_id		
+solidus	NOT_NULL	spree_promotion_actions	deleted_at		
+solidus	NOT_NULL	spree_promotion_actions	type		
+solidus	NOT_NULL	spree_promotion_actions	promotion_id		
+solidus	NOT_NULL	spree_countries	iso		
+solidus	NOT_NULL	spree_cartons	imported_from_shipment_id		
+solidus	NOT_NULL	spree_cartons	number		
+solidus	NOT_NULL	spree_cartons	external_number		
+solidus	NOT_NULL	spree_cartons	stock_location_id		
+solidus	NOT_NULL	spree_reimbursement_types	type		
+solidus	NOT_NULL	spree_shipping_rate_taxes	shipping_rate_id		
+solidus	NOT_NULL	spree_shipping_rate_taxes	tax_rate_id		
+solidus	NOT_NULL	spree_state_changes	stateful_id		
+solidus	NOT_NULL	spree_state_changes	stateful_type		
+solidus	NOT_NULL	spree_state_changes	user_id		
+solidus	NOT_NULL	spree_product_promotion_rules	product_id		
+solidus	NOT_NULL	spree_product_promotion_rules	promotion_rule_id		
+solidus	NOT_NULL	spree_preferences	key		
+solidus	NOT_NULL	spree_promotion_rules_users	promotion_rule_id		
+solidus	NOT_NULL	spree_promotion_rules_users	user_id		
+solidus	NOT_NULL	friendly_id_slugs	scope		
+solidus	NOT_NULL	friendly_id_slugs	sluggable_type		
+solidus	NOT_NULL	spree_promotion_codes	promotion_code_batch_id		
+solidus	NOT_NULL	spree_product_option_types	option_type_id		
+solidus	NOT_NULL	spree_product_option_types	position		
+solidus	NOT_NULL	spree_product_option_types	product_id		
+solidus	NOT_NULL	spree_variant_property_rule_va	property_id		
+solidus	NOT_NULL	spree_variant_property_rule_va	variant_property_rule_id		
+solidus	NOT_NULL	spree_inventory_units	carton_id		
+solidus	NOT_NULL	spree_inventory_units	line_item_id		
+solidus	NOT_NULL	spree_inventory_units	shipment_id		
+solidus	NOT_NULL	spree_inventory_units	variant_id		
+solidus	NOT_NULL	spree_payment_methods	type		
+solidus	NOT_NULL	spree_roles_users	user_id		
+solidus	NOT_NULL	spree_roles_users	role_id		
+solidus	NOT_NULL	spree_variants	position		
+solidus	NOT_NULL	spree_variants	product_id		
+solidus	NOT_NULL	spree_variants	tax_category_id		
+solidus	NOT_NULL	spree_variants	track_inventory		
+solidus	NOT_NULL	spree_addresses	country_id		
+solidus	NOT_NULL	spree_addresses	firstname		
+solidus	NOT_NULL	spree_addresses	lastname		
+solidus	NOT_NULL	spree_addresses	state_id		
+solidus	NOT_NULL	spree_adjustment_reasons	active		
+solidus	NOT_NULL	spree_adjustment_reasons	code		
+solidus	NOT_NULL	spree_stock_movements	stock_item_id		
+solidus	NOT_NULL	spree_adjustments	adjustable_type		
+solidus	NOT_NULL	spree_adjustments	eligible		
+solidus	NOT_NULL	spree_adjustments	promotion_code_id		
+solidus	NOT_NULL	spree_adjustments	source_id		
+solidus	NOT_NULL	spree_adjustments	source_type		
+solidus	NOT_NULL	spree_return_authorizations	return_reason_id		
+solidus	NOT_NULL	spree_return_items	customer_return_id		
+solidus	NOT_NULL	spree_return_items	exchange_inventory_unit_id		
+solidus	NOT_NULL	spree_stock_locations	country_id		
+solidus	NOT_NULL	spree_stock_locations	state_id		
+solidus	NOT_NULL	spree_refunds	payment_id		
+solidus	NOT_NULL	spree_refunds	refund_reason_id		
+solidus	NOT_NULL	spree_refunds	reimbursement_id		
+solidus	NOT_NULL	spree_user_stock_locations	user_id		
+solidus	NOT_NULL	spree_roles	name		
+solidus	NOT_NULL	spree_shipping_method_stock_lo	shipping_method_id		
+solidus	NOT_NULL	spree_shipping_method_stock_lo	stock_location_id		
+solidus	NOT_NULL	spree_zone_members	zone_id		
+solidus	NOT_NULL	spree_zone_members	zoneable_id		
+solidus	NOT_NULL	spree_zone_members	zoneable_type		
+solidus	NOT_NULL	spree_taxonomies	position		
+solidus	NOT_NULL	spree_prototype_taxons	prototype_id		
+solidus	NOT_NULL	spree_prototype_taxons	taxon_id		
+solidus	NOT_NULL	spree_products	slug		
+solidus	NOT_NULL	spree_products	available_on		
+solidus	NOT_NULL	spree_products	deleted_at		
+solidus	NOT_NULL	spree_variant_property_rules	product_id		
+solidus	NOT_NULL	spree_promotion_action_line_it	promotion_action_id		
+solidus	NOT_NULL	spree_promotion_action_line_it	variant_id		
+solidus	NOT_NULL	spree_promotions	advertise		
+solidus	NOT_NULL	spree_promotions	apply_automatically		
+solidus	NOT_NULL	spree_promotions	expires_at		
+solidus	NOT_NULL	spree_promotions	type		
+solidus	NOT_NULL	spree_promotions	promotion_category_id		
+solidus	NOT_NULL	spree_promotions	starts_at		
+solidus	NOT_NULL	spree_credit_cards	payment_method_id		
+solidus	NOT_NULL	spree_credit_cards	user_id		
+solidus	NOT_NULL	spree_line_items	order_id		
+solidus	NOT_NULL	spree_line_items	variant_id		
+solidus	NOT_NULL	spree_stores	code		
+solidus	NOT_NULL	spree_calculators	calculable_id		
+solidus	NOT_NULL	spree_calculators	calculable_type		
+solidus	NOT_NULL	spree_calculators	type		
+solidus	NOT_NULL	spree_promotion_rule_taxons	taxon_id		
+solidus	NOT_NULL	spree_promotion_rule_taxons	promotion_rule_id		
+solidus	NOT_NULL	spree_variant_property_rule_co	variant_property_rule_id		
+solidus	NOT_NULL	spree_variant_property_rule_co	option_value_id		
+solidus	NOT_NULL	spree_promotion_rules	product_group_id		
+solidus	NOT_NULL	spree_promotion_rules	promotion_id		
+solidus	NOT_NULL	spree_states	country_id		
+solidus	NOT_NULL	spree_option_values_variants	variant_id		
+solidus	NOT_NULL	spree_prices	country_iso		
+solidus	NOT_NULL	spree_prices	currency		
+solidus	NOT_NULL	spree_log_entries	source_id		
+solidus	NOT_NULL	spree_log_entries	source_type		
+solidus	NOT_NULL	spree_product_properties	position		
+solidus	NOT_NULL	spree_product_properties	product_id		
+solidus	NOT_NULL	spree_product_properties	property_id		
+solidus	NOT_NULL	spree_products_taxons	position		
+solidus	NOT_NULL	spree_products_taxons	product_id		
+solidus	NOT_NULL	spree_products_taxons	taxon_id		
+solidus	NOT_NULL	spree_option_values	option_type_id		
+solidus	NOT_NULL	spree_option_values	position		
+solidus	NOT_NULL	spree_orders	approver_id		
+solidus	NOT_NULL	spree_orders	bill_address_id		
+solidus	NOT_NULL	spree_orders	completed_at		
+solidus	NOT_NULL	spree_orders	guest_token		
+solidus	NOT_NULL	spree_orders	number		
+solidus	NOT_NULL	spree_orders	ship_address_id		
+solidus	NOT_NULL	spree_orders	created_by_id		
+solidus	NOT_NULL	spree_orders	user_id		
+solidus	NOT_NULL	spree_shipping_methods	tax_category_id		
+diaspora	NOT_NULL	notification_actors	person_id		
+diaspora	NOT_NULL	notification_actors	notification_id		
+diaspora	NOT_NULL	simple_captcha_data	key		
+diaspora	NOT_NULL	o_auth_applications	client_id		
+diaspora	NOT_NULL	o_auth_applications	user_id		
+diaspora	NOT_NULL	photos	status_message_guid		
+diaspora	NOT_NULL	posts	root_guid		
+diaspora	NOT_NULL	likes	guid		
+diaspora	NOT_NULL	likes	target_id		
+diaspora	NOT_NULL	likes	author_id		
+diaspora	NOT_NULL	user_preferences	user_id		
+diaspora	NOT_NULL	user_preferences	email_type		
+diaspora	NOT_NULL	profiles	full_name		
+diaspora	NOT_NULL	users	authentication_token		
+diaspora	NOT_NULL	ppid	o_auth_application_id		
+diaspora	NOT_NULL	ppid	user_id		
+diaspora	NOT_NULL	tags	name		
+diaspora	NOT_NULL	taggings	created_at		
+diaspora	NOT_NULL	taggings	tag_id		
+diaspora	NOT_NULL	taggings	taggable_id		
+diaspora	NOT_NULL	taggings	taggable_type		
+diaspora	NOT_NULL	taggings	context		
+diaspora	NOT_NULL	poll_answers	guid		
+diaspora	NOT_NULL	notifications	guid		
+diaspora	NOT_NULL	notifications	target_type		
+diaspora	NOT_NULL	notifications	target_id		
+diaspora	NOT_NULL	roles	person_id		
+diaspora	NOT_NULL	roles	name		
+diaspora	NOT_NULL	authorizations	user_id		
+diaspora	NOT_NULL	authorizations	o_auth_application_id		
+diaspora	NOT_NULL	poll_participations	guid		
+diaspora	NOT_NULL	polls	guid		
+diaspora	NOT_NULL	account_deletions	person_id		
+diaspora	NOT_NULL	participations	target_id		
+diaspora	NOT_NULL	participations	author_id		
+diaspora	NOT_NULL	participations	guid		
+diaspora	NOT_NULL	blocks	user_id		
+diaspora	NOT_NULL	blocks	person_id		
+diaspora	NOT_NULL	services	uid		
+diaspora	NOT_NULL	people	owner_id		
+diaspora	NOT_NULL	people	pod_id		
+diaspora	NOT_NULL	locations	status_message_id		
+diaspora	NOT_NULL	pods	port		
+diaspora	NOT_NULL	pods	checked_at		
+diaspora	NOT_NULL	pods	offline_since		
+diaspora	NOT_NULL	pods	status		
+diaspora	NOT_NULL	o_auth_access_tokens	token		
+diaspora	NOT_NULL	o_auth_access_tokens	authorization_id		
+gitlab	NOT_NULL	vulnerability_occurrences	vulnerability_id		
+gitlab	NOT_NULL	projects	description		
+gitlab	NOT_NULL	projects	last_activity_at		
+gitlab	NOT_NULL	projects	last_repository_check_at		
+gitlab	NOT_NULL	projects	last_repository_check_failed		
+gitlab	NOT_NULL	projects	last_repository_updated_at		
+gitlab	NOT_NULL	projects	marked_for_deletion_at		
+gitlab	NOT_NULL	projects	creator_id		
+gitlab	NOT_NULL	projects	created_at		
+gitlab	NOT_NULL	projects	mirror_last_successful_update_at		
+gitlab	NOT_NULL	projects	mirror_user_id		
+gitlab	NOT_NULL	projects	name		
+gitlab	NOT_NULL	projects	path		
+gitlab	NOT_NULL	projects	pending_delete		
+gitlab	NOT_NULL	projects	runners_token		
+gitlab	NOT_NULL	projects	runners_token_encrypted		
+gitlab	NOT_NULL	projects	updated_at		
+gitlab	NOT_NULL	projects	marked_for_deletion_by_user_id		
+gitlab	NOT_NULL	projects	pool_repository_id		
+gitlab	NOT_NULL	vulnerability_feedback	merge_request_id		
+gitlab	NOT_NULL	vulnerability_feedback	comment_author_id		
+gitlab	NOT_NULL	vulnerability_feedback	pipeline_id		
+gitlab	NOT_NULL	vulnerability_feedback	issue_id		
+gitlab	NOT_NULL	protected_environment_deploy_a	group_id		
+gitlab	NOT_NULL	protected_environment_deploy_a	user_id		
+gitlab	NOT_NULL	events	target_type		
+gitlab	NOT_NULL	events	target_id		
+gitlab	NOT_NULL	events	group_id		
+gitlab	NOT_NULL	events	project_id		
+gitlab	NOT_NULL	push_rules	is_sample		
+gitlab	NOT_NULL	push_rules	project_id		
+gitlab	NOT_NULL	gpg_key_subkeys	fingerprint		
+gitlab	NOT_NULL	gpg_key_subkeys	keyid		
+gitlab	NOT_NULL	labels	template		
+gitlab	NOT_NULL	labels	title		
+gitlab	NOT_NULL	labels	type		
+gitlab	NOT_NULL	labels	project_id		
+gitlab	NOT_NULL	labels	group_id		
+gitlab	NOT_NULL	tags	name		
+gitlab	NOT_NULL	project_mirror_data	next_execution_timestamp		
+gitlab	NOT_NULL	project_mirror_data	last_successful_update_at		
+gitlab	NOT_NULL	project_mirror_data	last_update_at		
+gitlab	NOT_NULL	project_mirror_data	status		
+gitlab	NOT_NULL	prometheus_alert_events	payload_key		
+gitlab	NOT_NULL	prometheus_alert_events	status		
+gitlab	NOT_NULL	plans	name		
+gitlab	NOT_NULL	ci_pipelines	iid		
+gitlab	NOT_NULL	ci_pipelines	sha		
+gitlab	NOT_NULL	ci_pipelines	source		
+gitlab	NOT_NULL	ci_pipelines	config_source		
+gitlab	NOT_NULL	ci_pipelines	updated_at		
+gitlab	NOT_NULL	ci_pipelines	ref		
+gitlab	NOT_NULL	ci_pipelines	status		
+gitlab	NOT_NULL	ci_pipelines	user_id		
+gitlab	NOT_NULL	ci_pipelines	created_at		
+gitlab	NOT_NULL	ci_pipelines	external_pull_request_id		
+gitlab	NOT_NULL	ci_pipelines	auto_canceled_by_id		
+gitlab	NOT_NULL	ci_pipelines	pipeline_schedule_id		
+gitlab	NOT_NULL	ci_pipelines	project_id		
+gitlab	NOT_NULL	ci_pipelines	merge_request_id		
+gitlab	NOT_NULL	issue_metrics	first_mentioned_in_commit_at		
+gitlab	NOT_NULL	issue_metrics	first_associated_with_milestone_at		
+gitlab	NOT_NULL	issue_metrics	first_added_to_board_at		
+gitlab	NOT_NULL	approvers	target_type		
+gitlab	NOT_NULL	pool_repositories	disk_path		
+gitlab	NOT_NULL	pool_repositories	source_project_id		
+gitlab	NOT_NULL	prometheus_metrics	identifier		
+gitlab	NOT_NULL	prometheus_metrics	project_id		
+gitlab	NOT_NULL	identities	user_id		
+gitlab	NOT_NULL	identities	saml_provider_id		
+gitlab	NOT_NULL	snippets	content		
+gitlab	NOT_NULL	snippets	created_at		
+gitlab	NOT_NULL	snippets	description		
+gitlab	NOT_NULL	snippets	file_name		
+gitlab	NOT_NULL	snippets	title		
+gitlab	NOT_NULL	snippets	updated_at		
+gitlab	NOT_NULL	snippets	project_id		
+gitlab	NOT_NULL	container_expiration_policies	next_run_at		
+gitlab	NOT_NULL	operations_feature_flags_clien	token_encrypted		
+gitlab	NOT_NULL	elasticsearch_indexed_projects	project_id		
+gitlab	NOT_NULL	packages_packages	version		
+gitlab	NOT_NULL	gpg_signatures	commit_sha		
+gitlab	NOT_NULL	gpg_signatures	gpg_key_primary_keyid		
+gitlab	NOT_NULL	gpg_signatures	project_id		
+gitlab	NOT_NULL	gpg_signatures	gpg_key_subkey_id		
+gitlab	NOT_NULL	gpg_signatures	gpg_key_id		
+gitlab	NOT_NULL	user_highest_roles	highest_access_level		
+gitlab	NOT_NULL	ci_runner_projects	project_id		
+gitlab	NOT_NULL	clusters_applications_jupyter	oauth_application_id		
+gitlab	NOT_NULL	project_import_data	project_id		
+gitlab	NOT_NULL	services	type		
+gitlab	NOT_NULL	services	template		
+gitlab	NOT_NULL	services	project_id		
+gitlab	NOT_NULL	releases	tag		
+gitlab	NOT_NULL	releases	project_id		
+gitlab	NOT_NULL	releases	author_id		
+gitlab	NOT_NULL	analytics_cycle_analytics_grou	relative_position		
+gitlab	NOT_NULL	analytics_cycle_analytics_grou	start_event_label_id		
+gitlab	NOT_NULL	analytics_cycle_analytics_grou	end_event_label_id		
+gitlab	NOT_NULL	todos	created_at		
+gitlab	NOT_NULL	todos	commit_id		
+gitlab	NOT_NULL	todos	target_id		
+gitlab	NOT_NULL	todos	project_id		
+gitlab	NOT_NULL	todos	note_id		
+gitlab	NOT_NULL	todos	group_id		
+gitlab	NOT_NULL	oauth_applications	owner_id		
+gitlab	NOT_NULL	oauth_applications	owner_type		
+gitlab	NOT_NULL	subscriptions	subscribable_id		
+gitlab	NOT_NULL	subscriptions	subscribable_type		
+gitlab	NOT_NULL	subscriptions	user_id		
+gitlab	NOT_NULL	subscriptions	project_id		
+gitlab	NOT_NULL	notes	author_id		
+gitlab	NOT_NULL	notes	commit_id		
+gitlab	NOT_NULL	notes	created_at		
+gitlab	NOT_NULL	notes	discussion_id		
+gitlab	NOT_NULL	notes	line_code		
+gitlab	NOT_NULL	notes	note		
+gitlab	NOT_NULL	notes	noteable_id		
+gitlab	NOT_NULL	notes	noteable_type		
+gitlab	NOT_NULL	notes	review_id		
+gitlab	NOT_NULL	notes	project_id		
+gitlab	NOT_NULL	oauth_access_tokens	application_id		
+gitlab	NOT_NULL	oauth_access_tokens	refresh_token		
+gitlab	NOT_NULL	oauth_access_tokens	resource_owner_id		
+gitlab	NOT_NULL	ci_job_artifacts	expire_at		
+gitlab	NOT_NULL	ci_job_artifacts	file_store		
+gitlab	NOT_NULL	protected_branch_push_access_l	group_id		
+gitlab	NOT_NULL	protected_branch_push_access_l	user_id		
+gitlab	NOT_NULL	issue_user_mentions	note_id		
+gitlab	NOT_NULL	fork_networks	root_project_id		
+gitlab	NOT_NULL	ci_builds	artifacts_expire_at		
+gitlab	NOT_NULL	ci_builds	name		
+gitlab	NOT_NULL	ci_builds	ref		
+gitlab	NOT_NULL	ci_builds	protected		
+gitlab	NOT_NULL	ci_builds	queued_at		
+gitlab	NOT_NULL	ci_builds	type		
+gitlab	NOT_NULL	ci_builds	runner_id		
+gitlab	NOT_NULL	ci_builds	token		
+gitlab	NOT_NULL	ci_builds	token_encrypted		
+gitlab	NOT_NULL	ci_builds	updated_at		
+gitlab	NOT_NULL	ci_builds	user_id		
+gitlab	NOT_NULL	ci_builds	created_at		
+gitlab	NOT_NULL	ci_builds	status		
+gitlab	NOT_NULL	ci_builds	scheduled_at		
+gitlab	NOT_NULL	ci_builds	stage_idx		
+gitlab	NOT_NULL	ci_builds	stage_id		
+gitlab	NOT_NULL	ci_builds	resource_group_id		
+gitlab	NOT_NULL	ci_builds	upstream_pipeline_id		
+gitlab	NOT_NULL	ci_builds	auto_canceled_by_id		
+gitlab	NOT_NULL	ci_builds	project_id		
+gitlab	NOT_NULL	ci_builds	commit_id		
+gitlab	NOT_NULL	geo_event_log	hashed_storage_attachments_event_id		
+gitlab	NOT_NULL	geo_event_log	job_artifact_deleted_event_id		
+gitlab	NOT_NULL	geo_event_log	hashed_storage_migrated_event_id		
+gitlab	NOT_NULL	geo_event_log	cache_invalidation_event_id		
+gitlab	NOT_NULL	geo_event_log	repositories_changed_event_id		
+gitlab	NOT_NULL	geo_event_log	container_repository_updated_event_id		
+gitlab	NOT_NULL	geo_event_log	repository_updated_event_id		
+gitlab	NOT_NULL	geo_event_log	repository_renamed_event_id		
+gitlab	NOT_NULL	geo_event_log	repository_created_event_id		
+gitlab	NOT_NULL	geo_event_log	upload_deleted_event_id		
+gitlab	NOT_NULL	geo_event_log	repository_deleted_event_id		
+gitlab	NOT_NULL	geo_event_log	reset_checksum_event_id		
+gitlab	NOT_NULL	geo_event_log	lfs_object_deleted_event_id		
+gitlab	NOT_NULL	geo_event_log	geo_event_id		
+gitlab	NOT_NULL	users	bot_type		
+gitlab	NOT_NULL	users	confirmation_token		
+gitlab	NOT_NULL	users	created_at		
+gitlab	NOT_NULL	users	feed_token		
+gitlab	NOT_NULL	users	ghost		
+gitlab	NOT_NULL	users	group_view		
+gitlab	NOT_NULL	users	incoming_email_token		
+gitlab	NOT_NULL	users	name		
+gitlab	NOT_NULL	users	reset_password_token		
+gitlab	NOT_NULL	users	state		
+gitlab	NOT_NULL	users	static_object_token		
+gitlab	NOT_NULL	users	unconfirmed_email		
+gitlab	NOT_NULL	users	unlock_token		
+gitlab	NOT_NULL	users	user_type		
+gitlab	NOT_NULL	users	username		
+gitlab	NOT_NULL	users	accepted_term_id		
+gitlab	NOT_NULL	users	managing_group_id		
+gitlab	NOT_NULL	ci_trigger_requests	commit_id		
+gitlab	NOT_NULL	taggings	tag_id		
+gitlab	NOT_NULL	taggings	taggable_id		
+gitlab	NOT_NULL	taggings	taggable_type		
+gitlab	NOT_NULL	taggings	context		
+gitlab	NOT_NULL	taggings	tagger_id		
+gitlab	NOT_NULL	taggings	tagger_type		
+gitlab	NOT_NULL	draft_notes	discussion_id		
+gitlab	NOT_NULL	merge_requests	merge_jid		
+gitlab	NOT_NULL	merge_requests	description		
+gitlab	NOT_NULL	merge_requests	lock_version		
+gitlab	NOT_NULL	merge_requests	iid		
+gitlab	NOT_NULL	merge_requests	title		
+gitlab	NOT_NULL	merge_requests	merge_commit_sha		
+gitlab	NOT_NULL	merge_requests	created_at		
+gitlab	NOT_NULL	merge_requests	latest_merge_request_diff_id		
+gitlab	NOT_NULL	merge_requests	source_project_id		
+gitlab	NOT_NULL	merge_requests	assignee_id		
+gitlab	NOT_NULL	merge_requests	updated_by_id		
+gitlab	NOT_NULL	merge_requests	milestone_id		
+gitlab	NOT_NULL	merge_requests	merge_user_id		
+gitlab	NOT_NULL	merge_requests	author_id		
+gitlab	NOT_NULL	merge_requests	head_pipeline_id		
+gitlab	NOT_NULL	notification_settings	source_id		
+gitlab	NOT_NULL	notification_settings	source_type		
+gitlab	NOT_NULL	protected_branch_merge_access_	group_id		
+gitlab	NOT_NULL	protected_branch_merge_access_	user_id		
+gitlab	NOT_NULL	import_export_uploads	group_id		
+gitlab	NOT_NULL	import_export_uploads	project_id		
+gitlab	NOT_NULL	emails	confirmation_token		
+gitlab	NOT_NULL	board_group_recent_visits	user_id		
+gitlab	NOT_NULL	board_group_recent_visits	board_id		
+gitlab	NOT_NULL	board_group_recent_visits	group_id		
+gitlab	NOT_NULL	deployment_clusters	kubernetes_namespace		
+gitlab	NOT_NULL	resource_label_events	issue_id		
+gitlab	NOT_NULL	resource_label_events	epic_id		
+gitlab	NOT_NULL	resource_label_events	merge_request_id		
+gitlab	NOT_NULL	resource_label_events	label_id		
+gitlab	NOT_NULL	resource_label_events	user_id		
+gitlab	NOT_NULL	web_hooks	group_id		
+gitlab	NOT_NULL	web_hooks	type		
+gitlab	NOT_NULL	web_hooks	project_id		
+gitlab	NOT_NULL	application_settings	usage_stats_set_by_user_id		
+gitlab	NOT_NULL	application_settings	instance_administrators_group_id		
+gitlab	NOT_NULL	application_settings	file_template_project_id		
+gitlab	NOT_NULL	application_settings	instance_administration_project_id		
+gitlab	NOT_NULL	application_settings	custom_project_templates_group_id		
+gitlab	NOT_NULL	clusters	enabled		
+gitlab	NOT_NULL	clusters	provider_type		
+gitlab	NOT_NULL	clusters	management_project_id		
+gitlab	NOT_NULL	clusters	user_id		
+gitlab	NOT_NULL	epic_user_mentions	note_id		
+gitlab	NOT_NULL	project_daily_statistics	date		
+gitlab	NOT_NULL	uploads	checksum		
+gitlab	NOT_NULL	uploads	model_id		
+gitlab	NOT_NULL	uploads	model_type		
+gitlab	NOT_NULL	uploads	store		
+gitlab	NOT_NULL	ci_pipeline_schedules	next_run_at		
+gitlab	NOT_NULL	ci_pipeline_schedules	active		
+gitlab	NOT_NULL	ci_pipeline_schedules	project_id		
+gitlab	NOT_NULL	ci_pipeline_schedules	owner_id		
+gitlab	NOT_NULL	resource_weight_events	weight		
+gitlab	NOT_NULL	ci_triggers	project_id		
+gitlab	NOT_NULL	vulnerabilities	last_edited_by_id		
+gitlab	NOT_NULL	vulnerabilities	milestone_id		
+gitlab	NOT_NULL	vulnerabilities	epic_id		
+gitlab	NOT_NULL	vulnerabilities	dismissed_by_id		
+gitlab	NOT_NULL	vulnerabilities	resolved_by_id		
+gitlab	NOT_NULL	vulnerabilities	updated_by_id		
+gitlab	NOT_NULL	vulnerabilities	due_date_sourcing_milestone_id		
+gitlab	NOT_NULL	vulnerabilities	start_date_sourcing_milestone_id		
+gitlab	NOT_NULL	vulnerabilities	confirmed_by_id		
+gitlab	NOT_NULL	gitlab_subscriptions	hosted_plan_id		
+gitlab	NOT_NULL	gitlab_subscriptions	namespace_id		
+gitlab	NOT_NULL	milestones	description		
+gitlab	NOT_NULL	milestones	due_date		
+gitlab	NOT_NULL	milestones	iid		
+gitlab	NOT_NULL	milestones	group_id		
+gitlab	NOT_NULL	milestones	project_id		
+gitlab	NOT_NULL	ci_resources	build_id		
+gitlab	NOT_NULL	clusters_applications_runners	runner_id		
+gitlab	NOT_NULL	issues	due_date		
+gitlab	NOT_NULL	issues	created_at		
+gitlab	NOT_NULL	issues	description		
+gitlab	NOT_NULL	issues	lock_version		
+gitlab	NOT_NULL	issues	external_key		
+gitlab	NOT_NULL	issues	iid		
+gitlab	NOT_NULL	issues	relative_position		
+gitlab	NOT_NULL	issues	title		
+gitlab	NOT_NULL	issues	updated_at		
+gitlab	NOT_NULL	issues	author_id		
+gitlab	NOT_NULL	issues	project_id		
+gitlab	NOT_NULL	issues	milestone_id		
+gitlab	NOT_NULL	issues	duplicated_to_id		
+gitlab	NOT_NULL	issues	moved_to_id		
+gitlab	NOT_NULL	issues	closed_by_id		
+gitlab	NOT_NULL	issues	promoted_to_epic_id		
+gitlab	NOT_NULL	issues	updated_by_id		
+gitlab	NOT_NULL	protected_branch_unprotect_acc	user_id		
+gitlab	NOT_NULL	protected_branch_unprotect_acc	group_id		
+gitlab	NOT_NULL	lfs_objects	file_store		
+gitlab	NOT_NULL	import_failures	correlation_id_value		
+gitlab	NOT_NULL	import_failures	project_id		
+gitlab	NOT_NULL	import_failures	group_id		
+gitlab	NOT_NULL	label_links	target_id		
+gitlab	NOT_NULL	label_links	target_type		
+gitlab	NOT_NULL	label_links	label_id		
+gitlab	NOT_NULL	u2f_registrations	key_handle		
+gitlab	NOT_NULL	u2f_registrations	user_id		
+gitlab	NOT_NULL	ci_runners	contacted_at		
+gitlab	NOT_NULL	ci_runners	is_shared		
+gitlab	NOT_NULL	ci_runners	token		
+gitlab	NOT_NULL	ci_runners	token_encrypted		
+gitlab	NOT_NULL	ci_stages	name		
+gitlab	NOT_NULL	ci_stages	position		
+gitlab	NOT_NULL	ci_stages	project_id		
+gitlab	NOT_NULL	ci_stages	pipeline_id		
+gitlab	NOT_NULL	elasticsearch_indexed_namespac	namespace_id		
+gitlab	NOT_NULL	personal_access_tokens	expires_at		
+gitlab	NOT_NULL	personal_access_tokens	token_digest		
+gitlab	NOT_NULL	award_emoji	awardable_type		
+gitlab	NOT_NULL	award_emoji	awardable_id		
+gitlab	NOT_NULL	award_emoji	user_id		
+gitlab	NOT_NULL	award_emoji	name		
+gitlab	NOT_NULL	lfs_file_locks	path		
+gitlab	NOT_NULL	serverless_domain_cluster	creator_id		
+gitlab	NOT_NULL	system_note_metadata	description_version_id		
+gitlab	NOT_NULL	sent_notifications	noteable_id		
+gitlab	NOT_NULL	fork_network_members	forked_from_project_id		
+gitlab	NOT_NULL	self_managed_prometheus_alert_	environment_id		
+gitlab	NOT_NULL	merge_request_context_commits	merge_request_id		
+gitlab	NOT_NULL	remote_mirrors	last_successful_update_at		
+gitlab	NOT_NULL	remote_mirrors	project_id		
+gitlab	NOT_NULL	project_repository_states	last_repository_verification_ran_at		
+gitlab	NOT_NULL	project_repository_states	last_wiki_verification_ran_at		
+gitlab	NOT_NULL	project_repository_states	last_repository_verification_failure		
+gitlab	NOT_NULL	project_repository_states	last_wiki_verification_failure		
+gitlab	NOT_NULL	design_management_designs	issue_id		
+gitlab	NOT_NULL	board_project_recent_visits	project_id		
+gitlab	NOT_NULL	board_project_recent_visits	board_id		
+gitlab	NOT_NULL	board_project_recent_visits	user_id		
+gitlab	NOT_NULL	gpg_keys	fingerprint		
+gitlab	NOT_NULL	gpg_keys	primary_keyid		
+gitlab	NOT_NULL	gpg_keys	user_id		
+gitlab	NOT_NULL	internal_ids	namespace_id		
+gitlab	NOT_NULL	internal_ids	project_id		
+gitlab	NOT_NULL	environments	environment_type		
+gitlab	NOT_NULL	environments	auto_stop_at		
+gitlab	NOT_NULL	deployment_merge_requests	environment_id		
+gitlab	NOT_NULL	reviews	author_id		
+gitlab	NOT_NULL	snippet_user_mentions	note_id		
+gitlab	NOT_NULL	jira_connect_installations	client_key		
+gitlab	NOT_NULL	merge_trains	pipeline_id		
+gitlab	NOT_NULL	members	expires_at		
+gitlab	NOT_NULL	members	invite_email		
+gitlab	NOT_NULL	members	invite_token		
+gitlab	NOT_NULL	members	requested_at		
+gitlab	NOT_NULL	members	created_at		
+gitlab	NOT_NULL	members	user_id		
+gitlab	NOT_NULL	lists	label_id		
+gitlab	NOT_NULL	lists	user_id		
+gitlab	NOT_NULL	lists	milestone_id		
+gitlab	NOT_NULL	merge_request_metrics	first_deployed_to_production_at		
+gitlab	NOT_NULL	merge_request_metrics	latest_closed_at		
+gitlab	NOT_NULL	merge_request_metrics	merged_at		
+gitlab	NOT_NULL	merge_request_metrics	merged_by_id		
+gitlab	NOT_NULL	merge_request_metrics	latest_closed_by_id		
+gitlab	NOT_NULL	merge_request_metrics	pipeline_id		
+gitlab	NOT_NULL	abuse_reports	user_id		
+gitlab	NOT_NULL	ci_runner_namespaces	runner_id		
+gitlab	NOT_NULL	ci_runner_namespaces	namespace_id		
+gitlab	NOT_NULL	namespaces	created_at		
+gitlab	NOT_NULL	namespaces	ldap_sync_last_successful_update_at		
+gitlab	NOT_NULL	namespaces	ldap_sync_last_update_at		
+gitlab	NOT_NULL	namespaces	owner_id		
+gitlab	NOT_NULL	namespaces	parent_id		
+gitlab	NOT_NULL	namespaces	runners_token		
+gitlab	NOT_NULL	namespaces	runners_token_encrypted		
+gitlab	NOT_NULL	namespaces	shared_runners_minutes_limit		
+gitlab	NOT_NULL	namespaces	extra_shared_runners_minutes_limit		
+gitlab	NOT_NULL	namespaces	trial_ends_on		
+gitlab	NOT_NULL	namespaces	type		
+gitlab	NOT_NULL	namespaces	file_template_project_id		
+gitlab	NOT_NULL	namespaces	custom_project_templates_group_id		
+gitlab	NOT_NULL	namespaces	plan_id		
+gitlab	NOT_NULL	pages_domains	certificate_valid_not_after		
+gitlab	NOT_NULL	pages_domains	domain		
+gitlab	NOT_NULL	pages_domains	remove_at		
+gitlab	NOT_NULL	pages_domains	verified_at		
+gitlab	NOT_NULL	pages_domains	enabled_until		
+gitlab	NOT_NULL	pages_domains	project_id		
+gitlab	NOT_NULL	vulnerability_user_mentions	note_id		
+gitlab	NOT_NULL	ci_sources_pipelines	project_id		
+gitlab	NOT_NULL	ci_sources_pipelines	source_project_id		
+gitlab	NOT_NULL	ci_sources_pipelines	source_job_id		
+gitlab	NOT_NULL	ci_sources_pipelines	source_pipeline_id		
+gitlab	NOT_NULL	ci_sources_pipelines	pipeline_id		
+gitlab	NOT_NULL	timelogs	spent_at		
+gitlab	NOT_NULL	timelogs	user_id		
+gitlab	NOT_NULL	timelogs	issue_id		
+gitlab	NOT_NULL	timelogs	merge_request_id		
+gitlab	NOT_NULL	keys	fingerprint		
+gitlab	NOT_NULL	keys	fingerprint_sha256		
+gitlab	NOT_NULL	keys	last_used_at		
+gitlab	NOT_NULL	keys	user_id		
+gitlab	NOT_NULL	keys	type		
+gitlab	NOT_NULL	clusters_kubernetes_namespaces	cluster_project_id		
+gitlab	NOT_NULL	clusters_kubernetes_namespaces	environment_id		
+gitlab	NOT_NULL	clusters_kubernetes_namespaces	project_id		
+gitlab	NOT_NULL	boards	milestone_id		
+gitlab	NOT_NULL	boards	group_id		
+gitlab	NOT_NULL	boards	project_id		
+gitlab	NOT_NULL	analytics_cycle_analytics_proj	relative_position		
+gitlab	NOT_NULL	analytics_cycle_analytics_proj	start_event_label_id		
+gitlab	NOT_NULL	analytics_cycle_analytics_proj	end_event_label_id		
+gitlab	NOT_NULL	epics	end_date		
+gitlab	NOT_NULL	epics	external_key		
+gitlab	NOT_NULL	epics	lock_version		
+gitlab	NOT_NULL	epics	start_date		
+gitlab	NOT_NULL	epics	due_date_sourcing_epic_id		
+gitlab	NOT_NULL	epics	start_date_sourcing_milestone_id		
+gitlab	NOT_NULL	epics	parent_id		
+gitlab	NOT_NULL	epics	due_date_sourcing_milestone_id		
+gitlab	NOT_NULL	epics	start_date_sourcing_epic_id		
+gitlab	NOT_NULL	epics	closed_by_id		
+gitlab	NOT_NULL	epics	assignee_id		
+gitlab	NOT_NULL	description_versions	merge_request_id		
+gitlab	NOT_NULL	description_versions	issue_id		
+gitlab	NOT_NULL	description_versions	epic_id		
+gitlab	NOT_NULL	geo_nodes	access_key		
+gitlab	NOT_NULL	project_feature_usages	jira_dvcs_cloud_last_sync_at		
+gitlab	NOT_NULL	project_feature_usages	jira_dvcs_server_last_sync_at		
+gitlab	NOT_NULL	ci_refs	last_updated_by_pipeline_id		
+gitlab	NOT_NULL	merge_request_context_commit_d	merge_request_context_commit_id		
+gitlab	NOT_NULL	requirements	author_id		
+gitlab	NOT_NULL	design_management_versions	author_id		
+gitlab	NOT_NULL	design_management_versions	issue_id		
+gitlab	NOT_NULL	protected_tag_create_access_le	group_id		
+gitlab	NOT_NULL	protected_tag_create_access_le	user_id		
+gitlab	NOT_NULL	resource_milestone_events	merge_request_id		
+gitlab	NOT_NULL	resource_milestone_events	issue_id		
+gitlab	NOT_NULL	resource_milestone_events	milestone_id		
+gitlab	NOT_NULL	audit_events	created_at		
+gitlab	NOT_NULL	deploy_tokens	token		
+gitlab	NOT_NULL	deploy_tokens	token_encrypted		
+gitlab	NOT_NULL	path_locks	project_id		
+gitlab	NOT_NULL	path_locks	user_id		
+gitlab	NOT_NULL	software_licenses	spdx_identifier		
+gitlab	NOT_NULL	cluster_providers_aws	created_by_user_id		
+gitlab	NOT_NULL	feature_gates	value		
+gitlab	NOT_NULL	badges	project_id		
+gitlab	NOT_NULL	badges	group_id		
+gitlab	NOT_NULL	merge_request_user_mentions	note_id		
+gitlab	NOT_NULL	deployments	deployable_type		
+gitlab	NOT_NULL	deployments	deployable_id		
+gitlab	NOT_NULL	deployments	updated_at		
+gitlab	NOT_NULL	deployments	user_id		
+gitlab	NOT_NULL	deployments	created_at		
+gitlab	NOT_NULL	deployments	cluster_id		
+gitlab	NOT_NULL	packages_build_infos	pipeline_id		
+spree	NOT_NULL	spree_tax_rates	deleted_at		
+spree	NOT_NULL	spree_tax_rates	included_in_price		
+spree	NOT_NULL	spree_tax_rates	show_rate_in_label		
+spree	NOT_NULL	spree_tax_rates	tax_category_id		
+spree	NOT_NULL	spree_tax_rates	zone_id		
+spree	NOT_NULL	spree_payments	number		
+spree	NOT_NULL	spree_payments	order_id		
+spree	NOT_NULL	spree_payments	payment_method_id		
+spree	NOT_NULL	spree_payments	source_id		
+spree	NOT_NULL	spree_payments	source_type		
+spree	NOT_NULL	spree_taxons	parent_id		
+spree	NOT_NULL	spree_taxons	permalink		
+spree	NOT_NULL	spree_taxons	taxonomy_id		
+spree	NOT_NULL	spree_taxons	position		
+spree	NOT_NULL	spree_taxons	lft		
+spree	NOT_NULL	spree_taxons	rgt		
+spree	NOT_NULL	spree_option_type_prototypes	option_type_id		
+spree	NOT_NULL	spree_option_type_prototypes	prototype_id		
+spree	NOT_NULL	spree_roles	name		
+spree	NOT_NULL	spree_assets	viewable_id		
+spree	NOT_NULL	spree_assets	viewable_type		
+spree	NOT_NULL	spree_assets	type		
+spree	NOT_NULL	spree_assets	position		
+spree	NOT_NULL	spree_option_value_variants	option_value_id		
+spree	NOT_NULL	spree_option_value_variants	variant_id		
+spree	NOT_NULL	spree_shipping_rates	selected		
+spree	NOT_NULL	spree_shipping_rates	tax_rate_id		
+spree	NOT_NULL	spree_shipping_rates	shipment_id		
+spree	NOT_NULL	spree_shipping_rates	shipping_method_id		
+spree	NOT_NULL	spree_promotion_rule_users	user_id		
+spree	NOT_NULL	spree_promotion_rule_users	promotion_rule_id		
+spree	NOT_NULL	spree_zone_members	zone_id		
+spree	NOT_NULL	spree_zone_members	zoneable_id		
+spree	NOT_NULL	spree_zone_members	zoneable_type		
+spree	NOT_NULL	spree_role_users	role_id		
+spree	NOT_NULL	spree_role_users	user_id		
+spree	NOT_NULL	spree_payment_capture_events	payment_id		
+spree	NOT_NULL	spree_taxonomies	position		
+spree	NOT_NULL	spree_store_credit_events	originator_id		
+spree	NOT_NULL	spree_store_credit_events	originator_type		
+spree	NOT_NULL	spree_stock_transfers	number		
+spree	NOT_NULL	spree_stock_transfers	source_location_id		
+spree	NOT_NULL	spree_stock_transfers	destination_location_id		
+spree	NOT_NULL	spree_prototype_taxons	taxon_id		
+spree	NOT_NULL	spree_prototype_taxons	prototype_id		
+spree	NOT_NULL	spree_store_credits	deleted_at		
+spree	NOT_NULL	spree_store_credits	user_id		
+spree	NOT_NULL	spree_store_credits	type_id		
+spree	NOT_NULL	spree_store_credits	originator_id		
+spree	NOT_NULL	spree_store_credits	originator_type		
+spree	NOT_NULL	spree_zones	default_tax		
+spree	NOT_NULL	spree_zones	kind		
+spree	NOT_NULL	spree_shipments	number		
+spree	NOT_NULL	spree_shipments	order_id		
+spree	NOT_NULL	spree_shipments	stock_location_id		
+spree	NOT_NULL	spree_shipments	address_id		
+spree	NOT_NULL	spree_users	spree_api_key		
+spree	NOT_NULL	spree_products	slug		
+spree	NOT_NULL	spree_products	available_on		
+spree	NOT_NULL	spree_products	deleted_at		
+spree	NOT_NULL	spree_products	shipping_category_id		
+spree	NOT_NULL	spree_products	tax_category_id		
+spree	NOT_NULL	spree_products	discontinue_on		
+spree	NOT_NULL	spree_promotion_action_line_it	promotion_action_id		
+spree	NOT_NULL	spree_promotion_action_line_it	variant_id		
+spree	NOT_NULL	spree_store_credit_types	priority		
+spree	NOT_NULL	spree_properties	name		
+spree	NOT_NULL	spree_reimbursements	number		
+spree	NOT_NULL	spree_reimbursements	customer_return_id		
+spree	NOT_NULL	spree_reimbursements	order_id		
+spree	NOT_NULL	spree_stock_items	deleted_at		
+spree	NOT_NULL	spree_stock_items	backorderable		
+spree	NOT_NULL	spree_stock_items	variant_id		
+spree	NOT_NULL	spree_stock_items	stock_location_id		
+spree	NOT_NULL	spree_reimbursement_credits	reimbursement_id		
+spree	NOT_NULL	spree_reimbursement_credits	creditable_id		
+spree	NOT_NULL	spree_reimbursement_credits	creditable_type		
+spree	NOT_NULL	spree_promotion_actions	type		
+spree	NOT_NULL	spree_promotion_actions	promotion_id		
+spree	NOT_NULL	spree_promotion_actions	deleted_at		
+spree	NOT_NULL	spree_property_prototypes	prototype_id		
+spree	NOT_NULL	spree_property_prototypes	property_id		
+spree	NOT_NULL	spree_countries	name		
+spree	NOT_NULL	spree_countries	iso_name		
+spree	NOT_NULL	spree_promotions	code		
+spree	NOT_NULL	spree_promotions	type		
+spree	NOT_NULL	spree_promotions	expires_at		
+spree	NOT_NULL	spree_promotions	starts_at		
+spree	NOT_NULL	spree_promotions	advertise		
+spree	NOT_NULL	spree_promotions	promotion_category_id		
+spree	NOT_NULL	spree_reimbursement_types	name		
+spree	NOT_NULL	spree_reimbursement_types	type		
+spree	NOT_NULL	spree_credit_cards	user_id		
+spree	NOT_NULL	spree_credit_cards	payment_method_id		
+spree	NOT_NULL	spree_credit_cards	address_id		
+spree	NOT_NULL	spree_credit_cards	deleted_at		
+spree	NOT_NULL	spree_option_types	name		
+spree	NOT_NULL	spree_gateways	active		
+spree	NOT_NULL	spree_gateways	test_mode		
+spree	NOT_NULL	spree_line_items	order_id		
+spree	NOT_NULL	spree_line_items	variant_id		
+spree	NOT_NULL	spree_line_items	tax_category_id		
+spree	NOT_NULL	spree_stores	code		
+spree	NOT_NULL	spree_stores	url		
+spree	NOT_NULL	spree_calculators	type		
+spree	NOT_NULL	spree_calculators	calculable_id		
+spree	NOT_NULL	spree_calculators	calculable_type		
+spree	NOT_NULL	spree_calculators	deleted_at		
+spree	NOT_NULL	spree_state_changes	stateful_id		
+spree	NOT_NULL	spree_state_changes	stateful_type		
+spree	NOT_NULL	spree_promotion_rule_taxons	taxon_id		
+spree	NOT_NULL	spree_promotion_rule_taxons	promotion_rule_id		
+spree	NOT_NULL	spree_product_promotion_rules	promotion_rule_id		
+spree	NOT_NULL	spree_product_promotion_rules	product_id		
+spree	NOT_NULL	spree_customer_returns	number		
+spree	NOT_NULL	spree_customer_returns	stock_location_id		
+spree	NOT_NULL	spree_preferences	key		
+spree	NOT_NULL	friendly_id_slugs	scope		
+spree	NOT_NULL	friendly_id_slugs	deleted_at		
+spree	NOT_NULL	friendly_id_slugs	sluggable_type		
+spree	NOT_NULL	spree_product_option_types	option_type_id		
+spree	NOT_NULL	spree_product_option_types	product_id		
+spree	NOT_NULL	spree_product_option_types	position		
+spree	NOT_NULL	spree_trackers	active		
+spree	NOT_NULL	spree_promotion_rules	product_group_id		
+spree	NOT_NULL	spree_promotion_rules	user_id		
+spree	NOT_NULL	spree_promotion_rules	promotion_id		
+spree	NOT_NULL	spree_states	country_id		
+spree	NOT_NULL	spree_inventory_units	order_id		
+spree	NOT_NULL	spree_inventory_units	shipment_id		
+spree	NOT_NULL	spree_inventory_units	variant_id		
+spree	NOT_NULL	spree_inventory_units	line_item_id		
+spree	NOT_NULL	spree_inventory_units	original_return_item_id		
+spree	NOT_NULL	spree_oauth_access_tokens	refresh_token		
+spree	NOT_NULL	spree_oauth_access_tokens	resource_owner_id		
+spree	NOT_NULL	spree_oauth_access_tokens	application_id		
+spree	NOT_NULL	spree_order_promotions	order_id		
+spree	NOT_NULL	spree_order_promotions	promotion_id		
+spree	NOT_NULL	spree_payment_methods	type		
+spree	NOT_NULL	spree_payment_methods	store_id		
+spree	NOT_NULL	spree_variants	product_id		
+spree	NOT_NULL	spree_variants	tax_category_id		
+spree	NOT_NULL	spree_variants	deleted_at		
+spree	NOT_NULL	spree_variants	is_master		
+spree	NOT_NULL	spree_variants	position		
+spree	NOT_NULL	spree_variants	track_inventory		
+spree	NOT_NULL	spree_variants	discontinue_on		
+spree	NOT_NULL	spree_prices	currency		
+spree	NOT_NULL	spree_prices	deleted_at		
+spree	NOT_NULL	spree_tax_categories	deleted_at		
+spree	NOT_NULL	spree_tax_categories	is_default		
+spree	NOT_NULL	spree_return_authorization_rea	name		
+spree	NOT_NULL	spree_addresses	firstname		
+spree	NOT_NULL	spree_addresses	lastname		
+spree	NOT_NULL	spree_addresses	country_id		
+spree	NOT_NULL	spree_addresses	state_id		
+spree	NOT_NULL	spree_addresses	user_id		
+spree	NOT_NULL	spree_addresses	deleted_at		
+spree	NOT_NULL	spree_stock_movements	stock_item_id		
+spree	NOT_NULL	spree_stock_movements	originator_id		
+spree	NOT_NULL	spree_stock_movements	originator_type		
+spree	NOT_NULL	spree_adjustments	adjustable_id		
+spree	NOT_NULL	spree_adjustments	adjustable_type		
+spree	NOT_NULL	spree_adjustments	eligible		
+spree	NOT_NULL	spree_adjustments	source_id		
+spree	NOT_NULL	spree_adjustments	source_type		
+spree	NOT_NULL	spree_return_authorizations	number		
+spree	NOT_NULL	spree_return_authorizations	return_authorization_reason_id		
+spree	NOT_NULL	spree_return_authorizations	order_id		
+spree	NOT_NULL	spree_return_authorizations	stock_location_id		
+spree	NOT_NULL	spree_refund_reasons	name		
+spree	NOT_NULL	spree_log_entries	source_id		
+spree	NOT_NULL	spree_log_entries	source_type		
+spree	NOT_NULL	spree_return_items	customer_return_id		
+spree	NOT_NULL	spree_return_items	return_authorization_id		
+spree	NOT_NULL	spree_return_items	inventory_unit_id		
+spree	NOT_NULL	spree_return_items	reimbursement_id		
+spree	NOT_NULL	spree_return_items	exchange_variant_id		
+spree	NOT_NULL	spree_return_items	preferred_reimbursement_type_id		
+spree	NOT_NULL	spree_return_items	override_reimbursement_type_id		
+spree	NOT_NULL	spree_product_properties	product_id		
+spree	NOT_NULL	spree_product_properties	position		
+spree	NOT_NULL	spree_product_properties	property_id		
+spree	NOT_NULL	spree_shipping_categories	name		
+spree	NOT_NULL	spree_stock_locations	active		
+spree	NOT_NULL	spree_stock_locations	backorderable_default		
+spree	NOT_NULL	spree_stock_locations	country_id		
+spree	NOT_NULL	spree_stock_locations	propagate_all_variants		
+spree	NOT_NULL	spree_stock_locations	state_id		
+spree	NOT_NULL	spree_products_taxons	product_id		
+spree	NOT_NULL	spree_products_taxons	taxon_id		
+spree	NOT_NULL	spree_products_taxons	position		
+spree	NOT_NULL	spree_refunds	refund_reason_id		
+spree	NOT_NULL	spree_refunds	payment_id		
+spree	NOT_NULL	spree_refunds	reimbursement_id		
+spree	NOT_NULL	spree_option_values	option_type_id		
+spree	NOT_NULL	spree_option_values	position		
+spree	NOT_NULL	spree_option_values	name		
+spree	NOT_NULL	spree_orders	number		
+spree	NOT_NULL	spree_orders	completed_at		
+spree	NOT_NULL	spree_orders	approver_id		
+spree	NOT_NULL	spree_orders	bill_address_id		
+spree	NOT_NULL	spree_orders	confirmation_delivered		
+spree	NOT_NULL	spree_orders	considered_risky		
+spree	NOT_NULL	spree_orders	ship_address_id		
+spree	NOT_NULL	spree_orders	created_by_id		
+spree	NOT_NULL	spree_orders	token		
+spree	NOT_NULL	spree_orders	canceler_id		
+spree	NOT_NULL	spree_orders	store_id		
+spree	NOT_NULL	spree_shipping_method_zones	zone_id		
+spree	NOT_NULL	spree_shipping_method_zones	shipping_method_id		
+spree	NOT_NULL	spree_shipping_methods	deleted_at		
+spree	NOT_NULL	spree_shipping_methods	tax_category_id		
+lobsters	NOT_NULL	comments	thread_id		
+lobsters	NOT_NULL	comments	hat_id		
+lobsters	NOT_NULL	comments	parent_comment_id		
+lobsters	NOT_NULL	stories	created_at		
+lobsters	NOT_NULL	stories	twitter_id		
+lobsters	NOT_NULL	stories	url		
+lobsters	NOT_NULL	stories	description		
+lobsters	NOT_NULL	stories	story_cache		
+lobsters	NOT_NULL	stories	domain_id		
+lobsters	NOT_NULL	stories	merged_story_id		
+lobsters	NOT_NULL	moderations	domain_id		
+lobsters	NOT_NULL	moderations	user_id		
+lobsters	NOT_NULL	moderations	comment_id		
+lobsters	NOT_NULL	moderations	moderator_user_id		
+lobsters	NOT_NULL	moderations	story_id		
+lobsters	NOT_NULL	moderations	tag_id		
+lobsters	NOT_NULL	users	mailing_list_token		
+lobsters	NOT_NULL	users	password_reset_token		
+lobsters	NOT_NULL	users	rss_token		
+lobsters	NOT_NULL	users	username		
+lobsters	NOT_NULL	users	mailing_list_mode		
+lobsters	NOT_NULL	users	banned_by_user_id		
+lobsters	NOT_NULL	users	disabled_invite_by_user_id		
+lobsters	NOT_NULL	users	invited_by_user_id		
+lobsters	NOT_NULL	invitations	new_user_id		
+lobsters	NOT_NULL	messages	short_id		
+lobsters	NOT_NULL	messages	hat_id		
+publiccms	NOT_NULL	cms_comment	update_date		
+publiccms	NOT_NULL	cms_comment	reply_user_id		
+publiccms	NOT_NULL	cms_comment	reply_id		
+publiccms	NOT_NULL	log_login	user_id		
+publiccms	NOT_NULL	cms_category	type_id		
+publiccms	NOT_NULL	cms_category	parent_id		
+publiccms	NOT_NULL	sys_task	update_date		
+publiccms	NOT_NULL	sys_user	email		
+publiccms	NOT_NULL	sys_user	last_login_date		
+publiccms	NOT_NULL	sys_user	dept_id		
+publiccms	NOT_NULL	sys_app_client	user_id		
+publiccms	NOT_NULL	sys_module	parent_id		
+publiccms	NOT_NULL	log_upload	ip		
+publiccms	NOT_NULL	log_operate	user_id		
+publiccms	NOT_NULL	log_operate	ip		
+publiccms	NOT_NULL	cms_place	item_type		
+publiccms	NOT_NULL	cms_place	item_id		
+publiccms	NOT_NULL	cms_place	user_id		
+publiccms	NOT_NULL	cms_place	check_user_id		
+publiccms	NOT_NULL	cms_place	expiry_date		
+publiccms	NOT_NULL	cms_content_related	related_content_id		
+publiccms	NOT_NULL	cms_content	check_date		
+publiccms	NOT_NULL	cms_content	update_date		
+publiccms	NOT_NULL	cms_content	parent_id		
+publiccms	NOT_NULL	cms_content	expiry_date		
+publiccms	NOT_NULL	cms_content	quote_content_id		
+forest_blog	UNIQUE	article_category_ref	article_id,category_id	manual	
+refinerycms	FOREIGN_KEY	refinery_crud_dummies	parent_id		refinery_crud_dummies.id
+refinerycms	FOREIGN_KEY	refinery_pages	parent_id		refinery_pages.id
+refinerycms	FOREIGN_KEY	refinery_page_translations	refinery_page_id		refinery_pages.id
+sagan	FOREIGN_KEY	project_release_list	repository_id		project_repository.id
+sagan	FOREIGN_KEY	project	parent_project_id		project.id
+sagan	FOREIGN_KEY	post	author_id		member_profile.id
+fatfreecrm	FOREIGN_KEY	account_opportunities	opportunity_id		opportunities.id
+fatfreecrm	FOREIGN_KEY	contact_opportunities	opportunity_id		opportunities.id
+fatfreecrm	FOREIGN_KEY	groups_users	group_id		groups.id
+fatfreecrm	FOREIGN_KEY	contact_opportunities	contact_id		contacts.id
+fatfreecrm	FOREIGN_KEY	account_contacts	account_id		accounts.id
+fatfreecrm	FOREIGN_KEY	account_opportunities	account_id		accounts.id
+fatfreecrm	FOREIGN_KEY	taggings	tag_id		tags.id
+fatfreecrm	FOREIGN_KEY	account_contacts	contact_id		contacts.id
+homeland	FOREIGN_KEY	actions	user_id		users.id
+homeland	FOREIGN_KEY	actions	target_id		users.id
+homeland	FOREIGN_KEY	team_users	team_id		users.id
+homeland	FOREIGN_KEY	topics	last_reply_user_id		users.id
+homeland	FOREIGN_KEY	team_users	user_id		users.id
+homeland	FOREIGN_KEY	topics	node_id		nodes.id
+homeland	FOREIGN_KEY	topics	user_id		users.id
+forest_blog	FOREIGN_KEY	article_category_ref	category_id		category.category_id
+forest_blog	FOREIGN_KEY	article_category_ref	article_id		article.article_id
+discourse	FOREIGN_KEY	anonymous_users	master_user_id		users.id
+discourse	FOREIGN_KEY	posts	deleted_by_id		users.id
+discourse	FOREIGN_KEY	topic_links	post_id		posts.id
+discourse	FOREIGN_KEY	user_archived_messages	topic_id		topics.id
+discourse	FOREIGN_KEY	category_groups	category_id		categories.id
+discourse	FOREIGN_KEY	reviewable_scores	reviewable_id		reviewables.id
+discourse	FOREIGN_KEY	groups_web_hooks	group_id		groups.id
+discourse	FOREIGN_KEY	user_avatars	user_id		users.id
+discourse	FOREIGN_KEY	user_actions	target_post_id		posts.id
+discourse	FOREIGN_KEY	skipped_email_logs	user_id		users.id
+discourse	FOREIGN_KEY	user_custom_fields	user_id		users.id
+discourse	FOREIGN_KEY	category_featured_topics	category_id		categories.id
+discourse	FOREIGN_KEY	post_replies	reply_post_id		posts.id
+discourse	FOREIGN_KEY	posts	topic_id		topics.id
+discourse	FOREIGN_KEY	topic_users	user_id		users.id
+discourse	FOREIGN_KEY	user_actions	target_topic_id		topics.id
+discourse	FOREIGN_KEY	incoming_links	user_id		users.id
+discourse	FOREIGN_KEY	muted_users	user_id		users.id
+discourse	FOREIGN_KEY	reviewables	topic_id		topics.id
+discourse	FOREIGN_KEY	post_details	post_id		posts.id
+discourse	FOREIGN_KEY	ignored_users	ignored_user_id		users.id
+discourse	FOREIGN_KEY	tag_users	tag_id		tags.id
+discourse	FOREIGN_KEY	group_requests	user_id		users.id
+discourse	FOREIGN_KEY	topic_allowed_groups	topic_id		topics.id
+discourse	FOREIGN_KEY	group_users	user_id		users.id
+discourse	FOREIGN_KEY	email_tokens	user_id		users.id
+discourse	FOREIGN_KEY	topic_allowed_groups	group_id		groups.id
+discourse	FOREIGN_KEY	categories_web_hooks	category_id		categories.id
+discourse	FOREIGN_KEY	muted_users	muted_user_id		users.id
+discourse	FOREIGN_KEY	incoming_referers	incoming_domain_id		incoming_domains.id
+discourse	FOREIGN_KEY	invites	user_id		users.id
+discourse	FOREIGN_KEY	top_topics	topic_id		topics.id
+discourse	FOREIGN_KEY	post_replies	post_id		posts.id
+discourse	FOREIGN_KEY	tag_group_permissions	tag_group_id		tag_groups.id
+discourse	FOREIGN_KEY	topic_tags	tag_id		tags.id
+discourse	FOREIGN_KEY	post_custom_fields	post_id		posts.id
+discourse	FOREIGN_KEY	category_tag_groups	category_id		categories.id
+discourse	FOREIGN_KEY	topic_invites	invite_id		invites.id
+discourse	FOREIGN_KEY	user_badges	badge_id		badges.id
+discourse	FOREIGN_KEY	user_emails	user_id		users.id
+discourse	FOREIGN_KEY	user_options	user_id		users.id
+discourse	FOREIGN_KEY	skipped_email_logs	post_id		posts.id
+discourse	FOREIGN_KEY	user_auth_tokens	user_id		users.id
+discourse	FOREIGN_KEY	email_logs	post_id		posts.id
+discourse	FOREIGN_KEY	post_actions	user_id		bookmarks.user_id
+discourse	FOREIGN_KEY	category_users	category_id		categories.id
+discourse	FOREIGN_KEY	categories	uploaded_background_id		uploads.id
+discourse	FOREIGN_KEY	ignored_users	user_id		users.id
+discourse	FOREIGN_KEY	tag_group_permissions	group_id		groups.id
+discourse	FOREIGN_KEY	topics	user_id		users.id
+discourse	FOREIGN_KEY	tags	target_tag_id		tags.id
+discourse	FOREIGN_KEY	group_archived_messages	topic_id		topics.id
+discourse	FOREIGN_KEY	post_actions	post_id		posts.id
+discourse	FOREIGN_KEY	topic_invites	topic_id		topics.id
+discourse	FOREIGN_KEY	topic_tags	topic_id		topics.id
+discourse	FOREIGN_KEY	category_tags	category_id		categories.id
+discourse	FOREIGN_KEY	categories	uploaded_logo_id		uploads.id
+discourse	FOREIGN_KEY	topic_users	topic_id		topics.id
+discourse	FOREIGN_KEY	post_uploads	upload_id		uploads.id
+discourse	FOREIGN_KEY	topic_embeds	topic_id		topics.id
+discourse	FOREIGN_KEY	incoming_links	post_id		posts.id
+discourse	FOREIGN_KEY	invited_groups	group_id		groups.id
+discourse	FOREIGN_KEY	web_hook_event_types_hooks	web_hook_id		web_hooks.id
+discourse	FOREIGN_KEY	categories	parent_category_id		categories.id
+discourse	FOREIGN_KEY	incoming_emails	post_id		posts.id
+discourse	FOREIGN_KEY	child_themes	parent_theme_id		themes.id
+discourse	FOREIGN_KEY	topic_links	user_id		users.id
+discourse	FOREIGN_KEY	tag_users	user_id		users.id
+discourse	FOREIGN_KEY	topic_allowed_users	user_id		users.id
+discourse	FOREIGN_KEY	anonymous_users	user_id		users.id
+discourse	FOREIGN_KEY	group_mentions	post_id		posts.id
+discourse	FOREIGN_KEY	category_groups	group_id		groups.id
+discourse	FOREIGN_KEY	web_hook_event_types_hooks	web_hook_event_type_id		web_hook_event_types.id
+discourse	FOREIGN_KEY	category_tags	tag_id		tags.id
+discourse	FOREIGN_KEY	api_keys	user_id		users.id
+discourse	FOREIGN_KEY	categories	topic_id		topics.id
+discourse	FOREIGN_KEY	tags_web_hooks	tag_id		tags.id
+discourse	FOREIGN_KEY	incoming_links	incoming_referer_id		incoming_referers.id
+discourse	FOREIGN_KEY	directory_items	user_id		users.id
+discourse	FOREIGN_KEY	users	primary_group_id		groups.id
+discourse	FOREIGN_KEY	theme_fields	upload_id		uploads.id
+discourse	FOREIGN_KEY	child_themes	child_theme_id		themes.id
+discourse	FOREIGN_KEY	tag_group_memberships	tag_id		tags.id
+discourse	FOREIGN_KEY	posts	reply_to_user_id		users.id
+discourse	FOREIGN_KEY	topics	category_id		categories.id
+discourse	FOREIGN_KEY	category_featured_topics	topic_id		topics.id
+discourse	FOREIGN_KEY	category_users	user_id		users.id
+discourse	FOREIGN_KEY	category_tag_groups	tag_group_id		tag_groups.id
+discourse	FOREIGN_KEY	post_uploads	post_id		posts.id
+discourse	FOREIGN_KEY	quoted_posts	post_id		posts.id
+discourse	FOREIGN_KEY	tag_group_memberships	tag_group_id		tag_groups.id
+discourse	FOREIGN_KEY	notifications	topic_id		topics.id
+discourse	FOREIGN_KEY	group_users	group_id		groups.id
+discourse	FOREIGN_KEY	topic_allowed_users	topic_id		topics.id
+discourse	FOREIGN_KEY	topic_links	topic_id		topics.id
+discourse	FOREIGN_KEY	posts	user_id		users.id
+discourse	FOREIGN_KEY	reviewables	target_id		posts.id
+discourse	FOREIGN_KEY	quoted_posts	quoted_post_id		posts.id
+discourse	FOREIGN_KEY	email_logs	user_id		users.id
+solidus	FOREIGN_KEY	spree_states	country_id		spree_countries.id
+solidus	FOREIGN_KEY	spree_product_option_types	product_id		spree_products.id
+solidus	FOREIGN_KEY	spree_stock_items	stock_location_id		spree_stock_locations.id
+solidus	FOREIGN_KEY	spree_tax_rates	zone_id		spree_zones.id
+solidus	FOREIGN_KEY	spree_assets	viewable_id		spree_variants.id
+solidus	FOREIGN_KEY	spree_store_credits	type_id		spree_store_credit_types.id
+solidus	FOREIGN_KEY	spree_stock_items	variant_id		spree_variants.id
+solidus	FOREIGN_KEY	spree_shipping_method_stock_lo	shipping_method_id		spree_shipping_methods.id
+solidus	FOREIGN_KEY	spree_refunds	payment_id		spree_payments.id
+solidus	FOREIGN_KEY	spree_shipping_method_zones	shipping_method_id		spree_shipping_methods.id
+solidus	FOREIGN_KEY	spree_option_values	option_type_id		spree_option_types.id
+solidus	FOREIGN_KEY	spree_variant_property_rule_co	option_value_id		spree_option_values.id
+solidus	FOREIGN_KEY	spree_promotion_codes	promotion_id		spree_promotions.id
+solidus	FOREIGN_KEY	spree_variants	product_id		spree_products.id
+solidus	FOREIGN_KEY	spree_inventory_units	line_item_id		spree_line_items.id
+solidus	FOREIGN_KEY	spree_user_stock_locations	stock_location_id		spree_stock_locations.id
+solidus	FOREIGN_KEY	spree_promotion_rule_taxons	taxon_id		spree_taxons.id
+solidus	FOREIGN_KEY	spree_orders_promotions	promotion_id		spree_promotions.id
+solidus	FOREIGN_KEY	spree_zone_members	zoneable_id		spree_countries.id
+solidus	FOREIGN_KEY	spree_option_values_variants	option_value_id		spree_option_values.id
+solidus	FOREIGN_KEY	spree_stock_movements	stock_item_id		spree_stock_items.id
+solidus	FOREIGN_KEY	spree_product_promotion_rules	promotion_rule_id		spree_promotion_rules.id
+solidus	FOREIGN_KEY	spree_inventory_units	carton_id		spree_cartons.id
+solidus	FOREIGN_KEY	spree_products_taxons	taxon_id		spree_taxons.id
+solidus	FOREIGN_KEY	spree_shipping_rates	shipping_method_id		spree_shipping_methods.id
+solidus	FOREIGN_KEY	spree_roles_users	user_id		spree_users.id
+solidus	FOREIGN_KEY	spree_product_option_types	option_type_id		spree_option_types.id
+solidus	FOREIGN_KEY	spree_adjustments	adjustable_id		spree_shipments.id
+solidus	FOREIGN_KEY	friendly_id_slugs	sluggable_id		spree_products.id
+solidus	FOREIGN_KEY	spree_shipping_method_categori	shipping_category_id		spree_shipping_categories.id
+solidus	FOREIGN_KEY	spree_inventory_units	variant_id		spree_variants.id
+solidus	FOREIGN_KEY	spree_adjustments	order_id		spree_orders.id
+solidus	FOREIGN_KEY	spree_product_properties	property_id		spree_properties.id
+solidus	FOREIGN_KEY	spree_line_items	variant_id		spree_variants.id
+solidus	FOREIGN_KEY	spree_prices	variant_id		spree_variants.id
+solidus	FOREIGN_KEY	spree_orders	user_id		spree_users.id
+solidus	FOREIGN_KEY	spree_user_addresses	address_id		spree_addresses.id
+solidus	FOREIGN_KEY	spree_products_taxons	product_id		spree_products.id
+solidus	FOREIGN_KEY	spree_return_items	inventory_unit_id		spree_inventory_units.id
+solidus	FOREIGN_KEY	spree_product_promotion_rules	product_id		spree_products.id
+solidus	FOREIGN_KEY	spree_zone_members	zone_id		spree_zones.id
+solidus	FOREIGN_KEY	spree_promotion_actions	promotion_id		spree_promotions.id
+solidus	FOREIGN_KEY	spree_option_values_variants	variant_id		spree_variants.id
+solidus	FOREIGN_KEY	spree_store_payment_methods	store_id		spree_stores.id
+solidus	FOREIGN_KEY	spree_shipping_method_categori	shipping_method_id		spree_shipping_methods.id
+solidus	FOREIGN_KEY	spree_store_shipping_methods	shipping_method_id		spree_shipping_methods.id
+solidus	FOREIGN_KEY	spree_shipments	order_id		spree_orders.id
+solidus	FOREIGN_KEY	spree_roles_users	role_id		spree_roles.id
+solidus	FOREIGN_KEY	spree_shipping_method_zones	zone_id		spree_zones.id
+solidus	FOREIGN_KEY	spree_inventory_units	shipment_id		spree_shipments.id
+gitlab	FOREIGN_KEY	deployments	environment_id		environments.id
+gitlab	FOREIGN_KEY	identities	user_id		users.id
+gitlab	FOREIGN_KEY	projects	namespace_id		namespaces.id
+gitlab	FOREIGN_KEY	deployments	deployable_id		ci_builds.id
+gitlab	FOREIGN_KEY	routes	source_id		projects.id
+spree	FOREIGN_KEY	spree_products_taxons	taxon_id		spree_taxons.id
+spree	FOREIGN_KEY	spree_promotion_rules	promotion_id		spree_promotions.id
+spree	FOREIGN_KEY	spree_stock_items	stock_location_id		spree_stock_locations.id
+spree	FOREIGN_KEY	spree_shipping_rates	shipping_method_id		spree_shipping_methods.id
+spree	FOREIGN_KEY	spree_product_option_types	option_type_id		spree_option_types.id
+spree	FOREIGN_KEY	spree_adjustments	adjustable_id		spree_line_items.id
+spree	FOREIGN_KEY	spree_option_type_prototypes	option_type_id		spree_option_types.id
+spree	FOREIGN_KEY	friendly_id_slugs	sluggable_id		spree_products.id
+spree	FOREIGN_KEY	spree_inventory_units	original_return_item_id		spree_return_items.id
+spree	FOREIGN_KEY	spree_inventory_units	order_id		spree_orders.id
+spree	FOREIGN_KEY	spree_shipping_method_categori	shipping_category_id		spree_shipping_categories.id
+spree	FOREIGN_KEY	spree_inventory_units	variant_id		spree_variants.id
+spree	FOREIGN_KEY	spree_taxons	taxonomy_id		spree_taxonomies.id
+spree	FOREIGN_KEY	spree_products	shipping_category_id		spree_shipping_categories.id
+spree	FOREIGN_KEY	spree_store_credits	type_id		spree_store_credit_types.id
+spree	FOREIGN_KEY	spree_adjustments	order_id		spree_orders.id
+spree	FOREIGN_KEY	spree_line_items	variant_id		spree_variants.id
+spree	FOREIGN_KEY	spree_product_properties	property_id		spree_properties.id
+spree	FOREIGN_KEY	spree_prices	variant_id		spree_variants.id
+spree	FOREIGN_KEY	spree_stock_items	variant_id		spree_variants.id
+spree	FOREIGN_KEY	spree_users	bill_address_id		spree_addresses.id
+spree	FOREIGN_KEY	spree_orders	user_id		spree_users.id
+spree	FOREIGN_KEY	spree_refunds	payment_id		spree_payments.id
+spree	FOREIGN_KEY	spree_option_value_variants	option_value_id		spree_option_values.id
+spree	FOREIGN_KEY	spree_product_properties	product_id		spree_products.id
+spree	FOREIGN_KEY	spree_line_items	order_id		spree_orders.id
+spree	FOREIGN_KEY	spree_users	ship_address_id		spree_addresses.id
+spree	FOREIGN_KEY	spree_return_items	return_authorization_id		spree_return_authorizations.id
+spree	FOREIGN_KEY	spree_products_taxons	product_id		spree_products.id
+spree	FOREIGN_KEY	spree_shipping_method_zones	shipping_method_id		spree_shipping_methods.id
+spree	FOREIGN_KEY	spree_product_promotion_rules	product_id		spree_products.id
+spree	FOREIGN_KEY	spree_option_values	option_type_id		spree_option_types.id
+spree	FOREIGN_KEY	spree_zone_members	zone_id		spree_zones.id
+spree	FOREIGN_KEY	spree_order_promotions	promotion_id		spree_promotions.id
+spree	FOREIGN_KEY	spree_option_value_variants	variant_id		spree_variants.id
+spree	FOREIGN_KEY	spree_promotion_actions	promotion_id		spree_promotions.id
+spree	FOREIGN_KEY	spree_variants	product_id		spree_products.id
+spree	FOREIGN_KEY	spree_promotion_rule_taxons	taxon_id		spree_taxons.id
+spree	FOREIGN_KEY	spree_order_promotions	order_id		spree_orders.id
+spree	FOREIGN_KEY	spree_role_users	role_id		spree_roles.id
+spree	FOREIGN_KEY	spree_zone_members	zoneable_id		spree_countries.id
+spree	FOREIGN_KEY	spree_shipments	order_id		spree_orders.id
+spree	FOREIGN_KEY	spree_shipping_method_zones	zone_id		spree_zones.id
+spree	FOREIGN_KEY	spree_stock_movements	stock_item_id		spree_stock_items.id
+spree	FOREIGN_KEY	spree_property_prototypes	property_id		spree_properties.id
+spree	FOREIGN_KEY	spree_product_promotion_rules	promotion_rule_id		spree_promotion_rules.id
+spree	FOREIGN_KEY	spree_inventory_units	shipment_id		spree_shipments.id
+spree	FOREIGN_KEY	spree_prototype_taxons	taxon_id		spree_taxons.id
+febs	FOREIGN_KEY	t_user_role	user_id		t_user.user_id
+febs	FOREIGN_KEY	t_role_menu	menu_id		t_menu.menu_id
+febs	FOREIGN_KEY	t_user	dept_id		t_dept.dept_id
+febs	FOREIGN_KEY	t_user_role	role_id		t_role.role_id
+febs	FOREIGN_KEY	t_role_menu	role_id		t_role.role_id
+redmine	FOREIGN_KEY	enabled_modules	project_id		projects.id
+redmine	FOREIGN_KEY	issues	project_id		projects.id
+redmine	FOREIGN_KEY	journals	user_id		users.id
+redmine	FOREIGN_KEY	attachments	container_id		messages.id
+redmine	FOREIGN_KEY	documents	project_id		projects.id
+redmine	FOREIGN_KEY	issue_relations	issue_from_id		issues.id
+redmine	FOREIGN_KEY	changes	changeset_id		changesets.id
+redmine	FOREIGN_KEY	member_roles	role_id		roles.id
+redmine	FOREIGN_KEY	time_entries	user_id		users.id
+redmine	FOREIGN_KEY	issues	fixed_version_id		versions.id
+redmine	FOREIGN_KEY	changesets_issues	issue_id		issues.id
+redmine	FOREIGN_KEY	members	project_id		projects.id
+redmine	FOREIGN_KEY	wiki_contents	page_id		wiki_pages.id
+redmine	FOREIGN_KEY	changeset_parents	parent_id		changesets.id
+redmine	FOREIGN_KEY	issues	category_id		issue_categories.id
+redmine	FOREIGN_KEY	issues	status_id		issue_statuses.id
+redmine	FOREIGN_KEY	news	project_id		projects.id
+redmine	FOREIGN_KEY	queries	project_id		projects.id
+redmine	FOREIGN_KEY	custom_values	customized_id		issues.id
+redmine	FOREIGN_KEY	member_roles	member_id		members.id
+redmine	FOREIGN_KEY	messages	board_id		boards.id
+redmine	FOREIGN_KEY	issues	priority_id		enumerations.id
+redmine	FOREIGN_KEY	news	author_id		users.id
+redmine	FOREIGN_KEY	changesets	repository_id		repositories.id
+redmine	FOREIGN_KEY	groups_users	group_id		users.id
+redmine	FOREIGN_KEY	versions	project_id		projects.id
+redmine	FOREIGN_KEY	queries_roles	query_id		queries.id
+redmine	FOREIGN_KEY	projects_trackers	project_id		projects.id
+redmine	FOREIGN_KEY	wiki_pages	wiki_id		wikis.id
+redmine	FOREIGN_KEY	boards	project_id		projects.id
+redmine	FOREIGN_KEY	issues	author_id		users.id
+redmine	FOREIGN_KEY	wikis	project_id		projects.id
+redmine	FOREIGN_KEY	journals	journalized_id		issues.id
+redmine	FOREIGN_KEY	workflows	new_status_id		issue_statuses.id
+redmine	FOREIGN_KEY	custom_fields_projects	custom_field_id		custom_fields.id
+redmine	FOREIGN_KEY	email_addresses	user_id		users.id
+redmine	FOREIGN_KEY	custom_fields_roles	custom_field_id		custom_fields.id
+redmine	FOREIGN_KEY	custom_fields_trackers	custom_field_id		custom_fields.id
+redmine	FOREIGN_KEY	roles_managed_roles	managed_role_id		roles.id
+redmine	FOREIGN_KEY	members	user_id		users.id
+redmine	FOREIGN_KEY	custom_fields_roles	role_id		roles.id
+redmine	FOREIGN_KEY	time_entries	activity_id		enumerations.id
+redmine	FOREIGN_KEY	custom_fields_trackers	tracker_id		trackers.id
+redmine	FOREIGN_KEY	changesets_issues	changeset_id		changesets.id
+redmine	FOREIGN_KEY	projects_trackers	tracker_id		trackers.id
+redmine	FOREIGN_KEY	issues	assigned_to_id		users.id
+redmine	FOREIGN_KEY	wiki_content_versions	page_id		wiki_pages.id
+redmine	FOREIGN_KEY	time_entries	project_id		projects.id
+redmine	FOREIGN_KEY	changesets	user_id		users.id
+redmine	FOREIGN_KEY	changeset_parents	changeset_id		changesets.id
+redmine	FOREIGN_KEY	issues	tracker_id		trackers.id
+redmine	FOREIGN_KEY	groups_users	user_id		users.id
+redmine	FOREIGN_KEY	time_entries	issue_id		issues.id
+redmine	FOREIGN_KEY	custom_values	custom_field_id		custom_fields.id
+redmine	FOREIGN_KEY	repositories	project_id		projects.id
+redmine	FOREIGN_KEY	watchers	user_id		users.id
+redmine	FOREIGN_KEY	custom_fields_projects	project_id		projects.id
+redmine	FOREIGN_KEY	queries_roles	role_id		roles.id
+redmine	FOREIGN_KEY	issue_relations	issue_to_id		issues.id
+guns	FOREIGN_KEY	sys_relation	menu_id		sys_menu.menu_id
+halo	FOREIGN_KEY	post_categories	post_id		posts.id
+halo	FOREIGN_KEY	post_tags	post_id		posts.id
+diaspora	FOREIGN_KEY	contacts	user_id		users.id
+diaspora	FOREIGN_KEY	notification_actors	person_id		people.id
+diaspora	FOREIGN_KEY	likes	target_id		posts.id
+diaspora	FOREIGN_KEY	poll_participations	poll_id		polls.id
+diaspora	FOREIGN_KEY	share_visibilities	shareable_id		photos.id
+diaspora	FOREIGN_KEY	taggings	tag_id		tags.id
+diaspora	FOREIGN_KEY	participations	target_id		posts.id
+diaspora	FOREIGN_KEY	comments	commentable_id		posts.id
+diaspora	FOREIGN_KEY	mentions	person_id		people.id
+diaspora	FOREIGN_KEY	blocks	person_id		people.id
+diaspora	FOREIGN_KEY	polls	status_message_id		posts.id
+diaspora	FOREIGN_KEY	taggings	taggable_id		posts.id
+diaspora	FOREIGN_KEY	roles	person_id		people.id
+diaspora	FOREIGN_KEY	participations	author_id		people.id
+diaspora	FOREIGN_KEY	people	owner_id		users.id
+diaspora	FOREIGN_KEY	mentions	mentions_container_id		posts.id
+diaspora	FOREIGN_KEY	tag_followings	tag_id		tags.id
+diaspora	FOREIGN_KEY	aspect_visibilities	shareable_id		posts.id
+diaspora	UNIQUE	notifications	target_id,target_type	manual	
+solidus	UNIQUE	spree_adjustments	source_id,source_type	manual	
+diaspora	ENUM	taggings	taggable_type	manual	
+diaspora	ENUM	posts	type	manual	
+diaspora	ENUM	mentions	mentions_container_type		
+diaspora	ENUM	notifications	type		
+diaspora	ENUM	notifications	target_type		
+diaspora	ENUM	share_visibilities	shareable_type		
+diaspora	BOOLEAN	photos	pending		
+diaspora	BOOLEAN	contacts	receiving		
+diaspora	BOOLEAN	people	closed_account		
+diaspora	ENUM	aspect_visibilities	shareable_type		
+diaspora	BOOLEAN	photos	public		
+discourse	ENUM	posts	post_type		
+discourse	ENUM	category_users	notification_level		
+discourse	ENUM	tag_group_permissions	permission_type		
+discourse	ENUM	tag_users	notification_level		
+discourse	ENUM	categories	search_priority		
+discourse	ENUM	bookmarks	reminder_type		
+groups	ENUM	groups	members_visibility_level		
+discourse	ENUM	group_histories	action		
+discourse	ENUM	directory_items	period_type		
+discourse	ENUM	post_search_data	locale		
+fatfreecrm	ENUM	taggings	taggable_type		
+fatfreecrm	ENUM	opportunities	access		
+fatfreecrm	ENUM	leads	status		
+fatfreecrm	ENUM	contacts	access		
+fatfreecrm	ENUM	campaigns	access		
+gitlab	ENUM	ci_builds	type		
+gitlab	ENUM	environments	state		
+gitlab	ENUM	deployments	deployable_type		
+gitlab	ENUM	last_visible_deployments_envir	status		
+gitlab	ENUM	deployments	status		
+homeland	ENUM	actions	user_type		
+homeland	ENUM	actions	target_type		
+homeland	ENUM	users	type		
+lobsters	BOOLEAN	comments	is_deleted		
+lobsters	BOOLEAN	comments	is_moderated		
+lobsters	BOOLEAN	stories	is_expired		
+redmine	ENUM	projects	status		
+redmine	BOOLEAN	projects	is_public		
+redmine	ENUM	journals	journalized_type		
+redmine	ENUM	users	type		
+redmine	ENUM	users	status		
+redmine	ENUM	watchers	watchable_type		
+redmine	BOOLEAN	custom_fields	visible		
+redmine	ENUM	custom_fields	type		
+redmine	ENUM	attachments	container_type		
+redmine	BOOLEAN	issues_statuses	is_closed		
+solidus	ENUM	spree_zone_members	zoneable_type		
+solidus	ENUM	spree_adjustments	source_type		
+solidus	BOOLEAN	spree_adjustments	eligible		
+solidus	BOOLEAN	spree_stock_locations	active		
+solidus	BOOLEAN	spree_variants	is_master		
+solidus	BOOLEAN	spree_shipping_methods	available_to_all		
+spree	ENUM	spree_adjustments	adjustable_type		
+spree	ENUM	spree_adjustments	source_type		
+spree	ENUM	spree_zone_members	zoneable_type		
+spree	ENUM	spree_prices	currency		
+spree	BOOLEAN	spree_variants	is_master		
+spree	ENUM	zone_members_spree_countries_j	zoneable_type		
+spree	BOOLEAN	spree_orders	considered_risky		
+spree	ENUM	spree_orders	payment_state		
+spree	ENUM	spree_orders	shipment_state		
+guns	FOREIGN_KEY	sys_memu	pcode		sys_menu.code
+guns	UNIQUE	sys_menu	code	manual	
+discourse	ENUM	topic_users	notification_level		
+homeland	FOREIGN_KEY	actions	target_id		nodes.id
+shopizer	UNIQUE	user_group	user_id,group_id		
+shopizer	UNIQUE	merchant_language	stores_merchant_id,languages_language_id		
+shopizer	UNIQUE	permission_group	permission_id,group_id		
+shopizer	UNIQUE	customer_group	customer_id,group_id		
+broadleaf	UNIQUE	blc_admin_permission_xref	child_permission_id,admin_permission_id		
+broadleaf	UNIQUE	blc_sku_fulfillment_excluded	sku_id,fulfillment_option_id		
+broadleaf	UNIQUE	blc_admin_sec_perm_xref	admin_section_id,admin_permission_id		
+broadleaf	UNIQUE	blc_sku_fee_xref	sku_fee_id,sku_id		
+broadleaf	UNIQUE	blc_order_offer_code_xref	order_id,offer_code_id		
+redmine	UNIQUE	changeset_parents	changeset_id,parent_id		
+febs	UNIQUE	t_role_menu	role_id,menu_id		
+febs	UNIQUE	t_user_role	user_id,role_id		
+forest_blog	UNIQUE	article_category_ref	article_id,category_id		
+pybbs	UNIQUE	topic_tag	topic_id,tag_id		
+pybbs	UNIQUE	role_permission	role_id,permission_id		
+pybbs	UNIQUE	collect	topic_id,user_id		
+fatfreecrm	UNIQUE	group_users	group_id,user_id		

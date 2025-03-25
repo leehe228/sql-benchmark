@@ -1,0 +1,1 @@
+SELECT `spree_taxonomies`.* FROM `spree_taxonomies` WHERE `spree_taxonomies`.`name` LIKE '%style%' ORDER BY spree_taxonomies.position, spree_taxonomies.created_at, name LIMIT 25 OFFSET 0

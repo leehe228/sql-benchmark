@@ -1,0 +1,1 @@
+SELECT "topics"."highest_post_number", "topics"."archetype", "topics"."id" FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."id" = 15632 LIMIT 1

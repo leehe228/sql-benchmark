@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND (users.status <> 0) AND `users`.`status` = 1 AND (LOWER(users.login) LIKE LOWER('%john%') OR users.id IN (SELECT user_id FROM email_addresses WHERE LOWER(address) LIKE LOWER('%john%')) OR ((LOWER(users.firstname) LIKE LOWER('%john%') OR LOWER(users.lastname) LIKE LOWER('%john%'))))

@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 1 AND (LOWER(identifier) LIKE LOWER('%online%') OR LOWER(name) LIKE LOWER('%online%'))

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `accounts` WHERE ((`accounts`.`assigned_to` = 238) OR ((`accounts`.`user_id` = 238) OR (`accounts`.`access` = 'Public')))

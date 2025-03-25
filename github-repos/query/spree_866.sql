@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL

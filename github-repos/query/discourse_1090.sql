@@ -1,0 +1,1 @@
+SELECT "categories"."id", "categories"."name", "categories"."color", "categories"."text_color", "categories"."slug", "categories"."read_restricted", "categories"."parent_category_id" FROM "categories" WHERE 1=0

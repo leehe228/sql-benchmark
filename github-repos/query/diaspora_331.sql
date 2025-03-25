@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`id` = 216 AND `photos`.`public` = TRUE ORDER BY `photos`.`id` ASC LIMIT 1

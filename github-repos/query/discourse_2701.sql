@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" AND "user_emails"."primary" = TRUE WHERE (ip_address = '42.42.42.42' OR registration_ip_address = '42.42.42.42') AND (users.id != '-1') ORDER BY trust_level DESC LIMIT 50 OFFSET 0

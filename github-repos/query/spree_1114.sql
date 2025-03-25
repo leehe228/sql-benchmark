@@ -1,0 +1,1 @@
+SELECT `spree_tax_rates`.* FROM `spree_tax_rates` WHERE `spree_tax_rates`.`deleted_at` IS NULL AND `spree_tax_rates`.`name` = 'California' AND `spree_tax_rates`.`zone_id` = 6 AND `spree_tax_rates`.`amount` = 0.1 AND `spree_tax_rates`.`tax_category_id` = 1 ORDER BY `spree_tax_rates`.`id` ASC LIMIT 1

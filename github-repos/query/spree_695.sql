@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_zones` WHERE `spree_zones`.`name` LIKE '%south%' ORDER BY name ASC LIMIT 25 OFFSET 0) subquery_for_count

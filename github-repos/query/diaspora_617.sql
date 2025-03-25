@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`public` = TRUE AND `posts`.`guid` = '154767806c3001384b7e08e9fe568a11' LIMIT 1

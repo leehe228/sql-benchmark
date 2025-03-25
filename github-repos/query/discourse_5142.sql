@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."deleted_at" IS NOT NULL AND "posts"."hidden" = TRUE AND (hidden_at < '2020-02-25 06:27:26.724752') ORDER BY "posts"."id" ASC LIMIT 1000

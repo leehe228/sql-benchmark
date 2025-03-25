@@ -1,0 +1,1 @@
+select sysdeptcon0_.config as config1_27_, sysdeptcon0_.dept_id as dept_id2_27_ from sys_dept_config sysdeptcon0_ where sysdeptcon0_.dept_id=4 limit 2147483647

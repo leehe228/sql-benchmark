@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."topic_id" = 16196 AND "notifications"."user_id" = 1372 AND "notifications"."post_number" = 1 AND "notifications"."notification_type" = 5

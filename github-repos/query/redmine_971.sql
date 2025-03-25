@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` WHERE (LOWER(issue_statuses.name) = LOWER('Resolved')) ORDER BY `issue_statuses`.`id` ASC LIMIT 1

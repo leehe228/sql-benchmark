@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `hats` WHERE `hats`.`user_id` = 84 LIMIT 1

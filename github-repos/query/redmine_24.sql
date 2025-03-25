@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` INNER JOIN `custom_fields_trackers` ON `custom_fields`.`id` = `custom_fields_trackers`.`custom_field_id` WHERE `custom_fields`.`type` IN ('IssueCustomField') AND `custom_fields_trackers`.`tracker_id` = 1

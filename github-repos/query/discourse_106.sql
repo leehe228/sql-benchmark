@@ -1,0 +1,1 @@
+SELECT "tags"."name" FROM "tags" WHERE "tags"."topic_count" = 0 AND "tags"."pm_topic_count" = 0

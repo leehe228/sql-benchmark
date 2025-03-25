@@ -1,0 +1,1 @@
+SELECT `spree_promotion_categories`.* FROM `spree_promotion_categories`

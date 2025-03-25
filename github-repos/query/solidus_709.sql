@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE (`spree_taxons`.`lft` <= 4 AND `spree_taxons`.`rgt` >= 5 AND (`spree_taxons`.`id` != 114) OR `spree_taxons`.`lft` <= 9 AND `spree_taxons`.`rgt` >= 10 AND (`spree_taxons`.`id` != 116)) ORDER BY `spree_taxons`.`lft` ASC

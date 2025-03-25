@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`short_id` = 'qaike2' ORDER BY `comments`.`id` ASC LIMIT 1

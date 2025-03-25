@@ -1,0 +1,1 @@
+SELECT `aspect_memberships`.`id` FROM `aspect_memberships` WHERE `aspect_memberships`.`contact_id` = 2 AND `aspect_memberships`.`aspect_id` = 1 LIMIT 1

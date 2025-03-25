@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('jquery') OR LOWER(name) = LOWER('ie') OR LOWER(name) = LOWER('browser') OR LOWER(name) = LOWER('web'))

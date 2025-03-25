@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` INNER JOIN `wikis` ON `wikis`.`project_id` = `projects`.`id` WHERE (((projects.status = 1 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='wiki')) AND (projects.id IN (1,5))))

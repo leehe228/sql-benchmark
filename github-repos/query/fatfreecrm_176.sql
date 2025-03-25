@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 511 AND `taggings`.`taggable_type` = 'Lead' AND `taggings`.`context` = 'tags' LIMIT 1

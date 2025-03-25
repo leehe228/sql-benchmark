@@ -1,0 +1,1 @@
+SELECT "tag_groups"."id", "tag_groups"."name" FROM "tag_groups"

@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `contacts`.`id`) FROM `contacts` LEFT OUTER JOIN `people` ON `people`.`id` = `contacts`.`person_id` LEFT OUTER JOIN `profiles` ON `profiles`.`person_id` = `people`.`id` INNER JOIN `aspect_memberships` ON `aspect_memberships`.`aspect_id` = 250 AND `aspect_memberships`.`contact_id` = `contacts`.`id` WHERE `contacts`.`user_id` = 332

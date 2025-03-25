@@ -1,0 +1,1 @@
+SELECT `auth_sources`.* FROM `auth_sources` WHERE `auth_sources`.`id` = 66 LIMIT 1

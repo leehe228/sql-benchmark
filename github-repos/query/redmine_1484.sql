@@ -1,0 +1,1 @@
+SELECT committer, user_id, count(*) as count FROM `changes` INNER JOIN `changesets` ON `changesets`.`id` = `changes`.`changeset_id` WHERE (changesets.repository_id = 10) GROUP BY committer, user_id

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enabled_modules` WHERE `enabled_modules`.`project_id` IN (SELECT `projects`.`id` FROM `projects` WHERE (projects.status <> 9)) AND `enabled_modules`.`name` = 'issue_tracking' LIMIT 1

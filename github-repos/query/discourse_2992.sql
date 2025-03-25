@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "user_actions"."user_id") FROM "user_actions" WHERE "user_actions"."action_type" IN (1, 4, 5, 12)

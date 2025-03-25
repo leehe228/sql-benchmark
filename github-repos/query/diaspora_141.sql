@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `contacts` WHERE `contacts`.`user_id` = 1 AND `contacts`.`receiving` = TRUE

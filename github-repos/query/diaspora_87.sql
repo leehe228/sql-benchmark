@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` INNER JOIN `aspect_visibilities` ON `aspect_visibilities`.`aspect_id` = `aspects`.`id` WHERE `aspects`.`user_id` = 1070 AND `aspect_visibilities`.`shareable_id` = 1444 AND `aspect_visibilities`.`shareable_type` = 'Post' ORDER BY order_id ASC

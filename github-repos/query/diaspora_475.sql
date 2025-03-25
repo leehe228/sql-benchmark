@@ -1,0 +1,1 @@
+SELECT `blocks`.* FROM `blocks` WHERE `blocks`.`user_id` = 1 AND `blocks`.`id` = 10 LIMIT 1

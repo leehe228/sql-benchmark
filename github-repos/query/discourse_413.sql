@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE "categories"."read_restricted" = FALSE AND "categories"."id" != 1 ORDER BY id asc LIMIT 1

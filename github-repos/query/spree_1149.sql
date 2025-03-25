@@ -1,0 +1,1 @@
+SELECT `spree_stock_movements`.* FROM `spree_stock_movements` WHERE `spree_stock_movements`.`originator_type` = 'Spree::StockTransfer' AND `spree_stock_movements`.`originator_id` = 2

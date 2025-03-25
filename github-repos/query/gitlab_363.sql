@@ -1,0 +1,1 @@
+SELECT "oauth_applications".* FROM "oauth_applications" WHERE "oauth_applications"."owner_id" = $1 AND "oauth_applications"."owner_type" = $2 /*application:test,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

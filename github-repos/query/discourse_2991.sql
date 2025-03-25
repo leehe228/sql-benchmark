@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "user_actions"."user_id") AS count_user_id, date(created_at) AS date_created_at FROM "user_actions" WHERE "user_actions"."action_type" IN (1, 4, 5, 12) AND (created_at > '2017-01-30 00:00:00' AND created_at < '2017-03-01 23:59:59.999999') GROUP BY date(created_at) ORDER BY date(created_at)

@@ -1,0 +1,1 @@
+select sysapptoke0_.auth_token as auth_tok1_22_, sysapptoke0_.app_id as app_id2_22_, sysapptoke0_.create_date as create_d3_22_, sysapptoke0_.expiry_date as expiry_d4_22_ from sys_app_token sysapptoke0_ where sysapptoke0_.app_id=1 order by sysapptoke0_.auth_token desc limit 30

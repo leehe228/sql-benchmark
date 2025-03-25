@@ -1,0 +1,1 @@
+SELECT "email_logs".* FROM "email_logs" WHERE "email_logs"."bounce_key" = '14b08c855160d67f2e0c2f8ef36e251e' LIMIT 1

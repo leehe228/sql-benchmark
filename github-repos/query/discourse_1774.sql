@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" AND "user_emails"."primary" = TRUE WHERE (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:16:56.824653') AND "users"."approved" = FALSE AND "users"."active" = TRUE AND (users.created_at < '2020-03-25 22:16:56.824759')

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "topic_allowed_users" ON "users"."id" = "topic_allowed_users"."user_id" WHERE "topic_allowed_users"."topic_id" = 15635

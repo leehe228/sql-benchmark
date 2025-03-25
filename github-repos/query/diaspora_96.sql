@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `comments` WHERE `comments`.`commentable_id` = 2293 AND `comments`.`commentable_type` = 'Post'

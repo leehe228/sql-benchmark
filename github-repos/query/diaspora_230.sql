@@ -1,0 +1,1 @@
+SELECT `tag_followings`.* FROM `tag_followings` WHERE `tag_followings`.`id` = 106

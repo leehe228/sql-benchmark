@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` INNER JOIN `contacts` ON `users`.`id` = `contacts`.`user_id` WHERE `contacts`.`id` = 1032 LIMIT 1

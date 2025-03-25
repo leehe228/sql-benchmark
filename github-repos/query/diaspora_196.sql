@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `poll_answers` WHERE `poll_answers`.`guid` = '44b2e7506c3001384b7e08e9fe568a11' LIMIT 1

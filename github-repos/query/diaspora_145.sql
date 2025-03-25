@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`id` = 3 ORDER BY `people`.`id` ASC LIMIT 1

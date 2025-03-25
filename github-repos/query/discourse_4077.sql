@@ -1,0 +1,1 @@
+SELECT "ignored_users"."ignored_user_id" FROM "ignored_users" WHERE "ignored_users"."user_id" = 7060

@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM t_login_log

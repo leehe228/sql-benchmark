@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_shipments`.* FROM `spree_shipments` INNER JOIN `spree_inventory_units` ON `spree_shipments`.`id` = `spree_inventory_units`.`shipment_id` WHERE `spree_inventory_units`.`carton_id` = 73

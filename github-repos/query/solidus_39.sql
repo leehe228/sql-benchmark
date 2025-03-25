@@ -1,0 +1,1 @@
+SELECT `spree_line_item_actions`.* FROM `spree_line_item_actions` WHERE `spree_line_item_actions`.`line_item_id` = 989

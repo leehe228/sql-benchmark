@@ -1,0 +1,1 @@
+SELECT `spree_store_credits`.* FROM `spree_store_credits` WHERE `spree_store_credits`.`deleted_at` IS NULL AND `spree_store_credits`.`user_id` = 8 ORDER BY `spree_store_credits`.`id` DESC

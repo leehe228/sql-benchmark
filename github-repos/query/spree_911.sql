@@ -1,0 +1,1 @@
+SELECT `spree_payments`.`source_id` FROM `spree_payments` WHERE `spree_payments`.`order_id` = 903 AND `spree_payments`.`source_type` = 'Spree::CreditCard' AND `spree_payments`.`payment_method_id` = 428 ORDER BY `spree_payments`.`created_at` ASC

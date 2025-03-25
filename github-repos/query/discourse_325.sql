@@ -1,0 +1,1 @@
+SELECT "user_visits".* FROM "user_visits" WHERE "user_visits"."user_id" = 163 AND "user_visits"."visited_at" = '2020-03-26' LIMIT 1

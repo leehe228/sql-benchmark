@@ -1,0 +1,1 @@
+SELECT `spree_addresses`.* FROM `spree_addresses` INNER JOIN `spree_user_addresses` ON `spree_addresses`.`id` = `spree_user_addresses`.`address_id` WHERE `spree_user_addresses`.`user_id` = 24 AND `spree_user_addresses`.`default` = TRUE ORDER BY `spree_user_addresses`.`default` DESC, `spree_user_addresses`.`updated_at` DESC LIMIT 1

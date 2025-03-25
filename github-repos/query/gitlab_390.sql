@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "abuse_reports" /*application:test,correlation_id:ad7a72b3838faa0a2e10cd886f576d64*/

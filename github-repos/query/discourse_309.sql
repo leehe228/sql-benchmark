@@ -1,0 +1,1 @@
+SELECT "user_custom_fields"."user_id", "user_custom_fields"."name", "user_custom_fields"."value" FROM "user_custom_fields" WHERE "user_custom_fields"."user_id" = 162 AND "user_custom_fields"."name" = 'public_field'

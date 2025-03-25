@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" INNER JOIN user_stats AS us ON us.user_id = users.id WHERE (users.id > 0) AND (NOT EXISTS( SELECT 1 FROM anonymous_users a WHERE a.user_id = users.id ))

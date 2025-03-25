@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` INNER JOIN `spree_orders` ON `spree_orders`.`id` = `spree_adjustments`.`order_id` WHERE `spree_orders`.`completed_at` IS NULL

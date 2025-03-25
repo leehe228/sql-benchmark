@@ -1,0 +1,1 @@
+SELECT `locations`.* FROM `locations` WHERE `locations`.`status_message_id` = 801 LIMIT 1

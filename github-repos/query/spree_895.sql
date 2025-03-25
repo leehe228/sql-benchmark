@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE (`spree_adjustments`.`source_type` != 'Spree::TaxRate' OR `spree_adjustments`.`source_type` IS NULL)

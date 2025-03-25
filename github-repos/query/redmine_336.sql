@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` INNER JOIN `changesets_issues` ON `issues`.`id` = `changesets_issues`.`issue_id` WHERE `changesets_issues`.`changeset_id` = 334

@@ -1,0 +1,1 @@
+SELECT "user_histories".* FROM "user_histories" WHERE "user_histories"."target_user_id" = 3999 AND "user_histories"."action" = 30 ORDER BY id DESC LIMIT 1

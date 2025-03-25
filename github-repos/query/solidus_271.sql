@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` INNER JOIN `spree_products_taxons` ON `spree_products`.`id` = `spree_products_taxons`.`product_id` WHERE `spree_products`.`deleted_at` IS NULL AND `spree_products_taxons`.`taxon_id` = 108 ORDER BY `spree_products_taxons`.`position` ASC LIMIT 500 OFFSET 0

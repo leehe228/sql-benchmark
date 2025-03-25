@@ -1,0 +1,1 @@
+SELECT MAX("posts"."post_number") FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 16521 AND "posts"."post_type" IN (1, 2, 3)

@@ -1,0 +1,1 @@
+SELECT `reports`.* FROM `reports` WHERE `reports`.`reviewed` = FALSE

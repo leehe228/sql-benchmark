@@ -1,0 +1,1 @@
+SELECT "given_daily_likes"."limit_reached" FROM "given_daily_likes" WHERE "given_daily_likes"."user_id" = 1468 AND "given_daily_likes"."given_date" = '2020-03-26'

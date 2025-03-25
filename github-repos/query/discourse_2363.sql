@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE (uploaded_avatar_id IS NOT NULL) ORDER BY "users"."id" ASC LIMIT 1000

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE (silenced_till IS NOT NULL AND silenced_till < now()) ORDER BY "users"."id" ASC LIMIT 1000

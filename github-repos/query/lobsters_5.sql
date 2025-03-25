@@ -1,0 +1,1 @@
+SELECT SUM(`tags`.`hotness_mod`) FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`story_id` = 6

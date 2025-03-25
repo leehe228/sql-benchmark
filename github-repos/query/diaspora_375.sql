@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `account_migrations` WHERE `account_migrations`.`old_person_id` IS NULL LIMIT 1

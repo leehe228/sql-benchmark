@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `changesets`.`commit_date` AS changesets_commit_date FROM `changesets` WHERE (repository_id = 10 AND commit_date BETWEEN '2008-10-01' AND '2009-09-20') GROUP BY `changesets`.`commit_date`

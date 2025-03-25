@@ -1,0 +1,1 @@
+SELECT DISTINCT posts.* FROM `posts` WHERE `posts`.`id` = 458 AND (posts.created_at < '2020-04-28 06:08:00') AND `posts`.`type` IN ('StatusMessage', 'Reshare') ORDER BY posts.created_at DESC, posts.id DESC LIMIT 15

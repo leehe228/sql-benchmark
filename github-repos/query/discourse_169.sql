@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."url" = '/u/foo' LIMIT 1

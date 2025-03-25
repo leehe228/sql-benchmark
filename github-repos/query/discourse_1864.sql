@@ -1,0 +1,1 @@
+SELECT "badge_types".* FROM "badge_types" WHERE "badge_types"."id" IN (3, 2, 1, 13)

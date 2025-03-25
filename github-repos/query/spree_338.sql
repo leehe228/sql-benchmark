@@ -1,0 +1,1 @@
+SELECT `spree_reimbursement_types`.* FROM `spree_reimbursement_types` WHERE `spree_reimbursement_types`.`active` = TRUE ORDER BY LOWER(spree_reimbursement_types.name)

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."id" IN ($1, $2)

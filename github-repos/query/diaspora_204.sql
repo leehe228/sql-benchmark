@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `photos` WHERE `photos`.`guid` = '99b76fd06b4401384b7908e9fe568a11' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE (users.id > 0) AND (NOT EXISTS( SELECT 1 FROM anonymous_users a WHERE a.user_id = users.id )) AND "users"."moderator" = TRUE

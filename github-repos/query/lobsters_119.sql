@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`user_id` = 287 AND `stories`.`short_id` = 'dxrali' ORDER BY `stories`.`id` ASC LIMIT 1

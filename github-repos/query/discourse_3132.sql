@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" INNER JOIN "topics" ON "topics"."id" = "notifications"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE "notifications"."user_id" = 5191 AND "notifications"."id" = 3792 ORDER BY notifications.created_at DESC LIMIT 3

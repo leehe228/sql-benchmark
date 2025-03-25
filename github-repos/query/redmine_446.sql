@@ -1,0 +1,1 @@
+SELECT `trackers`.* FROM `trackers` WHERE `trackers`.`id` IN (1, 3) ORDER BY `trackers`.`position` ASC

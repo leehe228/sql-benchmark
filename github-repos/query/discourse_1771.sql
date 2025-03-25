@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."active" = TRUE AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:16:55.135303') AND "users"."username_lower" = 'bruce1490' LIMIT 20

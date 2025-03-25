@@ -1,0 +1,1 @@
+SELECT `spree_zones`.* FROM `spree_zones` LEFT OUTER JOIN (SELECT * FROM `spree_zone_members`) AS `sub` ON `sub`.`zone_id` = `spree_zones`.`id`

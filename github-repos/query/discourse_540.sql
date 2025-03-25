@@ -1,0 +1,1 @@
+SELECT "group_requests".* FROM "group_requests" WHERE "group_requests"."group_id" = 2373

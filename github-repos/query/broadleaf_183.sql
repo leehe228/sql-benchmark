@@ -1,0 +1,1 @@
+select pagetempla0_.PAGE_TMPLT_ID as PAGE_TMP1_114_, pagetempla0_.LOCALE_CODE as LOCALE_C5_114_, pagetempla0_.TMPLT_DESCR as TMPLT_DE2_114_, pagetempla0_.TMPLT_NAME as TMPLT_NA3_114_, pagetempla0_.TMPLT_PATH as TMPLT_PA4_114_ from BLC_PAGE_TMPLT pagetempla0_ where 1=1 order by pagetempla0_.PAGE_TMPLT_ID asc limit 50

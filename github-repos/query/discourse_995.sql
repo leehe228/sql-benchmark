@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" LEFT JOIN group_users gu ON gu.group_id = groups.id WHERE (groups.id > 0) AND (groups.id > 0) AND (gu.user_id = 780) ORDER BY name ASC LIMIT 36 OFFSET 0

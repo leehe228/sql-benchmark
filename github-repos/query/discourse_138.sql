@@ -1,0 +1,1 @@
+SELECT "posts"."created_at" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."user_id" = 97 ORDER BY "posts"."created_at" DESC LIMIT 1

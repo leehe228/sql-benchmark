@@ -1,0 +1,1 @@
+SELECT "group_users"."owner" FROM "group_users" WHERE "group_users"."group_id" IN (2603, 2602) AND "group_users"."user_id" = 1113

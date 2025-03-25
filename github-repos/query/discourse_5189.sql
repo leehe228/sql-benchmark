@@ -1,0 +1,1 @@
+SELECT directory_items.likes_received AS alias_0, "directory_items"."id" FROM "directory_items" LEFT OUTER JOIN "users" ON "users"."id" = "directory_items"."user_id" LEFT OUTER JOIN "group_users" ON "group_users"."user_id" = "users"."id" WHERE "directory_items"."period_type" = 1 AND "group_users"."group_id" = 2898 ORDER BY directory_items.likes_received DESC LIMIT 50 OFFSET 0 

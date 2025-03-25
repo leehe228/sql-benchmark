@@ -1,0 +1,1 @@
+SELECT "tags"."id", "tags"."target_tag_id" FROM "tags" WHERE (lower(tags.name) IN ('/test/'))

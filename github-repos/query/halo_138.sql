@@ -1,0 +1,1 @@
+select count(attachment0_.id) as col_0_0_ from attachments attachment0_ where attachment0_.path='upload/2019/10/backiee-71423-landscape-1596d8e2cb2342c48128fb46dcb85066.jpg'

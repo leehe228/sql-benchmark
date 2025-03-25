@@ -1,0 +1,1 @@
+SELECT `field_groups`.* FROM `field_groups` WHERE `field_groups`.`klass_name` = 'Task' ORDER BY `field_groups`.`position` ASC

@@ -1,0 +1,1 @@
+SELECT `spree_return_authorization_reasons`.* FROM `spree_return_authorization_reasons` WHERE `spree_return_authorization_reasons`.`active` = TRUE ORDER BY LOWER(spree_return_authorization_reasons.name)

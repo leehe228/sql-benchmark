@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` WHERE `spree_countries`.`iso` = 'US' ORDER BY `spree_countries`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `issue_statuses`.* FROM `issue_statuses` WHERE `issue_statuses`.`id` = 1 LIMIT 1

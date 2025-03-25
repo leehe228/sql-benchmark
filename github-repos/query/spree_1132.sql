@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` WHERE `spree_properties`.`name` = 'brand' AND `spree_properties`.`presentation` = 'Brand' ORDER BY `spree_properties`.`id` ASC LIMIT 1

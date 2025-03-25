@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" INNER JOIN "topic_search_data" ON "topic_search_data"."topic_id" = "topics"."id" WHERE ("topics"."deleted_at" IS NOT NULL) AND (topic_search_data.locale != 'fr' OR topic_search_data.version != 3) ORDER BY topics.id desc LIMIT 10000

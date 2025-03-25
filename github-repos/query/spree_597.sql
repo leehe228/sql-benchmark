@@ -1,0 +1,1 @@
+SELECT `spree_prototype_taxons`.* FROM `spree_prototype_taxons` WHERE `spree_prototype_taxons`.`taxon_id` = 96

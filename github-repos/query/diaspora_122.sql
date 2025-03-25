@@ -1,0 +1,1 @@
+SELECT `share_visibilities`.`user_id` FROM `share_visibilities` WHERE `share_visibilities`.`shareable_id` = 694 AND `share_visibilities`.`shareable_type` = 'Post' AND `share_visibilities`.`user_id` IN (3, 1)

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `o_auth_applications` WHERE `o_auth_applications`.`client_name` = 'diaspora client' AND `o_auth_applications`.`redirect_uris` = '\"http://localhost\"' LIMIT 1

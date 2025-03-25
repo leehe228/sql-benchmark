@@ -1,0 +1,1 @@
+SELECT `authorizations`.* FROM `authorizations` WHERE `authorizations`.`o_auth_application_id` IN (SELECT `o_auth_applications`.`id` FROM `o_auth_applications` WHERE `o_auth_applications`.`client_id` IS NULL) AND `authorizations`.`user_id` = 1

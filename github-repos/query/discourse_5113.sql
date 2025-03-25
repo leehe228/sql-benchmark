@@ -1,0 +1,1 @@
+SELECT "user_emails".* FROM "user_emails" WHERE (lower(email) = 'email@example.com') ORDER BY "user_emails"."id" ASC LIMIT 1

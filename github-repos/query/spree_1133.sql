@@ -1,0 +1,1 @@
+SELECT `spree_prototypes`.* FROM `spree_prototypes` WHERE `spree_prototypes`.`name` = 'Shirt' ORDER BY `spree_prototypes`.`id` ASC LIMIT 1

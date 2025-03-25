@@ -1,0 +1,1 @@
+select sysextend0_.id as id1_31_0_, sysextend0_.item_id as item_id2_31_0_, sysextend0_.item_type as item_typ3_31_0_ from sys_extend sysextend0_ where sysextend0_.id=2

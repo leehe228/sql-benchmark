@@ -1,0 +1,1 @@
+SELECT committer, user_id, count(*) as count FROM `changesets` WHERE (repository_id = 10) GROUP BY committer, user_id

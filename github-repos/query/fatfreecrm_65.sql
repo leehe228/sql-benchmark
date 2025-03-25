@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` INNER JOIN `account_opportunities` ON `accounts`.`id` = `account_opportunities`.`account_id` WHERE `account_opportunities`.`opportunity_id` = 42 LIMIT 1

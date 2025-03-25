@@ -1,0 +1,1 @@
+SELECT "color_scheme_colors".* FROM "color_scheme_colors" WHERE "color_scheme_colors"."color_scheme_id" = 311 ORDER BY id ASC

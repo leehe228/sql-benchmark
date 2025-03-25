@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" INNER JOIN "topics" ON "topics"."id" = "posts"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE ("posts"."deleted_at" IS NOT NULL) AND ( posts.id IN ( SELECT p2.id FROM posts p2 LEFT JOIN post_search_data pd ON locale = 'en_US' AND p2.id = pd.post_id WHERE pd.post_id IS NULL ) ) LIMIT 10000

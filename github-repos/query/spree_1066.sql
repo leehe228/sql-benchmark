@@ -1,0 +1,1 @@
+SELECT DISTINCT spree_option_types.position, spree_option_values.position AS alias_0, `spree_option_types`.`id` FROM `spree_option_types` LEFT OUTER JOIN `spree_option_values` ON `spree_option_values`.`option_type_id` = `spree_option_types`.`id` ORDER BY spree_option_types.position ASC, spree_option_values.position ASC LIMIT 1

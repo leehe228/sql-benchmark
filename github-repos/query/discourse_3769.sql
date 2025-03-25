@@ -1,0 +1,1 @@
+SELECT "badges"."id" FROM "badges" WHERE (name ilike 'like a boss' OR id = 0) LIMIT 1

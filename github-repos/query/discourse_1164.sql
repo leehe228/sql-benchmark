@@ -1,0 +1,1 @@
+SELECT "incoming_emails".* FROM "incoming_emails" WHERE (NOT is_bounce AND error IS NOT NULL) ORDER BY "incoming_emails"."created_at" DESC LIMIT 50 OFFSET 0

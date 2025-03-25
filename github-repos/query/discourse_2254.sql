@@ -1,0 +1,1 @@
+SELECT "badges".* FROM "badges" WHERE "badges"."id" = 24 AND "badges"."enabled" = TRUE LIMIT 1

@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_app_client sysappclie0_ where sysappclie0_.site_id=1 and sysappclie0_.last_login_date>'2019-10-01 00:00:00.0' and sysappclie0_.last_login_date<='2019-10-08 00:00:00.0' and sysappclie0_.create_date>'2019-10-07 00:00:00.0' and sysappclie0_.create_date<='2019-10-16 00:00:00.0' and sysappclie0_.disabled=0

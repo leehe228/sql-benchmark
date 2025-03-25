@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" INNER JOIN "topics" ON "topics"."id" = "posts"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE ("posts"."deleted_at" IS NOT NULL) AND (topics.archetype = 'private_message') AND (posts.id <= 20069) AND (posts.id > 20019) ORDER BY "posts"."created_at" DESC LIMIT 50

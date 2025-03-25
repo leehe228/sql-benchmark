@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."id" IS NULL AND "uploads"."url" = '/uploads/default/e8fcfa624e4fb6623eea57f54941a58ba797f14d.pdf' LIMIT 1

@@ -1,0 +1,1 @@
+select urlhandler0_.URL_HANDLER_ID as URL_HAND1_179_0_, urlhandler0_.INCOMING_URL as INCOMING2_179_0_, urlhandler0_.IS_REGEX as IS_REGEX3_179_0_, urlhandler0_.NEW_URL as NEW_URL4_179_0_, urlhandler0_.URL_REDIRECT_TYPE as URL_REDI5_179_0_ from BLC_URL_HANDLER urlhandler0_ where urlhandler0_.URL_HANDLER_ID=1

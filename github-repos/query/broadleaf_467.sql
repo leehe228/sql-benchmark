@@ -1,0 +1,1 @@
+select productimp0_.PRODUCT_ID as col_0_0_ from BLC_PRODUCT productimp0_ where productimp0_.URL='/product-name-1' and (productimp0_.ARCHIVED is null or productimp0_.ARCHIVED='N')

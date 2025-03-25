@@ -1,0 +1,1 @@
+select cmsdiction0_.id as id1_9_0_, cmsdiction0_.site_id as site_id2_9_0_, cmsdiction0_.multiple as multiple3_9_0_, cmsdiction0_.name as name4_9_0_ from cms_dictionary cmsdiction0_ where cmsdiction0_.id='tags' and cmsdiction0_.site_id=1

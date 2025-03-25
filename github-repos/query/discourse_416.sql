@@ -1,0 +1,1 @@
+SELECT "topic_users".* FROM "topic_users" WHERE "topic_users"."topic_id" = 15635 AND "topic_users"."user_id" = 197 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT MAX(`roles`.`position`) FROM `roles` WHERE `roles`.`builtin` = 0

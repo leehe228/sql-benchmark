@@ -1,0 +1,1 @@
+select count(log0_.id) as col_0_0_ from log log0_ where log0_.log_type='INFO'

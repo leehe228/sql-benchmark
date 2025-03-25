@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `comments` WHERE `comments`.`guid` = 'e3a774806b4401384b7a08e9fe568a11' AND `comments`.`id` != 310 LIMIT 1

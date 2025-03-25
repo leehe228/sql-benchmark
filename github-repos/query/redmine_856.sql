@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `custom_field_enumerations` WHERE `custom_field_enumerations`.`custom_field_id` = 1062 LIMIT 1

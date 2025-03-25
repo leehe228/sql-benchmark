@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE ("invites"."deleted_at" IS NOT NULL) AND (invites.user_id IS NULL AND invites.email IS NOT NULL AND invited_by_id = 9 AND invites.updated_at < '2020-03-25 06:14:06.235493') ORDER BY "invites"."id" ASC LIMIT 1000

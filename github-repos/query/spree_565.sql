@@ -1,0 +1,1 @@
+SELECT `spree_option_values`.* FROM `spree_option_values` WHERE `spree_option_values`.`option_type_id` = 7 AND `spree_option_values`.`id` IN (7, 8) ORDER BY `spree_option_values`.`position` ASC

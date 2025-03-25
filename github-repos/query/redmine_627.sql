@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `issues` WHERE `issues`.`category_id` = 1

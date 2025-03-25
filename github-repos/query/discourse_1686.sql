@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "notifications" WHERE "notifications"."user_id" = 1365 AND (read = false)

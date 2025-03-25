@@ -1,0 +1,1 @@
+SELECT "tag_group_memberships".* FROM "tag_group_memberships" WHERE "tag_group_memberships"."tag_id" = 1575

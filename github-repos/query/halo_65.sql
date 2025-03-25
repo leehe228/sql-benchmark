@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from tags tag0_

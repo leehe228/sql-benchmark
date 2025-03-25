@@ -1,0 +1,1 @@
+select sysrole0_.id as id1_35_0_, sysrole0_.name as name2_35_0_, sysrole0_.owns_all_right as owns_all3_35_0_, sysrole0_.show_all_module as show_all4_35_0_, sysrole0_.site_id as site_id5_35_0_ from sys_role sysrole0_ where sysrole0_.id=1

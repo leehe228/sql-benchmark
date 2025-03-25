@@ -1,0 +1,1 @@
+SELECT "post_actions"."post_id" FROM "post_actions" INNER JOIN "users" ON "users"."id" = "post_actions"."user_id" WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."post_id" IN (16811, 16810, 16809) AND "post_actions"."post_action_type_id" = 2 AND (users.moderator)

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `refinery_pages` WHERE `refinery_pages`.`lft` <= 4 AND `refinery_pages`.`rgt` >= 5 AND (`refinery_pages`.`id` != 401)

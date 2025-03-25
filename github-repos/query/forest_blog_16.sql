@@ -1,0 +1,1 @@
+select notice_id, notice_title, notice_content, notice_create_time, notice_update_time, notice_status, notice_order from notice where notice_id = 3

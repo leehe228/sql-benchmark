@@ -1,0 +1,1 @@
+SELECT `participations`.* FROM `participations` WHERE `participations`.`id` = 266 LIMIT 1

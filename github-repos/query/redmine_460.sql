@@ -1,0 +1,1 @@
+SELECT MAX(`messages`.`id`) FROM `messages` WHERE `messages`.`parent_id` = 1

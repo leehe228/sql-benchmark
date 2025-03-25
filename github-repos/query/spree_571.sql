@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_return_authorizations` WHERE `spree_return_authorizations`.`order_id` = 4 AND `spree_return_authorizations`.`memo` LIKE '%damaged%' LIMIT 25 OFFSET 0) subquery_for_count

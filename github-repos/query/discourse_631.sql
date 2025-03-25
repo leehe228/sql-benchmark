@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE ((reviewable_by_moderator AND FALSE) OR (reviewable_by_group_id IN (NULL))) AND (category_id IS NULL OR category_id IN (1)) AND "reviewables"."status" = 0

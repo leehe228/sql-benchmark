@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE `contacts`.`user_id` = 1 AND `contacts`.`person_id` = -1 ORDER BY `contacts`.`id` ASC LIMIT 1

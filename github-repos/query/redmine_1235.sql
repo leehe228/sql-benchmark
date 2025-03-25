@@ -1,0 +1,1 @@
+SELECT `member_roles`.* FROM `member_roles` INNER JOIN `members` ON `members`.`id` = `member_roles`.`member_id` WHERE (members.user_id = 8 AND member_roles.inherited_from IN (6,7))

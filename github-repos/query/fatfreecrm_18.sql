@@ -1,0 +1,1 @@
+SELECT `campaigns`.* FROM `campaigns` WHERE ((`campaigns`.`assigned_to` = 3056) OR ((`campaigns`.`user_id` = 3056) OR (`campaigns`.`access` = 'Public'))) ORDER BY `campaigns`.`name` ASC LIMIT 25

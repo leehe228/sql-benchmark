@@ -1,0 +1,1 @@
+SELECT `spree_log_entries`.* FROM `spree_log_entries` WHERE `spree_log_entries`.`source_id` = 4 AND `spree_log_entries`.`source_type` = 'Spree::Payment'

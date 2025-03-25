@@ -1,0 +1,1 @@
+SELECT `spree_stores`.* FROM `spree_stores` INNER JOIN `spree_store_payment_methods` ON `spree_stores`.`id` = `spree_store_payment_methods`.`store_id` WHERE `spree_store_payment_methods`.`payment_method_id` = 282

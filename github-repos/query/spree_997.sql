@@ -1,0 +1,1 @@
+SELECT `spree_tax_rates`.* FROM `spree_tax_rates` WHERE `spree_tax_rates`.`id` = 43 LIMIT 1

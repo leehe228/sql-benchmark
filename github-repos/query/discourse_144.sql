@@ -1,0 +1,1 @@
+SELECT "tag_users"."notification_level" FROM "tag_users" WHERE "tag_users"."user_id" = 97 AND (tag_id IN (SELECT tag_id FROM topic_tags WHERE topic_id = 15595)) AND (notification_level IN (3,2)) ORDER BY notification_level DESC LIMIT 1

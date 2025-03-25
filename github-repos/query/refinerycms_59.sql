@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `refinery_page_translations` WHERE `refinery_page_translations`.`refinery_page_id` = 390

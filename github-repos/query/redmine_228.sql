@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND `enumerations`.`active` = TRUE

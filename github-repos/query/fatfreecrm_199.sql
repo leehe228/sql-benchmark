@@ -1,0 +1,1 @@
+SELECT `groups_users`.`group_id` FROM `groups_users` WHERE `groups_users`.`user_id` = 3056

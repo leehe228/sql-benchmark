@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = 3700 AND "posts"."deleted_at" IS NOT NULL

@@ -1,0 +1,1 @@
+SELECT "user_badges".* FROM "user_badges" WHERE "user_badges"."user_id" = 232 AND (user_badges.badge_id IN (SELECT id FROM badges WHERE enabled))

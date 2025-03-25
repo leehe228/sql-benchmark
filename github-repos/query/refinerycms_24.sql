@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` INNER JOIN `refinery_page_translations` ON `refinery_page_translations`.`refinery_page_id` = `refinery_pages`.`id` WHERE `refinery_pages`.`parent_id` = 400 AND `refinery_page_translations`.`locale` = 'en' AND `refinery_page_translations`.`slug` = 'sample-submenu' ORDER BY `refinery_pages`.`lft` ASC LIMIT 1

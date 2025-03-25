@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` ORDER BY name ASC LIMIT 25 OFFSET 0

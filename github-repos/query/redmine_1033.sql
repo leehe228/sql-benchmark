@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `custom_fields` INNER JOIN `custom_fields_trackers` ON `custom_fields`.`id` = `custom_fields_trackers`.`custom_field_id` WHERE `custom_fields`.`type` IN ('IssueCustomField') AND `custom_fields_trackers`.`tracker_id` = 1 AND `custom_fields`.`id` = 2 LIMIT 1

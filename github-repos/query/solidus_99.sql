@@ -1,0 +1,1 @@
+SELECT `spree_user_addresses`.* FROM `spree_user_addresses` WHERE `spree_user_addresses`.`user_id` = 24 AND `spree_user_addresses`.`default` = TRUE ORDER BY `spree_user_addresses`.`default` DESC, `spree_user_addresses`.`updated_at` DESC LIMIT 1

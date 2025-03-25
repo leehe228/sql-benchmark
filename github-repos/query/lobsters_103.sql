@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `taggings`.`tag_id` = `tags`.`id` INNER JOIN `stories` ON `stories`.`id` = `taggings`.`story_id` WHERE `tags`.`inactive` = FALSE AND `stories`.`user_id` = 84 GROUP BY `tags`.`id` ORDER BY COUNT(*) desc LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_taxons` INNER JOIN `spree_products_taxons` ON `spree_taxons`.`id` = `spree_products_taxons`.`taxon_id` WHERE `spree_products_taxons`.`product_id` = 1606

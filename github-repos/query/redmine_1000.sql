@@ -1,0 +1,1 @@
+SELECT `changesets`.`id` FROM `changesets` INNER JOIN `changesets_issues` ON `changesets`.`id` = `changesets_issues`.`changeset_id` WHERE `changesets_issues`.`issue_id` = 3900 ORDER BY changesets.committed_on ASC, changesets.id ASC

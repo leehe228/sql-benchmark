@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tags` WHERE 1=0 LIMIT 1

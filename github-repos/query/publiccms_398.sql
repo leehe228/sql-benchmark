@@ -1,0 +1,1 @@
+select logtask0_.id as col_0_0_, logtask0_.site_id as col_1_0_, logtask0_.task_id as col_2_0_, logtask0_.begintime as col_3_0_, logtask0_.endtime as col_4_0_, logtask0_.success as col_5_0_ from log_task logtask0_ where logtask0_.site_id=1 and logtask0_.task_id=7 and logtask0_.success=1 order by logtask0_.begintime desc limit 30

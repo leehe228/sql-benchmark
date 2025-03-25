@@ -1,0 +1,1 @@
+select customerof0_.CUSTOMER_OFFER_ID as CUSTOMER1_43_, customerof0_.CUSTOMER_ID as CUSTOMER2_43_, customerof0_.OFFER_ID as OFFER_ID3_43_ from BLC_CUSTOMER_OFFER_XREF customerof0_ where customerof0_.CUSTOMER_ID=100

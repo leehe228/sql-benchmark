@@ -1,0 +1,1 @@
+SELECT `poll_participations`.* FROM `poll_participations` WHERE `poll_participations`.`author_id` = 1 AND `poll_participations`.`poll_id` = 120

@@ -1,0 +1,1 @@
+SELECT `email_addresses`.`address` FROM `email_addresses` WHERE `email_addresses`.`user_id` IN (1, 2) AND (is_default = TRUE OR notify = TRUE)

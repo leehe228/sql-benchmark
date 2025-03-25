@@ -1,0 +1,1 @@
+select count(*) from article_category_ref where category_id = 100000007

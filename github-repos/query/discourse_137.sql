@@ -1,0 +1,1 @@
+SELECT "optimized_images".* FROM "optimized_images" WHERE "optimized_images"."upload_id" = -6 AND "optimized_images"."height" = 32 AND "optimized_images"."width" = 32 LIMIT 1

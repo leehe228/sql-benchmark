@@ -1,0 +1,1 @@
+SELECT "topic_timers".* FROM "topic_timers" WHERE ("topic_timers"."deleted_at" IS NOT NULL) AND "topic_timers"."id" = 321 LIMIT 1

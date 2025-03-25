@@ -1,0 +1,1 @@
+SELECT "remote_themes".* FROM "remote_themes" WHERE "remote_themes"."id" = 112 LIMIT 1

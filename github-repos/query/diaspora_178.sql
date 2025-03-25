@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` WHERE `aspects`.`user_id` = 1 AND `aspects`.`post_default` = TRUE ORDER BY order_id ASC

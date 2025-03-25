@@ -1,0 +1,1 @@
+SELECT `contact_opportunities`.* FROM `contact_opportunities` WHERE `contact_opportunities`.`opportunity_id` = 1043

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `workflows` WHERE `workflows`.`role_id` = 1 LIMIT 1

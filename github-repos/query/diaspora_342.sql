@@ -1,0 +1,1 @@
+SELECT `like_signatures`.* FROM `like_signatures` WHERE `like_signatures`.`like_id` = 143 LIMIT 1

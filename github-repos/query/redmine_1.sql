@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `roles` WHERE `roles`.`name` = 'Role 3' AND `roles`.`id` != 913 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `enumerations` WHERE `enumerations`.`name` = 'Low' AND `enumerations`.`type` = 'IssuePriority' AND `enumerations`.`project_id` IS NULL LIMIT 1

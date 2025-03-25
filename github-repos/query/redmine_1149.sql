@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`status` = 1 AND `users`.`id` = 3 LIMIT 1

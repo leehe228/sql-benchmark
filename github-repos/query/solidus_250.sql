@@ -1,0 +1,1 @@
+SELECT `spree_option_types`.* FROM `spree_option_types` WHERE `spree_option_types`.`id` = 10 ORDER BY `spree_option_types`.`position` ASC LIMIT 1

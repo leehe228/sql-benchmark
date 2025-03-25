@@ -1,0 +1,1 @@
+SELECT "tag_users"."tag_id" FROM "tag_users" WHERE "tag_users"."user_id" = 296 AND "tag_users"."notification_level" = 0

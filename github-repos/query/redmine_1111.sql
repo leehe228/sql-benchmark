@@ -1,0 +1,1 @@
+SELECT `changesets`.* FROM `changesets` INNER JOIN `changeset_parents` ON `changesets`.`id` = `changeset_parents`.`changeset_id` WHERE `changeset_parents`.`parent_id` = 100

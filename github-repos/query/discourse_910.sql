@@ -1,0 +1,1 @@
+SELECT "group_users".* FROM "group_users" WHERE "group_users"."group_id" = 2440 AND "group_users"."user_id" = -1

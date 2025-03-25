@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` = 17 ORDER BY `spree_taxons`.`lft` ASC LIMIT 25 OFFSET 0

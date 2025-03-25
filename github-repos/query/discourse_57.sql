@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" LEFT OUTER JOIN "topic_invites" ON "topic_invites"."topic_id" = "topics"."id" LEFT OUTER JOIN "invites" ON "invites"."id" = "topic_invites"."invite_id" AND ("invites"."deleted_at" IS NOT NULL) WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."archetype" = 'private_message' AND "invites"."email" = 'iceking@adventuretime.ooo'

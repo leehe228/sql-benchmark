@@ -1,0 +1,1 @@
+SELECT "user_auth_token_logs"."client_ip" FROM "user_auth_token_logs" WHERE "user_auth_token_logs"."user_id" = 3993

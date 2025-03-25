@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."notification_type" = 16 AND "notifications"."user_id" = 4299

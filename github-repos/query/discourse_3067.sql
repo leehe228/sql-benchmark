@@ -1,0 +1,1 @@
+SELECT "stylesheet_cache"."created_at" FROM "stylesheet_cache" WHERE "stylesheet_cache"."target" = 'desktop_346' AND "stylesheet_cache"."digest" = '7a04526ec770c5ac5cff68bf7d0328ad82fb40d5' LIMIT 1

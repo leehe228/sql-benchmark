@@ -1,0 +1,1 @@
+SELECT `people`.`owner_id` FROM `people` INNER JOIN `conversation_visibilities` ON `people`.`id` = `conversation_visibilities`.`person_id` WHERE `conversation_visibilities`.`conversation_id` = 48 AND (people.owner_id IS NOT NULL) AND `people`.`id` != 1

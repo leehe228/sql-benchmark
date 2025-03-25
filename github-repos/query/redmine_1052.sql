@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `attachments` WHERE `attachments`.`container_id` = 3040 AND `attachments`.`container_type` = 'Issue'

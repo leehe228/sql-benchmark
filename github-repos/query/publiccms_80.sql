@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_place cmsplace0_ where cmsplace0_.site_id=1 and cmsplace0_.path='/index.html/94fe86e5-45b3-4896-823a-37c6d7d6c578.html' and cmsplace0_.publish_date<='2019-11-02 19:40:00.0' and (cmsplace0_.expiry_date is null or cmsplace0_.expiry_date>='2019-11-02 19:40:00.0') and (cmsplace0_.status in (1)) and cmsplace0_.disabled=0

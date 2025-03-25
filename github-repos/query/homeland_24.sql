@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" WHERE "topics"."deleted_at" IS NULL AND (id IN (227,456))

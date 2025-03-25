@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE (`issues`.`id` IN (1, 3) OR `issues`.`id` IS NULL)

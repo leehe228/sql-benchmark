@@ -1,0 +1,1 @@
+SELECT `spree_payments`.`amount` FROM `spree_payments` WHERE `spree_payments`.`source_id` = 299 AND (source_type = 'Spree::Payment' AND amount < 0 AND state = 'completed') ORDER BY `spree_payments`.`created_at` ASC

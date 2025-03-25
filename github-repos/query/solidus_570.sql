@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND EXISTS (SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`sku` LIKE '%A1%' AND `spree_variants`.`product_id` = `spree_products`.`id`) AND `spree_products`.`name` LIKE '%ap%'

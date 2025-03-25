@@ -1,0 +1,1 @@
+SELECT `poll_participation_signatures`.* FROM `poll_participation_signatures` WHERE `poll_participation_signatures`.`poll_participation_id` = 25 LIMIT 1

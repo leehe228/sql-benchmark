@@ -1,0 +1,1 @@
+SELECT `mentions`.* FROM `mentions` WHERE `mentions`.`id` IN (244, 245)

@@ -1,0 +1,1 @@
+select sysconfigd0_.code as code1_24_0_, sysconfigd0_.site_id as site_id2_24_0_, sysconfigd0_.data as data3_24_0_ from sys_config_data sysconfigd0_ where sysconfigd0_.code='site' and sysconfigd0_.site_id=1

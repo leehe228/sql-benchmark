@@ -1,0 +1,1 @@
+SELECT `spree_promotion_rules`.* FROM `spree_promotion_rules` WHERE `spree_promotion_rules`.`promotion_id` IN (284, 285)

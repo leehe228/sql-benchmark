@@ -1,0 +1,1 @@
+SELECT "screened_emails".* FROM "screened_emails" ORDER BY "screened_emails"."created_at" DESC LIMIT 100

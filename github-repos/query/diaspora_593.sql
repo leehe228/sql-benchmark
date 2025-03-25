@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`id` IN (685, 686) ORDER BY `users`.`id` ASC LIMIT 1000

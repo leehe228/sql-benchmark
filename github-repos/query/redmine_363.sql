@@ -1,0 +1,1 @@
+SELECT `tokens`.`id` FROM `tokens` WHERE `tokens`.`user_id` = 879 AND `tokens`.`action` = 'session' ORDER BY `tokens`.`updated_on` DESC LIMIT 1 OFFSET 9

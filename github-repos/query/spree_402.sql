@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `spree_products`.`id`) FROM `spree_products`

@@ -1,0 +1,1 @@
+SELECT "user_emails"."email" FROM "user_emails" WHERE "user_emails"."user_id" = 312

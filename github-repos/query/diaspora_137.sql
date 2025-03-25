@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `photos` WHERE `photos`.`status_message_guid` = 'e145a5d06b4401384b7a08e9fe568a11'

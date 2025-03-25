@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `participations` ON `people`.`id` = `participations`.`author_id` WHERE `participations`.`target_id` = 285 AND `participations`.`target_type` = 'Post'

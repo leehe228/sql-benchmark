@@ -1,0 +1,1 @@
+SELECT `spree_store_credit_types`.* FROM `spree_store_credit_types` WHERE `spree_store_credit_types`.`name` = 'Expiring' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 404 AND `spree_payments`.`state` = 'pending' ORDER BY `spree_payments`.`created_at` ASC LIMIT 1

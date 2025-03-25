@@ -1,0 +1,1 @@
+SELECT `hidden_stories`.* FROM `hidden_stories` WHERE `hidden_stories`.`user_id` = 56 AND 1=0

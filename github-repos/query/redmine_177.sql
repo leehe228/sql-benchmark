@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`parent_id` = 3008 ORDER BY `enumerations`.`position` ASC

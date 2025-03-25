@@ -1,0 +1,1 @@
+SELECT "categories"."default_top_period" FROM "categories" WHERE "categories"."id" = 3583 LIMIT 1

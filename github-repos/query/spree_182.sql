@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_orders`.* FROM `spree_orders` LEFT OUTER JOIN `spree_line_items` ON `spree_line_items`.`order_id` = `spree_orders`.`id` WHERE (`spree_line_items`.`variant_id` IN (47) AND `spree_orders`.`completed_at` IS NOT NULL) ORDER BY `spree_orders`.`completed_at` DESC LIMIT 25 OFFSET 0

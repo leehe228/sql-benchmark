@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_payment_methods` WHERE `spree_payment_methods`.`deleted_at` IS NULL AND `spree_payment_methods`.`active` = TRUE AND `spree_payment_methods`.`display_on` IN ('front_end', 'both')

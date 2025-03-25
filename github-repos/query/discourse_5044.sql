@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" INNER JOIN "category_search_data" ON "category_search_data"."category_id" = "categories"."id" WHERE (category_search_data.locale != 'fr' OR category_search_data.version != 3) ORDER BY categories.id asc LIMIT 500

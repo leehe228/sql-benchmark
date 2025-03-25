@@ -1,0 +1,1 @@
+SELECT `spree_dummy_models`.* FROM `spree_dummy_models` WHERE (1 = 1) AND (`spree_dummy_models`.`position` IS NOT NULL) ORDER BY `spree_dummy_models`.`position` DESC LIMIT 1

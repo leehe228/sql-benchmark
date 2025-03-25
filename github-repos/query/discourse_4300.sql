@@ -1,0 +1,1 @@
+SELECT "tags"."id", "tags"."target_tag_id" FROM "tags" WHERE "tags"."id" = 1932

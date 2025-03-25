@@ -1,0 +1,1 @@
+SELECT "theme_fields".* FROM "theme_fields" JOIN ( SELECT 0 AS theme_id, 0 AS theme_sort_column ) as X ON X.theme_id = theme_fields.theme_id WHERE "theme_fields"."theme_id" IS NULL AND "theme_fields"."target_id" IN (1, 0) AND "theme_fields"."name" = 'head_tag' ORDER BY "theme_fields"."target_id" ASC

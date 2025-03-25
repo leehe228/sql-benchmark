@@ -1,0 +1,1 @@
+SELECT SUM("application_requests"."count") AS sum_count, "application_requests"."date" AS application_requests_date FROM "application_requests" WHERE "application_requests"."req_type" = 7 AND (date >= '2020-02-24 00:00:00' AND date <= '2020-03-25 23:59:59.999999') GROUP BY "application_requests"."date" ORDER BY "application_requests"."date" ASC

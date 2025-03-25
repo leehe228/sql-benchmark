@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `pods` WHERE `pods`.`status` = 0

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."archetype" = 'private_message' AND (topics.user_id > 0) AND (topics.subtype = 'user_to_user') AND (topics.created_at >= '2020-01-26 00:00:00' and topics.created_at < '2020-02-25 00:00:00')

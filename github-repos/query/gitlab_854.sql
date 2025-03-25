@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT user_id) FROM "clusters_applications_knative" INNER JOIN "clusters" ON "clusters"."id" = "clusters_applications_knative"."cluster_id" WHERE "clusters_applications_knative"."status" IN ($1, $2) /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

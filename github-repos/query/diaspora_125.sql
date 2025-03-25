@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `aspect_visibilities` WHERE `aspect_visibilities`.`aspect_id` = 3 AND `aspect_visibilities`.`shareable_id` = 1965 AND `aspect_visibilities`.`shareable_type` = 'Post' LIMIT 1

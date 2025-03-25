@@ -1,0 +1,1 @@
+select menu0_.id as col_0_0_ from menus menu0_ where menu0_.id<>4 and menu0_.name='222' limit 1

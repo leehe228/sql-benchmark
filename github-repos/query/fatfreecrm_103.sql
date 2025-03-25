@@ -1,0 +1,1 @@
+SELECT `campaigns`.* FROM `campaigns` WHERE ((`campaigns`.`assigned_to` = 193) OR ((`campaigns`.`user_id` = 193) OR (`campaigns`.`access` = 'Public'))) AND `campaigns`.`id` = 33 LIMIT 1

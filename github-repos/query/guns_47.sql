@@ -1,0 +1,1 @@
+select dept_id AS id, pid as "pId", simple_name as name, ( CASE WHEN (pid = 0 OR pid IS NULL) THEN 'true' ELSE 'false' END ) as "open" from sys_dept

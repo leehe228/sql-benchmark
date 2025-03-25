@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`story_id` IS NULL AND (1=0) AND `tags`.`tag` = 'tag1' LIMIT 1

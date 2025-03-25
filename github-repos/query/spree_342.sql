@@ -1,0 +1,1 @@
+SELECT `spree_oauth_access_tokens`.* FROM `spree_oauth_access_tokens` WHERE `spree_oauth_access_tokens`.`token` = 'okEqv8Pdo8_BC1sNiKNHhSqa7xrxnUG6VGEdg3kKNCk' LIMIT 1

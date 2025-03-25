@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" INNER JOIN "topic_allowed_groups" ON "groups"."id" = "topic_allowed_groups"."group_id" WHERE "topic_allowed_groups"."topic_id" = 15872 ORDER BY "groups"."id" ASC LIMIT 1

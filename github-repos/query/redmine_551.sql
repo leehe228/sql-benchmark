@@ -1,0 +1,1 @@
+SELECT `auth_sources`.* FROM `auth_sources`

@@ -1,0 +1,1 @@
+SELECT "bookmarks".* FROM "bookmarks" WHERE "bookmarks"."post_id" = 20061 AND "bookmarks"."user_id" = 7304 LIMIT 1

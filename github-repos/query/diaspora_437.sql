@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` WHERE `contacts`.`user_id` = 302 ORDER BY `contacts`.`id` ASC LIMIT 100

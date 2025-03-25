@@ -1,0 +1,1 @@
+SELECT "user_profile_views".* FROM "user_profile_views" WHERE "user_profile_views"."user_profile_id" = 232

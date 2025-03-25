@@ -1,0 +1,1 @@
+SELECT "topic_search_data".* FROM "topic_search_data" WHERE "topic_search_data"."topic_id" = 17635 LIMIT 1

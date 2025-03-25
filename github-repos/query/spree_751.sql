@@ -1,0 +1,1 @@
+SELECT `spree_addresses`.* FROM `spree_addresses` WHERE `spree_addresses`.`id` IS NULL LIMIT 1

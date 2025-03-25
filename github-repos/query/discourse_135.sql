@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" INNER JOIN uploads ON access_control_post_id = posts.id WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15593

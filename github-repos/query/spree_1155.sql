@@ -1,0 +1,1 @@
+SELECT `spree_prototypes`.* FROM `spree_prototypes`

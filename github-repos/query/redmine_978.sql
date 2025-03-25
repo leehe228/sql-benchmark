@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`status` = 1 AND `users`.`status` = 1 AND (users.id NOT IN (SELECT DISTINCT user_id FROM members WHERE project_id IN (2332))) ORDER BY users.type DESC, users.firstname, users.lastname, users.id LIMIT 100 OFFSET 0

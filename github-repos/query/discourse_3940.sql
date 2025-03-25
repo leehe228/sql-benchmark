@@ -1,0 +1,1 @@
+SELECT "api_keys".* FROM "api_keys" WHERE "api_keys"."user_id" = 6693 ORDER BY "api_keys"."id" ASC LIMIT 1000

@@ -1,0 +1,1 @@
+SELECT "drafts".* FROM "drafts" WHERE "drafts"."user_id" = 1258 ORDER BY "drafts"."updated_at" DESC LIMIT 30 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE (`spree_products`.discontinue_on IS NULL or `spree_products`.discontinue_on >= '2020-05-01 07:07:40.490125') LIMIT 25 OFFSET 0

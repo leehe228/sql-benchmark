@@ -1,0 +1,1 @@
+SELECT `issues`.`id` FROM `issues` JOIN issues ancestors ON ancestors.root_id = issues.root_id AND ancestors.lft <= issues.lft AND ancestors.rgt >= issues.rgt WHERE `ancestors`.`id` = 2

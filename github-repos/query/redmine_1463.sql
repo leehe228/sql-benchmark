@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `boards` WHERE `boards`.`project_id` = 1

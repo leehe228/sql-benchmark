@@ -1,0 +1,1 @@
+SELECT "category_tag_groups".* FROM "category_tag_groups" WHERE "category_tag_groups"."tag_group_id" = 491

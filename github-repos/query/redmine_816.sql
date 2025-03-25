@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`name` = '[foo]eCookbook' LIMIT 1

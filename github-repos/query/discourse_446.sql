@@ -1,0 +1,1 @@
+SELECT "javascript_caches".* FROM "javascript_caches" WHERE "javascript_caches"."theme_id" = 1017 LIMIT 1

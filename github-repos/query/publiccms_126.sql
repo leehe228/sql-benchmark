@@ -1,0 +1,1 @@
+select cmstag0_.id as id1_13_, cmstag0_.name as name2_13_, cmstag0_.search_count as search_c3_13_, cmstag0_.site_id as site_id4_13_, cmstag0_.type_id as type_id5_13_ from cms_tag cmstag0_ where cmstag0_.id in (5)

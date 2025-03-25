@@ -1,0 +1,1 @@
+SELECT DISTINCT `projects`.`created_on`, `projects`.`id` FROM `projects` WHERE (projects.status <> 9) AND (((name LIKE '%value0%') OR (identifier LIKE '%value0%') OR (description LIKE '%value0%'))) ORDER BY `projects`.`created_on` DESC, `projects`.`id` DESC

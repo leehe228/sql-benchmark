@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`customer_return_id` = 5 ORDER BY id LIMIT 1 OFFSET 1

@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`id` = 9 ORDER BY `enumerations`.`position` ASC LIMIT 1

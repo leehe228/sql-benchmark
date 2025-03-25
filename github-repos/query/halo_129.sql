@@ -1,0 +1,1 @@
+select menu0_.id as col_0_0_ from menus menu0_ where menu0_.name='d' limit 1

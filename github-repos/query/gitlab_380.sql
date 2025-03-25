@@ -1,0 +1,1 @@
+SELECT "user_preferences".* FROM "user_preferences" WHERE "user_preferences"."user_id" = $1 LIMIT $2 /*application:test,controller:abuse_reports,action:new,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

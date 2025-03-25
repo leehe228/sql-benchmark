@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" INNER JOIN "tags" "target_tags_tags" ON "target_tags_tags"."id" = "tags"."target_tag_id" WHERE (lower(tags.name) IN ('tag57'))

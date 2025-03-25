@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_credit_cards` WHERE `spree_credit_cards`.`deleted_at` IS NULL AND `spree_credit_cards`.`user_id` = 1 AND `spree_credit_cards`.`gateway_customer_profile_id` IS NOT NULL LIMIT 25 OFFSET 0) subquery_for_count

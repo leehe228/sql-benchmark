@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE "categories"."parent_category_id" = 3085

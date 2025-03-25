@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE 1=0 ORDER BY `users`.`id` ASC LIMIT 1000

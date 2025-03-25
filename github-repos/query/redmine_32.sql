@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`root_id` = 3131 AND (issues.lft <= 2 AND issues.rgt >= 3) ORDER BY `issues`.`lft` ASC

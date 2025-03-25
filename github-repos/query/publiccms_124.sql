@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_app_token sysapptoke0_ where sysapptoke0_.app_id=1

@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`recipient_id` = 1 AND `notifications`.`guid` = '06a8b2506c3101384b8408e9fe568a11' ORDER BY `notifications`.`id` ASC LIMIT 1

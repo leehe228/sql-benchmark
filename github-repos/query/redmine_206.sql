@@ -1,0 +1,1 @@
+SELECT `wiki_redirects`.* FROM `wiki_redirects` WHERE `wiki_redirects`.`wiki_id` = 1 AND (LOWER(title) = LOWER('Invalid_Page')) ORDER BY `wiki_redirects`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM topic t LEFT JOIN user u ON t.user_id = u.id WHERE t.in_time BETWEEN '2019-10-11' AND '2019-10-26'

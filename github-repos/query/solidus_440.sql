@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`reception_status` NOT IN ('cancelled', 'expired', 'unexchanged') AND `spree_return_items`.`inventory_unit_id` = 1312 LIMIT 1

@@ -1,0 +1,1 @@
+select dict0_.id as id1_2_, dict0_.name as name2_2_, dict0_.remark as remark3_2_ from dict dict0_ where 1=1 order by dict0_.id desc limit 10

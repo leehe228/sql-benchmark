@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` WHERE `spree_variants`.`product_id` = 55 AND (`spree_variants`.`position` IS NOT NULL) ORDER BY `spree_variants`.`position` DESC LIMIT 1

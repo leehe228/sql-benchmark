@@ -1,0 +1,1 @@
+SELECT `friendly_id_slugs`.* FROM `friendly_id_slugs` WHERE `friendly_id_slugs`.`sluggable_id` = 1143 AND `friendly_id_slugs`.`sluggable_type` = 'Spree::Product' ORDER BY `friendly_id_slugs`.`id` DESC

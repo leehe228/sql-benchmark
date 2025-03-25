@@ -1,0 +1,1 @@
+SELECT "theme_settings".* FROM "theme_settings" WHERE "theme_settings"."theme_id" = 1021

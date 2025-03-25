@@ -1,0 +1,1 @@
+SELECT * FROM options limit 1

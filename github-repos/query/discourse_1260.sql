@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (string_to_array(incoming_email, '|') @> ARRAY['list@example.com']) ORDER BY "groups"."id" ASC LIMIT 1

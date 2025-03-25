@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE (users.id > 0) AND (admin OR moderator OR id = 247)

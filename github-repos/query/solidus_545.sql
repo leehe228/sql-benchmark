@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_variants` LEFT OUTER JOIN `spree_products` ON `spree_products`.`id` = `spree_variants`.`product_id` WHERE `spree_variants`.`deleted_at` IS NULL AND (`spree_products`.`name` LIKE '%fritos%' OR `spree_variants`.`sku` LIKE '%fritos%') LIMIT 25 OFFSET 0) subquery_for_count

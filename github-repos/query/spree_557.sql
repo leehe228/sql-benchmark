@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` WHERE `spree_states`.`country_id` = 3 ORDER BY name DESC LIMIT 1

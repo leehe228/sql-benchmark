@@ -1,0 +1,1 @@
+SELECT id,name,value,pid FROM permission WHERE pid = 0

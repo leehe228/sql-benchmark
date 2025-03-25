@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` WHERE `refinery_pages`.`id` = 400 ORDER BY `refinery_pages`.`lft` ASC LIMIT 1

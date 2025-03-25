@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_taxons` WHERE `spree_taxons`.`lft` <= 4 AND `spree_taxons`.`rgt` >= 5 AND (`spree_taxons`.`id` != 17)

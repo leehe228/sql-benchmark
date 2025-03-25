@@ -1,0 +1,1 @@
+SELECT `tasks`.* FROM `tasks` WHERE ((user_id = 1564 AND assigned_to IS NULL) OR assigned_to = 1564) AND (completed_at >= '2020-05-15 00:00:00' AND completed_at < '2020-05-16 00:00:00') AND (completed_at IS NOT NULL) ORDER BY name ASC, tasks.completed_at DESC

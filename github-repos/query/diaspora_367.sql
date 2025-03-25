@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` WHERE `aspects`.`user_id` = 1786 AND `aspects`.`name` = 'Friends' ORDER BY order_id ASC LIMIT 1

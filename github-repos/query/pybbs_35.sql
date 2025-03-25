@@ -1,0 +1,1 @@
+SELECT tag_id,topic_id FROM topic_tag WHERE topic_id = 3

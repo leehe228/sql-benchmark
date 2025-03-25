@@ -1,0 +1,1 @@
+select menu_id, menu_name, menu_url, menu_level, menu_icon, menu_order from menu where menu_id = 3

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `projects` WHERE `projects`.`status` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_states`.* FROM `spree_states` WHERE (name = 'California' OR abbr = 'California')

@@ -1,0 +1,1 @@
+SELECT `taggings`.* FROM `taggings` WHERE `taggings`.`taggable_id` = 2 AND `taggings`.`taggable_type` = 'Profile' AND `taggings`.`tagger_id` IS NULL AND `taggings`.`tagger_type` IS NULL AND `taggings`.`context` = 'tags' AND `taggings`.`tag_id` IN (1, 2)

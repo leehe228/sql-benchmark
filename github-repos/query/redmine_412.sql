@@ -1,0 +1,1 @@
+SELECT `issue_relations`.* FROM `issue_relations` WHERE `issue_relations`.`issue_from_id` = 3150 AND `issue_relations`.`relation_type` = 'precedes'

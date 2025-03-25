@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `participations` WHERE `participations`.`author_id` = 1 AND `participations`.`target_id` = 797 LIMIT 1

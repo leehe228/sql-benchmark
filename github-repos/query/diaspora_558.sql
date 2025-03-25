@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`author_id` = 5878 AND (created_at < '2021-04-28T06:21:48.000Z') ORDER BY created_at DESC LIMIT 15

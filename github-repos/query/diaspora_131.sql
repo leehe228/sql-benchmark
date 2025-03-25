@@ -1,0 +1,1 @@
+SELECT `polls`.* FROM `polls` WHERE `polls`.`status_message_id` = 801 LIMIT 1

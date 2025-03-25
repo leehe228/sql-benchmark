@@ -1,0 +1,1 @@
+select dept0_.id as id1_1_0_, dept0_.create_time as create_t2_1_0_, dept0_.enabled as enabled3_1_0_, dept0_.name as name4_1_0_, dept0_.pid as pid5_1_0_ from dept dept0_ where dept0_.id=2

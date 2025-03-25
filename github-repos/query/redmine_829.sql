@@ -1,0 +1,1 @@
+SELECT `custom_values`.* FROM `custom_values` ORDER BY `custom_values`.`id` DESC LIMIT 1

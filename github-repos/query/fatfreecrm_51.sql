@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `contacts` WHERE `contacts`.`user_id` = 33 LIMIT 1

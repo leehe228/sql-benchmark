@@ -1,0 +1,1 @@
+SELECT DISTINCT `projects`.* FROM `projects` LEFT JOIN projects child ON projects.lft <= child.lft AND projects.rgt >= child.rgt WHERE (((projects.status <> 9) AND ((projects.is_public = TRUE AND projects.id NOT IN (SELECT project_id FROM members WHERE user_id IN (6,13)))))) AND (child.id IN (1,3)) ORDER BY projects.lft ASC

@@ -1,0 +1,1 @@
+select idgenerati0_.ID_TYPE as ID_TYPE1_76_, idgenerati0_.BATCH_SIZE as BATCH_SI2_76_, idgenerati0_.BATCH_START as BATCH_ST3_76_, idgenerati0_.ID_MIN as ID_MIN4_76_, idgenerati0_.ID_MAX as ID_MAX5_76_, idgenerati0_.version as version6_76_ from BLC_ID_GENERATION idgenerati0_ where idgenerati0_.ID_TYPE='org.broadleafcommerce.profile.core.domain.Customer'

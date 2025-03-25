@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`type` IN ('IssuePriority') AND (LOWER(enumerations.name) = LOWER('High')) ORDER BY `enumerations`.`position` ASC LIMIT 1

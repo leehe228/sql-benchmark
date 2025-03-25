@@ -1,0 +1,1 @@
+SELECT "watched_words"."word" FROM "watched_words" WHERE "watched_words"."action" = 2 LIMIT 1000

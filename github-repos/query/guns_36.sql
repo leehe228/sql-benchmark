@@ -1,0 +1,1 @@
+SELECT dict_id,dict_type_id,code,name,parent_id,parent_ids,status,sort,description,create_time,update_time,create_user,update_user FROM sys_dict WHERE dict_type_id = 1106120208097067009

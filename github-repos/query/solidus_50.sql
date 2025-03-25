@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `stock_location_id` AS stock_location_id FROM `spree_inventory_units` INNER JOIN `spree_shipments` ON `spree_shipments`.`id` = `spree_inventory_units`.`shipment_id` WHERE `spree_inventory_units`.`line_item_id` = 746 AND `spree_inventory_units`.`pending` = TRUE GROUP BY `stock_location_id`

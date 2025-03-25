@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` ORDER BY `spree_users`.`email` DESC LIMIT 25 OFFSET 0

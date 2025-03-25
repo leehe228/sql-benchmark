@@ -1,0 +1,1 @@
+select cmsdiction0_.dictionary_id as dictiona1_10_0_, cmsdiction0_.site_id as site_id2_10_0_, cmsdiction0_.value as value3_10_0_, cmsdiction0_.text as text4_10_0_ from cms_dictionary_data cmsdiction0_ where cmsdiction0_.dictionary_id='tags' and cmsdiction0_.site_id=1 and cmsdiction0_.value='Tag1'

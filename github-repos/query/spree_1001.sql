@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`name` = 'Some name' AND `spree_taxons`.`parent_id` = 72 ORDER BY `spree_taxons`.`id` ASC LIMIT 1

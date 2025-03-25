@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`email` = 'user-292@example.com' AND `users`.`id` != 237 LIMIT 1

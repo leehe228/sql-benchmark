@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `refinery_resource_translations`

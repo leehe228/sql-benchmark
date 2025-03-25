@@ -1,0 +1,1 @@
+SELECT "category_users"."category_id", "category_users"."notification_level" FROM "category_users" WHERE "category_users"."user_id" = 296

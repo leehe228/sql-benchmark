@@ -1,0 +1,1 @@
+SELECT `photos`.* FROM `photos` WHERE `photos`.`author_id` = 1 AND `photos`.`public` = TRUE AND `photos`.`pending` = FALSE AND (created_at < '2021-04-28T06:21:32.000Z') ORDER BY created_at DESC LIMIT 15

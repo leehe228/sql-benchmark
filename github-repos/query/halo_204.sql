@@ -1,0 +1,1 @@
+select count(postcommen0_.id) as col_0_0_ from comments postcommen0_ where postcommen0_.type=0 and postcommen0_.post_id=14 and postcommen0_.status=0 and postcommen0_.parent_id=0

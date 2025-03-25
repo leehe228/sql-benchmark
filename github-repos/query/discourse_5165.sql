@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE (NOT categories.read_restricted) AND "categories"."parent_category_id" IS NOT NULL

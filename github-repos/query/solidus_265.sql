@@ -1,0 +1,1 @@
+SELECT `spree_promotion_codes`.* FROM `spree_promotion_codes` WHERE `spree_promotion_codes`.`value` = 'foo' ORDER BY `spree_promotion_codes`.`id` ASC LIMIT 1

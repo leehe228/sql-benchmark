@@ -1,0 +1,1 @@
+SELECT "category_tags".* FROM "category_tags" WHERE "category_tags"."category_id" = 1

@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`adjustable_type` = 'Spree::LineItem' AND `spree_adjustments`.`adjustable_id` IN (SELECT `spree_line_items`.`id` FROM `spree_line_items` WHERE `spree_line_items`.`order_id` = 1 ORDER BY `spree_line_items`.`created_at` ASC) AND `spree_adjustments`.`source_type` = 'Spree::TaxRate'

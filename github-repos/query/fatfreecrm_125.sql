@@ -1,0 +1,1 @@
+SELECT `tasks`.* FROM `tasks` WHERE ((user_id = 1558 AND assigned_to IS NULL) OR assigned_to = 1558) AND ((due_at IS NULL AND bucket = 'due_later') OR due_at >= '2020-05-25 23:59:59.999999') AND (completed_at IS NULL) ORDER BY name ASC, tasks.id DESC, tasks.due_at, tasks.id

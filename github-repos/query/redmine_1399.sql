@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `auth_sources` WHERE `auth_sources`.`name` = 'Renamed' AND `auth_sources`.`id` != 1 LIMIT 1

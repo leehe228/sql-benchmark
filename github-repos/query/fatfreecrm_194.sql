@@ -1,0 +1,1 @@
+SELECT `campaigns`.* FROM `campaigns` WHERE (name LIKE '%Got milk%') ORDER BY `campaigns`.`id` ASC LIMIT 1

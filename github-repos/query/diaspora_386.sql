@@ -1,0 +1,1 @@
+SELECT `aspects`.* FROM `aspects` INNER JOIN `aspect_memberships` ON `aspect_memberships`.`aspect_id` = `aspects`.`id` WHERE `aspects`.`user_id` = 1 AND `aspect_memberships`.`id` = 370 ORDER BY order_id ASC LIMIT 1

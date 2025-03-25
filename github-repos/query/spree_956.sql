@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`taxonomy_id` = 36 ORDER BY `spree_taxons`.`id` ASC LIMIT 1

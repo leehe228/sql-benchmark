@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `accounts` WHERE ((`accounts`.`assigned_to` = 271) OR ((`accounts`.`user_id` = 271) OR (`accounts`.`access` = 'Public'))) AND `accounts`.`category` = 'affiliate'

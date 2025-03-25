@@ -1,0 +1,1 @@
+SELECT "tags"."name" FROM "tags" INNER JOIN "topic_tags" ON "topic_tags"."tag_id" = "tags"."id" WHERE (topic_tags.topic_id = 15755) LIMIT 3

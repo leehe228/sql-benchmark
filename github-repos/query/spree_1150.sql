@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_stock_transfers` ORDER BY `spree_stock_transfers`.`created_at` DESC LIMIT 25 OFFSET 0) subquery_for_count

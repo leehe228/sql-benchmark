@@ -1,0 +1,1 @@
+SELECT "locations".* FROM "locations" WHERE (name ~* 'china') ORDER BY "locations"."id" ASC LIMIT $1

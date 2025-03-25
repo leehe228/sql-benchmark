@@ -1,0 +1,1 @@
+select permission0_.id as id1_10_0_, permission0_.alias as alias2_10_0_, permission0_.create_time as create_t3_10_0_, permission0_.name as name4_10_0_, permission0_.pid as pid5_10_0_ from permission permission0_ where permission0_.id=6

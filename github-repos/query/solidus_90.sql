@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_inventory_units` WHERE `spree_inventory_units`.`id` = -1

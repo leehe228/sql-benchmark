@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` INNER JOIN `spree_property_prototypes` ON `spree_properties`.`id` = `spree_property_prototypes`.`property_id` WHERE `spree_property_prototypes`.`prototype_id` = 1

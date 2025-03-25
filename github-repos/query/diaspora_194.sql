@@ -1,0 +1,1 @@
+SELECT `polls`.* FROM `polls` WHERE `polls`.`guid` = '441535906c3001384b7e08e9fe568a11' LIMIT 1

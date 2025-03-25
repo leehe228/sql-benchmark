@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` ORDER BY `issues`.`id` DESC LIMIT 9

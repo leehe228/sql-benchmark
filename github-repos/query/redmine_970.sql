@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` INNER JOIN `roles_managed_roles` ON `roles`.`id` = `roles_managed_roles`.`managed_role_id` WHERE `roles_managed_roles`.`role_id` = 1

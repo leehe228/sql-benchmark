@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = -1 AND 1=0 AND "posts"."id" IN (SELECT "post_actions"."post_id" FROM "post_actions" WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."post_action_type_id" IN (3, 4, 8, 7) AND "post_actions"."disagreed_at" IS NOT NULL) ORDER BY "posts"."created_at" DESC LIMIT 60 OFFSET 0

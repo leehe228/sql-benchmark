@@ -1,0 +1,1 @@
+SELECT "topic_custom_fields"."name", "topic_custom_fields"."value" FROM "topic_custom_fields" WHERE "topic_custom_fields"."topic_id" = 15956 ORDER BY id asc

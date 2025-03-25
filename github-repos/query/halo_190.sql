@@ -1,0 +1,1 @@
+select count(post0_.id) as col_0_0_ from posts post0_ where post0_.type=0

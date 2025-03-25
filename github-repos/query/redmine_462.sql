@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (((projects.status <> 9) AND ((projects.is_public = TRUE AND projects.id NOT IN (SELECT project_id FROM members WHERE user_id IN (3,12))) OR projects.id IN (1)))) AND ((projects.status IN ('1'))) ORDER BY projects.lft ASC

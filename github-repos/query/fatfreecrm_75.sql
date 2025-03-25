@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions`

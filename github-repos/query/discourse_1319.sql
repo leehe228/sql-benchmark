@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" WHERE "tags"."target_tag_id" IN (1653, 1654)

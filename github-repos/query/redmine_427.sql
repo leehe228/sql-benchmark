@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `email_addresses` WHERE `email_addresses`.`address` = 'even.newer.mail@test.com' AND `email_addresses`.`id` != 2 LIMIT 1

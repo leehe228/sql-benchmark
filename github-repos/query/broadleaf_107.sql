@@ -1,0 +1,1 @@
+select featuredpr0_.FEATURED_PRODUCT_ID as FEATURED1_123_, featuredpr0_.CATEGORY_ID as CATEGORY4_123_, featuredpr0_.PRODUCT_ID as PRODUCT_5_123_, featuredpr0_.PROMOTION_MESSAGE as PROMOTIO2_123_, featuredpr0_.SEQUENCE as SEQUENCE3_123_ from BLC_PRODUCT_FEATURED featuredpr0_ where featuredpr0_.CATEGORY_ID=2001 and featuredpr0_.PRODUCT_ID=100

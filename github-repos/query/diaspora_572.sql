@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 2544 AND `posts`.`public` = TRUE LIMIT 1

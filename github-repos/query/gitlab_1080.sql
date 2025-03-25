@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "oauth_applications" /*application:test,correlation_id:1c10894af5d4e46be790985e298358d4*/

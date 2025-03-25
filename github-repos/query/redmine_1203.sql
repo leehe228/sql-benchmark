@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` ORDER BY `queries`.`id` DESC LIMIT 1

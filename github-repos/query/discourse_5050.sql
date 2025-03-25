@@ -1,0 +1,1 @@
+SELECT "topic_search_data"."topic_id" FROM "topic_search_data"

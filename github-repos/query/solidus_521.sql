@@ -1,0 +1,1 @@
+SELECT `spree_promotion_categories`.* FROM `spree_promotion_categories` ORDER BY `spree_promotion_categories`.`name` ASC

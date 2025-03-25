@@ -1,0 +1,1 @@
+SELECT `suggested_taggings`.* FROM `suggested_taggings` WHERE `suggested_taggings`.`story_id` = 32

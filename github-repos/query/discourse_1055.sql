@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (mentionable_level in (99) OR ( mentionable_level = 3 AND id in ( SELECT group_id FROM group_users WHERE user_id = 761) ) OR ( mentionable_level = 4 AND id in ( SELECT group_id FROM group_users WHERE user_id = 761 AND owner IS TRUE) ) OR visibility_level = 0) AND "groups"."id" = 2581

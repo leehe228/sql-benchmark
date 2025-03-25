@@ -1,0 +1,1 @@
+SELECT `spree_reimbursement_credits`.* FROM `spree_reimbursement_credits` WHERE `spree_reimbursement_credits`.`reimbursement_id` = 1

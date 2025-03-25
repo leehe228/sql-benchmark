@@ -1,0 +1,1 @@
+SELECT "category_users".* FROM "category_users" WHERE "category_users"."category_id" = 1 AND "category_users"."user_id" = 941

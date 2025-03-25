@@ -1,0 +1,1 @@
+select customerat0_.CUSTOMER_ID as CUSTOMER4_42_1_, customerat0_.CUSTOMER_ATTR_ID as CUSTOMER1_42_1_, customerat0_.NAME as formula5_1_, customerat0_.CUSTOMER_ATTR_ID as CUSTOMER1_42_0_, customerat0_.CUSTOMER_ID as CUSTOMER4_42_0_, customerat0_.NAME as NAME2_42_0_, customerat0_.VALUE as VALUE3_42_0_ from BLC_CUSTOMER_ATTRIBUTE customerat0_ where customerat0_.CUSTOMER_ID=100

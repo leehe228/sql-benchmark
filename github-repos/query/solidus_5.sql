@@ -1,0 +1,1 @@
+SELECT `spree_line_items`.* FROM `spree_line_items` WHERE `spree_line_items`.`id` = 12 LIMIT 1

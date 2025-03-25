@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" INNER JOIN "child_themes" ON "themes"."id" = "child_themes"."parent_theme_id" WHERE "child_themes"."child_theme_id" = 1017 ORDER BY "themes"."name" ASC

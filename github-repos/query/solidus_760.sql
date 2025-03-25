@@ -1,0 +1,1 @@
+SELECT `spree_zones`.* FROM `spree_zones` WHERE `spree_zones`.`name` LIKE '%south%' ORDER BY name ASC LIMIT 25 OFFSET 0

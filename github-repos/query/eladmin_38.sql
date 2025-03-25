@@ -1,0 +1,1 @@
+select visits0_.id as id1_24_, visits0_.create_time as create_t2_24_, visits0_.date as date3_24_, visits0_.ip_counts as ip_count4_24_, visits0_.pv_counts as pv_count5_24_, visits0_.week_day as week_day6_24_ from visits visits0_ where visits0_.date='2019-10-31'

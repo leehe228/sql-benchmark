@@ -1,0 +1,1 @@
+SELECT DISTINCT `roles`.* FROM `roles` WHERE `roles`.`id` IN (1, 2)

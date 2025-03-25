@@ -1,0 +1,1 @@
+SELECT "reviewable_scores".* FROM "reviewable_scores" WHERE "reviewable_scores"."reviewable_id" = 1595 ORDER BY "reviewable_scores"."created_at" DESC

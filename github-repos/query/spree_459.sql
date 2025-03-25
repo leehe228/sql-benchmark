@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE `spree_users`.`spree_api_key` = '473b87171ebd116dd54f969f5225d78996b2a4ab5ea2da9a' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `posts` WHERE `posts`.`id` = 2293 AND `posts`.`id` != 2293 LIMIT 1

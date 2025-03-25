@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `comments` WHERE `comments`.`user_id` = 53 AND (created_at >= now() - interval 30 day AND is_moderated)

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `ppid` WHERE `ppid`.`guid` = '28b6f61cc6a0cbebe5544d48a8190f00' LIMIT 1

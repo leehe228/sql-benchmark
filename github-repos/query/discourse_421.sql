@@ -1,0 +1,1 @@
+SELECT "embeddable_hosts".* FROM "embeddable_hosts" WHERE (lower(host) = 'test.localhost')

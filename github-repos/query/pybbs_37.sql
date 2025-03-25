@@ -1,0 +1,1 @@
+SELECT topic_id,user_id,in_time FROM collect WHERE topic_id = 3 AND user_id = 1

@@ -1,0 +1,1 @@
+SELECT `spree_addresses`.* FROM `spree_addresses` WHERE `spree_addresses`.`user_id` = 1714 AND `spree_addresses`.`deleted_at` IS NULL ORDER BY updated_at DESC

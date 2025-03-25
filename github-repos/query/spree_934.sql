@@ -1,0 +1,1 @@
+SELECT `spree_refunds`.* FROM `spree_refunds` ORDER BY `spree_refunds`.`id` DESC LIMIT 1

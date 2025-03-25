@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `wiki_pages` WHERE `wiki_pages`.`wiki_id` = 1

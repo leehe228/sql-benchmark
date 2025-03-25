@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_dict_type WHERE (code = 'd' OR name = 'd')

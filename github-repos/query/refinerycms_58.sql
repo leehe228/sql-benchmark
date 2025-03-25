@@ -1,0 +1,1 @@
+SELECT `refinery_page_translations`.* FROM `refinery_page_translations` WHERE `refinery_page_translations`.`locale` = 'en' ORDER BY `refinery_page_translations`.`id` ASC LIMIT 1

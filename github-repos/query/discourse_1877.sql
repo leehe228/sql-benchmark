@@ -1,0 +1,1 @@
+SELECT "category_custom_fields".* FROM "category_custom_fields" WHERE "category_custom_fields"."category_id" = 3204

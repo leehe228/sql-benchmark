@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "post_revisions" WHERE "post_revisions"."post_id" = 18118

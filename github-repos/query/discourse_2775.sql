@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "group_users" ON "users"."id" = "group_users"."user_id" WHERE "group_users"."group_id" = 2796 AND (group_users.notification_level = 2) ORDER BY "users"."id" ASC LIMIT 1000

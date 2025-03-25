@@ -1,0 +1,1 @@
+SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1032 LIMIT 1

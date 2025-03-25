@@ -1,0 +1,1 @@
+SELECT "topic_links"."id", "topic_links"."user_id" FROM "topic_links" WHERE (url = '/relative-url' OR url = 'http://test.localhost/relative-url') AND "topic_links"."post_id" = 16801 ORDER BY "topic_links"."id" ASC LIMIT 1

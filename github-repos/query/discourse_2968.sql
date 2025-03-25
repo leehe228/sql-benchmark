@@ -1,0 +1,1 @@
+SELECT "category_groups"."group_id", "category_groups"."permission_type" FROM "category_groups" WHERE "category_groups"."category_id" = 3461

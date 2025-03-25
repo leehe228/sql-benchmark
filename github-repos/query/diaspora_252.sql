@@ -1,0 +1,1 @@
+SELECT DISTINCT photos.* FROM `photos` LEFT OUTER JOIN share_visibilities ON share_visibilities.shareable_id = photos.id AND share_visibilities.shareable_type = 'Photo' WHERE (`share_visibilities`.`user_id` = 568 OR (`photos`.`public` = TRUE OR `photos`.`author_id` = 1949)) AND `photos`.`guid` = '95b1d5b06b4401384b7908e9fe568a11' ORDER BY `photos`.`id` ASC LIMIT 1

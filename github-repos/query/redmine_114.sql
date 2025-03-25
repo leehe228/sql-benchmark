@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.status <> 9) AND ((projects.parent_id IN ('1'))) ORDER BY projects.lft ASC LIMIT 25 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT MIN(`issues`.`start_date`) FROM `issues` WHERE `issues`.`project_id` = 1957

@@ -1,0 +1,1 @@
+SELECT "post_reply_keys".* FROM "post_reply_keys" WHERE "post_reply_keys"."post_id" = 20176 AND "post_reply_keys"."user_id" = 7691 LIMIT 1

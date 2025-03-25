@@ -1,0 +1,1 @@
+SELECT "tags"."name" FROM "tags" WHERE (lower(tags.name) IN ('hidden'))

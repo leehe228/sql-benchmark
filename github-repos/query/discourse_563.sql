@@ -1,0 +1,1 @@
+SELECT "topic_links".* FROM "topic_links" WHERE "topic_links"."topic_id" = 15644 AND "topic_links"."post_id" = 16436 AND "topic_links"."url" = 'http://test.localhost/t/this-is-a-test-topic-79/15642/4' LIMIT 1

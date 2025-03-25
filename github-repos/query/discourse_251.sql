@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE (username_lower = 'foo' AND id != 149) LIMIT 1

@@ -1,0 +1,1 @@
+SELECT category_id, category_pid, category_name, category_description, category_order, category_icon FROM category order by category_order desc,category_id asc

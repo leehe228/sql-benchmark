@@ -1,0 +1,1 @@
+select tag0_.id as id1_13_, tag0_.create_time as create_t2_13_, tag0_.deleted as deleted3_13_, tag0_.update_time as update_t4_13_, tag0_.name as name5_13_, tag0_.slug_name as slug_nam6_13_ from tags tag0_ where tag0_.slug_name='2'

@@ -1,0 +1,1 @@
+SELECT SUM(`issues`.`estimated_hours`) FROM `issues` INNER JOIN `projects` ON `projects`.`id` = `issues`.`project_id` WHERE `issues`.`root_id` = 3223 AND (issues.lft >= 2 AND issues.rgt <= 5) AND (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='issue_tracking'))

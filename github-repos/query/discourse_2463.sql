@@ -1,0 +1,1 @@
+SELECT id,username FROM "users" WHERE "users"."username" = 'bruce3483'

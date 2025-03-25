@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_role_authorized sysroleaut0_ where (sysroleaut0_.role_id in (1)) and sysroleaut0_.url='cmsContent/move'

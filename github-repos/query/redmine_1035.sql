@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('Group', 'GroupBuiltin', 'GroupAnonymous', 'GroupNonMember') AND (LOWER(users.lastname) = LOWER('Group 2')) ORDER BY `users`.`id` ASC LIMIT 1

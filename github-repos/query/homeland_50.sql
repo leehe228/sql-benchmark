@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."type" IS NULL AND (lower(login) IN ('login818')) LIMIT $1

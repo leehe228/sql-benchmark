@@ -1,0 +1,1 @@
+SELECT `versions`.* FROM `versions` WHERE (`versions`.`id` = 2 OR `versions`.`id` IS NULL)

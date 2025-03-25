@@ -1,0 +1,1 @@
+SELECT "bookmarks".* FROM "bookmarks" WHERE "bookmarks"."id" = 414 LIMIT 1

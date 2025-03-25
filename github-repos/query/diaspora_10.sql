@@ -1,0 +1,1 @@
+SELECT `authorizations`.* FROM `authorizations` WHERE `authorizations`.`id` = 1170 LIMIT 1

@@ -1,0 +1,1 @@
+select roles0_.menu_id as menu_id2_18_0_, roles0_.role_id as role_id1_18_0_, role1_.id as id1_16_1_, role1_.create_time as create_t2_16_1_, role1_.data_scope as data_sco3_16_1_, role1_.level as level4_16_1_, role1_.name as name5_16_1_, role1_.remark as remark6_16_1_ from roles_menus roles0_ inner join role role1_ on roles0_.role_id=role1_.id where roles0_.menu_id=33

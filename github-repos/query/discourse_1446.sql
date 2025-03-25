@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, "posts"."user_id" AS posts_user_id FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."post_type" = 1 AND "posts"."topic_id" = 16061 AND (post_number > 1) GROUP BY "posts"."user_id"

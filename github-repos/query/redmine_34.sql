@@ -1,0 +1,1 @@
+SELECT `issues`.`id` FROM `issues` WHERE (root_id IN (SELECT root_id FROM issues WHERE id IN (3133))) ORDER BY `issues`.`id` ASC FOR UPDATE

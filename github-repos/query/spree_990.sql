@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`order_id` = 1351 AND `spree_adjustments`.`eligible` = TRUE ORDER BY `spree_adjustments`.`id` ASC LIMIT 1

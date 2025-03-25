@@ -1,0 +1,1 @@
+SELECT "uploads"."id" FROM "uploads" WHERE 1=0

@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` INNER JOIN `refinery_page_translations` ON `refinery_page_translations`.`refinery_page_id` = `refinery_pages`.`id` WHERE `refinery_pages`.`parent_id` IS NULL AND `refinery_page_translations`.`locale` = 'ru' ORDER BY `refinery_pages`.`lft` ASC LIMIT 14 OFFSET 0

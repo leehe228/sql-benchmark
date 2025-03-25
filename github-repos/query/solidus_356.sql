@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_users` WHERE `spree_users`.`id` = 230 LIMIT 25 OFFSET 0) subquery_for_count

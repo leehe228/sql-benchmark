@@ -1,0 +1,1 @@
+select genconfig0_.id as id1_5_0_, genconfig0_.api_path as api_path2_5_0_, genconfig0_.author as author3_5_0_, genconfig0_.cover as cover4_5_0_, genconfig0_.module_name as module_n5_5_0_, genconfig0_.pack as pack6_5_0_, genconfig0_.path as path7_5_0_, genconfig0_.prefix as prefix8_5_0_ from gen_config genconfig0_ where genconfig0_.id=1

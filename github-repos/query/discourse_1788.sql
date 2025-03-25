@@ -1,0 +1,1 @@
+SELECT "post_revisions"."number" FROM "post_revisions" WHERE "post_revisions"."post_id" = 17275 ORDER BY "post_revisions"."number" ASC

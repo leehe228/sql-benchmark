@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE "users"."admin" = FALSE AND "users"."staged" = FALSE AND (lower(user_emails.email) IN ('iceking@adventuretime.ooo')) ORDER BY "users"."id" ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" AND "user_emails"."primary" = TRUE ORDER BY users.created_at DESC,users.username LIMIT 100 OFFSET 0

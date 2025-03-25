@@ -1,0 +1,1 @@
+SELECT SUM(`poll_answers`.`vote_count`) FROM `poll_answers` WHERE `poll_answers`.`poll_id` = 105

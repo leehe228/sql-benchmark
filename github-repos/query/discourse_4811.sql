@@ -1,0 +1,1 @@
+SELECT "search_logs"."id" FROM "search_logs" ORDER BY "search_logs"."id" ASC LIMIT 1 OFFSET 5

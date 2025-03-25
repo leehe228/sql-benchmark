@@ -1,0 +1,1 @@
+SELECT "topic_links"."id", "topic_links"."user_id" FROM "topic_links" WHERE (url = 'https://cdn.discourse.org/stuff/my_link' OR url = 'http://cdn.discourse.org/stuff/my_link' OR url = '/my_link') AND "topic_links"."topic_id" = 15983 ORDER BY "topic_links"."id" ASC LIMIT 1

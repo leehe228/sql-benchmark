@@ -1,0 +1,1 @@
+SELECT `seo_meta`.* FROM `seo_meta` WHERE `seo_meta`.`seo_meta_type` = 'Refinery::Page::Translation' AND `seo_meta`.`seo_meta_id` = 636 ORDER BY `seo_meta`.`id` ASC LIMIT 1

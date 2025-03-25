@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND (users.status <> 0) AND `users`.`status` = 1 AND (users.id IN (SELECT gu.user_id FROM groups_users gu WHERE gu.group_id = 10)) ORDER BY login ASC LIMIT 25 OFFSET 0

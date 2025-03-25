@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sensitive_word WHERE word = 'fuck'

@@ -1,0 +1,1 @@
+SELECT "oauth_applications".* FROM "oauth_applications" WHERE "oauth_applications"."id" = $1 LIMIT $2 /*application:test,controller:applications,action:edit,correlation_id:53194acc340cdd8b2097f675ca508996*/

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `auth_sources` WHERE `auth_sources`.`name` = 'Auth 1' LIMIT 1

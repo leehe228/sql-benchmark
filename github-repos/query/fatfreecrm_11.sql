@@ -1,0 +1,1 @@
+SELECT `addresses`.* FROM `addresses` WHERE `addresses`.`addressable_id` = 1234 AND `addresses`.`addressable_type` = 'Contact' AND `addresses`.`address_type` = 'Business' LIMIT 1

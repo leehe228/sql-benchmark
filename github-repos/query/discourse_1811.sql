@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" INNER JOIN "post_uploads" ON "uploads"."id" = "post_uploads"."upload_id" WHERE "post_uploads"."post_id" = 17344

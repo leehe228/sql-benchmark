@@ -1,0 +1,1 @@
+SELECT `refinery_page_translations`.* FROM `refinery_page_translations` WHERE `refinery_page_translations`.`refinery_page_id` IN (400, 401)

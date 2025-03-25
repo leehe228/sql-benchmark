@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`type` IN ('Notifications::Reshared') AND `notifications`.`recipient_id` = 3 AND `notifications`.`target_type` = 'Post' AND `notifications`.`target_id` = 1893 AND `notifications`.`unread` = TRUE LIMIT 1

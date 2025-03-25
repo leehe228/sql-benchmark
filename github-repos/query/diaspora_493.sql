@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `likes` WHERE `likes`.`guid` = 'e11be9b06c3001384b8408e9fe568a11' AND `likes`.`author_id` = 5289 LIMIT 1

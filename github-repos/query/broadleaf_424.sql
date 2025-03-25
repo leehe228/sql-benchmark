@@ -1,0 +1,1 @@
+select count(urlhandler0_.URL_HANDLER_ID) as col_0_0_ from BLC_URL_HANDLER urlhandler0_ where 1=1

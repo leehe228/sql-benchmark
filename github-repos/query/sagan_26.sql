@@ -1,0 +1,1 @@
+select publicslug0_.post_id as post_id1_2_0_, publicslug0_.public_slug_aliases as public_s2_2_0_ from post_public_slug_aliases publicslug0_ where publicslug0_.post_id=5

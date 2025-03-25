@@ -1,0 +1,1 @@
+SELECT `spree_return_authorization_reasons`.* FROM `spree_return_authorization_reasons` WHERE `spree_return_authorization_reasons`.`id` = 7 ORDER BY LOWER(spree_return_authorization_reasons.name) LIMIT 1

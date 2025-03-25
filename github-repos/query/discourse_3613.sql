@@ -1,0 +1,1 @@
+SELECT "topic_embeds".* FROM "topic_embeds" WHERE ("topic_embeds"."deleted_at" IS NOT NULL) AND "topic_embeds"."embed_url" = 'http://nope.com' ORDER BY "topic_embeds"."id" ASC LIMIT 1

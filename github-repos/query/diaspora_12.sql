@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `blocks` WHERE `blocks`.`user_id` = 689 AND `blocks`.`person_id` = 2441 LIMIT 1

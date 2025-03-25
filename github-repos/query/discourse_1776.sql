@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "notifications" INNER JOIN "topics" ON "topics"."id" = "notifications"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE "notifications"."user_id" = 1517 AND (notifications.id > 0) AND (notifications.read = false) AND (topics.subtype = 'pending_users')

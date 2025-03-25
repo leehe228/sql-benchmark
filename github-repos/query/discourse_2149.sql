@@ -1,0 +1,1 @@
+SELECT "topic_embeds".* FROM "topic_embeds" WHERE ("topic_embeds"."deleted_at" IS NOT NULL) AND "topic_embeds"."topic_id" = 17039 LIMIT 1

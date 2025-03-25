@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM "top_topics" WHERE (daily_score > 0) LIMIT 2) subquery_for_count

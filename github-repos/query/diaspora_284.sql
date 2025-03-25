@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `account_deletions` WHERE `account_deletions`.`person_id` = 2230 LIMIT 1

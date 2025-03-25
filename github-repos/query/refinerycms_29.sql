@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS `size`, MAX(`refinery_pages`.`updated_at`) AS timestamp FROM `refinery_pages` WHERE `refinery_pages`.`lft` >= 1 AND `refinery_pages`.`lft` < 2

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `reports` WHERE `reports`.`reviewed` = FALSE

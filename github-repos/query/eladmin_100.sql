@@ -1,0 +1,1 @@
+select dictdetail0_.id as id1_3_, dictdetail0_.dict_id as dict_id5_3_, dictdetail0_.label as label2_3_, dictdetail0_.sort as sort3_3_, dictdetail0_.value as value4_3_ from dict_detail dictdetail0_ left outer join dict dict1_ on dictdetail0_.dict_id=dict1_.id where dict1_.name='dept_status' order by dictdetail0_.sort asc limit 2000

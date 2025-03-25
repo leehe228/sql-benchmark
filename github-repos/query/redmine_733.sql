@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`container_id` = 3 AND `attachments`.`container_type` = 'Document' ORDER BY attachments.created_on DESC, attachments.id DESC LIMIT 1

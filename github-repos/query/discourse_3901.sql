@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "tags" INNER JOIN "tag_group_memberships" ON "tags"."id" = "tag_group_memberships"."tag_id" WHERE "tag_group_memberships"."tag_group_id" = 513 AND (tags.id in (1886))

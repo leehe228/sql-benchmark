@@ -1,0 +1,1 @@
+SELECT `groups`.`id` FROM `groups` INNER JOIN `groups_users` ON `groups`.`id` = `groups_users`.`group_id` WHERE `groups_users`.`user_id` = 3056

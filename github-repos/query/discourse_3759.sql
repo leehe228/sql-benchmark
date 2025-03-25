@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."staged" = FALSE AND (username_lower = 'nobody' OR id = 0) LIMIT 1

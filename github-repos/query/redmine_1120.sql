@@ -1,0 +1,1 @@
+SELECT `issue_categories`.* FROM `issue_categories` ORDER BY `issue_categories`.`id` DESC LIMIT 1

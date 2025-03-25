@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE `tags`.`inactive` = FALSE ORDER BY `tags`.`tag` ASC

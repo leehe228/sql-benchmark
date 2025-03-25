@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `watchers` WHERE `watchers`.`user_id` = 1 AND `watchers`.`watchable_type` = 'News' AND `watchers`.`watchable_id` = 92 LIMIT 1

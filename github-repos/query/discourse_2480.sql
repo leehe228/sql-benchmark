@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."active" = FALSE AND (created_at < '2020-03-12 06:20:13.291197') AND (NOT admin AND NOT moderator) AND (NOT EXISTS (SELECT 1 FROM topic_allowed_users tu JOIN topics t ON t.id = tu.topic_id AND t.user_id > 0 WHERE tu.user_id = users.id LIMIT 1) ) ORDER BY "users"."id" ASC LIMIT 200

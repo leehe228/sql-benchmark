@@ -1,0 +1,1 @@
+SELECT `o_auth_applications`.* FROM `o_auth_applications` WHERE `o_auth_applications`.`id` = 1400 LIMIT 1

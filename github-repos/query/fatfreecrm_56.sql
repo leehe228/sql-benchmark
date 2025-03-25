@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `tasks` WHERE `tasks`.`user_id` = 33 LIMIT 1

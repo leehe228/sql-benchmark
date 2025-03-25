@@ -1,0 +1,1 @@
+SELECT "posts"."id", "posts"."topic_id" FROM "posts" WHERE "posts"."id" IN (18253, 18254, 18255)

@@ -1,0 +1,1 @@
+SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'admin' ORDER BY `roles`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.status <> 9) AND ((projects.status IN ('1'))) ORDER BY projects.lft ASC

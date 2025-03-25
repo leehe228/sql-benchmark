@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `changesets` WHERE `changesets`.`repository_id` = 372

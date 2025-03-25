@@ -1,0 +1,1 @@
+SELECT `participations`.* FROM `participations` WHERE `participations`.`target_id` = 2415 AND `participations`.`target_type` = 'Post' AND `participations`.`author_id` = 3

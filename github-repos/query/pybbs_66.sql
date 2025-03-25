@@ -1,0 +1,1 @@
+select count(1) from user where in_time between curdate() and curdate() + interval 1 day - interval 1 second

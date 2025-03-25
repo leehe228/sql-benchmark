@@ -1,0 +1,1 @@
+SELECT `member_roles`.`id` FROM `member_roles` WHERE `member_roles`.`member_id` = 6

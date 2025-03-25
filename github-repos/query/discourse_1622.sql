@@ -1,0 +1,1 @@
+SELECT "user_archived_messages".* FROM "user_archived_messages" WHERE "user_archived_messages"."user_id" = 1264 AND "user_archived_messages"."topic_id" = 16127

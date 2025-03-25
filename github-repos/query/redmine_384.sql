@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `issues`.`status_id` AS issues_status_id FROM `issues` WHERE `issues`.`fixed_version_id` = 2 GROUP BY `issues`.`status_id`

@@ -1,0 +1,1 @@
+SELECT `news`.* FROM `news` WHERE `news`.`id` IN (2, 1)

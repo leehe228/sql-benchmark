@@ -1,0 +1,1 @@
+select sysdeptpag0_.dept_id as dept_id1_28_, sysdeptpag0_.page as page2_28_ from sys_dept_page sysdeptpag0_ where sysdeptpag0_.dept_id=4 limit 2147483647

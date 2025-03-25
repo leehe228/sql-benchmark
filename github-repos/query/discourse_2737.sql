@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE "groups"."automatic" = FALSE

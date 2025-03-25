@@ -1,0 +1,1 @@
+SELECT `spree_products_taxons`.* FROM `spree_products_taxons` WHERE `spree_products_taxons`.`id` = 50 LIMIT 1

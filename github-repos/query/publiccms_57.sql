@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_content cmscontent0_ where cmscontent0_.site_id=1 and (cmscontent0_.status in (2)) and cmscontent0_.disabled=0 and cmscontent0_.user_id=1

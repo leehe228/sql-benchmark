@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from links link0_

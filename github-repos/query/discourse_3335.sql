@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "uploads" WHERE (uploads.id > 0) AND (url NOT LIKE '%/original/_X/%' AND url LIKE '%/uploads/default%')

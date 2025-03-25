@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" LEFT JOIN group_users gu ON gu.group_id = groups.id AND gu.user_id = 296 AND gu.owner WHERE (groups.id > 0) AND groups.visibility_level IN (0, 1, 2, 4) OR ( groups.visibility_level = 3 AND gu.id IS NOT NULL ) AND ( automatic IS FALSE OR groups.id = 2 ) ORDER BY user_count DESC LIMIT 36 OFFSET 0 

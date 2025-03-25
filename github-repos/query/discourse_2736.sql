@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."category_id" = 3360 AND "topics"."pinned_at" IS NOT NULL AND "topics"."user_id" != -1 ORDER BY "topics"."id" ASC LIMIT 1000

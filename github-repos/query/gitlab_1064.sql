@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "oauth_access_tokens"."resource_owner_id") AS count_resource_owner_id, "oauth_access_tokens"."application_id" AS oauth_access_tokens_application_id FROM "oauth_access_tokens" WHERE 1=0 GROUP BY "oauth_access_tokens"."application_id" /*application:test,controller:applications,action:index,correlation_id:b9055a1a2d73b0b126217607f275b2ad*/

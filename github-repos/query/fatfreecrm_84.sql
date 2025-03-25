@@ -1,0 +1,1 @@
+SELECT `account_contacts`.* FROM `account_contacts` WHERE `account_contacts`.`contact_id` = 42 LIMIT 1

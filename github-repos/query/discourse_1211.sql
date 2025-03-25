@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15986 AND (posts.user_id = 915 OR post_type IN (1,2,3)) AND ( posts.post_number = 1 OR posts.user_id IN (SELECT u.id FROM users u WHERE u.username_lower IN ('eviltrout')) ) ORDER BY "posts"."sort_order" ASC LIMIT 3 OFFSET 0

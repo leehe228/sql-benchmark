@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_actions" WHERE "user_actions"."action_type" = 1

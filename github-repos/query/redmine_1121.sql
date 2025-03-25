@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `members` INNER JOIN `member_roles` ON `members`.`id` = `member_roles`.`member_id` WHERE `member_roles`.`role_id` = 914 LIMIT 1

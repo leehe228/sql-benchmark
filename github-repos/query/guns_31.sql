@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_operation_log WHERE 1 = 1 AND (create_time BETWEEN CONCAT('2019-07-08', ' 00:00:00') AND CONCAT('2019-10-31', ' 23:59:59')) AND log_type LIKE CONCAT('%', 'd', '%')

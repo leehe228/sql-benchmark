@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` LEFT OUTER JOIN `spree_users` ON `spree_users`.`id` = `spree_orders`.`user_id` WHERE `spree_users`.`id` = 343 ORDER BY `spree_orders`.`number` ASC LIMIT 10 OFFSET 0

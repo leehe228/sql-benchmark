@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 16108 AND (NOT hidden AND posts.deleted_at IS NOT NULL) ORDER BY post_number DESC LIMIT 1

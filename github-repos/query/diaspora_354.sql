@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` INNER JOIN `aspect_memberships` ON `aspect_memberships`.`contact_id` = `contacts`.`id` WHERE `contacts`.`user_id` = 2 AND `aspect_memberships`.`id` = -1 ORDER BY `contacts`.`id` ASC LIMIT 1

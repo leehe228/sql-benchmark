@@ -1,0 +1,1 @@
+SELECT `spree_promotion_rules`.* FROM `spree_promotion_rules` WHERE `spree_promotion_rules`.`promotion_id` = 17 AND `spree_promotion_rules`.`type` = 'Spree::Promotion::Rules::Product'

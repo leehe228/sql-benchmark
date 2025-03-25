@@ -1,0 +1,1 @@
+SELECT `time_entries`.* FROM `time_entries` WHERE `time_entries`.`comments` = 'test_csv_fr' LIMIT 1

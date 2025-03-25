@@ -1,0 +1,1 @@
+SELECT `user_preferences`.* FROM `user_preferences` WHERE `user_preferences`.`id` IN (59, 58, 60)

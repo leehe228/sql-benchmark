@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`author_id` = 1464 ORDER BY `posts`.`id` ASC LIMIT 20

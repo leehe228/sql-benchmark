@@ -1,0 +1,1 @@
+SELECT `blocks`.* FROM `blocks` WHERE `blocks`.`user_id` = 3 AND `blocks`.`person_id` = 1 LIMIT 1

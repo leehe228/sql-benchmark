@@ -1,0 +1,1 @@
+SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`user_id` = 33

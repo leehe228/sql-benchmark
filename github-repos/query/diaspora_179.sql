@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `aspects` WHERE `aspects`.`user_id` = 1 LIMIT 1

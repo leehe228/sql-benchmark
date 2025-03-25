@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`name` = 'User documentation' ORDER BY `enumerations`.`position` ASC LIMIT 1

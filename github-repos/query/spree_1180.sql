@@ -1,0 +1,1 @@
+SELECT `spree_customer_returns`.* FROM `spree_customer_returns` WHERE `spree_customer_returns`.`number` LIKE '%CR389142455%' ORDER BY `spree_customer_returns`.`created_at` DESC LIMIT 25 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_orders`.* FROM `spree_orders` LIMIT 1 OFFSET 0

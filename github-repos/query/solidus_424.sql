@@ -1,0 +1,1 @@
+SELECT `spree_product_option_types`.* FROM `spree_product_option_types` WHERE `spree_product_option_types`.`product_id` = 1688 AND (`spree_product_option_types`.`position` IS NOT NULL) ORDER BY `spree_product_option_types`.`position` DESC LIMIT 1

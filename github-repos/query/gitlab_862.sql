@@ -1,0 +1,1 @@
+SELECT MAX("clusters"."user_id") FROM "clusters" INNER JOIN "cluster_providers_aws" ON "cluster_providers_aws"."cluster_id" = "clusters"."id" WHERE "clusters"."provider_type" = $1 AND ("cluster_providers_aws"."status" IN (3)) AND "clusters"."enabled" = $2 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

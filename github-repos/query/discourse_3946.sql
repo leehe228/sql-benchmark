@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE "invites"."user_id" = 6697

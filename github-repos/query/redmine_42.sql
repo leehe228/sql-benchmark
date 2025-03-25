@@ -1,0 +1,1 @@
+SELECT MAX(`issues`.`due_date`) FROM `issues` WHERE `issues`.`parent_id` = 3133

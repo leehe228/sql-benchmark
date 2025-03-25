@@ -1,0 +1,1 @@
+SELECT `tasks`.* FROM `tasks` WHERE (user_id = 1619 OR assigned_to = 1619) AND `tasks`.`id` = 1027 LIMIT 1

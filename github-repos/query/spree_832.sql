@@ -1,0 +1,1 @@
+SELECT `spree_products`.`id` FROM `spree_products` INNER JOIN `spree_products_taxons` ON `spree_products_taxons`.`product_id` = `spree_products`.`id` INNER JOIN `spree_taxons` ON `spree_taxons`.`id` = `spree_products_taxons`.`taxon_id` WHERE `spree_products`.`deleted_at` IS NULL AND `spree_taxons`.`id` = 27

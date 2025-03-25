@@ -1,0 +1,1 @@
+SELECT `wikis`.* FROM `wikis` WHERE `wikis`.`id` = 1

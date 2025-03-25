@@ -1,0 +1,1 @@
+SELECT `changesets`.* FROM `changesets` WHERE `changesets`.`repository_id` = 372 ORDER BY changesets.committed_on DESC, changesets.id DESC LIMIT 25 OFFSET 0

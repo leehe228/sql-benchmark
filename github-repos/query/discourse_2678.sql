@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "user_warnings" WHERE "user_warnings"."user_id" = 4000

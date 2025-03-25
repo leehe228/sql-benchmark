@@ -1,0 +1,1 @@
+select count(journal0_.id) as col_0_0_ from journals journal0_ where journal0_.type=0

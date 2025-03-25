@@ -1,0 +1,1 @@
+SELECT "plugin_store_rows".* FROM "plugin_store_rows" WHERE (plugin_name = 'my_plugin' AND key IN ('hello_str','hello_int','hello_bool'))

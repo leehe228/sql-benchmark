@@ -1,0 +1,1 @@
+SELECT "post_uploads".* FROM "post_uploads" WHERE "post_uploads"."upload_id" = 97 ORDER BY "post_uploads"."id" ASC LIMIT 1

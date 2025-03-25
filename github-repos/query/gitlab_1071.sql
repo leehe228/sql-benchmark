@@ -1,0 +1,1 @@
+SELECT "broadcast_messages".* FROM "broadcast_messages" WHERE (ends_at > '2020-03-26 10:03:16.207506') AND "broadcast_messages"."broadcast_type" = $1 ORDER BY "broadcast_messages"."id" ASC /*application:test,controller:applications,action:index,correlation_id:b9055a1a2d73b0b126217607f275b2ad*/

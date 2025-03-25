@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_notice WHERE title LIKE CONCAT('%', 'd', '%') OR content LIKE CONCAT('%', 'd', '%')

@@ -1,0 +1,1 @@
+SELECT `spree_promotion_actions`.`id` FROM `spree_promotion_actions` WHERE `spree_promotion_actions`.`deleted_at` IS NULL AND `spree_promotion_actions`.`promotion_id` = 30 AND `spree_promotion_actions`.`type` = 'Spree::Promotion::Actions::CreateLineItems'

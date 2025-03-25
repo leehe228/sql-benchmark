@@ -1,0 +1,1 @@
+SELECT "user_badges".* FROM "user_badges" WHERE "user_badges"."badge_id" = 42 AND "user_badges"."user_id" = 144 LIMIT 1

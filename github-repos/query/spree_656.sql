@@ -1,0 +1,1 @@
+SELECT `spree_stock_locations`.* FROM `spree_stock_locations` WHERE `spree_stock_locations`.`name` LIKE '%south%' ORDER BY name ASC LIMIT 25 OFFSET 0

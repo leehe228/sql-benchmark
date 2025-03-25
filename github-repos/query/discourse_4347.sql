@@ -1,0 +1,1 @@
+SELECT "shared_drafts"."topic_id" FROM "shared_drafts" WHERE "shared_drafts"."category_id" = 3791

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_users` WHERE `spree_users`.`email` LIKE '%brian%' LIMIT 25 OFFSET 0) subquery_for_count

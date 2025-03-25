@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND (topic_id = 15875 AND post_number = 1) LIMIT 1

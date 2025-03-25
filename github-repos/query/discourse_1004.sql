@@ -1,0 +1,1 @@
+SELECT users.*, group_requests.reason, group_requests.created_at requested_at FROM "users" INNER JOIN "group_requests" ON "users"."id" = "group_requests"."user_id" WHERE "group_requests"."group_id" = 2563 ORDER BY "users"."username_lower" ASC LIMIT 50 OFFSET 0

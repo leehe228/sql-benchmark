@@ -1,0 +1,1 @@
+SELECT id,username,password,in_time,role_id FROM admin_user WHERE username = 'admin'

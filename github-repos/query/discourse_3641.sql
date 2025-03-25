@@ -1,0 +1,1 @@
+SELECT "users"."id", "users"."username", "users"."locale" FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE (lower(user_emails.email) IN ('bruce6214@wayne.com'))

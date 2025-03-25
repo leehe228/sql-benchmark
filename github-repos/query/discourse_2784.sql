@@ -1,0 +1,1 @@
+SELECT "group_archived_messages".* FROM "group_archived_messages" WHERE "group_archived_messages"."group_id" = 2797 AND "group_archived_messages"."topic_id" = 17701

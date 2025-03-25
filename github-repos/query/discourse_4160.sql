@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" WHERE 1=0 AND "topics"."archetype" != 'private_message' AND (topics.category_id IS NULL OR topics.category_id IN (SELECT id FROM categories WHERE NOT read_restricted))

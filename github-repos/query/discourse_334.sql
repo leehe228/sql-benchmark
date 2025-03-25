@@ -1,0 +1,1 @@
+SELECT "topics"."id" FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (topics.archetype <> 'private_message') AND "topics"."pinned_globally" = TRUE ORDER BY "topics"."created_at" ASC LIMIT 1

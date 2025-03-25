@@ -1,0 +1,1 @@
+select posttag0_.id as id1_11_, posttag0_.create_time as create_t2_11_, posttag0_.deleted as deleted3_11_, posttag0_.update_time as update_t4_11_, posttag0_.post_id as post_id5_11_, posttag0_.tag_id as tag_id6_11_ from post_tags posttag0_ where posttag0_.post_id=2

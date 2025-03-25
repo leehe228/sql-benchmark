@@ -1,0 +1,1 @@
+SELECT SUM(`spree_line_item_actions`.`quantity`) FROM `spree_line_item_actions` WHERE `spree_line_item_actions`.`action_id` = 110 AND 1=0

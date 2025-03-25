@@ -1,0 +1,1 @@
+SELECT "user_fields".* FROM "user_fields" ORDER BY "user_fields"."position" ASC

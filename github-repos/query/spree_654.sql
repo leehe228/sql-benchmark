@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_assets` WHERE `spree_assets`.`viewable_id` = 686 AND `spree_assets`.`viewable_type` = 'Spree::Variant' AND (`spree_assets`.`position` = 2)

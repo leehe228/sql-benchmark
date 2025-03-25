@@ -1,0 +1,1 @@
+SELECT SUM(`time_entries`.`hours`) FROM `time_entries` INNER JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id` WHERE (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='time_tracking')) AND ((projects.id = 1 OR (projects.lft > 1 AND projects.rgt < 10)))

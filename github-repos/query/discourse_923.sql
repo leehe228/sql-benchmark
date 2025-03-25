@@ -1,0 +1,1 @@
+SELECT "groups"."name" FROM "groups" WHERE (groups.id > 0) ORDER BY name ASC

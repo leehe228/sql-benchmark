@@ -1,0 +1,1 @@
+SELECT SUM(`spree_refunds`.`amount`) FROM `spree_refunds` WHERE `spree_refunds`.`payment_id` = 41

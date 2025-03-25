@@ -1,0 +1,1 @@
+SELECT "application_settings".* FROM "application_settings" WHERE "application_settings"."health_check_access_token" = $1 LIMIT $2 /*application:test,correlation_id:15829df51824e682dd7c262cd5b7f10c*/

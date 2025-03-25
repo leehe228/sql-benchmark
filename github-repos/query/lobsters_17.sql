@@ -1,0 +1,1 @@
+SELECT `domains`.* FROM `domains` WHERE `domains`.`domain` = 'example.com' ORDER BY `domains`.`id` ASC LIMIT 1

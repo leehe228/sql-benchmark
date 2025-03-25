@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" INNER JOIN "topic_invites" ON "topics"."id" = "topic_invites"."topic_id" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topic_invites"."invite_id" = 1378 ORDER BY "topics"."id" ASC LIMIT 1

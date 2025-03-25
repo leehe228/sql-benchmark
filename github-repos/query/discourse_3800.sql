@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" WHERE "tags"."name" = '1' LIMIT 1

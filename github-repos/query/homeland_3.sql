@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2

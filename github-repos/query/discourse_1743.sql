@@ -1,0 +1,1 @@
+SELECT "color_schemes".* FROM "color_schemes" ORDER BY id ASC

@@ -1,0 +1,1 @@
+SELECT `spree_payment_methods`.* FROM `spree_payment_methods` WHERE `spree_payment_methods`.`deleted_at` IS NULL AND `spree_payment_methods`.`active` = TRUE AND `spree_payment_methods`.`available_to_users` = TRUE ORDER BY `spree_payment_methods`.`position` ASC

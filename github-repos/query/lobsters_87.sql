@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`domain_id` = 45 ORDER BY id desc LIMIT 26 OFFSET 0

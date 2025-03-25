@@ -1,0 +1,1 @@
+select count(1) from user where to_days(in_time) = to_days(now())

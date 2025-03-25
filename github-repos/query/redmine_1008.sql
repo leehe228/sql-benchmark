@@ -1,0 +1,1 @@
+SELECT `import_items`.* FROM `import_items` WHERE `import_items`.`import_id` = 181 AND `import_items`.`position` = 1 ORDER BY `import_items`.`id` ASC LIMIT 1

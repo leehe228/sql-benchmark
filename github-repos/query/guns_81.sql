@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_role WHERE name LIKE CONCAT('%', '', '%')

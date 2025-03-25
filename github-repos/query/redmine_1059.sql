@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND (users.status <> 0) AND `users`.`status` = 3 ORDER BY login ASC

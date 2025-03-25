@@ -1,0 +1,1 @@
+SELECT `services`.* FROM `services` WHERE `services`.`user_id` = 1 AND `services`.`id` = 61 LIMIT 1

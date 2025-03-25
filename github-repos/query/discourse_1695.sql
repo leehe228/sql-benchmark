@@ -1,0 +1,1 @@
+SELECT "username" FROM "post_actions" INNER JOIN "users" ON "users"."id" = "post_actions"."user_id" WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."post_id" = 17180 AND "post_actions"."post_action_type_id" = 2 AND (post_actions.created_at > '2020-03-25 06:16:45.218116') ORDER BY post_actions.created_at desc

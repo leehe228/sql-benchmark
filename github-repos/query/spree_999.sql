@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` INNER JOIN `spree_shipments` ON `spree_adjustments`.`adjustable_id` = `spree_shipments`.`id` WHERE `spree_shipments`.`order_id` = 1373 AND `spree_adjustments`.`adjustable_type` = 'Spree::Shipment' AND `spree_adjustments`.`source_type` = 'Spree::TaxRate'

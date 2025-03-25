@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `conversations` WHERE `conversations`.`guid` = 'e36ba4206c3001384b8408e9fe568a11' AND `conversations`.`author_id` = 1 LIMIT 1

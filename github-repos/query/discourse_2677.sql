@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "topics" INNER JOIN "topic_allowed_users" ON "topics"."id" = "topic_allowed_users"."topic_id" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topic_allowed_users"."user_id" = 4000 AND "topics"."archetype" = 'private_message'

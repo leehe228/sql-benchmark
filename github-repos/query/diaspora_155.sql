@@ -1,0 +1,1 @@
+SELECT `authorizations`.* FROM `authorizations` WHERE `authorizations`.`redirect_uri` = 'http://localhost:3000/' AND `authorizations`.`code` = 'ec1a8c893e6084024f5fc7469dccb440f9ff6ad250d4409d7704cd0a86e85b7e' LIMIT 1

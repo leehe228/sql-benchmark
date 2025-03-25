@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" LEFT JOIN groups ON lower(groups.name) = users.username_lower WHERE (groups.id IS NOT NULL) ORDER BY "users"."id" ASC LIMIT 1000

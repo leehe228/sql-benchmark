@@ -1,0 +1,1 @@
+SELECT `contacts`.* FROM `contacts` INNER JOIN contacts as c2 ON (contacts.user_id = c2.user_id AND contacts.person_id=4573 AND c2.person_id=4589)

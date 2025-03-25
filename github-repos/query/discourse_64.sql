@@ -1,0 +1,1 @@
+SELECT "plugin_store_rows".* FROM "plugin_store_rows" WHERE "plugin_store_rows"."plugin_name" = 'reviewables' AND "plugin_store_rows"."key" = 'priority_0' LIMIT 1

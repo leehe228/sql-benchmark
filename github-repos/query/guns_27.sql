@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM sys_operation_log WHERE 1 = 1

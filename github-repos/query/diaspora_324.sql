@@ -1,0 +1,1 @@
+SELECT `conversation_visibilities`.`id` FROM `conversation_visibilities` WHERE `conversation_visibilities`.`person_id` = 6

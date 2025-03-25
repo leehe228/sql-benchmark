@@ -1,0 +1,1 @@
+select emailconfi0_.id as id1_4_0_, emailconfi0_.from_user as from_use2_4_0_, emailconfi0_.host as host3_4_0_, emailconfi0_.pass as pass4_4_0_, emailconfi0_.port as port5_4_0_, emailconfi0_.user as user6_4_0_ from email_config emailconfi0_ where emailconfi0_.id=1

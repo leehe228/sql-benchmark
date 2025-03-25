@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE `tags`.`tag` IN ('A1', 'A1')

@@ -1,0 +1,1 @@
+select count(customer0_.CUSTOMER_ID) as col_0_0_ from CUSTOMER customer0_ where customer0_.MERCHANT_ID=1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `users` INNER JOIN `watchers` ON `users`.`id` = `watchers`.`user_id` WHERE `watchers`.`watchable_id` = 1 AND `watchers`.`watchable_type` = 'Issue'

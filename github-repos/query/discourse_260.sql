@@ -1,0 +1,1 @@
+SELECT "topics"."archetype" FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND "topics"."id" = 15617 LIMIT 1

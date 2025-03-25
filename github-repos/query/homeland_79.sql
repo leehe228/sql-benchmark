@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" INNER JOIN "team_users" ON "users"."id" = "team_users"."user_id" WHERE "team_users"."team_id" = 1

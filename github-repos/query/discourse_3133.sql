@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" LEFT JOIN topics ON notifications.topic_id = topics.id WHERE "notifications"."user_id" = 5191 AND (topics.id IS NULL OR topics.deleted_at IS NOT NULL) AND (notification_type <> 5) AND (notification_type <> 19) ORDER BY notifications.created_at desc LIMIT 10

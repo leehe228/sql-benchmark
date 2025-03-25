@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `projects` WHERE `projects`.`identifier` = 'project-0270' LIMIT 1

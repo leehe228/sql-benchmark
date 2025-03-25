@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_taxons` ORDER BY `spree_taxons`.`taxonomy_id` ASC, `spree_taxons`.`lft` ASC LIMIT 500 OFFSET 0) subquery_for_count

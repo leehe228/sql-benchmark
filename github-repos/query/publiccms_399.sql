@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from log_task logtask0_ where logtask0_.site_id=1 and logtask0_.task_id=7

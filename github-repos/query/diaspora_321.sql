@@ -1,0 +1,1 @@
+SELECT `roles`.`id` FROM `roles` WHERE `roles`.`person_id` = 6

@@ -1,0 +1,1 @@
+SELECT `spree_shipping_categories`.* FROM `spree_shipping_categories` WHERE `spree_shipping_categories`.`id` = 2

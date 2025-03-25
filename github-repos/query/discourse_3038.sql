@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "group_users" ON "users"."id" = "group_users"."user_id" WHERE "group_users"."group_id" = 2817 AND (users.id NOT IN (-1,4942,4943))

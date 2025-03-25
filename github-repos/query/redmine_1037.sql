@@ -1,0 +1,1 @@
+SELECT `import_items`.* FROM `import_items` WHERE `import_items`.`import_id` = 165 AND `import_items`.`unique_id` = 'RED-III' ORDER BY `import_items`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `refinery_images`.* FROM `refinery_images` WHERE `refinery_images`.`parent_id` IS NULL ORDER BY updated_at DESC LIMIT 20 OFFSET 0

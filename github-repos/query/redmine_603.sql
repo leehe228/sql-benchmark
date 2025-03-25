@@ -1,0 +1,1 @@
+SELECT DISTINCT `issue_statuses`.* FROM `issue_statuses` INNER JOIN `workflows` ON `workflows`.`new_status_id` = `issue_statuses`.`id` AND `workflows`.`type` IN ('WorkflowTransition') WHERE `workflows`.`old_status_id` = 1 AND `workflows`.`role_id` IN (1, 2, 3, 4, 5) AND `workflows`.`tracker_id` = 1 AND (author = TRUE OR assignee = FALSE)

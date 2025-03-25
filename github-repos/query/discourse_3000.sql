@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewable_scores" INNER JOIN "reviewables" ON "reviewables"."id" = "reviewable_scores"."reviewable_id" INNER JOIN "topics" ON "topics"."id" = "reviewables"."topic_id" AND ("topics"."deleted_at" IS NOT NULL) WHERE (reviewables.type = 'ReviewableFlaggedPost')

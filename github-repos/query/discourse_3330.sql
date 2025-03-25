@@ -1,0 +1,1 @@
+SELECT "theme_fields"."theme_id" FROM "theme_fields" JOIN ( SELECT 1156 AS theme_id, 0 AS theme_sort_column UNION ALL SELECT 1154 AS theme_id, 1 AS theme_sort_column UNION ALL SELECT 1155 AS theme_id, 2 AS theme_sort_column ) as X ON X.theme_id = theme_fields.theme_id WHERE "theme_fields"."theme_id" IN (1156, 1154, 1155) 

@@ -1,0 +1,1 @@
+SELECT "categories"."updated_at" FROM "categories" WHERE (uploaded_background_id IS NOT NULL)

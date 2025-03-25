@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (groups.id > 0) AND (name ILIKE '%hello%' OR full_name ILIKE '%hello%') ORDER BY name ASC

@@ -1,0 +1,1 @@
+SELECT "user_visits".* FROM "user_visits"

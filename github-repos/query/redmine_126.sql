@@ -1,0 +1,1 @@
+SELECT `projects`.`id` FROM `projects` ORDER BY `projects`.`id` ASC FOR UPDATE

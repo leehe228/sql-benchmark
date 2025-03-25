@@ -1,0 +1,1 @@
+SELECT "tag_groups".* FROM "tag_groups" WHERE "tag_groups"."name" = 'tag_group_9'

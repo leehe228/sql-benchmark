@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`commentable_id` = 1129 AND `comments`.`commentable_type` = 'Post'

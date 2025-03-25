@@ -1,0 +1,1 @@
+select count(posttag0_.post_id) as col_0_0_, posttag0_.tag_id as col_1_0_ from post_tags posttag0_ group by posttag0_.tag_id

@@ -1,0 +1,1 @@
+SELECT "top_topics"."yearly_score" FROM "top_topics" WHERE "top_topics"."topic_id" = 16410 LIMIT 1

@@ -1,0 +1,1 @@
+select customerfo0_.PASSWORD_TOKEN as PASSWORD1_44_0_, customerfo0_.CREATE_DATE as CREATE_D2_44_0_, customerfo0_.CUSTOMER_ID as CUSTOMER3_44_0_, customerfo0_.TOKEN_USED_DATE as TOKEN_US4_44_0_, customerfo0_.TOKEN_USED_FLAG as TOKEN_US5_44_0_ from BLC_CUSTOMER_PASSWORD_TOKEN customerfo0_ where customerfo0_.PASSWORD_TOKEN='5zgq5uff5tpe9rdmmie5'

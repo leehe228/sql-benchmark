@@ -1,0 +1,1 @@
+select dept0_.id as id1_1_, dept0_.create_time as create_t2_1_, dept0_.enabled as enabled3_1_, dept0_.name as name4_1_, dept0_.pid as pid5_1_ from dept dept0_ where dept0_.name like '%h%'

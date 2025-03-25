@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`id` IN (48, 50, 51)

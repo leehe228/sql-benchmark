@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `roles` WHERE `roles`.`name` IN ('moderator', 'admin') AND `roles`.`person_id` = 3874 LIMIT 1

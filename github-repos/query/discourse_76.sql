@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE "groups"."id" = 2370 LIMIT 1

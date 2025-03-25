@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `refinery_images` WHERE (parent_id IS NULL)

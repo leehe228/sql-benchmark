@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` WHERE ((lower(email) like '%example.com' OR lower(website) like '%example.com%')) ORDER BY `accounts`.`id` ASC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "email_logs"."post_id" FROM "email_logs" WHERE "email_logs"."message_id" IN ('35@foo.bar.mail', '34@foo.bar.mail')

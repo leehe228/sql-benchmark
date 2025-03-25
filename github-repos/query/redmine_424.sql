@@ -1,0 +1,1 @@
+SELECT `email_addresses`.* FROM `email_addresses` WHERE `email_addresses`.`is_default` = TRUE AND `email_addresses`.`user_id` IN (1, 2)

@@ -1,0 +1,1 @@
+select count(sheetcomme0_.id) as col_0_0_, sheetcomme0_.parent_id as col_1_0_ from comments sheetcomme0_ where sheetcomme0_.type=1 and (sheetcomme0_.parent_id in (9)) group by sheetcomme0_.parent_id

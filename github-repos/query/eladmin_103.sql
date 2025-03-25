@@ -1,0 +1,1 @@
+select job0_.id as id1_6_, job0_.create_time as create_t2_6_, job0_.dept_id as dept_id6_6_, job0_.enabled as enabled3_6_, job0_.name as name4_6_, job0_.sort as sort5_6_ from job job0_ left outer join dept dept1_ on job0_.dept_id=dept1_.id left outer join dept dept2_ on job0_.dept_id=dept2_.id where dept1_.id=2 limit 2000

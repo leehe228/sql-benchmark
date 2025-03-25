@@ -1,0 +1,1 @@
+SELECT MIN("services"."id") FROM "services" WHERE "services"."active" = $1 AND "services"."template" = $2 AND "services"."type" = $3 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

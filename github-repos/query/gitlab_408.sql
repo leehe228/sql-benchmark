@@ -1,0 +1,1 @@
+SELECT "pages_domain_acme_orders".* FROM "pages_domain_acme_orders" INNER JOIN "pages_domains" ON "pages_domains"."id" = "pages_domain_acme_orders"."pages_domain_id" WHERE "pages_domains"."domain" = $1 AND "pages_domain_acme_orders"."challenge_token" = $2 LIMIT $3 /*application:test,controller:acme_challenges,action:show,correlation_id:d70867fbb31209836c9f98f9fdc93939*/

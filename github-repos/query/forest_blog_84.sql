@@ -1,0 +1,1 @@
+SELECT user_id, user_name, user_pass, user_nickname, user_email, user_url, user_avatar, user_last_login_ip, user_register_time, user_last_login_time, user_status FROM user WHERE user_email='zhouz@zhouz.com' limit 1

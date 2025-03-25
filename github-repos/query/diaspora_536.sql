@@ -1,0 +1,1 @@
+SELECT `poll_participations`.* FROM `poll_participations` WHERE `poll_participations`.`poll_id` = 104 AND `poll_participations`.`author_id` = 4252 LIMIT 1

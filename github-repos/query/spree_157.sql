@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` ORDER BY `spree_taxons`.`rgt` DESC LIMIT 1

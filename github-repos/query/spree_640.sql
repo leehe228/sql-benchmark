@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`email` LIKE '%spree%' LIMIT 25 OFFSET 0

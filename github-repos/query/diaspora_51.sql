@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `invitation_codes` WHERE `invitation_codes`.`token` = '7481622781f3' LIMIT 1

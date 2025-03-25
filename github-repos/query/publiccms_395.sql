@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from log_task logtask0_ where logtask0_.site_id=1 and logtask0_.task_id=7 and logtask0_.begintime>'2019-10-01 00:00:00.0' and logtask0_.begintime<='2019-10-15 00:00:00.0'

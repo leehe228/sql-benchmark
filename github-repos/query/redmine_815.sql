@@ -1,0 +1,1 @@
+SELECT `time_entries`.* FROM `time_entries` INNER JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id` WHERE `time_entries`.`issue_id` = 3 AND (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='time_tracking'))

@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` ORDER BY `spree_users`.`created_at` ASC LIMIT 10 OFFSET 0

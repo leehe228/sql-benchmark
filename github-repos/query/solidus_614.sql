@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE `spree_users`.`created_at` < '2020-05-09 05:03:22' LIMIT 10 OFFSET 0

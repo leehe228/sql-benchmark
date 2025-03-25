@@ -1,0 +1,1 @@
+SELECT category.category_id, category.category_pid, category.category_name FROM category, article_category_ref WHERE article_category_ref.article_id = 7 AND article_category_ref.category_id = category.category_id ORDER BY category.category_pid asc

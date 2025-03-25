@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` = 1 AND `spree_taxons`.`name` = 'New' AND `spree_taxons`.`permalink` = 'newest' AND `spree_taxons`.`lft` <= 34 AND `spree_taxons`.`rgt` >= 35 AND (`spree_taxons`.`id` != 18)

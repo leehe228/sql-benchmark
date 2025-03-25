@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_payments` WHERE `spree_payments`.`order_id` = 1330 AND `spree_payments`.`state` = 'checkout' AND (`spree_payments`.`source_type` != 'Spree::StoreCredit' OR `spree_payments`.`source_type` IS NULL)

@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_zones`.`id` FROM `spree_zones` INNER JOIN `spree_zone_members` ON `spree_zone_members`.`zone_id` = `spree_zones`.`id` WHERE (`spree_zone_members`.`zoneable_type` = 'Spree::State' AND 1=0 OR `spree_zone_members`.`zoneable_type` = 'Spree::Country' AND `spree_zone_members`.`zoneable_id` IN (29))

@@ -1,0 +1,1 @@
+SELECT `spree_stores`.* FROM `spree_stores` WHERE (url like '%server-name.org%') ORDER BY `spree_stores`.`id` ASC LIMIT 1

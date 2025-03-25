@@ -1,0 +1,1 @@
+SELECT contacts.id, profiles.first_name, profiles.last_name, people.diaspora_handle FROM `contacts` INNER JOIN `people` ON `people`.`id` = `contacts`.`person_id` INNER JOIN `profiles` ON `profiles`.`person_id` = `people`.`id` WHERE `contacts`.`user_id` = 1 AND `contacts`.`sharing` = TRUE AND `contacts`.`receiving` = TRUE

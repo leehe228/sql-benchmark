@@ -1,0 +1,1 @@
+SELECT `domains`.* FROM `domains` WHERE `domains`.`id` = 8 LIMIT 1

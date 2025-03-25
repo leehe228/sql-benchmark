@@ -1,0 +1,1 @@
+SELECT `polls`.* FROM `polls` INNER JOIN `posts` ON `posts`.`id` = `polls`.`status_message_id` AND `posts`.`type` IN ('StatusMessage') WHERE `posts`.`public` = TRUE AND `polls`.`guid` = '153344106c3001384b7e08e9fe568a11' LIMIT 1

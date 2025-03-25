@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `posts` WHERE `posts`.`created_at` BETWEEN '2020-04-14 16:00:00' AND '2020-04-21 16:00:00'

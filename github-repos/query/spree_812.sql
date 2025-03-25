@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_inventory_units` WHERE `spree_inventory_units`.`shipment_id` = 36 AND `spree_inventory_units`.`state` = 'on_hand'

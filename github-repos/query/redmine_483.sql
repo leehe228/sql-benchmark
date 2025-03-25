@@ -1,0 +1,1 @@
+SELECT `changesets`.* FROM `changesets` WHERE 1=0

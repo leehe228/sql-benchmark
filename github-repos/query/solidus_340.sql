@@ -1,0 +1,1 @@
+SELECT `spree_refund_reasons`.* FROM `spree_refund_reasons` WHERE `spree_refund_reasons`.`name` = 'Order canceled' ORDER BY LOWER(`spree_refund_reasons`.`name`) LIMIT 1

@@ -1,0 +1,1 @@
+select operation_log_id AS "operationLogId", log_type AS "logType", log_name AS "logName", user_id AS "userId", class_name AS "className", method AS "method", create_time AS "createTime", succeed AS "succeed", message AS "message" from sys_operation_log where 1 = 1 LIMIT 0,10

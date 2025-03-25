@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_role sysrole0_ where sysrole0_.site_id=1

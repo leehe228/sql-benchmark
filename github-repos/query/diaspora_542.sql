@@ -1,0 +1,1 @@
+SELECT `mentions`.`id` FROM `mentions` INNER JOIN comments ON mentions_container_id = comments.id AND mentions_container_type = 'Comment' WHERE `comments`.`commentable_id` = 2556 AND `comments`.`commentable_type` = 'Post'

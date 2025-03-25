@@ -1,0 +1,1 @@
+SELECT `conversations`.* FROM `conversations` WHERE `conversations`.`guid` = '165a60f06c3001384b7e08e9fe568a11' LIMIT 1

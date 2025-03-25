@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE ((reviewable_by_moderator AND TRUE) OR (reviewable_by_group_id IN (NULL))) AND (category_id IS NULL OR category_id IN (3829,1,3830)) AND "reviewables"."id" = 1942 ORDER BY score desc, created_at desc LIMIT 1

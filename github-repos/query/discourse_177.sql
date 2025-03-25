@@ -1,0 +1,1 @@
+SELECT "topic_users"."user_id" FROM "topic_users" WHERE "topic_users"."topic_id" = 15596 AND (highest_seen_post_number >= 1)

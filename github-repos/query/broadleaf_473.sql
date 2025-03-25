@@ -1,0 +1,1 @@
+select count(staticasse0_.STATIC_ASSET_ID) as col_0_0_ from BLC_STATIC_ASSET staticasse0_ where 1=1

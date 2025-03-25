@@ -1,0 +1,1 @@
+select categoryat0_.CATEGORY_ATTRIBUTE_ID as CATEGORY1_27_, categoryat0_.CATEGORY_ID as CATEGORY4_27_, categoryat0_.NAME as NAME2_27_, categoryat0_.VALUE as VALUE3_27_ from BLC_CATEGORY_ATTRIBUTE categoryat0_ where categoryat0_.CATEGORY_ID in (2002) order by categoryat0_.CATEGORY_ATTRIBUTE_ID asc limit 50

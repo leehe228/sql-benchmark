@@ -1,0 +1,1 @@
+SELECT `invitation_codes`.* FROM `invitation_codes` WHERE `invitation_codes`.`user_id` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."login" = $1 ORDER BY "users"."id" ASC LIMIT $2

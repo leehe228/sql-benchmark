@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" INNER JOIN "user_emails" ON "user_emails"."user_id" = "users"."id" WHERE (users.id > 0) AND (lower(user_emails.email) IN ('bruce5946@wayne.com')) ORDER BY "users"."id" ASC LIMIT 1

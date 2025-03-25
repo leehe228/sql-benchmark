@@ -1,0 +1,1 @@
+SELECT domain, sum(match_count) as match_count, max(last_match_at) as last_match_at, min(created_at) as created_at FROM "screened_urls" GROUP BY "screened_urls"."domain" ORDER BY last_match_at DESC

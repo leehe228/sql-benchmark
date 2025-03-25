@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `attachments` WHERE `attachments`.`container_id` = 3103 AND `attachments`.`container_type` = 'Issue' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `notifications`.* FROM `notifications` WHERE `notifications`.`target_type` = 'Person' AND `notifications`.`target_id` = 4680 AND `notifications`.`recipient_id` = 1465 AND `notifications`.`type` = 'Notifications::StartedSharing'

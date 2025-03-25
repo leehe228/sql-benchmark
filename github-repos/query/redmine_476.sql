@@ -1,0 +1,1 @@
+SELECT `queries`.* FROM `queries` WHERE `queries`.`type` IN ('IssueQuery') AND `queries`.`project_id` IS NULL AND `queries`.`id` = 6 LIMIT 1

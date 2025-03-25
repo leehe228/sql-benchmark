@@ -1,0 +1,1 @@
+SELECT "groups"."name" FROM "groups" WHERE (messageable_level in (99,1,2,3,4) OR ( messageable_level = 3 AND id in ( SELECT group_id FROM group_users WHERE user_id = 7302) ) OR ( messageable_level = 4 AND id in ( SELECT group_id FROM group_users WHERE user_id = 7302 AND owner IS TRUE) )) AND (name in ('bruce7359'))

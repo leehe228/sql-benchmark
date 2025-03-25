@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS `size`, MAX(`spree_stock_locations`.`updated_at`) AS timestamp FROM `spree_stock_locations`

@@ -1,0 +1,1 @@
+SELECT "groups"."id", "groups"."name" FROM "groups" INNER JOIN "group_users" ON "groups"."id" = "group_users"."group_id" WHERE "group_users"."user_id" = 296 AND groups.visibility_level IN (0, 1, 2, 3, 4) ORDER BY name ASC 

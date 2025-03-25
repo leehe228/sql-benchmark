@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE `tags`.`inactive` = FALSE AND `tags`.`tag` = 'tag1' LIMIT 1

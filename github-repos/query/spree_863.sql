@@ -1,0 +1,1 @@
+SELECT `spree_assets`.* FROM `spree_assets` WHERE `spree_assets`.`viewable_id` = 410 AND `spree_assets`.`viewable_type` = 'Spree::Variant' AND (`spree_assets`.`position` >= 1) AND (`spree_assets`.id != 17) ORDER BY `spree_assets`.`position` ASC LIMIT 1

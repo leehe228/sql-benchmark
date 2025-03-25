@@ -1,0 +1,1 @@
+SELECT "topic_embeds".* FROM "topic_embeds" WHERE "topic_embeds"."topic_id" = 16172 LIMIT 1

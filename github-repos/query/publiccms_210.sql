@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from log_operate logoperate0_ where logoperate0_.site_id=1 and logoperate0_.operate='execSql.site'

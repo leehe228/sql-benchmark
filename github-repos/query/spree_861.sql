@@ -1,0 +1,1 @@
+SELECT `spree_zone_members`.* FROM `spree_zone_members` WHERE (zoneable_id IS NULL OR zoneable_type != 'Spree::Country')

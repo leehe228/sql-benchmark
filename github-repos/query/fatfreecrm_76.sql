@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` WHERE `accounts`.`id` = 1278 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = 15637 ORDER BY "posts"."post_number" ASC LIMIT 1

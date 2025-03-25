@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` WHERE `spree_countries`.`numcode` = 840 LIMIT 1

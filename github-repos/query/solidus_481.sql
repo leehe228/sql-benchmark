@@ -1,0 +1,1 @@
+SELECT `spree_payments`.* FROM `spree_payments` WHERE `spree_payments`.`order_id` = 1334 AND `spree_payments`.`state` = 'checkout' AND (`spree_payments`.`source_type` != 'Spree::StoreCredit' OR `spree_payments`.`source_type` IS NULL) ORDER BY `spree_payments`.`created_at` ASC LIMIT 1

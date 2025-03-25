@@ -1,0 +1,1 @@
+SELECT "tags".* FROM "tags" INNER JOIN "tag_group_memberships" ON "tags"."id" = "tag_group_memberships"."tag_id" WHERE "tag_group_memberships"."tag_group_id" = 469 AND "tags"."target_tag_id" IS NULL

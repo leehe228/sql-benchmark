@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` ORDER BY first_name, last_name, email

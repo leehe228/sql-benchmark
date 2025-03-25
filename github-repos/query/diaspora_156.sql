@@ -1,0 +1,1 @@
+SELECT `o_auth_access_tokens`.* FROM `o_auth_access_tokens` WHERE `o_auth_access_tokens`.`authorization_id` = 533

@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`id` = 273 LIMIT 1

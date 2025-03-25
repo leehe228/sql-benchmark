@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = 99 AND "notifications"."topic_id" = 15596 AND "notifications"."post_number" = 1 ORDER BY notifications.id DESC LIMIT 10

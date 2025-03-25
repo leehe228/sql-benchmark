@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."active" = TRUE AND "users"."staged" = FALSE AND "users"."username_lower" = 'mr' LIMIT 20

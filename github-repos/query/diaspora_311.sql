@@ -1,0 +1,1 @@
+SELECT `references`.* FROM `references` WHERE `references`.`target_id` = 1129 AND `references`.`target_type` = 'Post'

@@ -1,0 +1,1 @@
+SELECT "oauth2_user_infos".* FROM "oauth2_user_infos" WHERE "oauth2_user_infos"."user_id" = 232

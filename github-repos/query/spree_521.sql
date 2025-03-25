@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` = 649 AND `spree_orders`.`completed_at` IS NOT NULL AND `spree_orders`.`number` = '23212' LIMIT 1

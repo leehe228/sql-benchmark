@@ -1,0 +1,1 @@
+SELECT count(DISTINCT ip) FROM t_login_log WHERE login_time between curdate() and curdate() + interval 1 day - interval 1 second

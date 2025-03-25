@@ -1,0 +1,1 @@
+SELECT "email_logs".* FROM "email_logs"

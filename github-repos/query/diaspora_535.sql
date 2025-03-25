@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`diaspora_handle` = 'delicious@pod.net' ORDER BY `people`.`id` ASC LIMIT 1

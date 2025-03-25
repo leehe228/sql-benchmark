@@ -1,0 +1,1 @@
+SELECT "tag_users"."user_id" FROM "tag_users" WHERE "tag_users"."tag_id" = 1820

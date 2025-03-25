@@ -1,0 +1,1 @@
+SELECT "watched_words"."word" FROM "watched_words"

@@ -1,0 +1,1 @@
+SELECT `journals`.* FROM `journals` WHERE `journals`.`id` = 676 LIMIT 1

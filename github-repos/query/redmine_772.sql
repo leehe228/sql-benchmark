@@ -1,0 +1,1 @@
+SELECT `wiki_content_versions`.* FROM `wiki_content_versions` WHERE (wiki_content_id = 1 AND version < 2) ORDER BY `wiki_content_versions`.`version` DESC LIMIT 1

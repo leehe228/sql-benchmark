@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."user_id" = 1351 AND "notifications"."notification_type" = 19 ORDER BY "notifications"."id" ASC LIMIT 1

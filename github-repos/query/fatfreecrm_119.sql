@@ -1,0 +1,1 @@
+SELECT `leads`.* FROM `leads` WHERE `leads`.`campaign_id` = 112 ORDER BY id DESC

@@ -1,0 +1,1 @@
+SELECT "user_ssos".* FROM "user_ssos" WHERE "user_ssos"."uid" = $1 LIMIT $2

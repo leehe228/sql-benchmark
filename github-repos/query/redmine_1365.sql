@@ -1,0 +1,1 @@
+SELECT `documents`.* FROM `documents` INNER JOIN `projects` ON `projects`.`id` = `documents`.`project_id` WHERE (documents.created_on BETWEEN '2020-04-16' AND '2020-05-16') AND (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='documents'))

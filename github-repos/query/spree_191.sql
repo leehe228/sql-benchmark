@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_refunds` WHERE `spree_refunds`.`payment_id` = 1

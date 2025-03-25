@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) AND (featured_link IS NOT NULL) ORDER BY "topics"."id" ASC LIMIT 1000

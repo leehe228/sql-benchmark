@@ -1,0 +1,1 @@
+SELECT users.id FROM "users" LEFT JOIN category_users cu ON users.id = cu.user_id INNER JOIN categories c ON c.id = cu.category_id WHERE ( c.id = '3613' AND cu.notification_level IS NULL) 

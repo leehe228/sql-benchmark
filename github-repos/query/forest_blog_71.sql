@@ -1,0 +1,1 @@
+SELECT article.* FROM article WHERE article.article_status = 1 AND article.article_title LIKE concat(concat('%','MySQL'),'%') AND 1 = 1 ORDER BY `article`.`article_order` DESC, `article`.`article_id` DESC limit 0,10

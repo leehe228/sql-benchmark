@@ -1,0 +1,1 @@
+SELECT `refinery_images`.* FROM `refinery_images` WHERE `refinery_images`.`parent_id` IN (117, 118, 119)

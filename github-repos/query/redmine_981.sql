@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `repositories` WHERE `repositories`.`identifier` = 'foo' AND `repositories`.`id` != 374 AND `repositories`.`project_id` = 0 LIMIT 1

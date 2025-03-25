@@ -1,0 +1,1 @@
+SELECT `refinery_resources`.* FROM `refinery_resources` WHERE `refinery_resources`.`id` = 1 LIMIT 1

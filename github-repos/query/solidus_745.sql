@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_products`.* FROM `spree_products` WHERE (`spree_products`.deleted_at IS NULL or `spree_products`.deleted_at >= '2020-05-16 05:07:38.510287') LIMIT 25 OFFSET 0

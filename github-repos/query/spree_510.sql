@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` ORDER BY updated_at DESC LIMIT 1

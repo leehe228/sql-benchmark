@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_orders` WHERE `spree_orders`.`user_id` = 1785 AND `spree_orders`.`completed_at` IS NOT NULL AND `spree_orders`.`completed_at` < '2020-05-16 05:17:27'

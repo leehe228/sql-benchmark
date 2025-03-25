@@ -1,0 +1,1 @@
+SELECT "badge_types".* FROM "badge_types" WHERE "badge_types"."id" = 3 LIMIT 1

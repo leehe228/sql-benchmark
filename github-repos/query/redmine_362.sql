@@ -1,0 +1,1 @@
+SELECT `tokens`.* FROM `tokens` ORDER BY id desc LIMIT 1

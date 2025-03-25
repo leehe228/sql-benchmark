@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" JOIN quoted_posts AS q ON (q.post_id = posts.id) JOIN posts AS p ON (q.quoted_post_id = p.id) WHERE (p.user_id = 89) ORDER BY "posts"."id" ASC LIMIT 1000

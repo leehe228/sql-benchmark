@@ -1,0 +1,1 @@
+select sysapp0_.id as id1_20_, sysapp0_.app_key as app_key2_20_, sysapp0_.app_secret as app_secr3_20_, sysapp0_.authorized_apis as authoriz4_20_, sysapp0_.channel as channel5_20_, sysapp0_.expiry_minutes as expiry_m6_20_, sysapp0_.site_id as site_id7_20_ from sys_app sysapp0_ where sysapp0_.site_id=1 order by sysapp0_.id desc limit 30

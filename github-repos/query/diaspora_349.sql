@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `comments` WHERE `comments`.`guid` = 'de796d806c3001384b8408e9fe568a11' AND `comments`.`author_id` = 5262 LIMIT 1

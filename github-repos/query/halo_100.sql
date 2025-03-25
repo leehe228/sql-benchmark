@@ -1,0 +1,1 @@
+select sum(sheet0_.likes) as col_0_0_ from posts sheet0_ where sheet0_.type=1

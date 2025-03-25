@@ -1,0 +1,1 @@
+SELECT users.*, user_options.timezone, group_users.created_at as added_at FROM "users" INNER JOIN "group_users" ON "users"."id" = "group_users"."user_id" INNER JOIN "user_options" ON "user_options"."user_id" = "users"."id" WHERE "group_users"."group_id" = 2574 AND (users.id > 0) ORDER BY NOT group_users.owner, "users"."username_lower" ASC LIMIT 3 OFFSET 0

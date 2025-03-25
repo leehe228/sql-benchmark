@@ -1,0 +1,1 @@
+SELECT "user_api_keys".* FROM "user_api_keys" WHERE "user_api_keys"."client_id" = '12345' AND "user_api_keys"."user_id" = 5006 AND (id <> 132)

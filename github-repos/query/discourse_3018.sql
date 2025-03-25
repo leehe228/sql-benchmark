@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, "user_visits"."visited_at" AS user_visits_visited_at FROM "user_visits" WHERE (visited_at >= '1999-12-02' and visited_at <= '2000-01-01') AND "user_visits"."mobile" = TRUE GROUP BY "user_visits"."visited_at" ORDER BY "user_visits"."visited_at" ASC

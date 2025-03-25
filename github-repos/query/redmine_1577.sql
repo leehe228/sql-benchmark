@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `issues` WHERE `issues`.`done_ratio` = 50

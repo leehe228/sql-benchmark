@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `messages` WHERE `messages`.`parent_id` = 1 AND (messages.id < 124)

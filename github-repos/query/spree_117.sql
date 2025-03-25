@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_orders`.* FROM `spree_orders` WHERE (`spree_orders`.`number` LIKE '%R200%' AND `spree_orders`.`completed_at` IS NOT NULL) ORDER BY `spree_orders`.`completed_at` DESC LIMIT 25 OFFSET 0

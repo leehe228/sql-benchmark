@@ -1,0 +1,1 @@
+SELECT `custom_fields`.`name` FROM `custom_fields` WHERE `custom_fields`.`type` IN ('UserCustomField') ORDER BY `custom_fields`.`position` ASC

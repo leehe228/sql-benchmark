@@ -1,0 +1,1 @@
+SELECT "incoming_emails"."post_id" FROM "incoming_emails" WHERE "incoming_emails"."message_id" IN ('35@foo.bar.mail', '34@foo.bar.mail')

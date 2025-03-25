@@ -1,0 +1,1 @@
+SELECT `spree_product_promotion_rules`.* FROM `spree_product_promotion_rules` WHERE `spree_product_promotion_rules`.`product_id` = 519

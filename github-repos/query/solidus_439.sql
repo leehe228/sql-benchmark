@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` INNER JOIN `spree_return_items` ON `spree_inventory_units`.`id` = `spree_return_items`.`inventory_unit_id` WHERE `spree_return_items`.`return_authorization_id` = 5

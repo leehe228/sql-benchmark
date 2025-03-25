@@ -1,0 +1,1 @@
+SELECT `messages`.* FROM `messages` INNER JOIN `boards` ON `boards`.`id` = `messages`.`board_id` INNER JOIN `projects` ON `projects`.`id` = `boards`.`project_id` WHERE (messages.author_id = 8) AND (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='boards')) ORDER BY messages.id DESC LIMIT 10

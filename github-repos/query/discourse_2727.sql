@@ -1,0 +1,1 @@
+SELECT "api_keys".* FROM "api_keys" WHERE (revoked_at IS NOT NULL) AND (GREATEST(last_used_at, created_at, updated_at, '2018-03-26 14:20:57 +0800') < '2019-09-28 06:20:57.865950') ORDER BY "api_keys"."id" ASC LIMIT 1000

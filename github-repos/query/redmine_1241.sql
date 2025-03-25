@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `issues` INNER JOIN `projects` ON `projects`.`id` = `issues`.`project_id` WHERE (projects.status <> 9 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='issue_tracking')) AND `issues`.`assigned_to_id` IN (8, 10, 11)

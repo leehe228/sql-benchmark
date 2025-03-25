@@ -1,0 +1,1 @@
+SELECT `people`.`owner_id` FROM `people` INNER JOIN `participations` ON `people`.`id` = `participations`.`author_id` WHERE `participations`.`target_id` = 2339 AND `participations`.`target_type` = 'Post' AND (people.owner_id IS NOT NULL) AND `people`.`id` NOT IN (1, 3)

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT `campaigns`.* FROM `campaigns` WHERE ((`campaigns`.`assigned_to` = 363) OR ((`campaigns`.`user_id` = 363) OR (`campaigns`.`access` = 'Public'))) AND (status IN ('planned','started')) ORDER BY campaigns.created_at DESC) subquery_for_count

@@ -1,0 +1,1 @@
+SELECT `spree_stock_items`.* FROM `spree_stock_items` LEFT OUTER JOIN `spree_stock_locations` ON `spree_stock_locations`.`id` = `spree_stock_items`.`stock_location_id` WHERE `spree_stock_items`.`deleted_at` IS NOT NULL AND `spree_stock_items`.`stock_location_id` = 26 AND `spree_stock_locations`.`active` = TRUE AND `spree_stock_items`.`id` = 68 LIMIT 1

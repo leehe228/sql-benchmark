@@ -1,0 +1,1 @@
+SELECT `spree_shipments`.`state` FROM `spree_shipments` WHERE `spree_shipments`.`order_id` = 1727

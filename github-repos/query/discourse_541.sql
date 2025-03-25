@@ -1,0 +1,1 @@
+SELECT "group_mentions".* FROM "group_mentions" WHERE "group_mentions"."group_id" = 2373

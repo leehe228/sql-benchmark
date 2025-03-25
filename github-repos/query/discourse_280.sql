@@ -1,0 +1,1 @@
+SELECT "user_profiles".* FROM "user_profiles" WHERE "user_profiles"."user_id" = 154 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."username_lower" IN ('foo', 'someuser') AND "users"."id" != 114

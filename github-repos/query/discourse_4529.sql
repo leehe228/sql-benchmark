@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE (id IN ( SELECT user_id FROM topic_users WHERE notification_level = 3 AND topic_id = 19329 /*category*/ /*tags*/ ) ) AND (id NOT IN (8015))

@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('bash') OR LOWER(name) = LOWER('script') OR LOWER(name) = LOWER('network') OR LOWER(name) = LOWER('ip') OR LOWER(name) = LOWER('grep') OR LOWER(name) = LOWER('sed') OR LOWER(name) = LOWER('regexp') OR LOWER(name) = LOWER('linux'))

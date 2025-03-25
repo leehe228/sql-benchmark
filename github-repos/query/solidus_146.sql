@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_variants` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`sku` LIKE '%FOO%' LIMIT 25 OFFSET 0) subquery_for_count

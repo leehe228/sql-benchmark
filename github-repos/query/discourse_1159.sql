@@ -1,0 +1,1 @@
+SELECT "post_reply_keys"."post_id", "post_reply_keys"."user_id", reply_key::text FROM "post_reply_keys" WHERE ((post_id,user_id) IN ((16808,905)))

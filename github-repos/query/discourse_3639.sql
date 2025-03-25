@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" INNER JOIN "categories_web_hooks" ON "categories"."id" = "categories_web_hooks"."category_id" WHERE "categories_web_hooks"."web_hook_id" = 182

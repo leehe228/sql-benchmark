@@ -1,0 +1,1 @@
+SELECT "web_hook_event_types".* FROM "web_hook_event_types" INNER JOIN "web_hook_event_types_hooks" ON "web_hook_event_types"."id" = "web_hook_event_types_hooks"."web_hook_event_type_id" WHERE "web_hook_event_types_hooks"."web_hook_id" = 164 ORDER BY id ASC

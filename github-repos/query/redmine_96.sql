@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `boards` WHERE `boards`.`project_id` = 1 LIMIT 1

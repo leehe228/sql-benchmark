@@ -1,0 +1,1 @@
+SELECT DISTINCT `users`.* FROM `users` INNER JOIN `email_addresses` ON `email_addresses`.`user_id` = `users`.`id` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND (LOWER(email_addresses.address) IN ('redmine@somenet.foo'))

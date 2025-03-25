@@ -1,0 +1,1 @@
+SELECT `spree_orders`.`id` FROM `spree_orders` ORDER BY `spree_orders`.`completed_at` ASC

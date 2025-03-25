@@ -1,0 +1,1 @@
+SELECT `spree_credit_cards`.* FROM `spree_credit_cards` WHERE `spree_credit_cards`.`id` = 273 ORDER BY `spree_credit_cards`.`id` ASC LIMIT 1

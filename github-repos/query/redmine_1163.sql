@@ -1,0 +1,1 @@
+SELECT `roles`.`id` FROM `roles` INNER JOIN `queries_roles` ON `roles`.`id` = `queries_roles`.`role_id` WHERE `queries_roles`.`query_id` = 2068

@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`source_id` = 21 AND `spree_adjustments`.`source_type` = 'Spree::UnitCancel' LIMIT 1

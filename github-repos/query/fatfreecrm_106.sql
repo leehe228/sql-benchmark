@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `accounts` WHERE `accounts`.`name` = 'Nader, Lind and Koepp57' AND (`accounts`.`id` != 1285) AND `accounts`.`deleted_at` IS NULL LIMIT 1

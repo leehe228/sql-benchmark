@@ -1,0 +1,1 @@
+SELECT "devices".* FROM "devices" WHERE "devices"."user_id" = $1 AND "devices"."id" = $2 LIMIT $3

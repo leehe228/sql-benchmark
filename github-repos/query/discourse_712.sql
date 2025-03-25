@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE (url LIKE '%/original/1X/9e6a55b6b4563e652a23be9d623ca5055c356940.png') LIMIT 1

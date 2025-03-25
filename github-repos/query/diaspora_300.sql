@@ -1,0 +1,1 @@
+SELECT `services`.* FROM `services` WHERE `services`.`uid` = '2' ORDER BY `services`.`id` ASC LIMIT 1

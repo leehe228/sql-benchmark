@@ -1,0 +1,1 @@
+select syssite0_.id as id1_39_, syssite0_.disabled as disabled2_39_, syssite0_.dynamic_path as dynamic_3_39_, syssite0_.name as name4_39_, syssite0_.parent_id as parent_i5_39_, syssite0_.site_path as site_pat6_39_, syssite0_.use_ssi as use_ssi7_39_, syssite0_.use_static as use_stat8_39_ from sys_site syssite0_ where syssite0_.id in (1)

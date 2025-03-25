@@ -1,0 +1,1 @@
+SELECT "email_change_requests".* FROM "email_change_requests" WHERE "email_change_requests"."user_id" = 232

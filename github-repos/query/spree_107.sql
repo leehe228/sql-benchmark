@@ -1,0 +1,1 @@
+SELECT `spree_stores`.`name`, `spree_stores`.`id` FROM `spree_stores` ORDER BY `spree_stores`.`name` ASC

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT *, amount*probability FROM `opportunities` WHERE ((`opportunities`.`assigned_to` = 1143) OR ((`opportunities`.`user_id` = 1143) OR (`opportunities`.`access` = 'Public'))) AND (`opportunities`.`name` LIKE '%second%') ORDER BY opportunities.created_at DESC) subquery_for_count

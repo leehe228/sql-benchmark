@@ -1,0 +1,1 @@
+SELECT `custom_field_enumerations`.* FROM `custom_field_enumerations` WHERE `custom_field_enumerations`.`custom_field_id` = 983 AND `custom_field_enumerations`.`active` = TRUE ORDER BY `custom_field_enumerations`.`position` ASC

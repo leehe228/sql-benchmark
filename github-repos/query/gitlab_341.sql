@@ -1,0 +1,1 @@
+SELECT distinct(repository_storage) FROM "projects" INNER JOIN routes rs ON rs.source_id = projects.id AND rs.source_type = 'Project' WHERE (rs.path LIKE 'user2/%') /*application:test,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

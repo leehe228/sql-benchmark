@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" INNER JOIN "category_groups" ON "category_groups"."group_id" = "groups"."id" WHERE (category_groups.category_id = NULL) AND (groups.public_admission OR groups.allow_membership_requests) ORDER BY "groups"."allow_membership_requests" ASC LIMIT 1

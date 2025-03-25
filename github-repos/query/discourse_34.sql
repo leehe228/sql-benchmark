@@ -1,0 +1,1 @@
+SELECT "tags"."id" FROM "tags" WHERE 1=0

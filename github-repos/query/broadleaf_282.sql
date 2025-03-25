@@ -1,0 +1,1 @@
+select ordermulti0_.ORDER_MULTISHIP_OPTION_ID as ORDER_MU1_104_, ordermulti0_.ADDRESS_ID as ADDRESS_2_104_, ordermulti0_.FULFILLMENT_OPTION_ID as FULFILLM3_104_, ordermulti0_.ORDER_ID as ORDER_ID4_104_, ordermulti0_.ORDER_ITEM_ID as ORDER_IT5_104_ from BLC_ORDER_MULTISHIP_OPTION ordermulti0_ where ordermulti0_.ORDER_ITEM_ID=14

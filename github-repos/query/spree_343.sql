@@ -1,0 +1,1 @@
+SELECT `spree_preferences`.* FROM `spree_preferences` WHERE `spree_preferences`.`key` = 'spree/api_configuration/api_v2_content_type' LIMIT 1

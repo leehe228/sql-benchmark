@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `projects` WHERE (LOWER(identifier) LIKE LOWER('%store%') OR LOWER(name) LIKE LOWER('%store%'))

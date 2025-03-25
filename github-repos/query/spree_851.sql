@@ -1,0 +1,1 @@
+SELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_type` = 'Spree::Asset' AND `active_storage_attachments`.`name` = 'attachment' AND `active_storage_attachments`.`record_id` IN (15, 14)

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `services` WHERE `services`.`uid` = '2' AND `services`.`type` = 'Services::Tumblr' LIMIT 1

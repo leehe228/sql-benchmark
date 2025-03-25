@@ -1,0 +1,1 @@
+SELECT "oauth_applications".* FROM "oauth_applications" ORDER BY "oauth_applications"."id" DESC LIMIT $1 /*application:test,correlation_id:1c10894af5d4e46be790985e298358d4*/

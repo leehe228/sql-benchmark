@@ -1,0 +1,1 @@
+SELECT `spree_refunds`.* FROM `spree_refunds` INNER JOIN `spree_payments` ON `spree_refunds`.`payment_id` = `spree_payments`.`id` WHERE `spree_payments`.`order_id` = 693 ORDER BY `spree_payments`.`created_at` ASC

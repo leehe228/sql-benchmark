@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `people` WHERE `people`.`diaspora_handle` = 'sample@diaspor.us' AND `people`.`closed_account` = FALSE LIMIT 1

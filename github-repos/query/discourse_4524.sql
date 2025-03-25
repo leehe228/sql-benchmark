@@ -1,0 +1,1 @@
+SELECT "badge_types".* FROM "badge_types" ORDER BY "badge_types"."id" ASC

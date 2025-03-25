@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE 1=0

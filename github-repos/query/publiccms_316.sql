@@ -1,0 +1,1 @@
+select cmstagtype0_.id as id1_14_, cmstagtype0_.count as count2_14_, cmstagtype0_.name as name3_14_, cmstagtype0_.site_id as site_id4_14_ from cms_tag_type cmstagtype0_ where cmstagtype0_.site_id=1 order by cmstagtype0_.id desc limit 500

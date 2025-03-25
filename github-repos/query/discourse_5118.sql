@@ -1,0 +1,1 @@
+SELECT "category_custom_fields"."category_id", "category_custom_fields"."value" FROM "category_custom_fields" WHERE (name = 'import_id' AND value IN ('8','10','11','12','13','15'))

@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` = 150 ORDER BY `spree_taxons`.`lft` DESC LIMIT 1

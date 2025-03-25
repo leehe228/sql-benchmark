@@ -1,0 +1,1 @@
+SELECT "themes"."id" FROM "themes" WHERE (user_selectable OR id = -1)

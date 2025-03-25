@@ -1,0 +1,1 @@
+SELECT `opportunities`.* FROM `opportunities` WHERE `opportunities`.`id` = 1111 LIMIT 1

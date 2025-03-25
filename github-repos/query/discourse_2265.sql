@@ -1,0 +1,1 @@
+SELECT "bookmarks".* FROM "bookmarks" WHERE (reminder_at IS NOT NULL AND reminder_at <= '2020-03-26 06:18:53.284507') AND "bookmarks"."reminder_type" != 0 ORDER BY reminder_at ASC LIMIT 2

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `wiki_pages` WHERE `wiki_pages`.`title` = 'Child_page_1' AND `wiki_pages`.`wiki_id` IS NULL LIMIT 1

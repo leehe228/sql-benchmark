@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` ORDER BY `spree_taxons`.`id` ASC LIMIT 1

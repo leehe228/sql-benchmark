@@ -1,0 +1,1 @@
+SELECT `spree_prices`.* FROM `spree_prices` INNER JOIN `spree_variants` ON `spree_prices`.`variant_id` = `spree_variants`.`id` WHERE `spree_prices`.`deleted_at` IS NULL AND `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`product_id` = 30 ORDER BY `spree_variants`.`position` ASC, `spree_variants`.`id` ASC, `spree_prices`.`currency` ASC, `spree_variants`.`position` ASC

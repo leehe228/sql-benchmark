@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` INNER JOIN `changesets_issues` ON `issues`.`id` = `changesets_issues`.`issue_id` WHERE `changesets_issues`.`changeset_id` = 103 AND `issues`.`id` = 2 LIMIT 1

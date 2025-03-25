@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" INNER JOIN "group_users" ON "groups"."id" = "group_users"."group_id" WHERE "group_users"."user_id" = 4378 AND "groups"."automatic" = FALSE

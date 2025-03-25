@@ -1,0 +1,1 @@
+select group0_.GROUP_ID as GROUP_ID1_65_0_, group0_.DATE_CREATED as DATE_CRE2_65_0_, group0_.DATE_MODIFIED as DATE_MOD3_65_0_, group0_.UPDT_ID as UPDT_ID4_65_0_, group0_.GROUP_NAME as GROUP_NA5_65_0_, group0_.GROUP_TYPE as GROUP_TY6_65_0_ from SM_GROUP group0_ where group0_.GROUP_ID=2

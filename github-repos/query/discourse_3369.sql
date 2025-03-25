@@ -1,0 +1,1 @@
+SELECT "permalinks".* FROM "permalinks" WHERE (url ILIKE '%discourse%' OR external_url ILIKE '%discourse%') ORDER BY permalinks.created_at desc LIMIT 100

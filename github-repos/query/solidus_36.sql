@@ -1,0 +1,1 @@
+SELECT `spree_adjustments`.* FROM `spree_adjustments` WHERE `spree_adjustments`.`adjustable_id` = 12 AND `spree_adjustments`.`adjustable_type` = 'Spree::LineItem'

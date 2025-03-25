@@ -1,0 +1,1 @@
+SELECT MAX("user_fields"."position") FROM "user_fields"

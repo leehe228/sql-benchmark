@@ -1,0 +1,1 @@
+SELECT "badge_groupings".* FROM "badge_groupings" WHERE "badge_groupings"."id" IN (4, 1, 2, 3, 5)

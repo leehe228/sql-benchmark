@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_content_related cmscontent0_ where cmscontent0_.content_id=1

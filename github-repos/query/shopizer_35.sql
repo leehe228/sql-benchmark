@@ -1,0 +1,1 @@
+select SEQ_COUNT from SM_SEQUENCER where SEQ_NAME = 'CUSTOMER_SEQ_NEXT_VAL' for update

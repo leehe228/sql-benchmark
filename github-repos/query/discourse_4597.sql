@@ -1,0 +1,1 @@
+SELECT "reviewables".* FROM "reviewables" WHERE "reviewables"."status" = 0 AND (created_at >= '2020-03-23') AND (created_at <= '2020-03-25') ORDER BY score DESC, created_at DESC LIMIT 10 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT "reviewable_claimed_topics"."user_id" FROM "reviewable_claimed_topics" WHERE "reviewable_claimed_topics"."topic_id" = 19369

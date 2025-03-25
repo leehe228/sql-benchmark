@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` WHERE `spree_inventory_units`.`order_id` = 45 ORDER BY `spree_inventory_units`.`id` DESC LIMIT 1

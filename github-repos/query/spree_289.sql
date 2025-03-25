@@ -1,0 +1,1 @@
+SELECT `spree_promotion_actions`.`promotion_id` FROM `spree_promotion_actions` WHERE `spree_promotion_actions`.`type` = 'Spree::Promotion::Actions::FreeShipping' AND `spree_promotion_actions`.`deleted_at` IS NULL

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "screened_ip_addresses" WHERE "screened_ip_addresses"."action_type" = 3

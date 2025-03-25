@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "directory_items" WHERE "directory_items"."period_type" = 1

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_customer_returns` ORDER BY `spree_customer_returns`.`created_at` DESC LIMIT 25 OFFSET 0) subquery_for_count

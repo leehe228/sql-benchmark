@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE "groups"."name" = 'my_group_255' ORDER BY "groups"."id" ASC LIMIT 1000

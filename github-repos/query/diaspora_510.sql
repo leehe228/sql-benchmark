@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `poll_participations` WHERE `poll_participations`.`guid` = '3fa929206c3001384b7e08e9fe568a11' AND `poll_participations`.`author_id` = 4017 LIMIT 1

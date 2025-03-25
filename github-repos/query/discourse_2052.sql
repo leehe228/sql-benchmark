@@ -1,0 +1,1 @@
+SELECT "topic_users".* FROM "topic_users" WHERE "topic_users"."topic_id" IN (16580, 16579, 16514) AND "topic_users"."user_id" = 2112

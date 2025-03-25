@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE "reviewables"."status" = 0

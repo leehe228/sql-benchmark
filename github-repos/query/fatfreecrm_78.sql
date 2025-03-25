@@ -1,0 +1,1 @@
+SELECT `accounts`.* FROM `accounts` WHERE ((`accounts`.`assigned_to` = 1194) OR ((`accounts`.`user_id` = 1194) OR (`accounts`.`access` = 'Public'))) AND `accounts`.`id` = 163 LIMIT 1

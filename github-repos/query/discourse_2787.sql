@@ -1,0 +1,1 @@
+SELECT "posts"."post_number" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 17710 ORDER BY "posts"."post_number" ASC

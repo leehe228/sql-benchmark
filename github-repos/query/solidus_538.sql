@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` = 2021 AND `spree_orders`.`frontend_viewable` = TRUE ORDER BY `spree_orders`.`created_at` DESC LIMIT 1

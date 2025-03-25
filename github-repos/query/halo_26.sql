@@ -1,0 +1,1 @@
+select postcatego0_.post_id as col_0_0_ from post_categories postcatego0_ cross join posts post1_ where post1_.type=0 and postcatego0_.category_id=1 and post1_.id=postcatego0_.post_id and post1_.status=0

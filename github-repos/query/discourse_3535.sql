@@ -1,0 +1,1 @@
+SELECT "muted_users".* FROM "muted_users" WHERE "muted_users"."user_id" = 5962

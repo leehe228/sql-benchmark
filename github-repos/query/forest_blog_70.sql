@@ -1,0 +1,1 @@
+SELECT count(0) FROM article WHERE article.article_status = 1 AND article.article_title LIKE concat(concat('%', 'MySQL'), '%') AND 1 = 1

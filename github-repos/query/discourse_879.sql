@@ -1,0 +1,1 @@
+SELECT "group_custom_fields"."name", "group_custom_fields"."value" FROM "group_custom_fields" WHERE "group_custom_fields"."group_id" = 2415 ORDER BY id asc

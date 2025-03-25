@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`project_id` = 2 ORDER BY `issues`.`id` ASC LIMIT 1

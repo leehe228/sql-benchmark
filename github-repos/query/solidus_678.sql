@@ -1,0 +1,1 @@
+SELECT `spree_option_values_variants`.`variant_id` FROM `spree_option_values_variants` WHERE 1=0 AND `spree_option_values_variants`.`option_value_id` IN (372, 373) GROUP BY `spree_option_values_variants`.`variant_id` HAVING (COUNT(*) = 2)

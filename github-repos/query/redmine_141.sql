@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `attachments` WHERE (disk_filename = '060719210727_archive.zip' AND id <> 7) LIMIT 1

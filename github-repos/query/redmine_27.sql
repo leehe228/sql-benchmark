@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE (type = 'DocumentCategoryCustomField') ORDER BY `custom_fields`.`position` ASC

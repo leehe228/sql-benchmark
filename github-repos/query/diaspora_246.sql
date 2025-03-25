@@ -1,0 +1,1 @@
+SELECT `poll_answers`.* FROM `poll_answers` WHERE `poll_answers`.`poll_id` = 75 ORDER BY id ASC

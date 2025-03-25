@@ -1,0 +1,1 @@
+SELECT `mod_notes`.* FROM `mod_notes` WHERE (user_id = 84) ORDER BY created_at desc LIMIT 10

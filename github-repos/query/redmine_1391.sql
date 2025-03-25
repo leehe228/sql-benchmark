@@ -1,0 +1,1 @@
+SELECT SUM(`issues`.`estimated_hours`) FROM `issues` WHERE `issues`.`fixed_version_id` = 611

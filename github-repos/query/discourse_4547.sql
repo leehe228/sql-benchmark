@@ -1,0 +1,1 @@
+SELECT "github_user_infos".* FROM "github_user_infos" WHERE (user_id = 8084 OR github_user_id = '100')

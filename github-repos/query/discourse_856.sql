@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE (score >= 0.0) AND "reviewables"."status" = 0 AND "reviewables"."reviewable_by_moderator" = TRUE

@@ -1,0 +1,1 @@
+SELECT MIN("projects"."creator_id") FROM "projects" INNER JOIN "packages_packages" ON "packages_packages"."project_id" = "projects"."id" /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE "topics"."deleted_at" IS NULL AND "topics"."node_id" = $1 ORDER BY "topics"."id" DESC LIMIT $2

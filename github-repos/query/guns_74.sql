@@ -1,0 +1,1 @@
+SELECT operation_log_id,log_type,log_name,user_id,class_name,method,create_time,succeed,message FROM sys_operation_log WHERE operation_log_id=1188369905288871937

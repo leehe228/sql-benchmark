@@ -1,0 +1,1 @@
+select postcatego0_.id as id1_10_, postcatego0_.create_time as create_t2_10_, postcatego0_.deleted as deleted3_10_, postcatego0_.update_time as update_t4_10_, postcatego0_.category_id as category5_10_, postcatego0_.post_id as post_id6_10_ from post_categories postcatego0_ where postcatego0_.category_id=2

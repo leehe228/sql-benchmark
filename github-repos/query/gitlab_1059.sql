@@ -1,0 +1,1 @@
+SELECT "application_settings".* FROM "application_settings" WHERE "application_settings"."id" = $1 LIMIT $2 FOR UPDATE

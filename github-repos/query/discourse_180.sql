@@ -1,0 +1,1 @@
+SELECT "category_users"."user_id" FROM "category_users" INNER JOIN "categories" ON "category_users"."category_id" = "categories"."id" WHERE "categories"."id" = 1 AND "category_users"."notification_level" = 4

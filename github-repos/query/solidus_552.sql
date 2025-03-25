@@ -1,0 +1,1 @@
+SELECT `spree_shipping_methods`.`id` FROM `spree_shipping_methods` INNER JOIN `spree_store_shipping_methods` ON `spree_shipping_methods`.`id` = `spree_store_shipping_methods`.`shipping_method_id` WHERE `spree_shipping_methods`.`deleted_at` IS NULL AND `spree_store_shipping_methods`.`store_id` = 438

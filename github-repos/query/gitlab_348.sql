@@ -1,0 +1,1 @@
+SELECT "keys".* FROM "keys" WHERE "keys"."user_id" = $1 AND ("keys"."type" IN ($2, $3) OR "keys"."type" IS NULL) /*application:test,correlation_id:75a0a5d540f63471310aefd1c8d62587*/

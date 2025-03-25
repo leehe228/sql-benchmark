@@ -1,0 +1,1 @@
+SELECT "invites".* FROM "invites" WHERE "invites"."email" = 'iceking@adventuretime.ooo' AND "invites"."invited_by_id" = 1 ORDER BY created_at DESC LIMIT 1

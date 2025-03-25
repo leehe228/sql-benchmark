@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT 1 AS one FROM `spree_orders` WHERE `spree_orders`.`user_id` = 658 AND `spree_orders`.`completed_at` IS NOT NULL ORDER BY `spree_orders`.`completed_at` DESC LIMIT 25 OFFSET 0) subquery_for_count

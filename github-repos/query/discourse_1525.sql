@@ -1,0 +1,1 @@
+SELECT "posts"."topic_id", "posts"."id" FROM "posts" WHERE "posts"."user_id" = 1264 ORDER BY "posts"."topic_id" ASC, "posts"."post_number" ASC

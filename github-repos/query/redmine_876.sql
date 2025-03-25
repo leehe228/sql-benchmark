@@ -1,0 +1,1 @@
+SELECT `custom_fields`.* FROM `custom_fields` WHERE `custom_fields`.`type` IN ('IssueCustomField') AND (is_for_all = TRUE OR id IN (SELECT DISTINCT cfp.custom_field_id FROM custom_fields_projects cfp WHERE cfp.project_id = 1885)) AND `custom_fields`.`visible` = TRUE AND `custom_fields`.`is_filter` = TRUE ORDER BY `custom_fields`.`position` ASC

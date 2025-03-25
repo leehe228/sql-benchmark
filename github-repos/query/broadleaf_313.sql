@@ -1,0 +1,1 @@
+select ratingsumm0_.RATING_SUMMARY_ID as RATING_S1_134_, ratingsumm0_.AVERAGE_RATING as AVERAGE_2_134_, ratingsumm0_.ITEM_ID as ITEM_ID3_134_, ratingsumm0_.RATING_TYPE as RATING_T4_134_ from BLC_RATING_SUMMARY ratingsumm0_ where ratingsumm0_.RATING_TYPE='PRODUCT' and ratingsumm0_.ITEM_ID='500'

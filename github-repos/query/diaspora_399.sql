@@ -1,0 +1,1 @@
+SELECT people.id FROM `people` INNER JOIN `roles` ON `roles`.`person_id` = `people`.`id` WHERE `roles`.`name` = 'spotlight'

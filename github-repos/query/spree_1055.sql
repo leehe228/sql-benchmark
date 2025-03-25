@@ -1,0 +1,1 @@
+SELECT `spree_prices`.* FROM `spree_prices` WHERE `spree_prices`.`deleted_at` IS NULL AND `spree_prices`.`variant_id` = 2343 AND `spree_prices`.`currency` = 'EUR' ORDER BY `spree_prices`.`id` ASC LIMIT 1

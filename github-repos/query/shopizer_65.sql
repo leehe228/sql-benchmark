@@ -1,0 +1,1 @@
+select distinct productrel0_.PRODUCT_RELATIONSHIP_ID as PRODUCT_1_56_, productrel0_.ACTIVE as ACTIVE2_56_, productrel0_.CODE as CODE3_56_, productrel0_.PRODUCT_ID as PRODUCT_4_56_, productrel0_.RELATED_PRODUCT_ID as RELATED_5_56_, productrel0_.MERCHANT_ID as MERCHANT6_56_ from PRODUCT_RELATIONSHIP productrel0_ where productrel0_.MERCHANT_ID=1 and (productrel0_.PRODUCT_ID is null)

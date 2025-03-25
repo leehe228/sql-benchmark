@@ -1,0 +1,1 @@
+SELECT "topic_users"."notification_level" FROM "topic_users" WHERE "topic_users"."topic_id" = 19446 AND "topic_users"."user_id" = 8395 LIMIT 1

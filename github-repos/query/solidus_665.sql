@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`lft` <= 18 AND `spree_taxons`.`rgt` >= 19 AND (`spree_taxons`.`id` != 238) ORDER BY `spree_taxons`.`lft` ASC

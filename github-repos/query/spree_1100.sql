@@ -1,0 +1,1 @@
+SELECT `spree_countries`.* FROM `spree_countries` WHERE `spree_countries`.`name` = 'Andorra' AND `spree_countries`.`iso3` = 'AND' AND `spree_countries`.`iso` = 'AD' AND `spree_countries`.`iso_name` = 'ANDORRA' AND `spree_countries`.`numcode` = 20 AND `spree_countries`.`states_required` = TRUE ORDER BY `spree_countries`.`id` ASC LIMIT 1

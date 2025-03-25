@@ -1,0 +1,1 @@
+select urlhandler0_.URL_HANDLER_ID as URL_HAND1_179_, urlhandler0_.INCOMING_URL as INCOMING2_179_, urlhandler0_.IS_REGEX as IS_REGEX3_179_, urlhandler0_.NEW_URL as NEW_URL4_179_, urlhandler0_.URL_REDIRECT_TYPE as URL_REDI5_179_ from BLC_URL_HANDLER urlhandler0_ where 1=1 order by urlhandler0_.URL_HANDLER_ID asc limit 50

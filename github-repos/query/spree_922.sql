@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `spree_payment_capture_events` WHERE `spree_payment_capture_events`.`payment_id` = 268

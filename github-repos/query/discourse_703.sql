@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" INNER JOIN post_uploads ON post_uploads.post_id = posts.id INNER JOIN uploads ON post_uploads.upload_id = uploads.id WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."topic_id" = 15714 AND (uploads.access_control_post_id IS NULL)

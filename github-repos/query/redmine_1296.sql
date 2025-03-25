@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`status` = 1 AND (users.id NOT IN (SELECT gu.user_id FROM groups_users gu WHERE gu.group_id = 1026))

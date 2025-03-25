@@ -1,0 +1,1 @@
+SELECT `emails`.* FROM `emails` WHERE `emails`.`id` = 1 LIMIT 1

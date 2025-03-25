@@ -1,0 +1,1 @@
+SELECT `enumerations`.* FROM `enumerations` WHERE `enumerations`.`type` IN ('TimeEntryActivity') AND (enumerations.project_id IS NULL OR enumerations.project_id = 1) AND (enumerations.id NOT IN (9)) AND `enumerations`.`active` = TRUE AND (id = 9 OR parent_id = 9) ORDER BY `enumerations`.`position` ASC LIMIT 1

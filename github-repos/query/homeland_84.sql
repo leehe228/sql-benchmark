@@ -1,0 +1,1 @@
+SELECT "replies"."topic_id", "replies"."id", "replies"."body", "replies"."updated_at", "replies"."created_at" FROM "replies" WHERE "replies"."deleted_at" IS NULL AND "replies"."user_id" = $1 AND "replies"."action" IS NULL ORDER BY "replies"."id" DESC LIMIT $2

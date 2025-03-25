@@ -1,0 +1,1 @@
+select picture0_.id as id1_11_0_, picture0_.create_time as create_t2_11_0_, picture0_.delete_url as delete_u3_11_0_, picture0_.filename as filename4_11_0_, picture0_.height as height5_11_0_, picture0_.size as size6_11_0_, picture0_.url as url7_11_0_, picture0_.username as username8_11_0_, picture0_.width as width9_11_0_ from picture picture0_ where picture0_.id=1

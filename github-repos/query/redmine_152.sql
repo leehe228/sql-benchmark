@@ -1,0 +1,1 @@
+SELECT `member_roles`.* FROM `member_roles` WHERE 1=0

@@ -1,0 +1,1 @@
+SELECT DISTINCT `posts`.* FROM `posts` LEFT OUTER JOIN participations ON participations.target_id = posts.id AND participations.target_type = 'Post' WHERE (`participations`.`author_id` = 1047 OR `posts`.`author_id` = 1047) AND (posts.interacted_at < '2020-04-28 06:05:28') AND `posts`.`type` IN ('StatusMessage', 'Reshare') ORDER BY posts.interacted_at DESC, posts.id DESC LIMIT 15

@@ -1,0 +1,1 @@
+SELECT MAX(`issue_statuses`.`position`) FROM `issue_statuses`

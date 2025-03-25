@@ -1,0 +1,1 @@
+SELECT "replies".* FROM "replies" WHERE "replies"."topic_id" = $1 ORDER BY "replies"."id" ASC LIMIT $2 OFFSET $3

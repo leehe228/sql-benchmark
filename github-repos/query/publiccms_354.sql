@@ -1,0 +1,1 @@
+select sysdomain0_.name as name1_29_, sysdomain0_.path as path2_29_, sysdomain0_.site_id as site_id3_29_, sysdomain0_.wild as wild4_29_ from sys_domain sysdomain0_ order by sysdomain0_.name desc limit 30

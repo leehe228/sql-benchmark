@@ -1,0 +1,1 @@
+select sysdeptpag0_.dept_id as dept_id1_28_0_, sysdeptpag0_.page as page2_28_0_ from sys_dept_page sysdeptpag0_ where sysdeptpag0_.dept_id=3 and sysdeptpag0_.page='/category'

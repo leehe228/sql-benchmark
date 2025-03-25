@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `opportunities` WHERE (assigned_to = 33) LIMIT 1

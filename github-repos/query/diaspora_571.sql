@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`guid` = '146112106c3001384b7e08e9fe568a11' AND `people`.`closed_account` = FALSE AND `people`.`owner_id` IS NOT NULL LIMIT 1

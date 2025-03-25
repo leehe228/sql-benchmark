@@ -1,0 +1,1 @@
+SELECT `active_storage_blobs`.* FROM `active_storage_blobs` INNER JOIN `active_storage_attachments` ON `active_storage_blobs`.`id` = `active_storage_attachments`.`blob_id` WHERE `active_storage_attachments`.`record_id` = 16 AND `active_storage_attachments`.`record_type` = 'Spree::Asset' AND `active_storage_attachments`.`name` = 'attachment' LIMIT 1

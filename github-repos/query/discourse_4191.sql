@@ -1,0 +1,1 @@
+SELECT "posts"."user_id" FROM "posts" INNER JOIN "post_replies" ON "posts"."id" = "post_replies"."reply_post_id" WHERE ("posts"."deleted_at" IS NOT NULL) AND "post_replies"."post_id" = 20081 AND (posts.post_type IN (1,2,3))

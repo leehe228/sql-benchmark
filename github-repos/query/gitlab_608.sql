@@ -1,0 +1,1 @@
+SELECT MIN("boards"."id") FROM "boards" /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

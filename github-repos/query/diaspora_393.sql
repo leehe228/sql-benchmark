@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`diaspora_handle` = 'alice@localhost:9887' AND `people`.`closed_account` = FALSE AND `people`.`owner_id` IS NOT NULL ORDER BY `people`.`id` ASC LIMIT 1

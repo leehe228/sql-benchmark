@@ -1,0 +1,1 @@
+SELECT DISTINCT "parent_theme_id" FROM "themes" INNER JOIN "child_themes" ON "child_themes"."child_theme_id" = "themes"."id" INNER JOIN "themes" "parent_themes_themes" ON "parent_themes_themes"."id" = "child_themes"."parent_theme_id" WHERE "themes"."id" IN (1029, 1028)

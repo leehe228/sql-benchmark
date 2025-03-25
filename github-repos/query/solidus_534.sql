@@ -1,0 +1,1 @@
+SELECT `spree_cartons`.* FROM `spree_cartons` WHERE `spree_cartons`.`id` = 7 LIMIT 1

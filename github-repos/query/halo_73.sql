@@ -1,0 +1,1 @@
+select posttag0_.post_id as col_0_0_ from post_tags posttag0_ cross join posts post1_ where post1_.type=0 and posttag0_.tag_id=4 and post1_.id=posttag0_.post_id and post1_.status=0

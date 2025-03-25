@@ -1,0 +1,1 @@
+SELECT notice_id,title,content,create_time,create_user,update_time,update_user FROM sys_notice WHERE notice_id=1188376366811316226

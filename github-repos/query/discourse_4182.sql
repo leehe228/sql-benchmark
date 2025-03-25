@@ -1,0 +1,1 @@
+SELECT "post_actions".* FROM "post_actions" WHERE ("post_actions"."deleted_at" IS NOT NULL) AND "post_actions"."post_id" = 19972 AND "post_actions"."user_id" = 7304 LIMIT 1

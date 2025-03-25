@@ -1,0 +1,1 @@
+SELECT `projects`.`id` FROM `projects` INNER JOIN `projects_trackers` ON `projects`.`id` = `projects_trackers`.`project_id` WHERE `projects_trackers`.`tracker_id` = 1

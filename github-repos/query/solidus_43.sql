@@ -1,0 +1,1 @@
+SELECT `spree_orders_promotions`.* FROM `spree_orders_promotions` WHERE `spree_orders_promotions`.`order_id` = 404 AND `spree_orders_promotions`.`promotion_id` = 41 AND `spree_orders_promotions`.`promotion_code_id` = 8 LIMIT 1

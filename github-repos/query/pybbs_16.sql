@@ -1,0 +1,1 @@
+select count(1) from topic t where to_days(t.in_time) = to_days(now())

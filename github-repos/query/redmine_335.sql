@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `changesets` WHERE `changesets`.`revision` = '12345' AND `changesets`.`repository_id` = 392 LIMIT 1

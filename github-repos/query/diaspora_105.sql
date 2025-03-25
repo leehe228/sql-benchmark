@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('Reshare') AND `posts`.`root_guid` = 'f52649706c2f01384b7d08e9fe568a11' ORDER BY author_id = 3542 DESC LIMIT 15 OFFSET 0

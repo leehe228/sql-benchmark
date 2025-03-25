@@ -1,0 +1,1 @@
+SELECT "email_logs"."post_id" FROM "email_logs" WHERE "email_logs"."message_id" = 'topic/424242/123456@test.localhost'

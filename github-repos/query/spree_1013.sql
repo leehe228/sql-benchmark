@@ -1,0 +1,1 @@
+SELECT `spree_stock_movements`.* FROM `spree_stock_movements` WHERE `spree_stock_movements`.`stock_item_id` = 5643 ORDER BY `spree_stock_movements`.`id` DESC LIMIT 1

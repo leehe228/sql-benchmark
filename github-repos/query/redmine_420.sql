@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.status = 1)

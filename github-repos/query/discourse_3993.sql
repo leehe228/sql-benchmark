@@ -1,0 +1,1 @@
+SELECT "group_users".* FROM "group_users" WHERE (group_id IN (SELECT id FROM groups WHERE NOT automatic)) AND "group_users"."user_id" = 6782

@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`merged_story_id` IS NULL AND `stories`.`is_expired` = FALSE AND ((CAST(upvotes AS signed) - CAST(downvotes AS signed)) >= 0) AND NOT (EXISTS (SELECT TRUE FROM `hidden_stories` WHERE (hidden_stories.story_id = stories.id) AND `hidden_stories`.`user_id` = 56)) ORDER BY hotness LIMIT 26 OFFSET 0

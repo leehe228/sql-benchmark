@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `stories` WHERE `stories`.`domain_id` = 45

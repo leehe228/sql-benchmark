@@ -1,0 +1,1 @@
+select count(categorypr0_.CATEGORY_PRODUCT_ID) as col_0_0_ from BLC_CATEGORY_PRODUCT_XREF categorypr0_ cross join BLC_PRODUCT productimp1_ where categorypr0_.PRODUCT_ID=productimp1_.PRODUCT_ID and (categorypr0_.CATEGORY_PRODUCT_ID in (20)) and categorypr0_.CATEGORY_ID=2001 and categorypr0_.PRODUCT_ID=3 and (productimp1_.ARCHIVED='N' or productimp1_.ARCHIVED is null)

@@ -1,0 +1,1 @@
+select role_id AS id, pid as "pId", name as name, (case when (pid = 0 or pid is null) then 'true' else 'false' end) as "open" from sys_role

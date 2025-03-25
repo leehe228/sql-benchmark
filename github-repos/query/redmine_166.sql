@@ -1,0 +1,1 @@
+SELECT `wiki_pages`.* FROM `wiki_pages` WHERE `wiki_pages`.`wiki_id` = 1 AND (LOWER(title) = LOWER('CookBook_documentation')) ORDER BY title LIMIT 1

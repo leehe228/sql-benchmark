@@ -1,0 +1,1 @@
+SELECT `spree_shipping_methods`.* FROM `spree_shipping_methods` WHERE `spree_shipping_methods`.`id` = 425 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`completed_at` IS NOT NULL AND (`spree_orders`.`completed_at` > '2020-04-24 00:00:00' AND `spree_orders`.`completed_at` < '2020-05-08 23:59:59') ORDER BY `spree_orders`.`completed_at` DESC

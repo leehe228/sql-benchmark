@@ -1,0 +1,1 @@
+SELECT "team_users".* FROM "team_users" WHERE "team_users"."team_id" = $1 AND "team_users"."status" = $2 ORDER BY id asc LIMIT $3 OFFSET $4

@@ -1,0 +1,1 @@
+SELECT COUNT( 1 ) FROM collect WHERE user_id = 3

@@ -1,0 +1,1 @@
+SELECT `moderations`.* FROM `moderations` LEFT OUTER JOIN `stories` ON `stories`.`id` = `moderations`.`story_id` LEFT OUTER JOIN `comments` ON `comments`.`id` = `moderations`.`comment_id` WHERE ( moderations.user_id = 84 OR stories.user_id = 84 OR comments.user_id = 84) ORDER BY id desc LIMIT 10

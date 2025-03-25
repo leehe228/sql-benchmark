@@ -1,0 +1,1 @@
+SELECT COUNT(count_column) FROM (SELECT DISTINCT `spree_products`.`id` AS count_column FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND (`spree_products`.deleted_at IS NULL or `spree_products`.deleted_at >= '2020-05-01 07:06:03.678713') LIMIT 25 OFFSET 0) subquery_for_count

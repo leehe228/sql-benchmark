@@ -1,0 +1,1 @@
+SELECT DISTINCT "topic_tags"."topic_id" FROM "topic_tags"

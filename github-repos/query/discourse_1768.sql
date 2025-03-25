@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."active" = TRUE AND "users"."staged" = FALSE AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:16:54.758955') AND (users.id IN ( SELECT gu.user_id FROM group_users gu WHERE group_id IN (2627) LIMIT 200 ) ) AND (users.id <> 1492) ORDER BY last_seen_at DESC LIMIT 19

@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`locked_at` IS NULL ORDER BY `users`.`id` ASC LIMIT 1

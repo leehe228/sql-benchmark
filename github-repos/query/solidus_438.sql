@@ -1,0 +1,1 @@
+SELECT `spree_return_authorizations`.* FROM `spree_return_authorizations` WHERE `spree_return_authorizations`.`order_id` = 95 AND `spree_return_authorizations`.`id` = 11 LIMIT 1

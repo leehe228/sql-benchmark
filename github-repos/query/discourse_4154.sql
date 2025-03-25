@@ -1,0 +1,1 @@
+SELECT "posts".* FROM "posts" WHERE "posts"."topic_id" = 18908 AND (posts.user_id = 7302 OR post_type IN (1,2,3,4)) AND (created_at >= '2020-03-26 00:00:00') ORDER BY created_at ASC LIMIT 1

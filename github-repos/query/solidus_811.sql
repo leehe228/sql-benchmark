@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` = 2339 AND `spree_orders`.`frontend_viewable` = TRUE AND (updated_at > '2020-05-15 05:20:16.766292') ORDER BY `spree_orders`.`created_at` DESC LIMIT 1

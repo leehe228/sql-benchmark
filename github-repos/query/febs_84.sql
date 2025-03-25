@@ -1,0 +1,1 @@
+SELECT count(1) FROM t_login_log WHERE datediff(login_time, now()) = 0

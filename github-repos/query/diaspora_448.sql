@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`authentication_token` = 'dQTvUvvqgt-6VbxWwdRHgRRw9aGhCw' LIMIT 1

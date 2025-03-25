@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`parent_id` = 2061 AND `projects`.`rgt` IS NULL AND `projects`.`lft` IS NULL ORDER BY `projects`.`name` ASC

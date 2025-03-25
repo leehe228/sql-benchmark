@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `users` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND `users`.`auth_source_id` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+select count(searchface0_.SEARCH_FACET_ID) as col_0_0_ from BLC_SEARCH_FACET searchface0_ where searchface0_.ARCHIVED='N' or searchface0_.ARCHIVED is null

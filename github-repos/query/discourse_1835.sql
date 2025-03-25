@@ -1,0 +1,1 @@
+SELECT "top_topics"."topic_id" FROM "top_topics"

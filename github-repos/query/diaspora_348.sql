@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `photos` WHERE `photos`.`author_id` = 1 LIMIT 1

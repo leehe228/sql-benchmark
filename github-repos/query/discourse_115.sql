@@ -1,0 +1,1 @@
+SELECT "categories"."topic_id" FROM "categories"

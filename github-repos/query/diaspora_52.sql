@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`type` IN ('StatusMessage') AND `posts`.`guid` IS NULL LIMIT 1

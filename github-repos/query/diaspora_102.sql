@@ -1,0 +1,1 @@
+SELECT `participations`.* FROM `participations` WHERE `participations`.`author_id` = 5420 AND `participations`.`target_id` = 2275 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `spree_variants`.* FROM `spree_variants` INNER JOIN `spree_line_items` ON `spree_variants`.`id` = `spree_line_items`.`variant_id` WHERE `spree_variants`.`deleted_at` IS NULL AND `spree_line_items`.`order_id` = 21 ORDER BY `spree_line_items`.`created_at` ASC

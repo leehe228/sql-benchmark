@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` INNER JOIN `groups_users` ON `users`.`id` = `groups_users`.`group_id` WHERE `users`.`type` IN ('Group', 'GroupBuiltin', 'GroupAnonymous', 'GroupNonMember') AND `groups_users`.`user_id` = 3

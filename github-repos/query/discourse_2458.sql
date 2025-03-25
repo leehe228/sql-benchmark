@@ -1,0 +1,1 @@
+SELECT "categories"."id" FROM "categories" WHERE "categories"."reviewable_by_group_id" IS NOT NULL

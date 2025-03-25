@@ -1,0 +1,1 @@
+SELECT `spree_promotions`.* FROM `spree_promotions` INNER JOIN `spree_promotion_codes` ON `spree_promotion_codes`.`promotion_id` = `spree_promotions`.`id` WHERE `spree_promotion_codes`.`value` = 'argh' ORDER BY `spree_promotions`.`id` ASC LIMIT 1

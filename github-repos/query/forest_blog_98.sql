@@ -1,0 +1,1 @@
+SELECT category_id, category_pid, category_name, category_description, category_order, category_icon FROM category WHERE category.category_id=1

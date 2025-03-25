@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT "members"."user_id") FROM "members" WHERE "members"."type" = $1 AND "members"."source_type" = $2 AND "members"."ldap" = $3 AND "members"."created_at" BETWEEN $4 AND $5 AND "members"."user_id" BETWEEN $6 AND $7 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

@@ -1,0 +1,1 @@
+SELECT `field_groups`.* FROM `field_groups` WHERE `field_groups`.`klass_name` = 'Contact' AND (tag_id IS NULL OR tag_id IN (NULL)) ORDER BY `field_groups`.`position` ASC

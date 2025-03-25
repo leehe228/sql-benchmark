@@ -1,0 +1,1 @@
+SELECT `comments`.* FROM `comments` WHERE `comments`.`commentable_id` = 796 AND `comments`.`commentable_type` = 'Post' ORDER BY created_at ASC

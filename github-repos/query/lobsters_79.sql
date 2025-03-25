@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`merged_story_id` = 48 AND `stories`.`is_expired` = FALSE

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `versions` WHERE `versions`.`name` = 'Version 30' AND `versions`.`project_id` = 1999 LIMIT 1

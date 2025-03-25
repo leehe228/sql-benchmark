@@ -1,0 +1,1 @@
+SELECT `spree_store_credit_categories`.* FROM `spree_store_credit_categories` ORDER BY `spree_store_credit_categories`.`id` ASC LIMIT 1

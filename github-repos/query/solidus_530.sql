@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS `size`, MAX(`spree_taxons`.`updated_at`) AS timestamp FROM `spree_taxons` WHERE `spree_taxons`.`parent_id` IS NULL

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."id" IN (847, 846) ORDER BY "users"."id" ASC LIMIT 1000

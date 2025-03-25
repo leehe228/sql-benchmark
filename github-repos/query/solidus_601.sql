@@ -1,0 +1,1 @@
+SELECT `spree_return_items`.* FROM `spree_return_items` WHERE `spree_return_items`.`reimbursement_id` = 20 AND `spree_return_items`.`exchange_variant_id` IS NOT NULL

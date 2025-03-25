@@ -1,0 +1,1 @@
+select dept_id AS "deptId", pid AS "pid", pids AS "pids", simple_name AS "simpleName", full_name AS "fullName", description AS "description", version AS "version", sort AS "sort", create_time AS "createTime", update_time AS "updateTime", create_user AS "createUser", update_user AS "updateUser" from sys_dept where 1 = 1 order by sort ASC LIMIT 0,10

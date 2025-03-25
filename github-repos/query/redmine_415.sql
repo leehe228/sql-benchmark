@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `email_addresses` WHERE `email_addresses`.`user_id` = 2

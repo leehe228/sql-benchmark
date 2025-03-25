@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issue_categories` WHERE `issue_categories`.`name` = 'API Update' AND `issue_categories`.`id` != 2 AND `issue_categories`.`project_id` = 1 LIMIT 1

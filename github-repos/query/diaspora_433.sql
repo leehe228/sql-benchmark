@@ -1,0 +1,1 @@
+SELECT `mentions`.* FROM `mentions` WHERE `mentions`.`mentions_container_type` = 'Post' AND `mentions`.`mentions_container_id` IN (661, 660, 659, 658, 657, 656, 655, 654, 653, 652, 651, 650, 649, 648, 647)

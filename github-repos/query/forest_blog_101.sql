@@ -1,0 +1,1 @@
+SELECT count(0) FROM article WHERE article.article_status = 1 AND article.article_id IN (SELECT article_category_ref.article_id FROM article_category_ref WHERE article_category_ref.category_id = 1) AND 1 = 1

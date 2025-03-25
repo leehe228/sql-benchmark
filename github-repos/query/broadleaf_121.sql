@@ -1,0 +1,1 @@
+select count(upsaleprod0_.UP_SALE_PRODUCT_ID) as col_0_0_ from BLC_PRODUCT_UP_SALE upsaleprod0_ cross join BLC_PRODUCT productimp1_ where upsaleprod0_.RELATED_SALE_PRODUCT_ID=productimp1_.PRODUCT_ID and upsaleprod0_.PRODUCT_ID=1 and (productimp1_.ARCHIVED='N' or productimp1_.ARCHIVED is null)

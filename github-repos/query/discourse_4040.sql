@@ -1,0 +1,1 @@
+SELECT "unsubscribe_keys".* FROM "unsubscribe_keys" WHERE "unsubscribe_keys"."key" = '4871b725c4e53c211ecda6da0597468871f1e87899a102002b639e1eba0cafe9' ORDER BY "unsubscribe_keys"."key" ASC LIMIT 1

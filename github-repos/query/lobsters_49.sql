@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE `tags`.`id` IN (1, 2) ORDER BY tags.is_media desc, tags.tag

@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE (users.id > 0) AND "users"."admin" = FALSE ORDER BY "users"."id" ASC LIMIT 1000

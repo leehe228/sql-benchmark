@@ -1,0 +1,1 @@
+SELECT `share_visibilities`.`user_id` FROM `share_visibilities` WHERE `share_visibilities`.`shareable_id` = 1157 AND `share_visibilities`.`shareable_type` = 'Photo' AND `share_visibilities`.`user_id` = 3

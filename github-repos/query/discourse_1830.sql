@@ -1,0 +1,1 @@
+SELECT "posts"."id" FROM "posts" WHERE ("posts"."deleted_at" IS NOT NULL) AND (baked_version IS NULL OR baked_version < 2) ORDER BY id desc LIMIT 100

@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE (last_seen < '2018-04-29 06:06:51.015336' and locked_at is null and remove_after is null) ORDER BY `users`.`last_seen` ASC LIMIT 1

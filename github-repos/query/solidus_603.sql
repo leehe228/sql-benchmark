@@ -1,0 +1,1 @@
+SELECT `spree_users`.* FROM `spree_users` WHERE `spree_users`.`email` LIKE '%a@example.com%' LIMIT 10 OFFSET 0

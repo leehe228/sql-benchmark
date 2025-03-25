@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (projects.lft < 6 AND projects.rgt > 7) AND (projects.status <> 9) ORDER BY `projects`.`lft` ASC

@@ -1,0 +1,1 @@
+select qiniuconfi0_.id as id1_12_0_, qiniuconfi0_.access_key as access_k2_12_0_, qiniuconfi0_.bucket as bucket3_12_0_, qiniuconfi0_.host as host4_12_0_, qiniuconfi0_.secret_key as secret_k5_12_0_, qiniuconfi0_.type as type6_12_0_, qiniuconfi0_.zone as zone7_12_0_ from qiniu_config qiniuconfi0_ where qiniuconfi0_.id=1

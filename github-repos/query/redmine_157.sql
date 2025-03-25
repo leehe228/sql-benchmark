@@ -1,0 +1,1 @@
+SELECT `boards`.* FROM `boards` WHERE `boards`.`project_id` = 3 ORDER BY `boards`.`position` ASC

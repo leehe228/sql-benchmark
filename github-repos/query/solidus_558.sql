@@ -1,0 +1,1 @@
+SELECT `spree_preferences`.* FROM `spree_preferences` WHERE `spree_preferences`.`key` = 'test' LIMIT 1

@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT `campaigns`.`id`) FROM `campaigns` WHERE ((`campaigns`.`assigned_to` = 411) OR ((`campaigns`.`user_id` = 411) OR (`campaigns`.`access` = 'Public')))

@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from cms_word cmsword0_ where cmsword0_.site_id=1 and cmsword0_.hidden=0 and (cmsword0_.name like '%2%')

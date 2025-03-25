@@ -1,0 +1,1 @@
+select count(1) from comment where to_days(in_time) = to_days(now())

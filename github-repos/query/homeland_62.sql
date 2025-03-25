@@ -1,0 +1,1 @@
+SELECT "replies"."id" FROM "replies" INNER JOIN "actions" ON "replies"."id" = "actions"."target_id" WHERE "replies"."deleted_at" IS NULL AND "actions"."user_id" = $1 AND "actions"."action_type" = $2 AND "actions"."target_type" = $3 AND "actions"."user_type" = $4 AND "actions"."target_type" = $5

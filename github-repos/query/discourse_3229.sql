@@ -1,0 +1,1 @@
+SELECT "topics"."created_at" FROM "topics" WHERE ("topics"."deleted_at" IS NOT NULL) ORDER BY created_at desc LIMIT 1 OFFSET 500

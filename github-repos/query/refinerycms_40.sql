@@ -1,0 +1,1 @@
+SELECT `refinery_pages`.* FROM `refinery_pages` INNER JOIN `refinery_page_translations` ON `refinery_page_translations`.`refinery_page_id` = `refinery_pages`.`id` WHERE `refinery_page_translations`.`locale` = 'en' AND `refinery_page_translations`.`slug` = 'products/my-product/cool-one' ORDER BY `refinery_pages`.`id` ASC LIMIT 1

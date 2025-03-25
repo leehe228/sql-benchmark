@@ -1,0 +1,1 @@
+SELECT `posts`.* FROM `posts` WHERE `posts`.`author_id` = 1 AND `posts`.`public` = TRUE ORDER BY created_at DESC LIMIT 25

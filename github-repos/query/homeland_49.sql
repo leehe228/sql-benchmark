@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE (lower(login) = 'login1031') LIMIT $1

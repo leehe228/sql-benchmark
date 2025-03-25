@@ -1,0 +1,1 @@
+SELECT "email_tokens".* FROM "email_tokens" WHERE "email_tokens"."user_id" = 317 ORDER BY "email_tokens"."id" ASC LIMIT 1

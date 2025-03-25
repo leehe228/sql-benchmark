@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE "groups"."id" != 2422 AND (string_to_array(incoming_email, '|') @> ARRAY['test@mail.org']) ORDER BY "groups"."id" ASC LIMIT 1

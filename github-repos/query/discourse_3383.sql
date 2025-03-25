@@ -1,0 +1,1 @@
+SELECT "topic_custom_fields"."topic_id", "topic_custom_fields"."name", "topic_custom_fields"."value" FROM "topic_custom_fields" WHERE (topic_id in (18417)) AND (name in ('test_field'))

@@ -1,0 +1,1 @@
+SELECT "screened_emails".* FROM "screened_emails" WHERE "screened_emails"."email" = 'bruce697@wayne.com' LIMIT 1

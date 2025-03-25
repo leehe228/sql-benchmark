@@ -1,0 +1,1 @@
+SELECT "categories"."email_in" FROM "categories"

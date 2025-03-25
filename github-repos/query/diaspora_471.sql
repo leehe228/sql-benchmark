@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `posts` WHERE `posts`.`author_id` = 1 AND `posts`.`public` = TRUE

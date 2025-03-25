@@ -1,0 +1,1 @@
+SELECT `pods`.* FROM `pods` WHERE `pods`.`host` = 'example.com' AND `pods`.`port` = 3000 LIMIT 1

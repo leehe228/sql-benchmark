@@ -1,0 +1,1 @@
+SELECT DISTINCT *, amount*probability FROM `opportunities` WHERE ((`opportunities`.`assigned_to` = 1359) OR ((`opportunities`.`user_id` = 1359) OR (`opportunities`.`access` = 'Public'))) ORDER BY opportunities.created_at DESC LIMIT 20 OFFSET 820

@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 1 AND (projects.status <> 9) AND (LOWER(identifier) LIKE LOWER('%ecook%') OR LOWER(name) LIKE LOWER('%ecook%'))

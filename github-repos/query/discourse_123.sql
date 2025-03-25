@@ -1,0 +1,1 @@
+SELECT distinct categories.id FROM "categories" INNER JOIN "category_groups" ON "categories"."id" = "category_groups"."category_id" INNER JOIN "groups" ON "category_groups"."group_id" = "groups"."id" INNER JOIN "group_users" ON "groups"."id" = "group_users"."group_id" WHERE "group_users"."user_id" = 86

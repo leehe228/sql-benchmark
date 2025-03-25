@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `people` WHERE `people`.`guid` = 'c2f8e9806c3001384b7e08e9fe568a11' LIMIT 1

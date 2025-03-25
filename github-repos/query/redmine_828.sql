@@ -1,0 +1,1 @@
+SELECT `attachments`.* FROM `attachments` ORDER BY `attachments`.`id` DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `notifications` WHERE `notifications`.`guid` = '5e34dec06c3001384b7e08e9fe568a11' LIMIT 1

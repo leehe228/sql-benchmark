@@ -1,0 +1,1 @@
+SELECT MAX(`custom_field_enumerations`.`position`) FROM `custom_field_enumerations` WHERE `custom_field_enumerations`.`custom_field_id` = 1064

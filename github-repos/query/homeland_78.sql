@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE "topics"."deleted_at" IS NULL AND "topics"."id" = $1

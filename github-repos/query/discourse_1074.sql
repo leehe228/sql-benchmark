@@ -1,0 +1,1 @@
+SELECT "user_security_keys"."credential_id" FROM "user_security_keys" WHERE "user_security_keys"."user_id" = 824 AND "user_security_keys"."enabled" = TRUE AND "user_security_keys"."factor_type" = 0

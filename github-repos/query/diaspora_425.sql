@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` WHERE `people`.`diaspora_handle` = 'bob-person-1358b0a28f@example.net' AND `people`.`closed_account` = FALSE

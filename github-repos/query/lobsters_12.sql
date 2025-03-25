@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_all, `tag_filters`.`tag_id` AS tag_filters_tag_id FROM `tag_filters` GROUP BY `tag_filters`.`tag_id`

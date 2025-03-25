@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`email` = 'bob12902c5@pivotallabs.com' ORDER BY `users`.`id` ASC LIMIT 1

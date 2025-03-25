@@ -1,0 +1,1 @@
+select skuattribu0_.SKU_ID as SKU_ID4_161_1_, skuattribu0_.SKU_ATTR_ID as SKU_ATTR1_161_1_, skuattribu0_.SKU_ATTR_ID as SKU_ATTR1_161_0_, skuattribu0_.NAME as NAME2_161_0_, skuattribu0_.SKU_ID as SKU_ID4_161_0_, skuattribu0_.VALUE as VALUE3_161_0_ from BLC_SKU_ATTRIBUTE skuattribu0_ where skuattribu0_.SKU_ID in (10002, 1)

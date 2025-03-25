@@ -1,0 +1,1 @@
+SELECT `spree_states`.`id` FROM `spree_states` WHERE `spree_states`.`country_id` = 729

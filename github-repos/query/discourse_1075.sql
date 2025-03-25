@@ -1,0 +1,1 @@
+SELECT "user_security_keys".* FROM "user_security_keys" WHERE "user_security_keys"."credential_id" = '9GiFosW50+s+juyJlyxKEVAsk3gZLo9XWIhX47eC4gHfDsldF3TWR43Tcl/+3gLTL5t1TjpmcbKA2DUV2eKrBw==' LIMIT 1

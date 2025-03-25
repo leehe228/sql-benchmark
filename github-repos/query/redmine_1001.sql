@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `journal_details` WHERE `journal_details`.`journal_id` = 826

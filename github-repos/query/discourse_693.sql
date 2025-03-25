@@ -1,0 +1,1 @@
+SELECT "uploads".* FROM "uploads" WHERE "uploads"."sha1" = 'f59ea56fe8ebe42048491d43a19d9f34c5d0f8dc' LIMIT 1

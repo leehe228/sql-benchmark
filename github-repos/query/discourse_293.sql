@@ -1,0 +1,1 @@
+SELECT "user_fields"."id" FROM "user_fields" WHERE (show_on_profile OR show_on_user_card)

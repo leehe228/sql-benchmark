@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.* FROM `spree_inventory_units` INNER JOIN `spree_shipments` ON `spree_inventory_units`.`shipment_id` = `spree_shipments`.`id` WHERE `spree_shipments`.`order_id` = 1517 LIMIT 5

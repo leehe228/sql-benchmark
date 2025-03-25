@@ -1,0 +1,1 @@
+select count(categoryat0_.CATEGORY_ATTRIBUTE_ID) as col_0_0_ from BLC_CATEGORY_ATTRIBUTE categoryat0_ where categoryat0_.CATEGORY_ID in (2002)

@@ -1,0 +1,1 @@
+SELECT COUNT(count_column) FROM (SELECT DISTINCT `spree_products`.`id` AS count_column FROM `spree_products` LIMIT 25 OFFSET 0) subquery_for_count

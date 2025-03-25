@@ -1,0 +1,1 @@
+SELECT posts.id FROM `posts` WHERE `posts`.`public` = TRUE AND 1=0 AND (posts.created_at < '2020-04-28 06:10:02.279367') AND `posts`.`type` IN ('StatusMessage', 'Reshare') ORDER BY posts.created_at DESC, posts.id DESC LIMIT 15

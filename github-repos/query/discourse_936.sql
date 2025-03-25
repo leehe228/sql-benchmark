@@ -1,0 +1,1 @@
+SELECT "group_users"."group_id" FROM "group_users" WHERE "group_users"."group_id" IN (SELECT "groups"."id" FROM "groups" WHERE (groups.id > 0) AND "groups"."public_admission" = FALSE AND "groups"."automatic" = FALSE ORDER BY name ASC) AND "group_users"."user_id" = 779

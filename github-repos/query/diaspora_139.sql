@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `likes` WHERE `likes`.`target_id` = 796 AND `likes`.`target_type` = 'Post' AND `likes`.`positive` = TRUE

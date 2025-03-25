@@ -1,0 +1,1 @@
+select t.*, u.username from topic t left join user u on t.user_id = u.id WHERE t.in_time between '2019-10-11' and '2019-10-26' order by t.in_time desc LIMIT 0,20

@@ -1,0 +1,1 @@
+SELECT `spree_state_changes`.* FROM `spree_state_changes` WHERE `spree_state_changes`.`stateful_id` = 1201 AND `spree_state_changes`.`stateful_type` = 'Spree::Order' AND `spree_state_changes`.`name` = 'payment' LIMIT 1

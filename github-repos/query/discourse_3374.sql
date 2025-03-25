@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "users" WHERE "users"."moderator" = TRUE AND "users"."admin" = FALSE AND (users.id > 0)

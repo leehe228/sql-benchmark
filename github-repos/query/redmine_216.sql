@@ -1,0 +1,1 @@
+SELECT `custom_fields`.`id`, role_id FROM `custom_fields` INNER JOIN `custom_fields_roles` ON `custom_fields_roles`.`custom_field_id` = `custom_fields`.`id` INNER JOIN `roles` ON `roles`.`id` = `custom_fields_roles`.`role_id` WHERE `custom_fields`.`type` IN ('IssueCustomField') AND `custom_fields`.`visible` = FALSE

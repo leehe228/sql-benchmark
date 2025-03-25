@@ -1,0 +1,1 @@
+select count(adminrolei0_.ADMIN_ROLE_ID) as col_0_0_ from BLC_ADMIN_ROLE adminrolei0_ where 1=1

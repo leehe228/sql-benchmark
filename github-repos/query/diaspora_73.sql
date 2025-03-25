@@ -1,0 +1,1 @@
+SELECT `authorizations`.`id` FROM `authorizations` WHERE `authorizations`.`user_id` = 1465

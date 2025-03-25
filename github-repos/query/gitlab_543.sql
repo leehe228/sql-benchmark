@@ -1,0 +1,1 @@
+SELECT MAX("projects"."creator_id") FROM "projects" INNER JOIN "services" ON "services"."project_id" = "projects"."id" WHERE "services"."type" = $1 AND "services"."active" = $2 AND "projects"."created_at" BETWEEN $3 AND $4 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

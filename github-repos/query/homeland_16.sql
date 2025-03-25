@@ -1,0 +1,1 @@
+SELECT "settings".* FROM "settings" WHERE "settings"."thing_id" = $1 AND "settings"."thing_type" = $2 AND "settings"."var" = $3 LIMIT $4

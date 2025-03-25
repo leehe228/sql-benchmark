@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `journal_details` WHERE `journal_details`.`journal_id` = 2 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `people`.* FROM `people` INNER JOIN `posts` ON `posts`.`author_id` = `people`.`id` WHERE `posts`.`root_guid` = '18a7b7e06c3001384b7e08e9fe568a11' AND `posts`.`type` = 'Reshare' AND (people.owner_id IS NULL)

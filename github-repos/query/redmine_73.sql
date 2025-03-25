@@ -1,0 +1,1 @@
+SELECT `projects`.`id` FROM `projects` INNER JOIN `members` ON `projects`.`id` = `members`.`project_id` WHERE `members`.`user_id` = 1 AND `projects`.`status` != 9

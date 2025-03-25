@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE (id NOT IN (-1,740)) AND "users"."moderator" = TRUE

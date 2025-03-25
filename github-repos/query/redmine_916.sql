@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (LOWER(identifier) LIKE LOWER('%store%') OR LOWER(name) LIKE LOWER('%store%')) ORDER BY `projects`.`lft` ASC LIMIT 25 OFFSET 0

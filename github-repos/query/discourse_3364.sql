@@ -1,0 +1,1 @@
+SELECT DISTINCT "users"."id" FROM "users" LEFT JOIN "tag_users" AS "tu" ON "users"."id" = "tu"."user_id" INNER JOIN "tags" AS "t" ON "t"."id" = "tu"."tag_id" WHERE "t"."id" IN ($1) AND "tu"."notification_level" IS NULL 

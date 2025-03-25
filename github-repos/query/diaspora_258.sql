@@ -1,0 +1,1 @@
+SELECT `tags`.* FROM `tags` WHERE (LOWER(name) = LOWER('youtube') OR LOWER(name) = LOWER('video') OR LOWER(name) = LOWER('car') OR LOWER(name) = LOWER('engine') OR LOWER(name) = LOWER('stopmotion'))

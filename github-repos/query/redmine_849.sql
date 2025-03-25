@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `issues` INNER JOIN `issue_statuses` ON `issue_statuses`.`id` = `issues`.`status_id` WHERE `issues`.`root_id` = 3687 AND (issues.lft > 1 AND issues.rgt < 4) AND `issue_statuses`.`is_closed` = FALSE LIMIT 1

@@ -1,0 +1,1 @@
+SELECT `trackers`.* FROM `trackers` INNER JOIN `projects_trackers` ON `trackers`.`id` = `projects_trackers`.`tracker_id` WHERE `projects_trackers`.`project_id` = 1 AND (LOWER(trackers.name) = LOWER('bug')) ORDER BY `trackers`.`position` ASC LIMIT 1

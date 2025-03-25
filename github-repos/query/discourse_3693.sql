@@ -1,0 +1,1 @@
+SELECT "users"."id" FROM "users" WHERE "users"."active" = TRUE AND (suspended_till IS NULL OR suspended_till <= '2020-03-26 06:23:57.922159') AND (username_lower LIKE 'stage\_user%') ORDER BY last_seen_at DESC LIMIT 19

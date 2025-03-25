@@ -1,0 +1,1 @@
+SELECT DISTINCT `users`.* FROM `users` INNER JOIN `email_addresses` ON `email_addresses`.`user_id` = `users`.`id` WHERE `users`.`type` IN ('User', 'AnonymousUser') AND (LOWER(email_addresses.address) IN ('jsmith@somenet.foo')) ORDER BY `users`.`id` ASC LIMIT 1

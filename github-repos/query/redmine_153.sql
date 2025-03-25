@@ -1,0 +1,1 @@
+SELECT MAX(`boards`.`position`) FROM `boards` WHERE `boards`.`project_id` = 3 AND `boards`.`parent_id` IS NULL

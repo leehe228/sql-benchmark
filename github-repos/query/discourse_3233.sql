@@ -1,0 +1,1 @@
+SELECT COUNT("topic_views"."topic_id") FROM "topic_views" WHERE "topic_views"."user_id" = 5510 AND (viewed_at > '2019-12-17 06:22:48.054838')

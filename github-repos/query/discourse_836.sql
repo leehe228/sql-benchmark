@@ -1,0 +1,1 @@
+SELECT "topic_links"."id", "topic_links"."user_id" FROM "topic_links" WHERE (url = 'https://www.discourse.org/' OR url = 'http://www.discourse.org/') AND "topic_links"."post_id" = 16768 AND "topic_links"."topic_id" = 15947 ORDER BY "topic_links"."id" ASC LIMIT 1

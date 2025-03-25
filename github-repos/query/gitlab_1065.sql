@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "projects" INNER JOIN "namespaces" ON "projects"."namespace_id" = "namespaces"."id" WHERE "namespaces"."owner_id" = $1 AND "namespaces"."type" IS NULL /*application:test,controller:applications,action:index,correlation_id:b9055a1a2d73b0b126217607f275b2ad*/

@@ -1,0 +1,1 @@
+select categorypr0_.CATEGORY_PRODUCT_ID as CATEGORY1_29_, categorypr0_.CATEGORY_ID as CATEGORY4_29_, categorypr0_.DEFAULT_REFERENCE as DEFAULT_2_29_, categorypr0_.DISPLAY_ORDER as DISPLAY_3_29_, categorypr0_.PRODUCT_ID as PRODUCT_5_29_ from BLC_CATEGORY_PRODUCT_XREF categorypr0_ where categorypr0_.CATEGORY_ID=2001

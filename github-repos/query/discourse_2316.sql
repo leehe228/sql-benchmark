@@ -1,0 +1,1 @@
+SELECT "translation_overrides".* FROM "translation_overrides" WHERE "translation_overrides"."translation_key" = 'badges.badge_3.name' LIMIT 1

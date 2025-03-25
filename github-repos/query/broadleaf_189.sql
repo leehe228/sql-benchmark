@@ -1,0 +1,1 @@
+select productopt0_.PRODUCT_OPTION_XREF_ID as PRODUCT_1_126_, productopt0_.PRODUCT_ID as PRODUCT_2_126_, productopt0_.PRODUCT_OPTION_ID as PRODUCT_3_126_ from BLC_PRODUCT_OPTION_XREF productopt0_ where productopt0_.PRODUCT_ID=1 and productopt0_.PRODUCT_OPTION_ID=2

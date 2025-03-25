@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE (mailing_list_mode > 0 AND mailing_list_token = 'uFkEqBnjix') ORDER BY `users`.`id` ASC LIMIT 1

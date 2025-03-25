@@ -1,0 +1,1 @@
+SELECT "topic_allowed_users"."user_id" FROM "topic_allowed_users" LEFT JOIN group_users gu ON gu.user_id = topic_allowed_users.user_id AND gu.group_id IN (2896) WHERE "topic_allowed_users"."topic_id" = 18516 AND (gu.group_id IS NULL) AND (NOT topic_allowed_users.user_id = 6226)

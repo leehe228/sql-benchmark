@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`name` IN ('Bestsellers', 'New', 'Trending', 'Streetstyle', 'Summer Sale')

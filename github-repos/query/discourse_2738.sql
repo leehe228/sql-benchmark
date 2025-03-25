@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "categories" WHERE "categories"."parent_category_id" = 3361

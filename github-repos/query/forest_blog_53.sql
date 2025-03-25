@@ -1,0 +1,1 @@
+SELECT comment_id, comment_pid, comment_pname, comment_article_id, comment_author_name, comment_author_email, comment_author_url, comment_author_avatar, comment_content, comment_agent, comment_ip,comment_create_time, comment_role FROM comment WHERE comment_pid=33

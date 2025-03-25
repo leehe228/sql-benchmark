@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `accounts` WHERE `accounts`.`name` = 'Example.com' AND `accounts`.`deleted_at` IS NULL LIMIT 1

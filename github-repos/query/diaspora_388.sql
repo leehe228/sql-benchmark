@@ -1,0 +1,1 @@
+SELECT `conversations`.* FROM `conversations` INNER JOIN `conversation_visibilities` ON `conversation_visibilities`.`conversation_id` = `conversations`.`id` WHERE `conversation_visibilities`.`person_id` = 2 AND `conversation_visibilities`.`conversation_id` = 190 ORDER BY `conversations`.`id` ASC LIMIT 1

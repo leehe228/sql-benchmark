@@ -1,0 +1,1 @@
+SELECT `campaigns`.* FROM `campaigns` WHERE `campaigns`.`id` = 1907 LIMIT 1

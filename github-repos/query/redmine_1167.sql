@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`status` = 1 AND `users`.`status` = 1 AND `users`.`type` IN ('User', 'Group') AND `users`.`id` = 1024

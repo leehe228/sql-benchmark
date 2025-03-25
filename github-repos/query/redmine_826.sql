@@ -1,0 +1,1 @@
+SELECT `custom_field_enumerations`.* FROM `custom_field_enumerations` WHERE `custom_field_enumerations`.`custom_field_id` = 1061 AND `custom_field_enumerations`.`id` = 135 ORDER BY `custom_field_enumerations`.`position` ASC LIMIT 1

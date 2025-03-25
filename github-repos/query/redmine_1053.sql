@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `auth_sources`

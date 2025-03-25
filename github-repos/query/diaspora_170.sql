@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `likes` WHERE `likes`.`guid` = '143cc1806c3001384b7e08e9fe568a11' LIMIT 1

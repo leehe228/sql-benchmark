@@ -1,0 +1,1 @@
+SELECT `spree_taxons`.* FROM `spree_taxons` WHERE `spree_taxons`.`taxonomy_id` = 58 AND `spree_taxons`.`parent_id` IS NULL LIMIT 1

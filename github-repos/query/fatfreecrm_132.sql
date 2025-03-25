@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `campaigns` WHERE `campaigns`.`name` = 'Hello' AND (`campaigns`.`id` != 42) AND `campaigns`.`user_id` = 404 AND `campaigns`.`deleted_at` IS NULL LIMIT 1

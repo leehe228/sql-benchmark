@@ -1,0 +1,1 @@
+SELECT DISTINCT `spree_orders`.* FROM `spree_orders` WHERE (`spree_orders`.`completed_at` IS NOT NULL AND `spree_orders`.`considered_risky` = TRUE) LIMIT 1 OFFSET 0

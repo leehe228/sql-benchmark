@@ -1,0 +1,1 @@
+SELECT `spree_zones`.* FROM `spree_zones` WHERE `spree_zones`.`name` = 'EU_VAT' AND `spree_zones`.`description` = 'Countries that make up the EU VAT zone.' AND `spree_zones`.`kind` = 'country' ORDER BY `spree_zones`.`id` ASC LIMIT 1

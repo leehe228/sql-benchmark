@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`root_id` = 3509 AND (issues.lft > 1 AND issues.rgt < 8) ORDER BY issues.lft

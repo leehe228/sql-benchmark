@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from log_upload logupload0_ where logupload0_.site_id=1 and (logupload0_.file_type in ('video')) and (logupload0_.original_name like '%xx%')

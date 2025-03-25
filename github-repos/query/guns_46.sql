@@ -1,0 +1,1 @@
+SELECT m1.menu_id AS id, ( CASE WHEN (m2.menu_id = 0 OR m2.menu_id IS NULL) THEN 0 ELSE m2.menu_id END ) AS pId, m1.name AS name, ( CASE WHEN (m2.menu_id = 0 OR m2.menu_id IS NULL) THEN 'true' ELSE 'false' END ) as "open" FROM sys_menu m1 LEFT join sys_menu m2 ON m1.pcode = m2.code ORDER BY m1.menu_id ASC

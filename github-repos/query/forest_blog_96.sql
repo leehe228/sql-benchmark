@@ -1,0 +1,1 @@
+SELECT count(0) FROM article WHERE 1 = 1

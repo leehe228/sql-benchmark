@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `hat_requests`

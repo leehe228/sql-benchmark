@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` WHERE `spree_products`.`deleted_at` IS NULL AND ( spree_products.id in ( select product_id from spree_variants group by product_id having sum(count_on_hand) > 0 ) ) LIMIT ? 

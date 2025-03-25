@@ -1,0 +1,1 @@
+SELECT "users"."id", "users"."primary_group_id" FROM "users" WHERE "users"."id" = 360 AND "users"."primary_group_id" IS NOT NULL

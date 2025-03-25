@@ -1,0 +1,1 @@
+SELECT `conversations`.* FROM `conversations` INNER JOIN `conversation_visibilities` ON `conversation_visibilities`.`conversation_id` = `conversations`.`id` WHERE (conversations.created_at >= '2020-04-29 10:19:15 UTC') AND `conversation_visibilities`.`person_id` = 5149 AND (conversations.created_at < '2021-04-29T10:19:15.000Z') ORDER BY conversations.created_at DESC LIMIT 15

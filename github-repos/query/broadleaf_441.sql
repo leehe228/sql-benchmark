@@ -1,0 +1,1 @@
+select adminmodul0_.ADMIN_MODULE_ID as ADMIN_MO1_2_, adminmodul0_.DISPLAY_ORDER as DISPLAY_2_2_, adminmodul0_.ICON as ICON3_2_, adminmodul0_.MODULE_KEY as MODULE_K4_2_, adminmodul0_.NAME as NAME5_2_ from BLC_ADMIN_MODULE adminmodul0_

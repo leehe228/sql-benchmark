@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('GroupNonMember') ORDER BY id LIMIT 1

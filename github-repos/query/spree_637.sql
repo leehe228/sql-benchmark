@@ -1,0 +1,1 @@
+SELECT `spree_orders`.`id` FROM `spree_orders`

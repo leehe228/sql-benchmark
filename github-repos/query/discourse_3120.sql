@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "reviewables" WHERE (score > 0)

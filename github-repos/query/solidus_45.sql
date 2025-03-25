@@ -1,0 +1,1 @@
+SELECT `spree_products`.* FROM `spree_products` INNER JOIN `spree_variants` ON `spree_products`.`id` = `spree_variants`.`product_id` WHERE `spree_variants`.`id` = 530 LIMIT 1

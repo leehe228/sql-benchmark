@@ -1,0 +1,1 @@
+SELECT "notifications".* FROM "notifications" WHERE "notifications"."topic_id" = 15634 ORDER BY "notifications"."id" ASC LIMIT 1000

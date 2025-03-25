@@ -1,0 +1,1 @@
+SELECT "watched_words".* FROM "watched_words" WHERE (word ILIKE 'nickelback') ORDER BY "watched_words"."id" ASC LIMIT 1

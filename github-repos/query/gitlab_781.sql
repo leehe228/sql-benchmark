@@ -1,0 +1,1 @@
+SELECT "services".* FROM "services" WHERE "services"."active" = $1 AND "services"."type" = $2 ORDER BY "services"."id" ASC LIMIT $3 /*application:test,controller:application_settings,action:usage_data,correlation_id:6a0c0fa1ca2505711e59296537dcdff3*/

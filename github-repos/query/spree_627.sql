@@ -1,0 +1,1 @@
+SELECT `spree_tax_rates`.* FROM `spree_tax_rates` WHERE `spree_tax_rates`.`deleted_at` IS NULL AND `spree_tax_rates`.`id` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT 1 AS one FROM `projects` WHERE (projects.lft > 1 AND projects.rgt < 10) AND (((projects.status <> 9) AND ((projects.is_public = TRUE AND projects.id NOT IN (SELECT project_id FROM members WHERE user_id IN (6,13)))))) LIMIT 1

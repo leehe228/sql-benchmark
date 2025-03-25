@@ -1,0 +1,1 @@
+SELECT "user_auth_tokens"."id" FROM "user_auth_tokens" WHERE "user_auth_tokens"."user_id" = 5859 ORDER BY "user_auth_tokens"."created_at" ASC

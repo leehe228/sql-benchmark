@@ -1,0 +1,1 @@
+SELECT link_id, link_url, link_name, link_image, link_description, link_owner_nickname, link_owner_contact, link_update_time, link_create_time, link_order, link_status FROM link ORDER BY link_status ASC,link_order DESC,link_id ASC

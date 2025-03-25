@@ -1,0 +1,1 @@
+SELECT `tokens`.* FROM `tokens` WHERE `tokens`.`action` = 'autologin' ORDER BY `tokens`.`id` DESC LIMIT 1

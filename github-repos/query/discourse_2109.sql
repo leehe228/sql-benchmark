@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" JOIN group_users ON groups.id = group_users.group_id WHERE "groups"."id" = 0 AND "group_users"."user_id" = 2114 AND "group_users"."owner" = TRUE LIMIT 1

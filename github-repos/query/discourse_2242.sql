@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE (slug LIKE ANY(ARRAY['%-exportacio-de-dades-completada']) AND archetype = 'private_message' AND subtype = 'system_message' AND posts_count = 1 AND created_at < '2020-03-24 06:14:00.405808' AND user_id = -1 )

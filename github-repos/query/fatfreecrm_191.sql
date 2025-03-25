@@ -1,0 +1,1 @@
+SELECT DISTINCT `contacts`.`id` FROM `contacts` INNER JOIN `contact_opportunities` ON `contacts`.`id` = `contact_opportunities`.`contact_id` WHERE `contact_opportunities`.`opportunity_id` = 1128 ORDER BY contacts.id DESC

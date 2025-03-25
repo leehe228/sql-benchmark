@@ -1,0 +1,1 @@
+SELECT "theme_fields"."upload_id" FROM "theme_fields" WHERE "theme_fields"."type_id" = 2 AND "theme_fields"."name" = 'icons-sprite' AND "theme_fields"."theme_id" IN (1029, 1028)

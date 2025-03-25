@@ -1,0 +1,1 @@
+SELECT `users`.* FROM `users` WHERE `users`.`type` IN ('Group', 'GroupBuiltin', 'GroupAnonymous', 'GroupNonMember') ORDER BY `users`.`type` ASC, `users`.`lastname` ASC LIMIT 25 OFFSET 0

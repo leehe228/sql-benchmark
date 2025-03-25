@@ -1,0 +1,1 @@
+SELECT `spree_zone_members`.* FROM `spree_zone_members` WHERE `spree_zone_members`.`zoneable_id` = 162 AND `spree_zone_members`.`zoneable_type` = 'Spree::Country'

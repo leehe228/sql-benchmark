@@ -1,0 +1,1 @@
+SELECT `spree_promotion_actions`.* FROM `spree_promotion_actions` WHERE `spree_promotion_actions`.`deleted_at` IS NULL AND `spree_promotion_actions`.`id` = 211 LIMIT 1

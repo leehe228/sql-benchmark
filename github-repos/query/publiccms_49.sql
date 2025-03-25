@@ -1,0 +1,1 @@
+select sysrolemod0_.module_id as module_i1_37_, sysrolemod0_.role_id as role_id2_37_ from sys_role_module sysrolemod0_ where sysrolemod0_.role_id=3 limit 2147483647

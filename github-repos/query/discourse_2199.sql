@@ -1,0 +1,1 @@
+SELECT "posts"."id", "posts"."cooked", "username" FROM "posts" LEFT JOIN users u on u.id = posts.user_id WHERE ("posts"."deleted_at" IS NOT NULL) AND "posts"."hidden" = FALSE AND "posts"."deleted_at" IS NOT NULL AND "posts"."topic_id" = 17096 AND (posts.id in (18122,18123,18124))

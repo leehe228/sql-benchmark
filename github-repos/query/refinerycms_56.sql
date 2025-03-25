@@ -1,0 +1,1 @@
+SELECT `refinery_images`.* FROM `refinery_images` ORDER BY created_at DESC LIMIT 1

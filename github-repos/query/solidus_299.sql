@@ -1,0 +1,1 @@
+SELECT `spree_properties`.* FROM `spree_properties` WHERE `spree_properties`.`id` IN (46, 47) LIMIT 25 OFFSET 0

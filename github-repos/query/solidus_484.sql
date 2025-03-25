@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` LIMIT 25 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT `spree_orders`.* FROM `spree_orders` WHERE `spree_orders`.`user_id` = 277 AND `spree_orders`.`completed_at` IS NOT NULL ORDER BY spree_orders.completed_at IS NULL, `spree_orders`.`completed_at` DESC, `spree_orders`.`created_at` DESC LIMIT 25 OFFSET 0

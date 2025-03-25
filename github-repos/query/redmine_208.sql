@@ -1,0 +1,1 @@
+SELECT `trackers`.* FROM `trackers` ORDER BY `trackers`.`position` ASC LIMIT 1

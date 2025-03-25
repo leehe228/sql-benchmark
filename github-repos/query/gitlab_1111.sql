@@ -1,0 +1,1 @@
+SELECT "cluster_platforms_kubernetes".* FROM "cluster_platforms_kubernetes" WHERE "cluster_platforms_kubernetes"."cluster_id" = $1 LIMIT $2 /*application:test,controller:applications,action:create,correlation_id:92f7cd2156668f0a0ca5d61fbf35733e*/

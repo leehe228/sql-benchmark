@@ -1,0 +1,1 @@
+SELECT `taggings`.* FROM `taggings` WHERE `taggings`.`taggable_id` = 352 AND `taggings`.`taggable_type` = 'Lead' AND `taggings`.`context` = 'tags'

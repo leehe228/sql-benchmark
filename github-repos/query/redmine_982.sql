@@ -1,0 +1,1 @@
+SELECT `projects`.* FROM `projects` WHERE (((projects.status = 1 AND EXISTS (SELECT 1 AS one FROM enabled_modules em WHERE em.project_id = projects.id AND em.name='issue_tracking')) AND (projects.id IN (2)))) AND (projects.id IN (SELECT DISTINCT project_id FROM projects_trackers))

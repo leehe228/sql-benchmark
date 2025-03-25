@@ -1,0 +1,1 @@
+SELECT "badges".* FROM "badges" WHERE "badges"."id" = 42 LIMIT 1

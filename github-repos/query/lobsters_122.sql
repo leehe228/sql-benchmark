@@ -1,0 +1,1 @@
+SELECT `stories`.* FROM `stories` WHERE `stories`.`merged_story_id` IS NULL AND `stories`.`is_expired` = FALSE AND ((CAST(upvotes AS signed) - CAST(downvotes AS signed)) >= 0) AND `stories`.`id` IN (SELECT `taggings`.`story_id` FROM `taggings` WHERE `taggings`.`tag_id` = 3) ORDER BY `stories`.`created_at` DESC LIMIT 26 OFFSET 0

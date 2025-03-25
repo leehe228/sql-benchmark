@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "uploads" WHERE (uploads.id > 0) AND (updated_at < '2020-03-26 06:20:20.143110')

@@ -1,0 +1,1 @@
+SELECT `spree_stock_movements`.* FROM `spree_stock_movements` WHERE `spree_stock_movements`.`stock_item_id` = 2004 AND `spree_stock_movements`.`quantity` = 1 AND `spree_stock_movements`.`originator_type` = 'Spree::ReturnAuthorization' AND `spree_stock_movements`.`originator_id` = 91 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "category_tags".* FROM "category_tags" WHERE "category_tags"."tag_id" = 1575

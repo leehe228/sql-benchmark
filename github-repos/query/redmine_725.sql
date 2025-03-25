@@ -1,0 +1,1 @@
+SELECT `wiki_contents`.`id`, `wiki_contents`.`page_id`, `wiki_contents`.`version`, `wiki_contents`.`updated_on` FROM `wiki_contents` WHERE `wiki_contents`.`page_id` = 1 LIMIT 1

@@ -1,0 +1,1 @@
+SELECT "theme_fields".* FROM "theme_fields" WHERE "theme_fields"."theme_id" = 1036 AND "theme_fields"."type_id" = 2

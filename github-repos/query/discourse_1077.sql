@@ -1,0 +1,1 @@
+SELECT "users".* FROM "users" WHERE "users"."username_lower" = 'bruce725' AND "users"."active" = TRUE LIMIT 1

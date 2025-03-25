@@ -1,0 +1,1 @@
+SELECT SUM(`spree_stock_items`.`count_on_hand`) FROM `spree_stock_items` INNER JOIN `spree_variants` ON `spree_stock_items`.`variant_id` = `spree_variants`.`id` WHERE `spree_stock_items`.`deleted_at` IS NULL AND `spree_variants`.`deleted_at` IS NULL AND `spree_variants`.`product_id` = 507

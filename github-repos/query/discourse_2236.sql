@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE "groups"."id" IN (2689, 123)

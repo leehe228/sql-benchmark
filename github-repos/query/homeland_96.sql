@@ -1,0 +1,1 @@
+SELECT "topics".* FROM "topics" WHERE "topics"."deleted_at" IS NULL AND "topics"."grade" = $1 ORDER BY "topics"."id" DESC LIMIT $2 OFFSET $3

@@ -1,0 +1,1 @@
+SELECT id,word FROM sensitive_word WHERE word = 'fuck'

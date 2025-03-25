@@ -1,0 +1,1 @@
+select count(*) as col_0_0_ from sys_user_token sysusertok0_ where sysusertok0_.site_id=1 and sysusertok0_.user_id=1 and sysusertok0_.channel='1'

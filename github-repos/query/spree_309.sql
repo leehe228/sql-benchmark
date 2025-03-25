@@ -1,0 +1,1 @@
+SELECT `spree_inventory_units`.`id` FROM `spree_inventory_units` WHERE `spree_inventory_units`.`order_id` = 1

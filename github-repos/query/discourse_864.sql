@@ -1,0 +1,1 @@
+SELECT "groups".* FROM "groups" WHERE (LOWER(name) = 'my_group_24') LIMIT 1

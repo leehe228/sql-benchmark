@@ -1,0 +1,1 @@
+SELECT "themes".* FROM "themes" ORDER BY "themes"."name" ASC

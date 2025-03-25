@@ -1,0 +1,1 @@
+SELECT `issues`.* FROM `issues` WHERE `issues`.`id` IN (3883, 3884, 3885) ORDER BY `issues`.`id` ASC

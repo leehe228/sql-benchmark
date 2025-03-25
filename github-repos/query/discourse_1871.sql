@@ -1,0 +1,1 @@
+SELECT "web_crawler_requests"."id" FROM "web_crawler_requests" WHERE "web_crawler_requests"."date" = '2020-03-26' AND "web_crawler_requests"."user_agent" = 'AdsBot-Google (+http://www.google.com/adsbot.html)' LIMIT 1
