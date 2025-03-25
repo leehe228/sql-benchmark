@@ -1,0 +1,1 @@
+SELECT projects.id FROM projects LEFT JOIN project_repository_states ON projects.id = project_repository_states.project_id WHERE project_repository_states.id IS NULL AND projects.repository_storage = 'default' ORDER BY projects.last_repository_updated_at ASC LIMIT 1000

@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE active IS TRUE AND users.id IN (SELECT user_id FROM group_users WHERE group_id = 8861) LIMIT 20

@@ -1,0 +1,1 @@
+SELECT * FROM notifications WHERE notifications.topic_id IS NULL OR notifications.topic_id IN (SELECT id FROM topics WHERE deleted_at IS NULL)

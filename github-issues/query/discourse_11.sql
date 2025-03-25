@@ -1,0 +1,1 @@
+SELECT * FROM posts INNER JOIN topics ON topics.id = posts.topic_id WHERE NOT posts.id IN (SELECT post_id FROM post_search_data WHERE locale = '0')

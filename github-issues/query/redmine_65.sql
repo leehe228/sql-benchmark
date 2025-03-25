@@ -1,0 +1,1 @@
+SELECT * FROM issues WHERE root_id IN (SELECT root_id FROM issues WHERE id IN (1)) ORDER BY id

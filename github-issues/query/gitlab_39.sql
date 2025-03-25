@@ -1,0 +1,1 @@
+SELECT * FROM lfs_objects WHERE id IN (SELECT lfs_object_id FROM lfs_objects_projects WHERE project_id = 373049032)

@@ -1,0 +1,1 @@
+SELECT COUNT(topics.id) FROM topics WHERE id IN (SELECT topic_id FROM posts AS p INNER JOIN topics AS t2 ON t2.id = p.topic_id WHERE p.deleted_at IS NULL AND t2.user_id <> p.user_id AND p.user_id = 9627)

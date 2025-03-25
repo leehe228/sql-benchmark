@@ -1,0 +1,1 @@
+SELECT ci_job_artifacts.* FROM ci_job_artifacts LEFT JOIN geo_job_artifact_deleted_events ON geo_job_artifact_deleted_events.job_artifact_id = ci_job_artifacts.id WHERE(ci_job_artifacts.file_store = 1 OR ci_job_artifacts.file_store IS NULL) AND geo_job_artifact_deleted_events.id IS NULL LIMIT 1000

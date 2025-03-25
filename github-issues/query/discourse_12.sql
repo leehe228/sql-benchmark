@@ -1,0 +1,1 @@
+SELECT * FROM category_users WHERE NOT user_id IN (SELECT id FROM users)

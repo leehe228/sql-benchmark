@@ -1,0 +1,1 @@
+SELECT issues.* FROM issues LEFT JOIN milestones ON issues.milestone_id = milestones.id INNER JOIN milestone_releases ON milestones.id = milestone_releases.milestone_id INNER JOIN releases ON milestone_releases.release_id = releases.id WHERE NOT milestone_releases.release_id IS NULL

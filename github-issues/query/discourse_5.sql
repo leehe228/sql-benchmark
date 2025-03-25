@@ -1,0 +1,1 @@
+SELECT * FROM posts WHERE topic_id = 6020 AND post_number = 1 OR id IN (SELECT p1.id FROM posts AS p1 WHERE p1."percent_rank" <= 88.0 AND p1.topic_id = 7290)

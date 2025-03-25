@@ -1,0 +1,1 @@
+SELECT posts.* FROM people INNER JOIN posts ON posts.author_id = people.id INNER JOIN aspect_visibilities ON aspect_visibilities.shareable_id = posts.id INNER JOIN aspects ON aspects.id = aspect_visibilities.aspect_id WHERE people.id = 1 AND aspects.id IN (1)

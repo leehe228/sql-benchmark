@@ -1,0 +1,1 @@
+SELECT comments.* FROM comments WHERE comments.is_deleted = 0 AND comments.is_moderated = 0 AND (story_id NOT IN (SELECT story_id FROM hidden_stories WHERE user_id = 1)) ORDER BY id DESC LIMIT 20 OFFSET 0

@@ -1,0 +1,1 @@
+SELECT * FROM tags INNER JOIN (SELECT DISTINCT * FROM taggings WHERE taggable_type = 'default') AS t ON tags.id = t.tag_id

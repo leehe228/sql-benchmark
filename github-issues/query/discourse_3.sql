@@ -1,0 +1,1 @@
+SELECT DISTINCT * FROM child_themes WHERE parent_theme_id = 4076

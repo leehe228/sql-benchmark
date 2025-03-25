@@ -1,0 +1,1 @@
+SELECT * FROM issues WHERE NOT issues.id IN (SELECT target_id FROM label_links WHERE target_type = 'default')

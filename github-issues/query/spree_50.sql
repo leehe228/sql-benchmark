@@ -1,0 +1,1 @@
+SELECT spree_products.* FROM spree_products WHERE spree_products.deleted_at IS NULL AND spree_products.id IN (SELECT product_id FROM spree_variants GROUP BY product_id HAVING SUM(count_on_hand) > 0) LIMIT 100

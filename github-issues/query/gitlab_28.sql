@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM notes WHERE project_id = 13083 AND noteable_type = 'MergeRequest' AND noteable_id = 3985770 OR notes.project_id IN (13083, 13083) AND noteable_type = 'Commit' AND commit_id IN ('xxx')

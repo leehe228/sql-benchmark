@@ -1,0 +1,1 @@
+SELECT ci_pipelines.* FROM ci_pipelines WHERE ci_pipelines.id IN (SELECT MAX(id) FROM ci_pipelines WHERE ci_pipelines.project_id = 14074169 AND ci_pipelines."ref" IN ('actually', 'existing', 'refs', 'here') GROUP BY ci_pipelines."ref") ORDER BY ci_pipelines.id DESC LIMIT 20 OFFSET 0

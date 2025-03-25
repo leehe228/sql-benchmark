@@ -1,0 +1,1 @@
+SELECT issues.* FROM issues WHERE issues.project_id = 13083 AND issues.iid = 1 ORDER BY issues.id DESC LIMIT 1

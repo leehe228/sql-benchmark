@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM projects INNER JOIN project_repository_states ON project_repository_states.project_id = projects.id WHERE NOT project_repository_states.repository_verification_checksum IS NULL AND project_repository_states.last_repository_verification_failure IS NULL

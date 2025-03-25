@@ -1,0 +1,1 @@
+SELECT ci_builds.* FROM ci_builds WHERE ci_builds.type IN ('Ci::Build') AND (artifacts_file <> '' OR EXISTS (SELECT 1 FROM ci_job_artifacts WHERE ci_builds.id = ci_job_artifacts.job_id))

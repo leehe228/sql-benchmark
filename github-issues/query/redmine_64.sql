@@ -1,0 +1,1 @@
+SELECT * FROM projects WHERE projects.status <> 'ARCHIVED' AND projects.id IN (SELECT em.project_id FROM enabled_modules em WHERE em.name = 'default')

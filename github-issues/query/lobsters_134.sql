@@ -1,0 +1,1 @@
+SELECT users.* FROM users WHERE users.id IN (SELECT u.id FROM users AS u, comments AS c, moderations AS m WHERE c.id = m.comment_id AND c.story_id = 8895 AND c.user_id = u.id)

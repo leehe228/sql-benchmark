@@ -1,0 +1,1 @@
+SELECT DISTINCT * FROM users WHERE email = 'abc@163.com' OR id IN (SELECT emails.user_id FROM emails WHERE email = 'xyz@163.com') LIMIT 1

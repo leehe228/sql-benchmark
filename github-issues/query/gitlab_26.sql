@@ -1,0 +1,1 @@
+SELECT 1 AS "one" FROM container_repositories WHERE container_repositories.project_id IN (SELECT projects.id FROM projects WHERE projects.namespace_id IN (SELECT namespaces.id FROM namespaces WHERE namespaces.type = 'group' AND namespaces.id = 28) AND projects.container_registry_enabled = TRUE) LIMIT 1

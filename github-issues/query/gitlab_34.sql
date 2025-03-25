@@ -1,0 +1,1 @@
+SELECT DISTINCT * FROM members WHERE members.id IN (SELECT id FROM members WHERE members.source_id = 165620945) OR members.id IN (SELECT id FROM members WHERE requested_at IS NULL AND NOT user_id IN (SELECT users.id FROM users INNER JOIN members ON users.id = members.user_id WHERE members.source_id = 1162172858))

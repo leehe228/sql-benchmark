@@ -1,0 +1,1 @@
+SELECT group_users.* FROM group_users WHERE user_id IN (SELECT users.id FROM "groups" INNER JOIN group_users ON group_users.group_id = "groups".id INNER JOIN users ON users.id = group_users.user_id WHERE NOT user_id IN (SELECT u.id FROM users AS u WHERE u.admin IS TRUE))
