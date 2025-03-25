@@ -1,0 +1,1 @@
+SELECT * FROM (VALUES (30, 3)) AS t3

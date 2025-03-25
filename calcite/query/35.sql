@@ -1,0 +1,1 @@
+SELECT t.EXPR$0 + t.EXPR$1 FROM (VALUES (10, 1), (20, 3)) AS t

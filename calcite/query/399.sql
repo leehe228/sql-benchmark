@@ -1,0 +1,1 @@
+SELECT * FROM (VALUES (1, 2)) AS t WHERE 1 + 2 > 3 + NULL
